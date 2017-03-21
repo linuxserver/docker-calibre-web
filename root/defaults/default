@@ -1,0 +1,26 @@
+upstream wsgi-server {
+    server 127.0.0.1:8083;
+}
+
+server {
+  listen      80 default_server;
+  root        /config/www;
+  index       index.html;
+
+  # Serve static files 
+  location ^~ /static/  {
+      root /app/calibre-web/cps/;
+  }
+
+  # Proxy connections to the application server
+  location / {
+    proxy_pass         http://wsgi-server;
+    proxy_redirect     off;
+    proxy_set_header   Host $http_host;
+    proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header   X-Scheme $scheme;
+    proxy_set_header   X-Forwarded-Host $server_name;
+    proxy_set_header   X-Real-IP $remote_addr;
+
+  }
+}
