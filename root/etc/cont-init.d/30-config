@@ -5,6 +5,6 @@ chown -R abc:abc \
 	/app/calibre-web
 	
 # move database to /config
-[[ ! -e /config/app.db ]] && \
-	cp /app/calibre-web/app.db /config/app.db &&\   
-        ln -s /config/app.db /app/calibre-web/app.db
+#[[ ! -e /config/app.db ]] && \
+#	cp /app/calibre-web/app.db /config/app.db &&\   
+#       ln -s /config/app.db /app/calibre-web/app.db
