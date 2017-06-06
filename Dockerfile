@@ -35,7 +35,9 @@ RUN \
  cd /app/calibre-web && \
  pip install --no-cache-dir -U -r \
 	requirements.txt && \
-
+ pip install --no-cache-dir -U -r \
+	optional-requirements.txt && \
+	
 # install pip packages
  pip install --no-cache-dir -U \
 	gunicorn \
@@ -53,5 +55,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 80
+EXPOSE 8083
 VOLUME /books /config
