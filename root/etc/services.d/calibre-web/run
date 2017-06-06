@@ -3,5 +3,5 @@
 cd /app/calibre-web || exit
 
 exec \
-	s6-setuidgid abc /usr/bin/gunicorn \
-	-c /app/calibre-web/gunicorn.conf.py wsgi:web.app
+	s6-setuidgid abc /usr/bin/python \
+	/app/calibre-web/cps.py
