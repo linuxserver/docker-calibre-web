@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-# put database to /config
+# put database in /config
 [[ ! -e /config/app.db ]] && \
 	cp /defaults/app.db /config/app.db \
 
