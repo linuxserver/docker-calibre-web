@@ -3,5 +3,7 @@
 # permissions
 chown -R abc:abc \
 	/app/calibre-web
+	
+# move database to /config
 mv -f /app/calibre-web/app.db /config/app.db \
 ln -s /config/app.db /app/calibre-web/app.db
