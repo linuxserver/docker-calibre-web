@@ -10,6 +10,7 @@ ln -s /config/app.db /app/calibre-web/app.db
 #install kindlegen if present
 [[ -e /config/kindlegen ]] && \
        cp /config/kindlegen /app/calibre-web/vendor/
+       chmod +x kindlegen
 
 # permissions
 chown -R abc:abc \
