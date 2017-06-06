@@ -39,9 +39,8 @@ RUN \
 	optional-requirements.txt && \
 	
 # install pip packages
- pip install --no-cache-dir -U \
-	gunicorn \
-	Wand && \
+# pip install --no-cache-dir -U \
+#	Wand && \
 
 # cleanup
  apk del --purge \
