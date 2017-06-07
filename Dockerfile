@@ -1,5 +1,5 @@
 FROM lsiobase/alpine.python:3.6
-MAINTAINER sparklyballs
+MAINTAINER sparklyballs/chbmb
 
 # set version label
 ARG BUILD_DATE
@@ -38,17 +38,11 @@ RUN \
 	requirements.txt && \
  pip install --no-cache-dir -U -r \
 	optional-requirements.txt && \
-	
-# install pip packages
-# pip install --no-cache-dir -U \
-#	Wand && \
 
 # cleanup
  apk del --purge \
 	build-dependencies && \
  rm -rf \
-	/etc/services.d/php-fpm \
-	/etc/logrotate.d/php-fpm7 \
 	/tmp/*
 
 # add local files
