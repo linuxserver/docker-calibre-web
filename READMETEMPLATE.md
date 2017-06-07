@@ -71,7 +71,8 @@ To reverse proxy with our Letsencrypt docker container use the following locatio
                 proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
                 proxy_set_header        X-Scheme        $scheme;
                 proxy_set_header        X-Script-Name   /calibre-web;
-        }```
+        }
+        ```
 
 
 ## Info
