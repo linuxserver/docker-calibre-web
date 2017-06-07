@@ -39,7 +39,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 
 
 
-* `-p 8083` - the port(s)
+* `-p 8083` - calibre-web gui port
 * `-v /config` - where calibre-web stores it's database
 * `-v /books` - where your calibre database is located
 * `-e PGID` for GroupID - see below for explanation
