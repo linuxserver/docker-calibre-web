@@ -66,6 +66,10 @@ Webui can be found at `http://<your-ip>:8083`
 
 On the initial setup screen, enter `/books` as your calibre library location.
 
+**Default admin login:**
+*Username:* admin
+*Password:* admin123
+
 To reverse proxy with our Letsencrypt docker container use the following location block:
 ```	
         location /calibre-web {
