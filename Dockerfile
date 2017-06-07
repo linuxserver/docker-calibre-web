@@ -1,5 +1,5 @@
-FROM lsiobase/alpine.nginx:3.5
-MAINTAINER sparklyballs
+FROM lsiobase/alpine.python:3.6
+MAINTAINER sparklyballs/chbmb
 
 # set version label
 ARG BUILD_DATE
@@ -19,6 +19,7 @@ RUN \
 
 # install runtime packages
  apk add --no-cache \
+        imagemagick \
 	py2-lxml \
 	py2-pip \
 	python2 && \
@@ -35,23 +36,18 @@ RUN \
  cd /app/calibre-web && \
  pip install --no-cache-dir -U -r \
 	requirements.txt && \
-
-# install pip packages
- pip install --no-cache-dir -U \
-	gunicorn \
-	Wand && \
+ pip install --no-cache-dir -U -r \
+	optional-requirements.txt && \
 
 # cleanup
  apk del --purge \
 	build-dependencies && \
  rm -rf \
-	/etc/services.d/php-fpm \
-	/etc/logrotate.d/php-fpm7 \
 	/tmp/*
 
 # add local files
 COPY root/ /
 
 # ports and volumes
-EXPOSE 80
+EXPOSE 8083
 VOLUME /books /config
