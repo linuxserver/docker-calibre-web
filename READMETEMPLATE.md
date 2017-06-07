@@ -93,4 +93,4 @@ To reverse proxy with our Letsencrypt docker container use the following locatio
 
 ## Versions
 
-+ **dd.MM.yy:** This is the standard Version type now.
++ **07.06.17:** Initial release
