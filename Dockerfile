@@ -19,10 +19,7 @@ RUN \
 
 # install runtime packages
  apk add --no-cache \
-        imagemagick \
-	py2-lxml \
-	py2-pip \
-	python2 && \
+        imagemagick && \
 
 # install calibre-web
  mkdir -p \
