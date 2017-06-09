@@ -1,12 +1,13 @@
 #!/usr/bin/with-contenv bash
 
-# copy config
-[[ ! -e /app/calibre-web/gunicorn.conf.py ]] && \
-	cp /defaults/gunicorn.conf.py /app/calibre-web/gunicorn.conf.py
+# put database in /config
+[[ ! -e /config/app.db ]] && \
+	cp /defaults/app.db /config/app.db \
 
-[[ ! -e /app/calibre-web/wsgi.py ]] && \
-	cp /defaults/wsgi.py /app/calibre-web/wsgi.py
+# link to /app/calibre-web/app.db
+ln -s /config/app.db /app/calibre-web/app.db
 
-# permissions
+# permissions
 chown -R abc:abc \
-	/app/calibre-web
+	/config \
+        /app/calibre-web
