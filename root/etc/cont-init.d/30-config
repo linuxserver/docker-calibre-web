@@ -1,10 +1,10 @@
 #!/usr/bin/with-contenv bash
 
-# copy database to /config if not exists
-[[ ! -e /config/app.db ]] && \
-	cp /defaults/app.db /config/app.db \
-
 # create symlinks for database and log
+[[ ! -f /config/app.db ]] && \
+	cp /defaults/app.db /config/app.db
+[[ -f /app/calibre-web/app.db ]] && \
+	rm /app/calibre-web/app.db
 [[ ! -L /app/calibre-web/app.db ]] && \
 	ln -s /config/app.db /app/calibre-web/app.db
 
