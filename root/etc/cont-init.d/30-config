@@ -15,6 +15,9 @@
 [[ ! -L /app/calibre-web/calibre-web.log ]] && \
 	ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
 
+# copy kindlegen if present
+[[ -f /config/kindlegen ]] && \
+	cp /config/kindlegen /app/calibre-web/vendor/
 
 # permissions
 chown -R abc:abc \
