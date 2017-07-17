@@ -83,7 +83,7 @@ To reverse proxy with our Letsencrypt docker container use the following locatio
 ```
 ## Kindlegen
 
-To use the on-the-fly epub to mobi conversion your linux kernel must have IA32 support and you must be using an x86 processor, not ARM.  Download kindlegen for linux and unpack the file called kindlegen into /config.
+To use the on-the-fly epub to mobi conversion your linux kernel must have IA32 emulation support and you must be using an x86 processor, not ARM.  Download kindlegen for linux and unpack the file called kindlegen into /config.
 
 In the webui on the `about` screen if you see `Excecution permissions missing` then your kernel doesn't support 32 bit binaries and your **only** option is to recompile your kernel with IA32 support as Amazon do not produce a 64bit binary nor publish the source code for kindlegen.
 
