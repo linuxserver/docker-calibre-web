@@ -1,5 +1,5 @@
 FROM lsiobase/alpine.python:3.6
-MAINTAINER sparklyballs/chbmb
+MAINTAINER sparklyballs,chbmb
 
 # set version label
 ARG BUILD_DATE
