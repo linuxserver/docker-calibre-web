@@ -1,13 +1,14 @@
 #!/usr/bin/with-contenv bash
 
-# put database in /config
+# copy database to /config if not exists
 [[ ! -e /config/app.db ]] && \
 	cp /defaults/app.db /config/app.db \
 
-# link to /app/calibre-web/app.db
-ln -s /config/app.db /app/calibre-web/app.db
+# create symlink for database
+[[ ! -L /app/calibre-web/app.db ]] && \
+	ln -s /config/app.db /app/calibre-web/app.db
 
 # permissions
 chown -R abc:abc \
 	/config \
-        /app/calibre-web
+	/app/calibre-web

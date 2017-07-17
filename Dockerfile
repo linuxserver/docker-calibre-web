@@ -19,7 +19,7 @@ RUN \
 
 # install runtime packages
  apk add --no-cache \
-        imagemagick && \
+	imagemagick && \
 
 # install calibre-web
  mkdir -p \
