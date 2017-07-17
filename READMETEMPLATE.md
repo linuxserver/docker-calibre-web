@@ -94,7 +94,7 @@ To reverse proxy with our Letsencrypt docker container use the following locatio
 
 * image version number
 
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' calibre-web`
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/calibre-web`
 
 ## Versions
 
