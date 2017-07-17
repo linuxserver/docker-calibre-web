@@ -4,9 +4,17 @@
 [[ ! -e /config/app.db ]] && \
 	cp /defaults/app.db /config/app.db \
 
-# create symlink for database
+# create symlinks for database and log
 [[ ! -L /app/calibre-web/app.db ]] && \
 	ln -s /config/app.db /app/calibre-web/app.db
+
+[[ ! -f /config/calibre-web.log ]] && \
+	touch /config/calibre-web.log
+[[ -f /app/calibre-web/calibre-web.log ]] && \
+	rm /app/calibre-web/calibre-web.log
+[[ ! -L /app/calibre-web/calibre-web.log ]] && \
+	ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
+
 
 # permissions
 chown -R abc:abc \
