@@ -9,13 +9,10 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 # install build packages
 RUN \
  apk add --no-cache --virtual=build-dependencies \
-	curl \
 	g++ \
 	gcc \
-	git \
 	make \
-	python2-dev \
-	tar && \
+	python2-dev && \
 
 # install runtime packages
  apk add --no-cache \
