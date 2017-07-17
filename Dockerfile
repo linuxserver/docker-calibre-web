@@ -1,5 +1,5 @@
-FROM lsiobase/alpine.nginx:3.5
-MAINTAINER sparklyballs
+FROM lsiobase/alpine.python:3.6
+MAINTAINER sparklyballs,chbmb
 
 # set version label
 ARG BUILD_DATE
@@ -9,19 +9,14 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 # install build packages
 RUN \
  apk add --no-cache --virtual=build-dependencies \
-	curl \
 	g++ \
 	gcc \
-	git \
 	make \
-	python2-dev \
-	tar && \
+	python2-dev && \
 
 # install runtime packages
  apk add --no-cache \
-	py2-lxml \
-	py2-pip \
-	python2 && \
+	imagemagick && \
 
 # install calibre-web
  mkdir -p \
@@ -35,23 +30,18 @@ RUN \
  cd /app/calibre-web && \
  pip install --no-cache-dir -U -r \
 	requirements.txt && \
-
-# install pip packages
- pip install --no-cache-dir -U \
-	gunicorn \
-	Wand && \
+ pip install --no-cache-dir -U -r \
+	optional-requirements.txt && \
 
 # cleanup
  apk del --purge \
 	build-dependencies && \
  rm -rf \
-	/etc/services.d/php-fpm \
-	/etc/logrotate.d/php-fpm7 \
 	/tmp/*
 
 # add local files
 COPY root/ /
 
 # ports and volumes
-EXPOSE 80
+EXPOSE 8083
 VOLUME /books /config
