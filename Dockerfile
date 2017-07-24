@@ -44,13 +44,13 @@ RUN \
 
 # compile imagemagic
  IMAGEMAGICK_VER=$(curl --silent http://www.imagemagick.org/download/digest.rdf \
-	| grep ImageMagick-6.*tar.gz | sed 's/\(.*\).tar.*/\1/' \
+	| grep ImageMagick-6.*tar.xz | sed 's/\(.*\).tar.*/\1/' \
 	| sed 's/^.*ImageMagick-/ImageMagick-/') && \
  mkdir -p \
 	/tmp/imagemagick && \
  curl -o \
- /tmp/imagemagick-src.tar.gz -L \
-	"http://www.imagemagick.org/download/${IMAGEMAGICK_VER}.tar.gz" && \
+ /tmp/imagemagick-src.tar.xz -L \
+	"http://www.imagemagick.org/download/${IMAGEMAGICK_VER}.tar.xz" && \
  tar xf \
  /tmp/imagemagick-src.tar.xz -C \
 	/tmp/imagemagick --strip-components=1 && \
