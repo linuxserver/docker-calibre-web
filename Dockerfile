@@ -6,9 +6,6 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-# package versions
-ARG IMAGEMAGICK_VER="6.9.9-0"
-
 # install build packages
 RUN \
  apk add --no-cache --virtual=build-dependencies \
@@ -46,11 +43,14 @@ RUN \
 	zlib && \
 
 # compile imagemagic
+ IMAGEMAGICK_VER=$(curl --silent http://www.imagemagick.org/download/digest.rdf \
+	| grep ImageMagick-6.*tar.xz | sed 's/\(.*\).tar.*/\1/' \
+	| sed 's/^.*ImageMagick-/ImageMagick-/') && \
  mkdir -p \
 	/tmp/imagemagick && \
  curl -o \
  /tmp/imagemagick-src.tar.xz -L \
-	"http://www.imagemagick.org/download/releases/ImageMagick-${IMAGEMAGICK_VER}.tar.xz" && \
+	"http://www.imagemagick.org/download/${IMAGEMAGICK_VER}.tar.xz" && \
  tar xf \
  /tmp/imagemagick-src.tar.xz -C \
 	/tmp/imagemagick --strip-components=1 && \
