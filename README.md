@@ -98,5 +98,6 @@ To reverse proxy with our Letsencrypt docker container use the following locatio
 
 ## Versions
 
++ **27.11.17:** Use cpu core counting routine to speed up build time.
 + **24.07.17:** Curl version for imagemagick.
 + **17.07.17:** Initial release.
