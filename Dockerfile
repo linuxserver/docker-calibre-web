@@ -1,13 +1,13 @@
-FROM lsiobase/alpine.python:3.6
-MAINTAINER sparklyballs,chbmb
+FROM lsiobase/alpine.python:3.7
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="chbmb"
 
-# install build packages
 RUN \
+ echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
 	file \
 	fontconfig-dev \
@@ -21,14 +21,14 @@ RUN \
 	libtool \
 	libwebp-dev \
 	libxml2-dev \
+	libxslt-dev \
 	make \
 	perl-dev \
 	python2-dev \
 	tiff-dev \
 	xz \
 	zlib-dev && \
-
-# install runtime packages
+ echo "**** install runtime packages ****" && \
  apk add --no-cache \
 	fontconfig \
 	freetype \
@@ -39,10 +39,10 @@ RUN \
 	libpng \
 	libwebp \
 	libxml2 \
+	libxslt \
 	tiff \
 	zlib && \
-
-# compile imagemagic
+ echo "**** compile imagemagic ****" && \
  IMAGEMAGICK_VER=$(curl --silent http://www.imagemagick.org/download/digest.rdf \
 	| grep ImageMagick-6.*tar.xz | sed 's/\(.*\).tar.*/\1/' \
 	| sed 's/^.*ImageMagick-/ImageMagick-/') && \
@@ -71,7 +71,7 @@ RUN \
 	--without-x \
 	--with-tiff \
 	--with-xml && \
-# attempt to set number of cores available for make to use
+ echo "**** attempt to set number of cores available for make to use ****" && \
  set -ex && \
  CPU_CORES=$( < /proc/cpuinfo grep -c processor ) || echo "failed cpu look up" && \
  if echo $CPU_CORES | grep -E  -q '^[0-9]+$'; then \
@@ -83,14 +83,12 @@ RUN \
  elif [ "$CPU_CORES" -gt 3 ]; then \
 	CPU_CORES=$(( CPU_CORES  - 1 )); fi \
  else CPU_CORES="1"; fi && \
-
  make -j $CPU_CORES && \
  set +ex && \
  make install && \
  find / -name '.packlist' -o -name 'perllocal.pod' \
 	-o -name '*.bs' -delete && \
-
-# install calibre-web
+ echo "**** install calibre-web ****" && \
  mkdir -p \
 	/app/calibre-web && \
  curl -o \
@@ -104,8 +102,7 @@ RUN \
 	requirements.txt && \
  pip install --no-cache-dir -U -r \
 	optional-requirements.txt && \
-
-# cleanup
+ echo "**** cleanup ****" && \
  apk del --purge \
 	build-dependencies && \
  rm -rf \
