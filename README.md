@@ -82,6 +82,9 @@ To reverse proxy with our Letsencrypt docker container use the following locatio
         }
 ```
 
+## Kindlegen
+
+Kindlegen can be used for on the fly conversion of epub to mobi, we're unable to distribute kindlegen due to licensing, but if you download the Linux version from [here](https://www.amazon.com/gp/feature.html?docId=1000765211), untar the kindlegen binary into your `/config` folder it will be imported automatically for use within calibre-web
 
 ## Info
 
