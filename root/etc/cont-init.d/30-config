@@ -15,6 +15,11 @@
 [[ ! -L /app/calibre-web/calibre-web.log ]] && \
 	ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
 
+# extract kindlegen if present and make executable
+[[ -f /config/kindlegen_linux_*.tar.gz ]] && \
+	mkdir -p /app/calibre-web/vendor && \
+	tar -xvf /config/kindlegen_linux_*.tar.gz -C /app/calibre-web/vendor/ kindlegen && \
+	chmod +x /app/calibre-web/vendor/kindlegen
 
 # permissions
 chown -R abc:abc \
