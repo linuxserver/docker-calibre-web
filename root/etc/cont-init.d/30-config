@@ -15,6 +15,12 @@
 [[ ! -L /app/calibre-web/calibre-web.log ]] && \
 	ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
 
+# copy kindlegen if present and make executable
+[[ -f /config/kindlegen ]] && \
+	mkdir -p /app/calibre-web/vendor && \
+	cp /config/kindlegen /app/calibre-web/vendor/
+[[ -f /app/calibre-web/vendor/kindlegen ]] && \
+	chmod +x /app/calibre-web/vendor/kindlegen
 
 # permissions
 chown -R abc:abc \
