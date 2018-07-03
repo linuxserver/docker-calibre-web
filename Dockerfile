@@ -44,7 +44,7 @@ RUN \
 	zlib && \
  echo "**** compile imagemagic ****" && \
  IMAGEMAGICK_VER=$(curl --silent http://www.imagemagick.org/download/digest.rdf \
-	| grep ImageMagick-6.*tar.xz | sed 's/\(.*\).tar.*/\1/' \
+	| grep ImageMagick-6.*tar.gz | sed 's/\(.*\).tar.*/\1/' \
 	| sed 's/^.*ImageMagick-/ImageMagick-/') && \
  mkdir -p \
 	/tmp/imagemagick && \
