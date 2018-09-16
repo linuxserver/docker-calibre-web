@@ -20,3 +20,4 @@
 chown -R abc:abc \
 	/config \
 	/app/calibre-web
+	/books
