@@ -1,0 +1,80 @@
+---
+
+# project information
+project_name: calibre-web
+project_url: "https://github.com/janeczku/calibre-web"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png"
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.   It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.
+
+  This software is a fork of library and licensed under the GPL v3 License.
+project_blurb_optional_extras_enabled: false
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
+
+# development version
+development_versions: false
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_net: false
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "Where calibre-web stores the internal database and config." }
+  - { vol_path: "/books", vol_host_path: "<path to calibre library>", desc: "Where your calibre database is locate." }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "8083", internal_port: "8083", port_desc: "WebUI" }
+param_device_map: false
+cap_add_param: false
+
+# optional container parameters
+opt_param_usage_include_env: false
+opt_param_usage_include_vols: false
+opt_param_usage_include_ports: false
+opt_param_device_map: false
+opt_cap_add_param: false
+optional_block_1: false
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Webui can be found at `http://your-ip:8083`
+
+  On the initial setup screen, enter `/books` as your calibre library location.
+
+  **Default admin login:**
+  *Username:* admin
+  *Password:* admin123
+
+  To reverse proxy with our Letsencrypt docker container use the following location block:
+  ```
+          location /calibre-web {
+                  proxy_pass              http://<your-ip>:8083;
+                  proxy_set_header        Host            $http_host;
+                  proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
+                  proxy_set_header        X-Scheme        $scheme;
+                  proxy_set_header        X-Script-Name   /calibre-web;
+          }
+  ```
+
+# changelog
+changelogs:
+  - { date: "11.02.19:", desc: "Add pipeline logic and multi arch." }
+  - { date: "03.01.19:", desc: "Remove guest user from default app.db." }
+  - { date: "16.08.18:", desc: "Rebase to alpine 3.8." }
+  - { date: "03.07.18:", desc: "New build pushed, all versions below `67` have [vulnerability](https://github.com/janeczku/calibre-web/issues/534)." }
+  - { date: "05.01.18:", desc: "Deprecate cpu_core routine lack of scaling." }
+  - { date: "06.12.17:", desc: "Rebase to alpine 3.7." }
+  - { date: "27.11.17:", desc: "Use cpu core counting routine to speed up build time." }
+  - { date: "24.07.17:", desc: "Curl version for imagemagick." }
+  - { date: "17.07.17:", desc: "Initial release." }
