@@ -176,6 +176,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **23.02.19:** - Rebase to alpine 3.9, use repo version of imagemagick.
 * **11.02.19:** - Add pipeline logic and multi arch.
 * **03.01.19:** - Remove guest user from default app.db.
 * **16.08.18:** - Rebase to alpine 3.8.
