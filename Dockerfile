@@ -43,6 +43,7 @@ RUN \
 	libwebp \
 	libxml2 \
 	libxslt \
+	mesa-gl \
 	tiff \
 	zlib && \
  echo "**** install calibre-web ****" && \
@@ -63,6 +64,12 @@ RUN \
 	requirements.txt && \
  pip install --no-cache-dir -U -r \
 	optional-requirements.txt && \
+ echo "**** install GNU libc (aka glibc) ****" && \
+ apk --no-cache --allow-untrusted -X https://apkproxy.herokuapp.com/sgerrand/alpine-pkg-glibc add glibc glibc-bin && \
+ echo "**** install calibre binary ****" && \
+ wget -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | \
+     python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); \
+       exec(sys.stdin.read()); main(install_dir='/opt', isolated=True)" && \
  echo "**** cleanup ****" && \
  apk del --purge \
 	build-dependencies && \
