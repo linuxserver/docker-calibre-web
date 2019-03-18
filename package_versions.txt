@@ -2,8 +2,8 @@ musl musl-1.1.20-r3
 busybox busybox-1.29.3-r10
 alpine-baselayout alpine-baselayout-3.1.0-r3
 alpine-keys alpine-keys-2.1-r1
-libcrypto1.1 libcrypto1.1-1.1.1a-r1
-libssl1.1 libssl1.1-1.1.1a-r1
+libcrypto1.1 libcrypto1.1-1.1.1b-r1
+libssl1.1 libssl1.1-1.1.1b-r1
 ca-certificates-cacert ca-certificates-cacert-20190108-r0
 libtls-standalone libtls-standalone-2.7.4-r6
 ssl_client ssl_client-1.29.3-r10
@@ -36,7 +36,7 @@ tiff tiff-4.0.10-r0
 lcms2 lcms2-2.9-r1
 libffi libffi-3.2.1-r6
 libwebp libwebp-1.0.1-r0
-openjpeg openjpeg-2.3.0-r2
+openjpeg openjpeg-2.3.0-r3
 expat expat-2.2.6-r0
 gdbm gdbm-1.13-r1
 sqlite-libs sqlite-libs-3.26.0-r3
@@ -47,7 +47,7 @@ libcurl libcurl-7.64.0-r1
 curl curl-7.64.0-r1
 pcre2 pcre2-10.32-r1
 git git-2.20.1-r0
-openssl openssl-1.1.1a-r1
+openssl openssl-1.1.1b-r1
 p7zip p7zip-16.02-r3
 libgpg-error libgpg-error-1.33-r0
 libgcrypt libgcrypt-1.8.4-r0
