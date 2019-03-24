@@ -1,7 +1,4 @@
-FROM lsiobase/alpine.python.arm64:3.9
-
-# Add qemu to build on x86_64 systems
-COPY qemu-aarch64-static /usr/bin
+FROM lsiobase/python:arm64v8-3.9
 
 # set version label
 ARG BUILD_DATE
