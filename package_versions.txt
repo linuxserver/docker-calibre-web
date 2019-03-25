@@ -1,106 +1,106 @@
-busybox busybox-1.29.3-r10
-alpine-baselayout alpine-baselayout-3.1.0-r3
-alpine-keys alpine-keys-2.1-r1
-libcrypto1.1 libcrypto1.1-1.1.1b-r1
-libssl1.1 libssl1.1-1.1.1b-r1
-ca-certificates-cacert ca-certificates-cacert-20190108-r0
-libtls-standalone libtls-standalone-2.7.4-r6
-ssl_client ssl_client-1.29.3-r10
-zlib zlib-1.2.11-r1
-apk-tools apk-tools-2.10.3-r1
-scanelf scanelf-1.2.3-r0
-libc-utils libc-utils-0.7.1-r0
-xz-libs xz-libs-5.2.4-r0
-xz xz-5.2.4-r0
-ca-certificates ca-certificates-20190108-r0
-ncurses-terminfo-base ncurses-terminfo-base-6.1_p20190105-r0
-ncurses-terminfo ncurses-terminfo-6.1_p20190105-r0
-ncurses-libs ncurses-libs-6.1_p20190105-r0
-readline readline-7.0.003-r1
-bash bash-4.4.19-r1
-libattr libattr-2.4.47-r7
-libacl libacl-2.2.52-r5
-coreutils coreutils-8.30-r0
-linux-pam linux-pam-1.3.0-r0
-shadow shadow-4.5-r0
-tzdata tzdata-2018i-r0
-libbz2 libbz2-1.0.6-r6
-libpng libpng-1.6.35-r0
-freetype freetype-2.9.1-r2
-libgcc libgcc-8.2.0-r2
-libstdc++ libstdc++-8.2.0-r2
-libjpeg-turbo libjpeg-turbo-1.5.3-r4
-tiff tiff-4.0.10-r0
-lcms2 lcms2-2.9-r1
-libffi libffi-3.2.1-r6
-libwebp libwebp-1.0.1-r0
-openjpeg openjpeg-2.3.0-r3
-expat expat-2.2.6-r0
-gdbm gdbm-1.13-r1
-sqlite-libs sqlite-libs-3.26.0-r3
-python2 python2-2.7.15-r3
-nghttp2-libs nghttp2-libs-1.35.1-r0
-libssh2 libssh2-1.8.0-r4
-libcurl libcurl-7.64.0-r1
-curl curl-7.64.0-r1
-pcre2 pcre2-10.32-r1
-git git-2.20.1-r0
-openssl openssl-1.1.1b-r1
-p7zip p7zip-16.02-r3
-libgpg-error libgpg-error-1.33-r0
-libgcrypt libgcrypt-1.8.4-r0
-libxml2 libxml2-2.9.9-r1
-libxslt libxslt-1.1.32-r0
-py2-lxml py2-lxml-4.2.5-r0
-py-setuptools py-setuptools-40.6.3-r0
-py2-pip py2-pip-18.1-r0
-tar tar-1.32-r0
-unrar unrar-5.6.8-r0
-unzip unzip-6.0-r4
-libgd libgd-2.2.5-r1
-vnstat vnstat-1.18-r0
-wget wget-1.20.1-r0
-musl musl-1.1.20-r4
-libuuid libuuid-2.33-r0
-fontconfig fontconfig-2.13.1-r0
-libblkid libblkid-2.33-r0
-libmount libmount-2.33-r0
-gmp gmp-6.1.2-r1
-libgomp libgomp-8.2.0-r2
-dbus-libs dbus-libs-1.10.24-r1
-libintl libintl-0.19.8.1-r4
-avahi-libs avahi-libs-0.7-r1
-nettle nettle-3.4.1-r0
-p11-kit p11-kit-0.23.14-r0
-libtasn1 libtasn1-4.13-r0
-libunistring libunistring-0.9.10-r0
-gnutls gnutls-3.6.4-r0
-cups-libs cups-libs-2.2.10-r0
-jbig2dec jbig2dec-0.15-r0
-ghostscript ghostscript-9.26-r1
-libltdl libltdl-2.4.6-r5
-musl-utils musl-utils-1.1.20-r4
-libxau libxau-1.0.8-r3
-libbsd libbsd-0.8.6-r2
-libxdmcp libxdmcp-1.1.2-r5
-libxcb libxcb-1.13-r2
-libx11 libx11-1.6.7-r0
-libxext libxext-1.3.3-r3
-libxrender libxrender-0.9.10-r3
-pixman pixman-0.34.0-r6
-cairo cairo-1.16.0-r1
-pcre pcre-8.42-r1
-glib glib-2.58.1-r2
-libxft libxft-2.3.2-r3
-fribidi fribidi-1.0.5-r0
-graphite2 graphite2-1.3.12-r1
-harfbuzz harfbuzz-2.2.0-r0
-pango pango-1.42.4-r0
-libcroco libcroco-0.6.12-r1
-shared-mime-info shared-mime-info-1.10-r0
-gdk-pixbuf gdk-pixbuf-2.36.11-r2
-librsvg librsvg-2.40.20-r0
-imagemagick6-libs imagemagick6-libs-6.9.9.51-r0
-imagemagick6 imagemagick6-6.9.9.51-r0
-oniguruma oniguruma-6.9.1-r0
-jq jq-1.6-r0
+alpine-baselayout-3.1.0-r3
+alpine-keys-2.1-r1
+apk-tools-2.10.3-r1
+avahi-libs-0.7-r1
+bash-4.4.19-r1
+busybox-1.29.3-r10
+ca-certificates-20190108-r0
+ca-certificates-cacert-20190108-r0
+cairo-1.16.0-r1
+coreutils-8.30-r0
+cups-libs-2.2.10-r0
+curl-7.64.0-r1
+dbus-libs-1.10.24-r1
+expat-2.2.6-r0
+fontconfig-2.13.1-r0
+freetype-2.9.1-r2
+fribidi-1.0.5-r0
+gdbm-1.13-r1
+gdk-pixbuf-2.36.11-r2
+ghostscript-9.26-r1
+git-2.20.1-r0
+glib-2.58.1-r2
+gmp-6.1.2-r1
+gnutls-3.6.4-r0
+graphite2-1.3.12-r1
+harfbuzz-2.2.0-r0
+imagemagick6-6.9.9.51-r0
+imagemagick6-libs-6.9.9.51-r0
+jbig2dec-0.15-r0
+jq-1.6-r0
+lcms2-2.9-r1
+libacl-2.2.52-r5
+libattr-2.4.47-r7
+libblkid-2.33-r0
+libbsd-0.8.6-r2
+libbz2-1.0.6-r6
+libc-utils-0.7.1-r0
+libcroco-0.6.12-r1
+libcrypto1.1-1.1.1b-r1
+libcurl-7.64.0-r1
+libffi-3.2.1-r6
+libgcc-8.2.0-r2
+libgcrypt-1.8.4-r0
+libgd-2.2.5-r1
+libgomp-8.2.0-r2
+libgpg-error-1.33-r0
+libintl-0.19.8.1-r4
+libjpeg-turbo-1.5.3-r4
+libltdl-2.4.6-r5
+libmount-2.33-r0
+libpng-1.6.35-r0
+librsvg-2.40.20-r0
+libssh2-1.8.1-r0
+libssl1.1-1.1.1b-r1
+libstdc++-8.2.0-r2
+libtasn1-4.13-r0
+libtls-standalone-2.7.4-r6
+libunistring-0.9.10-r0
+libuuid-2.33-r0
+libwebp-1.0.1-r0
+libx11-1.6.7-r0
+libxau-1.0.8-r3
+libxcb-1.13-r2
+libxdmcp-1.1.2-r5
+libxext-1.3.3-r3
+libxft-2.3.2-r3
+libxml2-2.9.9-r1
+libxrender-0.9.10-r3
+libxslt-1.1.32-r0
+linux-pam-1.3.0-r0
+musl-1.1.20-r4
+musl-utils-1.1.20-r4
+ncurses-libs-6.1_p20190105-r0
+ncurses-terminfo-6.1_p20190105-r0
+ncurses-terminfo-base-6.1_p20190105-r0
+nettle-3.4.1-r0
+nghttp2-libs-1.35.1-r0
+oniguruma-6.9.1-r0
+openjpeg-2.3.0-r3
+openssl-1.1.1b-r1
+p11-kit-0.23.14-r0
+p7zip-16.02-r3
+pango-1.42.4-r0
+pcre-8.42-r1
+pcre2-10.32-r1
+pixman-0.34.0-r6
+py-setuptools-40.6.3-r0
+py2-lxml-4.2.5-r0
+py2-pip-18.1-r0
+python2-2.7.15-r3
+readline-7.0.003-r1
+scanelf-1.2.3-r0
+shadow-4.5-r0
+shared-mime-info-1.10-r0
+sqlite-libs-3.26.0-r3
+ssl_client-1.29.3-r10
+tar-1.32-r0
+tiff-4.0.10-r0
+tzdata-2018i-r0
+unrar-5.6.8-r0
+unzip-6.0-r4
+vnstat-1.18-r0
+wget-1.20.1-r0
+xz-5.2.4-r0
+xz-libs-5.2.4-r0
+zlib-1.2.11-r1
