@@ -17,15 +17,15 @@ freetype-2.9.1-r2
 fribidi-1.0.5-r0
 gdbm-1.13-r1
 gdk-pixbuf-2.36.11-r2
-ghostscript-9.26-r1
+ghostscript-9.26-r2
 git-2.20.1-r0
 glib-2.58.1-r2
 gmp-6.1.2-r1
 gnutls-3.6.4-r0
 graphite2-1.3.12-r1
 harfbuzz-2.2.0-r0
-imagemagick6-6.9.9.51-r0
-imagemagick6-libs-6.9.9.51-r0
+imagemagick6-6.9.10.39-r0
+imagemagick6-libs-6.9.10.39-r0
 jbig2dec-0.15-r0
 jq-1.6-r0
 lcms2-2.9-r1
@@ -50,7 +50,7 @@ libltdl-2.4.6-r5
 libmount-2.33-r0
 libpng-1.6.35-r0
 librsvg-2.40.20-r0
-libssh2-1.8.1-r0
+libssh2-1.8.2-r0
 libssl1.1-1.1.1b-r1
 libstdc++-8.2.0-r2
 libtasn1-4.13-r0
