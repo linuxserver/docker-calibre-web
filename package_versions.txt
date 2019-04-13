@@ -21,7 +21,7 @@ ghostscript-9.26-r2
 git-2.20.1-r0
 glib-2.58.1-r2
 gmp-6.1.2-r1
-gnutls-3.6.4-r0
+gnutls-3.6.7-r0
 graphite2-1.3.12-r1
 harfbuzz-2.2.0-r0
 imagemagick6-6.9.10.39-r0
@@ -41,8 +41,8 @@ libcurl-7.64.0-r1
 libffi-3.2.1-r6
 libgcc-8.2.0-r2
 libgcrypt-1.8.4-r0
-libgd-2.2.5-r1
-libgomp-8.2.0-r2
+libgd-2.2.5-r3
+libgomp-8.3.0-r0
 libgpg-error-1.33-r0
 libintl-0.19.8.1-r4
 libjpeg-turbo-1.5.3-r4
@@ -52,7 +52,7 @@ libpng-1.6.35-r0
 librsvg-2.40.20-r0
 libssh2-1.8.2-r0
 libssl1.1-1.1.1b-r1
-libstdc++-8.2.0-r2
+libstdc++-8.3.0-r0
 libtasn1-4.13-r0
 libtls-standalone-2.7.4-r6
 libunistring-0.9.10-r0
@@ -100,7 +100,7 @@ tzdata-2018i-r0
 unrar-5.6.8-r0
 unzip-6.0-r4
 vnstat-1.18-r0
-wget-1.20.1-r0
+wget-1.20.3-r0
 xz-5.2.4-r0
 xz-libs-5.2.4-r0
 zlib-1.2.11-r1
