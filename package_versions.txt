@@ -96,7 +96,7 @@ sqlite-libs-3.26.0-r3
 ssl_client-1.29.3-r10
 tar-1.32-r0
 tiff-4.0.10-r0
-tzdata-2018i-r0
+tzdata-2019a-r0
 unrar-5.6.8-r0
 unzip-6.0-r4
 vnstat-1.18-r0
