@@ -87,7 +87,7 @@ pixman-0.34.0-r6
 py-setuptools-40.6.3-r0
 py2-lxml-4.2.5-r0
 py2-pip-18.1-r0
-python2-2.7.15-r3
+python2-2.7.16-r1
 readline-7.0.003-r1
 scanelf-1.2.3-r0
 shadow-4.5-r0
