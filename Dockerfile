@@ -36,6 +36,10 @@ RUN \
  pip install --no-cache-dir -U -r \
 	optional-requirements.txt && \
  echo "**** cleanup ****" && \
+ apt-get -y remove \
+     git \
+ 	   python-pip && \
+  apt-get -y autoremove && \
  rm -rf \
 	/tmp/*
     
