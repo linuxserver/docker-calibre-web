@@ -2,7 +2,7 @@
 
 # jenkins variables
 project_name: docker-calibre-web
-external_type: github_commit
+external_type: github_stable
 release_type: stable
 release_tag: latest
 ls_branch: master
@@ -10,14 +10,14 @@ repo_vars:
   - EXT_GIT_BRANCH = 'master'
   - EXT_USER = 'janeczku'
   - EXT_REPO = 'calibre-web'
-  - BUILD_VERSION_ARG = 'CALIBRE_COMMIT'
+  - BUILD_VERSION_ARG = 'CALIBREWEB_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-calibre-web'
   - CONTAINER_NAME = 'calibre-web'
   - DOCKERHUB_IMAGE = 'linuxserver/calibre-web'
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/calibre-web'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/calibre-web'
-  - DIST_IMAGE = 'alpine'
+  - DIST_IMAGE = 'ubuntu'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'
