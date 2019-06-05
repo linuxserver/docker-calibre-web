@@ -9,21 +9,21 @@ LABEL maintainer="chbmb"
 
 RUN \
  echo "**** install build packages ****" && \
-  apt-get update && \
-  apt-get install -y \
-      git \
-	    python-pip && \
+ apt-get update && \
+ apt-get install -y \
+	git \
+	python-pip && \
  echo "**** install runtime packages ****" && \
-  apt-get install -y \
-      imagemagick \
-      python-minimal && \
+ apt-get install -y \
+	imagemagick \
+	python-minimal && \
  echo "**** install calibre-web ****" && \
-   if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
-	 CALIBREWEB_RELEASE=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/releases/latest" \
-	 | awk '/tag_name/{print $4;exit}' FS='[""]'); \
-   fi && \
-  curl -o \
-    /tmp/calibre-web.tar.gz -L \
+ if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
+	CALIBREWEB_RELEASE=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/releases/latest" \
+	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
+ fi && \
+ curl -o \
+ /tmp/calibre-web.tar.gz -L \
 	https://github.com/janeczku/calibre-web/archive/${CALIBREWEB_RELEASE}.tar.gz && \
  mkdir -p \
 	/app/calibre-web && \
@@ -36,12 +36,14 @@ RUN \
  pip install --no-cache-dir -U -r \
 	optional-requirements.txt && \
  echo "**** cleanup ****" && \
- apt-get -y remove \
-     git \
- 	   python-pip && \
-  apt-get -y autoremove && \
+ apt-get -y purge \
+	git \
+	python-pip && \
+ apt-get -y autoremove && \
  rm -rf \
-	/tmp/*
+	/tmp/* \
+	/var/lib/apt/lists/* \
+	/var/tmp/*
     
 # add local files
 COPY root/ /

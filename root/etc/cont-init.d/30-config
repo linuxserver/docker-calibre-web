@@ -18,11 +18,11 @@
 
 # create Google drive client_secrets.json file
 [[ ! -f /config/client_secrets.json ]] && \
-    echo "{}" > /config/client_secrets.json
+	echo "{}" > /config/client_secrets.json
 [[ -f /app/calibre-web/client_secrets.json ]] &&
-    rm /app/calibre-web/client_secrets.json
+	rm /app/calibre-web/client_secrets.json
 [[ ! -L /app/calibre-web/client_secrets.json ]] &&
-    ln -s /config/client_secrets.json /app/calibre-web/client_secrets.json
+	ln -s /config/client_secrets.json /app/calibre-web/client_secrets.json
 
 # create Google drive symlinks for database
 [[ ! -f /config/gdrive.db ]] && \
