@@ -9,7 +9,6 @@ project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.   It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.
 
   This software is a fork of library and licensed under the GPL v3 License.
-project_blurb_optional_extras_enabled: false
 
 # supported architectures
 available_architectures:
@@ -17,13 +16,9 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
-# development version
-development_versions: false
-
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-param_usage_include_net: false
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
@@ -34,8 +29,6 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8083", internal_port: "8083", port_desc: "WebUI" }
-param_device_map: false
-cap_add_param: false
 
 # optional container parameters
 opt_param_usage_include_env: false
@@ -69,6 +62,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.06.19:", desc: "Rebase to Ubuntu Bionic & add Gdrive support." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "23.02.19:", desc: "Rebase to alpine 3.9, use repo version of imagemagick." }
   - { date: "11.02.19:", desc: "Add pipeline logic and multi arch." }

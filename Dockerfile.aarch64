@@ -1,60 +1,39 @@
-FROM lsiobase/python:arm64v8-3.9
+FROM lsiobase/ubuntu:arm64v8-bionic
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG CALIBRE_COMMIT
+ARG CALIBREWEB_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 
 RUN \
  echo "**** install build packages ****" && \
- apk add --no-cache --virtual=build-dependencies \
-	file \
-	fontconfig-dev \
-	freetype-dev \
+ apt-get update && \
+ apt-get install -y \
 	g++ \
 	gcc \
-	ghostscript-dev \
-	lcms2-dev \
-	libjpeg-turbo-dev \
-	libpng-dev \
-	libtool \
-	libwebp-dev \
+	git \
+	libffi-dev \
+	libjpeg-dev \
 	libxml2-dev \
-	libxslt-dev \
-	make \
-	perl-dev \
-	python2-dev \
-	tiff-dev \
-	xz \
-	zlib-dev && \
+	libxslt1-dev \
+	python-pip \
+	zlib1g-dev && \
  echo "**** install runtime packages ****" && \
- apk add --no-cache \
-	fontconfig \
-	freetype \
-	ghostscript \
-	imagemagick6 \
-	jq \
-	lcms2 \
-	libjpeg-turbo \
-	libltdl \
-	libpng \
-	libwebp \
-	libxml2 \
-	libxslt \
-	tiff \
-	zlib && \
+ apt-get install -y \
+	imagemagick \
+	python-minimal && \
  echo "**** install calibre-web ****" && \
- if [ -z ${CALIBRE_COMMIT+x} ]; then \
-	CALIBRE_COMMIT=$(curl -sX GET https://api.github.com/repos/janeczku/calibre-web/commits/master \
-	| jq -r '. | .sha'); \
+ if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
+	CALIBREWEB_RELEASE=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/releases/latest" \
+	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
  fi && \
- mkdir -p \
-	/app/calibre-web && \
  curl -o \
  /tmp/calibre-web.tar.gz -L \
-	https://github.com/janeczku/calibre-web/archive/${CALIBRE_COMMIT}.tar.gz && \
+	https://github.com/janeczku/calibre-web/archive/${CALIBREWEB_RELEASE}.tar.gz && \
+ mkdir -p \
+	/app/calibre-web && \
  tar xf \
  /tmp/calibre-web.tar.gz -C \
 	/app/calibre-web --strip-components=1 && \
@@ -64,10 +43,21 @@ RUN \
  pip install --no-cache-dir -U -r \
 	optional-requirements.txt && \
  echo "**** cleanup ****" && \
- apk del --purge \
-	build-dependencies && \
+ apt-get -y purge \
+	g++ \
+	gcc \
+	git \
+	libffi-dev \
+	libjpeg-dev \
+	libxml2-dev \
+	libxslt1-dev \
+	python-pip \
+	zlib1g-dev && \
+ apt-get -y autoremove && \
  rm -rf \
-	/tmp/*
+	/tmp/* \
+	/var/lib/apt/lists/* \
+	/var/tmp/*
 
 # add local files
 COPY root/ /
