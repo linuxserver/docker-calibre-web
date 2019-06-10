@@ -140,8 +140,8 @@ libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
 libprocps62:3.3.12-3ubuntu1.1
 libpsl50.19.1-5build1
-libpython2.7-minimal2.7.15~rc1-1ubuntu0.1
-libpython2.7-stdlib2.7.15~rc1-1ubuntu0.1
+libpython2.7-minimal2.7.15-4ubuntu4~18.04
+libpython2.7-stdlib2.7.15-4ubuntu4~18.04
 libpython-stdlib2.7.15~rc1-1
 libreadline77.0-3
 libroken18-heimdal7.5.0+dfsg-1
@@ -157,7 +157,7 @@ libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.3
 libsqlite3-03.22.0-1
 libss21.44.1-1ubuntu1.1
-libssl1.11.1.0g-2ubuntu4.3
+libssl1.11.1.1-1ubuntu2.1~18.04.1
 libstdc++68.3.0-6ubuntu1~18.04
 libsystemd0237-3ubuntu10.21
 libtasn1-64.13-2
@@ -198,8 +198,8 @@ poppler-data0.4.8-2
 procps2:3.3.12-3ubuntu1.1
 publicsuffix20180223.1310-1
 python2.7.15~rc1-1
-python2.72.7.15~rc1-1ubuntu0.1
-python2.7-minimal2.7.15~rc1-1ubuntu0.1
+python2.72.7.15-4ubuntu4~18.04
+python2.7-minimal2.7.15-4ubuntu4~18.04
 python-minimal2.7.15~rc1-1
 readline-common7.0-3
 sed4.4-2
