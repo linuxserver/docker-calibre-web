@@ -16,7 +16,8 @@ RUN \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	imagemagick \
-	python-minimal && \
+	python-minimal \
+	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
 	CALIBREWEB_RELEASE=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/releases/latest" \
