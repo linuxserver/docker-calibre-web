@@ -56,7 +56,7 @@ docker create \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e DOCKER_MODS=linuxserver/calibre-mod:latest #*optional* & **x86-64 only** \
+  -e DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only** \
   -p 8083:8083 \
   -v <path to data>:/config \
   -v <path to calibre library>:/books \
@@ -80,7 +80,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - DOCKER_MODS=linuxserver/calibre-mod:latest #*optional* & **x86-64 only**
+      - DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only**
     volumes:
       - <path to data>:/config
       - <path to calibre library>:/books
@@ -99,7 +99,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
-| `-e DOCKER_MODS=linuxserver/calibre-mod:latest #*optional* & **x86-64 only**` | #optional & **x86-64 only** Adds the ability to perform book conversion |
+| `-e DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only**` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
 | `-v /config` | Where calibre-web stores the internal database and config. |
 | `-v /books` | Where your calibre database is locate. |
 
