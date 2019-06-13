@@ -1,6 +1,6 @@
 adduser3.116ubuntu1
-apt1.6.10
-apt-utils1.6.10
+apt1.6.11
+apt-utils1.6.11
 base-files10.1ubuntu2.4
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.1
@@ -10,7 +10,7 @@ ca-certificates20180409
 coreutils8.28-1ubuntu1
 curl7.58.0-2ubuntu3.7
 dash0.5.8-2.10
-dbus1.12.2-1ubuntu1
+dbus1.12.2-1ubuntu1.1
 debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
@@ -24,7 +24,7 @@ fontconfig-config2.12.6-0ubuntu2
 fonts-dejavu-core2.37-1
 fonts-droid-fallback1:6.0.1r16-1.1
 fonts-noto-mono20171026-2
-gcc-8-base8.3.0-6ubuntu1~18.04
+gcc-8-base8.3.0-6ubuntu1~18.04.1
 ghostscript9.26~dfsg+0-0ubuntu0.18.04.9
 gpgv2.2.4-1ubuntu1.2
 grep3.1-2
@@ -39,8 +39,8 @@ init-system-helpers1.51
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapparmor12.12-4ubuntu5.1
-libapt-inst2.01.6.10
-libapt-pkg5.01.6.10
+libapt-inst2.01.6.11
+libapt-pkg5.01.6.11
 libasn1-8-heimdal7.5.0+dfsg-1
 libattr11:2.4.47-2build1
 libaudit11:2.8.2-1ubuntu1
@@ -62,7 +62,7 @@ libcupsimage22.2.7-1ubuntu2.6
 libcurl47.58.0-2ubuntu3.7
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
-libdbus-1-31.12.2-1ubuntu1
+libdbus-1-31.12.2-1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdjvulibre213.5.27.1-8
 libdjvulibre-text3.5.27.1-8
@@ -73,13 +73,13 @@ libffi63.2.1-8
 libfftw3-double33.3.7-1
 libfontconfig12.12.6-0ubuntu2
 libfreetype62.8.1-2ubuntu2
-libgcc11:8.3.0-6ubuntu1~18.04
+libgcc11:8.3.0-6ubuntu1~18.04.1
 libgcrypt201.8.1-4ubuntu1.1
-libglib2.0-02.56.4-0ubuntu0.18.04.2
-libglib2.0-data2.56.4-0ubuntu0.18.04.2
+libglib2.0-02.56.4-0ubuntu0.18.04.3
+libglib2.0-data2.56.4-0ubuntu0.18.04.3
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.1
-libgomp18.3.0-6ubuntu1~18.04
+libgomp18.3.0-6ubuntu1~18.04.1
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
 libgs99.26~dfsg+0-0ubuntu0.18.04.9
@@ -158,7 +158,7 @@ libsmartcols12.31.1-0.4ubuntu3.3
 libsqlite3-03.22.0-1
 libss21.44.1-1ubuntu1.1
 libssl1.11.1.1-1ubuntu2.1~18.04.1
-libstdc++68.3.0-6ubuntu1~18.04
+libstdc++68.3.0-6ubuntu1~18.04.1
 libsystemd0237-3ubuntu10.21
 libtasn1-64.13-2
 libthai00.1.27-2
@@ -191,7 +191,7 @@ multiarch-support2.27-3ubuntu1
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 netpbm2:10.0-15.3build1
-openssl1.1.0g-2ubuntu4.3
+openssl1.1.1-1ubuntu2.1~18.04.1
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
 poppler-data0.4.8-2
@@ -210,6 +210,7 @@ tar1.29b-2ubuntu0.1
 tzdata2019a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
+unrar1:5.5.8-1
 util-linux2.31.1-0.4ubuntu3.3
 xdg-user-dirs0.17-1ubuntu1
 xz-utils5.2.2-1.3
