@@ -4,8 +4,8 @@
 project_name: docker-calibre-web
 external_type: github_stable
 release_type: prerelease
-release_tag: mod
-ls_branch: mod
+release_tag: calibre
+ls_branch: calibre
 skip_package_check: true
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
