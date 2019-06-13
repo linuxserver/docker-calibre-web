@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+
+if [ ! -e /usr/bin/calibre-server ]; then
+  /app/calibre/calibre_postinstall
+fi
+
+if [ ! -L /usr/lib/x86_64-linux-gnu/libGL.so.1 ]; then
+  apt update && apt install -y libgl1-mesa-glx
+fi
