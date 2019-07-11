@@ -3,9 +3,9 @@ apt1.6.11
 apt-utils1.6.11
 base-files10.1ubuntu2.4
 base-passwd3.5.44
-bash4.4.18-2ubuntu1.1
+bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.3
-bzip21.0.6-8.1ubuntu0.1
+bzip21.0.6-8.1ubuntu0.2
 ca-certificates20180409
 coreutils8.28-1ubuntu1
 curl7.58.0-2ubuntu3.7
@@ -50,7 +50,7 @@ libavahi-common30.7-3.1ubuntu1.2
 libavahi-common-data0.7-3.1ubuntu1.2
 libblkid12.31.1-0.4ubuntu3.3
 libbsd00.8.7-1
-libbz2-1.01.0.6-8.1ubuntu0.1
+libbz2-1.01.0.6-8.1ubuntu0.2
 libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
@@ -75,8 +75,8 @@ libfontconfig12.12.6-0ubuntu2
 libfreetype62.8.1-2ubuntu2
 libgcc11:8.3.0-6ubuntu1~18.04.1
 libgcrypt201.8.1-4ubuntu1.1
-libglib2.0-02.56.4-0ubuntu0.18.04.3
-libglib2.0-data2.56.4-0ubuntu0.18.04.3
+libglib2.0-02.56.4-0ubuntu0.18.04.4
+libglib2.0-data2.56.4-0ubuntu0.18.04.4
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.1
 libgomp18.3.0-6ubuntu1~18.04.1
@@ -159,13 +159,13 @@ libsqlite3-03.22.0-1ubuntu0.1
 libss21.44.1-1ubuntu1.1
 libssl1.11.1.1-1ubuntu2.1~18.04.3
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.23
+libsystemd0237-3ubuntu10.24
 libtasn1-64.13-2
 libthai00.1.27-2
 libthai-data0.1.27-2
 libtiff54.0.9-5ubuntu0.2
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.23
+libudev1237-3ubuntu10.24
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.3
 libwind0-heimdal7.5.0+dfsg-1
@@ -207,7 +207,7 @@ sensible-utils0.0.12
 shared-mime-info1.9-2
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.1
-tzdata2019a-0ubuntu0.18.04
+tzdata2019b-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 unrar1:5.5.8-1
