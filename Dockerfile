@@ -22,7 +22,7 @@ RUN \
     /root-layer/app/calibre && \
  curl -o \
 	/tmp/calibre.txz -L \
-	"https://github.com/kovidgoyal/calibre/releases/download/v${CALIBRE_RELEASE}/calibre-${CALIBRE_RELEASE}-x86_64.txz" && \
+	"https://download.calibre-ebook.com/${CALIBRE_RELEASE}/calibre-${CALIBRE_RELEASE}-x86_64.txz" && \
  tar xf \
 	/tmp/calibre.txz \
 	-C /root-layer/app/calibre
