@@ -56,7 +56,7 @@ docker create \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only** \
+  -e DOCKER_MODS=linuxserver/calibre-web:calibre \
   -p 8083:8083 \
   -v <path to data>:/config \
   -v <path to calibre library>:/books \
@@ -80,7 +80,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only**
+      - DOCKER_MODS=linuxserver/calibre-web:calibre
     volumes:
       - <path to data>:/config
       - <path to calibre library>:/books
