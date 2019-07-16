@@ -99,7 +99,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
-| `-e DOCKER_MODS=linuxserver/calibre-web:calibre #*optional* & **x86-64 only**` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
+| `-e DOCKER_MODS=linuxserver/calibre-web:calibre` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
 | `-v /config` | Where calibre-web stores the internal database and config. |
 | `-v /books` | Where your calibre database is locate. |
 
