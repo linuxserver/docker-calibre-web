@@ -16,6 +16,7 @@ RUN \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	imagemagick \
+	libxcomposite1 \
 	python-minimal \
 	unrar && \
  echo "**** install calibre-web ****" && \

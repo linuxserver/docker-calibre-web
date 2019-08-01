@@ -70,6 +70,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "01.08.19:", desc: "Add libxcomposite1." }
   - { date: "13.06.19:", desc: "Add docker mod to enable optional ebook conversion on x86-64.  Add unrar." }
   - { date: "02.06.19:", desc: "Rebase to Ubuntu Bionic & add Gdrive support." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
