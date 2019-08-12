@@ -1,7 +1,7 @@
 adduser3.116ubuntu1
 apt1.6.11
 apt-utils1.6.11
-base-files10.1ubuntu2.5
+base-files10.1ubuntu2.6
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.3
@@ -25,7 +25,7 @@ fonts-dejavu-core2.37-1
 fonts-droid-fallback1:6.0.1r16-1.1
 fonts-noto-mono20171026-2
 gcc-8-base8.3.0-6ubuntu1~18.04.1
-ghostscript9.26~dfsg+0-0ubuntu0.18.04.9
+ghostscript9.26~dfsg+0-0ubuntu0.18.04.10
 gpgv2.2.4-1ubuntu1.2
 grep3.1-2
 gsfonts1:8.11+urwcyr1.0.7~pre44-4.4
@@ -82,8 +82,8 @@ libgnutls303.5.18-1ubuntu1.1
 libgomp18.3.0-6ubuntu1~18.04.1
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
-libgs99.26~dfsg+0-0ubuntu0.18.04.9
-libgs9-common9.26~dfsg+0-0ubuntu0.18.04.9
+libgs99.26~dfsg+0-0ubuntu0.18.04.10
+libgs9-common9.26~dfsg+0-0ubuntu0.18.04.10
 libgssapi3-heimdal7.5.0+dfsg-1
 libgssapi-krb5-21.16-2ubuntu0.1
 libharfbuzz0b1.7.2-1ubuntu1
@@ -159,13 +159,13 @@ libsqlite3-03.22.0-1ubuntu0.1
 libss21.44.1-1ubuntu1.1
 libssl1.11.1.1-1ubuntu2.1~18.04.4
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.24
+libsystemd0237-3ubuntu10.25
 libtasn1-64.13-2
 libthai00.1.27-2
 libthai-data0.1.27-2
 libtiff54.0.9-5ubuntu0.2
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.24
+libudev1237-3ubuntu10.25
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.3
 libwind0-heimdal7.5.0+dfsg-1
