@@ -56,9 +56,9 @@ libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
 libcom-err21.44.1-1ubuntu1.1
-libcups22.2.7-1ubuntu2.6
+libcups22.2.7-1ubuntu2.7
 libcupsfilters11.20.2-0ubuntu3.1
-libcupsimage22.2.7-1ubuntu2.6
+libcupsimage22.2.7-1ubuntu2.7
 libcurl47.58.0-2ubuntu3.7
 libdatrie10.2.10-7
 libdb5.35.3.28-13.1ubuntu1.1
