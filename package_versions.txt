@@ -14,8 +14,8 @@ dbus1.12.2-1ubuntu1.1
 debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
-dpkg1.19.0.5ubuntu2.2
-e2fsprogs1.44.1-1ubuntu1.1
+dpkg1.19.0.5ubuntu2.3
+e2fsprogs1.44.1-1ubuntu1.2
 fdisk2.31.1-0.4ubuntu3.4
 file1:5.32-2ubuntu0.2
 findutils4.6.0+git+20170828-2
@@ -27,7 +27,7 @@ fonts-noto-mono20171026-2
 gcc-8-base8.3.0-6ubuntu1~18.04.1
 ghostscript9.26~dfsg+0-0ubuntu0.18.04.11
 gpgv2.2.4-1ubuntu1.2
-grep3.1-2
+grep3.1-2build1
 gsfonts1:8.11+urwcyr1.0.7~pre44-4.4
 gzip1.6-5ubuntu1
 hicolor-icon-theme0.17-2
@@ -55,7 +55,7 @@ libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
-libcom-err21.44.1-1ubuntu1.1
+libcom-err21.44.1-1ubuntu1.2
 libcups22.2.7-1ubuntu2.7
 libcupsfilters11.20.2-0ubuntu3.1
 libcupsimage22.2.7-1ubuntu2.7
@@ -67,7 +67,7 @@ libdebconfclient00.213ubuntu1
 libdjvulibre213.5.27.1-8
 libdjvulibre-text3.5.27.1-8
 libexpat12.2.5-3ubuntu0.2
-libext2fs21.44.1-1ubuntu1.1
+libext2fs21.44.1-1ubuntu1.2
 libfdisk12.31.1-0.4ubuntu3.4
 libffi63.2.1-8
 libfftw3-double33.3.7-1
@@ -124,7 +124,7 @@ libncursesw56.1-1ubuntu1.18.04
 libnetpbm102:10.0-15.3build1
 libnettle63.4-1
 libnghttp2-141.30.0-1ubuntu1
-libopenexr222.2.0-11.1ubuntu1
+libopenexr222.2.0-11.1ubuntu1.1
 libp11-kit00.23.9-2
 libpam0g1.1.8-3.6ubuntu2.18.04.1
 libpam-modules1.1.8-3.6ubuntu2.18.04.1
@@ -156,7 +156,7 @@ libsemanage-common2.7-2build2
 libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.4
 libsqlite3-03.22.0-1ubuntu0.1
-libss21.44.1-1ubuntu1.1
+libss21.44.1-1ubuntu1.2
 libssl1.11.1.1-1ubuntu2.1~18.04.4
 libstdc++68.3.0-6ubuntu1~18.04.1
 libsystemd0237-3ubuntu10.29
