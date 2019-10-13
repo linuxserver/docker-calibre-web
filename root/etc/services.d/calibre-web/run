@@ -3,4 +3,4 @@
 cd /app/calibre-web || exit
 
 exec \
-	s6-setuidgid abc python /app/calibre-web/cps.py
+	s6-setuidgid abc python3 /app/calibre-web/cps.py
