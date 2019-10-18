@@ -18,13 +18,13 @@ RUN \
 	libjpeg-dev \
 	libxml2-dev \
 	libxslt1-dev \
-	python-pip \
+	python3-pip \
 	zlib1g-dev && \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	imagemagick \
 	libxcomposite1 \
-	python-minimal \
+	python3-minimal \
 	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
@@ -40,9 +40,9 @@ RUN \
  /tmp/calibre-web.tar.gz -C \
 	/app/calibre-web --strip-components=1 && \
  cd /app/calibre-web && \
- pip install --no-cache-dir -U -r \
+ pip3 install --no-cache-dir -U -r \
 	requirements.txt && \
- pip install --no-cache-dir -U -r \
+ pip3 install --no-cache-dir -U -r \
 	optional-requirements.txt && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
@@ -53,7 +53,7 @@ RUN \
 	libjpeg-dev \
 	libxml2-dev \
 	libxslt1-dev \
-	python-pip \
+	python3-pip \
 	zlib1g-dev && \
  apt-get -y autoremove && \
  rm -rf \
