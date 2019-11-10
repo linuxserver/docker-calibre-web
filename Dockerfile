@@ -16,6 +16,7 @@ RUN \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	imagemagick \
+	libnss3 && \
 	libxcomposite1 \
 	python3-minimal \
 	unrar && \
