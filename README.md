@@ -5,7 +5,6 @@
 [![Discourse](https://img.shields.io/discourse/https/discourse.linuxserver.io/topics.svg?style=flat-square&color=E68523&logo=discourse&logoColor=FFFFFF)](https://discourse.linuxserver.io "post on our community forum.")
 [![Fleet](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=Fleet)](https://fleet.linuxserver.io "an online web interface which displays all of our maintained images.")
 [![GitHub](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=GitHub&logo=github&logoColor=FFFFFF)](https://github.com/linuxserver "view the source for all of our repositories.")
-[![Podcast](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=Podcast)](https://anchor.fm/linuxserverio "on hiatus. Coming back soon (late 2018).")
 [![Open Collective](https://img.shields.io/opencollective/all/linuxserver.svg?style=flat-square&color=E68523&label=Supporters&logo=open%20collective&logoColor=FFFFFF)](https://opencollective.com/linuxserver "please consider helping us by either donating or contributing to our budget")
 
 The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring :-
@@ -22,7 +21,6 @@ Find us at:
 * [Discourse](https://discourse.linuxserver.io) - post on our community forum.
 * [Fleet](https://fleet.linuxserver.io) - an online web interface which displays all of our maintained images.
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
-* [Podcast](https://anchor.fm/linuxserverio) - on hiatus. Coming back soon (late 2018).
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
 # [linuxserver/calibre-web](https://github.com/linuxserver/docker-calibre-web)
@@ -118,6 +116,18 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e DOCKER_MODS=linuxserver/calibre-web:calibre` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
 | `-v /config` | Where calibre-web stores the internal database and config. |
 | `-v /books` | Where your calibre database is locate. |
+
+## Environment variables from files (Docker secrets)
+
+You can set any environment variable from a file by using a special prepend `FILE__`. 
+
+As an example:
+
+```
+-e FILE__PASSWORD=/run/secrets/mysecretpassword
+```
+
+Will set the environment variable `PASSWORD` based on the contents of the `/run/secrets/mysecretpassword` file.
 
 ## User / Group Identifiers
 
