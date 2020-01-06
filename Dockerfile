@@ -16,11 +16,11 @@ RUN \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	imagemagick \
+	libldap2-dev \
 	libnss3 \
+	libsasl2-dev \
 	libxcomposite1 \
 	python3-minimal \
-	libldap2-dev \
-	libsasl2-dev \
 	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
