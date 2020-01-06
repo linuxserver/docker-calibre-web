@@ -19,6 +19,8 @@ RUN \
 	libnss3 \
 	libxcomposite1 \
 	python3-minimal \
+	libldap2-dev \
+	libsasl2-dev \
 	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
