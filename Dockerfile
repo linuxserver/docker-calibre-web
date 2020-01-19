@@ -12,12 +12,16 @@ RUN \
  apt-get update && \
  apt-get install -y \
 	git \
+	libldap2-dev \
+	libsasl2-dev \
 	python3-pip && \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
 	imagemagick \
 	libnss3 \
 	libxcomposite1 \
+	libldap-2.4-2 \
+	libsasl2-2 \
 	python3-minimal \
 	unrar && \
  echo "**** install calibre-web ****" && \
@@ -41,6 +45,8 @@ RUN \
  echo "**** cleanup ****" && \
  apt-get -y purge \
 	git \
+	libldap2-dev \
+	libsasl2-dev \
 	python3-pip && \
  apt-get -y autoremove && \
  rm -rf \
