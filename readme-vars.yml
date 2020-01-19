@@ -70,7 +70,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "10.13.19:", desc: "Migrate to Python3." }
+  - { date: "19.01.20:", desc: "Adding LDAP libs." }
+  - { date: "13.10.19:", desc: "Migrate to Python3." }
   - { date: "01.08.19:", desc: "Add libxcomposite1." }
   - { date: "13.06.19:", desc: "Add docker mod to enable optional ebook conversion on x86-64.  Add unrar." }
   - { date: "02.06.19:", desc: "Rebase to Ubuntu Bionic & add Gdrive support." }
