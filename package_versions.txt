@@ -15,7 +15,7 @@ debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dpkg1.19.0.5ubuntu2.3
-e2fsprogs1.44.1-1ubuntu1.2
+e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.4
 file1:5.32-2ubuntu0.3
 findutils4.6.0+git+20170828-2
@@ -55,7 +55,7 @@ libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
-libcom-err21.44.1-1ubuntu1.2
+libcom-err21.44.1-1ubuntu1.3
 libcups22.2.7-1ubuntu2.7
 libcupsfilters11.20.2-0ubuntu3.1
 libcupsimage22.2.7-1ubuntu2.7
@@ -67,7 +67,7 @@ libdebconfclient00.213ubuntu1
 libdjvulibre213.5.27.1-8ubuntu0.1
 libdjvulibre-text3.5.27.1-8ubuntu0.1
 libexpat12.2.5-3ubuntu0.2
-libext2fs21.44.1-1ubuntu1.2
+libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.4
 libffi63.2.1-8
 libfftw3-double33.3.7-1
@@ -78,7 +78,7 @@ libgcrypt201.8.1-4ubuntu1.2
 libglib2.0-02.56.4-0ubuntu0.18.04.4
 libglib2.0-data2.56.4-0ubuntu0.18.04.4
 libgmp102:6.1.2+dfsg-2
-libgnutls303.5.18-1ubuntu1.2
+libgnutls303.5.18-1ubuntu1.3
 libgomp18.3.0-6ubuntu1~18.04.1
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
@@ -148,9 +148,9 @@ libpython3.6-stdlib3.6.9-1~18.04
 libreadline77.0-3
 libroken18-heimdal7.5.0+dfsg-1
 librtmp12.4+20151223.gitfa8646d.1-1
-libsasl2-22.1.27~101-g0780600+dfsg-3ubuntu2
-libsasl2-modules2.1.27~101-g0780600+dfsg-3ubuntu2
-libsasl2-modules-db2.1.27~101-g0780600+dfsg-3ubuntu2
+libsasl2-22.1.27~101-g0780600+dfsg-3ubuntu2.1
+libsasl2-modules2.1.27~101-g0780600+dfsg-3ubuntu2.1
+libsasl2-modules-db2.1.27~101-g0780600+dfsg-3ubuntu2.1
 libseccomp22.4.1-0ubuntu0.18.04.2
 libselinux12.7-2build2
 libsemanage12.7-2build2
@@ -158,7 +158,7 @@ libsemanage-common2.7-2build2
 libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.4
 libsqlite3-03.22.0-1ubuntu0.2
-libss21.44.1-1ubuntu1.2
+libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
 libstdc++68.3.0-6ubuntu1~18.04.1
 libsystemd0237-3ubuntu10.33
