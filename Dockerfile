@@ -42,7 +42,6 @@ RUN \
 	requirements.txt && \
  pip3 install --no-cache-dir -U -r \
 	optional-requirements.txt && \
- pip3 install Werkzeug==0.16.1 && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
 	git \
