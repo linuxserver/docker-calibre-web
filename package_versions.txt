@@ -24,7 +24,7 @@ fontconfig-config2.12.6-0ubuntu2
 fonts-dejavu-core2.37-1
 fonts-droid-fallback1:6.0.1r16-1.1
 fonts-noto-mono20171026-2
-gcc-8-base8.3.0-26ubuntu1~18.04
+gcc-8-base8.4.0-1ubuntu1~18.04
 ghostscript9.26~dfsg+0-0ubuntu0.18.04.12
 gpgv2.2.4-1ubuntu1.2
 grep3.1-2build1
@@ -73,13 +73,13 @@ libffi63.2.1-8
 libfftw3-double33.3.7-1
 libfontconfig12.12.6-0ubuntu2
 libfreetype62.8.1-2ubuntu2
-libgcc11:8.3.0-26ubuntu1~18.04
+libgcc11:8.4.0-1ubuntu1~18.04
 libgcrypt201.8.1-4ubuntu1.2
 libglib2.0-02.56.4-0ubuntu0.18.04.6
 libglib2.0-data2.56.4-0ubuntu0.18.04.6
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.3
-libgomp18.3.0-26ubuntu1~18.04
+libgomp18.4.0-1ubuntu1~18.04
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
 libgs99.26~dfsg+0-0ubuntu0.18.04.12
@@ -160,7 +160,7 @@ libsmartcols12.31.1-0.4ubuntu3.6
 libsqlite3-03.22.0-1ubuntu0.3
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
-libstdc++68.3.0-26ubuntu1~18.04
+libstdc++68.4.0-1ubuntu1~18.04
 libsystemd0237-3ubuntu10.39
 libtasn1-64.13-2
 libthai00.1.27-2
