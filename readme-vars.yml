@@ -70,6 +70,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "06.05.20:", desc: "Add libxslt1.1 and update ImageMagick policy" }
   - { date: "19.01.20:", desc: "Adding LDAP libs." }
   - { date: "13.10.19:", desc: "Migrate to Python3." }
   - { date: "01.08.19:", desc: "Add libxcomposite1." }

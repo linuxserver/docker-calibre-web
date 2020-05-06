@@ -29,6 +29,7 @@ RUN \
 	libnss3 \
 	libsasl2-2 \
 	libxcomposite1 \
+	libxslt1.1 \
 	python3-minimal \
 	unrar && \
  echo "**** install calibre-web ****" && \
