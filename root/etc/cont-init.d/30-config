@@ -1,5 +1,11 @@
 #!/usr/bin/with-contenv bash
 
+# create symlinks for imagemagick policy.xml
+[[ -f /etc/ImageMagick-6/policy.xml ]] && \
+	rm /etc/ImageMagick-6/policy.xml
+[[ ! -L /etc/ImageMagick-6/policy.xml ]] && \
+	ln -s /defaults/policy.xml /etc/ImageMagick-6/policy.xml
+
 # create symlinks for database and log
 [[ ! -f /config/app.db ]] && \
 	cp /defaults/app.db /config/app.db

@@ -243,6 +243,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.05.20:** - Add libxslt1.1 and update ImageMagick policy
 * **19.01.20:** - Adding LDAP libs.
 * **13.10.19:** - Migrate to Python3.
 * **01.08.19:** - Add libxcomposite1.
