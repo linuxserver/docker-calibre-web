@@ -38,6 +38,11 @@
 [[ ! -L /app/calibre-web/gdrive.db ]] && \
 	ln -s /config/gdrive.db /app/calibre-web/gdrive.db
 
+# check if kepubify is present and if so make executable
+[[ -f /usr/bin/kepubify ]] && \
+[[ ! -x /usr/bin/kepubify ]] && \
+	chmod +x /usr/bin/kepubify
+
 # permissions
 chown -R abc:abc \
 	/config \
