@@ -50,6 +50,14 @@ RUN \
 	requirements.txt && \
  pip3 install --no-cache-dir -U -r \
 	optional-requirements.txt && \
+ echo "***install kepubify" && \
+ if [ -z ${KEPUBIFY_RELEASE+x} ]; then \
+    KEPUBIFY_RELEASE=$(curl -sX GET "https://api.github.com/repos/geek1011/kepubify/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+ fi && \
+ curl -o \
+ /usr/bin/kepubify -L \
+	https://github.com/geek1011/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-arm && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
 	g++ \
