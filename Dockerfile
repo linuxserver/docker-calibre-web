@@ -39,6 +39,7 @@ RUN \
  /tmp/calibre-web.tar.gz -C \
 	/app/calibre-web --strip-components=1 && \
  cd /app/calibre-web && \
+ pip3 install --no-cache-dir -U gevent && \
  pip3 install --no-cache-dir -U -r \
 	requirements.txt && \
  pip3 install --no-cache-dir -U -r \
