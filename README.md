@@ -1,20 +1,7 @@
-[linuxserverurl]: https://linuxserver.io
-[forumurl]: https://forum.linuxserver.io
+# Calibre - Docker mod for calibre-web
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserverurl]
+This mod adds the calibre binary to calibre-web (**x86-64 only**) for ebook conversions.
 
-## Contact information:-
+In calibre-web docker arguments, set an environment variable `DOCKER_MODS=linuxserver/calibre-web:calibre` to enable.
 
-| Type | Address/Details |
-| :---: | --- |
-| Discord | [Discord](https://discord.gg/YWrKVTn) |
-| Forum | [Linuserver.io forum][forumurl] |
-
-&nbsp;
-&nbsp;
-
-The code in this branch is not meant for direct consumption it is a modification layer to inject the calibre binary and dependancies into the x86 variant of `linuxserver/calibre-web`
-
-The following line is only in this repo for release messaging:
-
-- { date: "01.01.50:", desc: "I am the release message for this custom branch" }
+If adding multiple mods, enter them in an array separated by `|`, such as `DOCKER_MODS=linuxserver/calibre-web:calibre|linuxserver/mods:other-mod`
