@@ -52,12 +52,12 @@ RUN \
 	optional-requirements.txt && \
  echo "***install kepubify" && \
  if [ -z ${KEPUBIFY_RELEASE+x} ]; then \
-    KEPUBIFY_RELEASE=$(curl -sX GET "https://api.github.com/repos/geek1011/kepubify/releases/latest" \
+    KEPUBIFY_RELEASE=$(curl -sX GET "https://api.github.com/repos/pgaskin/kepubify/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
  fi && \
  curl -o \
  /usr/bin/kepubify -L \
-	https://github.com/geek1011/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-arm64 && \
+	https://github.com/pgaskin/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-arm64 && \
  echo "**** cleanup ****" && \
  apt-get -y purge \
 	g++ \
