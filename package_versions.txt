@@ -25,7 +25,7 @@ fonts-dejavu-core2.37-1
 fonts-droid-fallback1:6.0.1r16-1.1
 fonts-noto-mono20171026-2
 gcc-8-base8.4.0-1ubuntu1~18.04
-ghostscript9.26~dfsg+0-0ubuntu0.18.04.12
+ghostscript9.26~dfsg+0-0ubuntu0.18.04.13
 gpgv2.2.4-1ubuntu1.2
 grep3.1-2build1
 gsfonts1:8.11+urwcyr1.0.7~pre44-4.4
@@ -82,8 +82,8 @@ libgnutls303.5.18-1ubuntu1.4
 libgomp18.4.0-1ubuntu1~18.04
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
-libgs99.26~dfsg+0-0ubuntu0.18.04.12
-libgs9-common9.26~dfsg+0-0ubuntu0.18.04.12
+libgs99.26~dfsg+0-0ubuntu0.18.04.13
+libgs9-common9.26~dfsg+0-0ubuntu0.18.04.13
 libgssapi3-heimdal7.5.0+dfsg-1
 libgssapi-krb5-21.16-2ubuntu0.1
 libharfbuzz0b1.7.2-1ubuntu1
