@@ -126,7 +126,7 @@ libnetpbm102:10.0-15.3build1
 libnettle63.4-1
 libnghttp2-141.30.0-1ubuntu1
 libnspr42:4.18-1ubuntu1
-libnss32:3.35-2ubuntu2.11
+libnss32:3.35-2ubuntu2.12
 libopenexr222.2.0-11.1ubuntu1.3
 libp11-kit00.23.9-2
 libpam0g1.1.8-3.6ubuntu2.18.04.1
