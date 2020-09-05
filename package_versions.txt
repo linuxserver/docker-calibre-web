@@ -172,8 +172,8 @@ libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libwind0-heimdal7.5.0+dfsg-1
 libwmf0.2-70.2.8.4-12
-libx11-62:1.6.4-3ubuntu0.2
-libx11-data2:1.6.4-3ubuntu0.2
+libx11-62:1.6.4-3ubuntu0.3
+libx11-data2:1.6.4-3ubuntu0.3
 libxau61:1.0.8-1ubuntu1
 libxcb11.13-2~ubuntu18.04
 libxcb-render01.13-2~ubuntu18.04
