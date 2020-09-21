@@ -26,7 +26,7 @@ fonts-droid-fallback1:6.0.1r16-1.1
 fonts-noto-mono20171026-2
 gcc-8-base8.4.0-1ubuntu1~18.04
 ghostscript9.26~dfsg+0-0ubuntu0.18.04.13
-gpgv2.2.4-1ubuntu1.2
+gpgv2.2.4-1ubuntu1.3
 grep3.1-2build1
 gsfonts1:8.11+urwcyr1.0.7~pre44-4.4
 gzip1.6-5ubuntu1
