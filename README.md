@@ -114,7 +114,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
 | `-e DOCKER_MODS=linuxserver/calibre-web:calibre` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
 | `-v /config` | Where calibre-web stores the internal database and config. |
-| `-v /books` | Where your calibre database is locate. |
+| `-v /books` | Where your preexisting calibre database is locate. |
 
 ## Environment variables from files (Docker secrets)
 
