@@ -26,7 +26,7 @@ param_env_vars:
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "<path to data>", desc: "Where calibre-web stores the internal database and config." }
-  - { vol_path: "/books", vol_host_path: "<path to calibre library>", desc: "Where your calibre database is locate." }
+  - { vol_path: "/books", vol_host_path: "<path to calibre library>", desc: "Where your preexisting calibre database is locate." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8083", internal_port: "8083", port_desc: "WebUI" }
