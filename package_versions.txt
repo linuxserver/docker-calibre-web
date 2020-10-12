@@ -181,6 +181,7 @@ libxcb-shm01.13-2~ubuntu18.04
 libxcomposite11:0.4.4-2
 libxdmcp61:1.1.2-3
 libxext62:1.3.3-1
+libxi62:1.7.9-1
 libxml22.9.4+dfsg1-6.1ubuntu1.3
 libxrender11:0.9.10-1
 libxslt1.11.1.29-5ubuntu0.2
