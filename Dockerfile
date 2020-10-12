@@ -20,6 +20,7 @@ RUN \
 	imagemagick \
 	libnss3 \
 	libxcomposite1 \
+	libxi6 \
 	libxslt1.1 \
 	libldap-2.4-2 \
 	libsasl2-2 \
