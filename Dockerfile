@@ -69,4 +69,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 8083
-VOLUME /books /config
+VOLUME /config
