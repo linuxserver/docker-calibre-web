@@ -32,9 +32,9 @@ gsfonts1:8.11+urwcyr1.0.7~pre44-4.4
 gzip1.6-5ubuntu1
 hicolor-icon-theme0.17-2
 hostname3.20
-imagemagick-6-common8:6.9.7.4+dfsg-16ubuntu6.8
-imagemagick-6.q168:6.9.7.4+dfsg-16ubuntu6.8
-imagemagick8:6.9.7.4+dfsg-16ubuntu6.8
+imagemagick-6-common8:6.9.7.4+dfsg-16ubuntu6.9
+imagemagick-6.q168:6.9.7.4+dfsg-16ubuntu6.9
+imagemagick8:6.9.7.4+dfsg-16ubuntu6.9
 init-system-helpers1.51
 krb5-locales1.16-2ubuntu0.2
 libacl12.2.52-3build1
@@ -114,9 +114,9 @@ libltdl72.4.6-2
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmagic11:5.32-2ubuntu0.4
-libmagickcore-6.q16-38:6.9.7.4+dfsg-16ubuntu6.8
-libmagickcore-6.q16-3-extra8:6.9.7.4+dfsg-16ubuntu6.8
-libmagickwand-6.q16-38:6.9.7.4+dfsg-16ubuntu6.8
+libmagickcore-6.q16-38:6.9.7.4+dfsg-16ubuntu6.9
+libmagickcore-6.q16-3-extra8:6.9.7.4+dfsg-16ubuntu6.9
+libmagickwand-6.q16-38:6.9.7.4+dfsg-16ubuntu6.9
 libmagic-mgc1:5.32-2ubuntu0.4
 libmount12.31.1-0.4ubuntu3.7
 libmpdec22.4.2-1ubuntu1
