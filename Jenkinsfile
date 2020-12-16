@@ -450,6 +450,13 @@ pipeline {
         environment name: 'EXIT_STATUS', value: ''
       }
       steps {
+        sh '''#! /bin/bash
+              echo "Packages were updated. Cleaning up the image and exiting."
+              if [ "${MULTIARCH}" == "true" ]; then
+                docker rmi ${IMAGE}:amd64-${META_TAG}
+              else
+                docker rmi ${IMAGE}:${META_TAG}
+              fi'''
         script{
           env.EXIT_STATUS = 'ABORTED'
         }
@@ -467,6 +474,13 @@ pipeline {
         }
       }
       steps {
+        sh '''#! /bin/bash
+              echo "There are no package updates. Cleaning up the image and exiting."
+              if [ "${MULTIARCH}" == "true" ]; then
+                docker rmi ${IMAGE}:amd64-${META_TAG}
+              else
+                docker rmi ${IMAGE}:${META_TAG}
+              fi'''
         script{
           env.EXIT_STATUS = 'ABORTED'
         }
@@ -556,7 +570,7 @@ pipeline {
                '''
           }
           sh '''#! /bin/bash
-                for DELETEIMAGE in "${GITHUBIMAGE}" "{GITLABIMAGE}" "${IMAGE}"; do
+                for DELETEIMAGE in "${GITHUBIMAGE}" "${GITLABIMAGE}" "${IMAGE}"; do
                   docker rmi \
                   ${DELETEIMAGE}:${META_TAG} \
                   ${DELETEIMAGE}:${EXT_RELEASE_TAG} \
