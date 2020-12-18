@@ -71,6 +71,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "18.12.20:", desc: "Install updated SQLite driver"}
   - { date: "12.10.20:", desc: "Add libxi6"}
   - { date: "12.07.20:", desc: "Add kepubify for arm64v8" }
   - { date: "05.06.20:", desc: "Add kepubify for x86-64 and arm32v7" }

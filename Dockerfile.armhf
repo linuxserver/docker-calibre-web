@@ -51,6 +51,12 @@ RUN \
 	requirements.txt && \
  pip3 install --no-cache-dir -U -r \
 	optional-requirements.txt && \
+ echo "**** install updated SQLite driver ****" && \
+ pip3 install --no-cache-dir -U \
+	pysqlite3-binary && \
+ ln -fs \
+ $(find /usr/local/lib/python3.6/dist-packages/pysqlite3/_sqlite3.*.so) \
+	/app/calibre-web/_sqlite3.so && \
  echo "***install kepubify" && \
  if [ -z ${KEPUBIFY_RELEASE+x} ]; then \
     KEPUBIFY_RELEASE=$(curl -sX GET "https://api.github.com/repos/pgaskin/kepubify/releases/latest" \
