@@ -51,7 +51,7 @@ libavahi-common-data0.7-3.1ubuntu1.2
 libblkid12.31.1-0.4ubuntu3.7
 libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1.3
+libc62.27-3ubuntu1.4
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1.2
@@ -186,13 +186,13 @@ libxml22.9.4+dfsg1-6.1ubuntu1.3
 libxrender11:0.9.10-1
 libxslt1.11.1.29-5ubuntu0.2
 libzstd11.3.3+dfsg-2ubuntu1.1
-locales2.27-3ubuntu1.3
+locales2.27-3ubuntu1.4
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
 mime-support3.60ubuntu1
 mount2.31.1-0.4ubuntu3.7
-multiarch-support2.27-3ubuntu1.3
+multiarch-support2.27-3ubuntu1.4
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 netpbm2:10.0-15.3build1
