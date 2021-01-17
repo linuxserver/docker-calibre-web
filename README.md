@@ -252,6 +252,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.01.21:** - Rebase to Ubuntu Focal, see [here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal) for troubleshooting armhf.
 * **12.10.20:** - Add libxi6
 * **12.07.20:** - Add kepubify for arm64v8
 * **05.06.20:** - Add kepubify for x86-64 and arm32v7
