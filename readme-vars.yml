@@ -71,7 +71,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "13.01.21:", desc: "Update to Ubuntu Focal base"}
+  - { date: "13.01.21:", desc: "Rebase to Ubuntu Focal, see [here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal) for troubleshooting armhf." }
   - { date: "12.10.20:", desc: "Add libxi6"}
   - { date: "12.07.20:", desc: "Add kepubify for arm64v8" }
   - { date: "05.06.20:", desc: "Add kepubify for x86-64 and arm32v7" }
