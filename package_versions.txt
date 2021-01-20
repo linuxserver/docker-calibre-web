@@ -161,6 +161,7 @@ libprocps82:3.3.16-1ubuntu2
 libpsl50.21.0-1ubuntu1
 libpython3.8-minimal3.8.5-1~20.04
 libpython3.8-stdlib3.8.5-1~20.04
+libpython3-stdlib3.8.2-0ubuntu2
 libreadline88.0-4
 libroken18-heimdal7.7.0+dfsg-1ubuntu1
 librtmp12.4+20151223.gitfa8646d.1-2build1
@@ -222,9 +223,11 @@ pinentry-curses1.1.0-3build1
 poppler-data0.4.9-2
 procps2:3.3.16-1ubuntu2
 publicsuffix20200303.0012-1
+python33.8.2-0ubuntu2
 python3.83.8.5-1~20.04
 python3.8-minimal3.8.5-1~20.04
 python3-minimal3.8.2-0ubuntu2
+python3-pkg-resources45.2.0-1
 readline-common8.0-4
 sed4.7-1
 sensible-utils0.0.12+nmu1
