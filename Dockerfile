@@ -25,6 +25,7 @@ RUN \
 	libldap-2.4-2 \
 	libsasl2-2 \
 	python3-minimal \
+	python3-pkg-resources \
 	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
@@ -59,7 +60,6 @@ RUN \
 	libsasl2-dev \
 	python3-pip && \
  apt-get -y autoremove && \
- apt-get install -y python3-pkg-resources && \
  rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \

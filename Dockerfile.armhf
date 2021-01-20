@@ -33,6 +33,7 @@ RUN \
 	libxi6 \
 	libxslt1.1 \
 	python3-minimal \
+    python3-pkg-resources \
 	unrar && \
  echo "**** install calibre-web ****" && \
  if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
@@ -75,7 +76,6 @@ RUN \
 	python3-pip \
 	zlib1g-dev && \
  apt-get -y autoremove && \
- apt-get install -y python3-pkg-resources && \
  rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \
