@@ -1,5 +1,5 @@
 ## Buildstage ##
-FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic as buildstage
+FROM ghcr.io/linuxserver/baseimage-ubuntu:focal as buildstage
 
 ARG BUILD_DATE
 ARG VERSION
