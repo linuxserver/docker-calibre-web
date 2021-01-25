@@ -1,0 +1,102 @@
+---
+
+# project information
+project_name: calibre-web
+project_url: "https://github.com/janeczku/calibre-web"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png"
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.   It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.
+
+  This software is a fork of library and licensed under the GPL v3 License.
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
+
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Releases of Calibre-Web" }
+  - { tag: "nightly", desc: "Commits to the master branch of Calibre-Web" }
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
+  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Where calibre-web stores the internal database and config." }
+  - { vol_path: "/books", vol_host_path: "/path/to/calibre/library", desc: "Where your preexisting calibre database is locate." }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "8083", internal_port: "8083", port_desc: "WebUI" }
+
+# optional container parameters
+opt_param_usage_include_env: false
+opt_param_usage_include_vols: false
+opt_param_usage_include_ports: false
+opt_param_device_map: false
+opt_cap_add_param: false
+optional_block_1: false
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Webui can be found at `http://your-ip:8083`
+
+  On the initial setup screen, enter `/books` as your calibre library location.
+
+  **Default admin login:**
+  *Username:* admin
+  *Password:* admin123
+
+  Unrar is included by default and needs to be set in the Calibre-Web admin page (Basic Configuration:External Binaries) with a path of `/usr/bin/unrar`
+
+  **x86-64 only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+  This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
+  To use this option add the optional environmental variable as detailed above to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert`
+
+  This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
+
+  To reverse proxy with our Letsencrypt docker container we include a preconfigured reverse proxy config, for other instances of Nginx use the following location block:
+  ```
+          location /calibre-web {
+                  proxy_pass              http://<your-ip>:8083;
+                  proxy_set_header        Host            $http_host;
+                  proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
+                  proxy_set_header        X-Scheme        $scheme;
+                  proxy_set_header        X-Script-Name   /calibre-web;
+          }
+  ```
+
+# changelog
+changelogs:
+  - { date: "25.01.21:", desc: "Add nightly tag"}
+  - { date: "19.01.21:", desc: "Add python3-pkg-resources"}
+  - { date: "13.01.21:", desc: "Rebase to Ubuntu Focal, see [here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal) for troubleshooting armhf." }
+  - { date: "12.10.20:", desc: "Add libxi6"}
+  - { date: "12.07.20:", desc: "Add kepubify for arm64v8" }
+  - { date: "05.06.20:", desc: "Add kepubify for x86-64 and arm32v7" }
+  - { date: "06.05.20:", desc: "Add libxslt1.1 and update ImageMagick policy" }
+  - { date: "19.01.20:", desc: "Adding LDAP libs." }
+  - { date: "13.10.19:", desc: "Migrate to Python3." }
+  - { date: "01.08.19:", desc: "Add libxcomposite1." }
+  - { date: "13.06.19:", desc: "Add docker mod to enable optional ebook conversion on x86-64.  Add unrar." }
+  - { date: "02.06.19:", desc: "Rebase to Ubuntu Bionic & add Gdrive support." }
+  - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
+  - { date: "23.02.19:", desc: "Rebase to alpine 3.9, use repo version of imagemagick." }
+  - { date: "11.02.19:", desc: "Add pipeline logic and multi arch." }
+  - { date: "03.01.19:", desc: "Remove guest user from default app.db." }
+  - { date: "16.08.18:", desc: "Rebase to alpine 3.8." }
+  - { date: "03.07.18:", desc: "New build pushed, all versions below `67` have [vulnerability](https://github.com/janeczku/calibre-web/issues/534)." }
+  - { date: "05.01.18:", desc: "Deprecate cpu_core routine lack of scaling." }
+  - { date: "06.12.17:", desc: "Rebase to alpine 3.7." }
+  - { date: "27.11.17:", desc: "Use cpu core counting routine to speed up build time." }
+  - { date: "24.07.17:", desc: "Curl version for imagemagick." }
+  - { date: "17.07.17:", desc: "Initial release." }

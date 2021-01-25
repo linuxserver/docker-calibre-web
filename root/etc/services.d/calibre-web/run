@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+cd /app/calibre-web || exit
+
+exec \
+	s6-setuidgid abc python3 /app/calibre-web/cps.py
