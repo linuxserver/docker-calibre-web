@@ -35,7 +35,7 @@ Find us at:
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge)](https://microbadger.com/images/linuxserver/calibre-web "Get your own version badge on microbadger.com")
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/linuxserver/calibre-web)
 [![Docker Stars](https://img.shields.io/docker/stars/linuxserver/calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=stars&logo=docker)](https://hub.docker.com/r/linuxserver/calibre-web)
-[![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-calibre-web%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-calibre-web/job/master/)
+[![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-calibre-web%2Fjob%2Fnightly%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-calibre-web/job/nightly/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fcalibre-web%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/calibre-web/latest/index.html)
 
 [Calibre-web](https://github.com/janeczku/calibre-web) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.   It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.
@@ -59,6 +59,14 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Releases of Calibre-Web |
+| nightly | Commits to the master branch of Calibre-Web |
 
 ## Usage
 
@@ -81,8 +89,8 @@ services:
       - TZ=Europe/London
       - DOCKER_MODS=linuxserver/calibre-web:calibre
     volumes:
-      - <path to data>:/config
-      - <path to calibre library>:/books
+      - /path/to/data:/config
+      - /path/to/calibre/library:/books
     ports:
       - 8083:8083
     restart: unless-stopped
@@ -98,8 +106,8 @@ docker run -d \
   -e TZ=Europe/London \
   -e DOCKER_MODS=linuxserver/calibre-web:calibre \
   -p 8083:8083 \
-  -v <path to data>:/config \
-  -v <path to calibre library>:/books \
+  -v /path/to/data:/config \
+  -v /path/to/calibre/library:/books \
   --restart unless-stopped \
   ghcr.io/linuxserver/calibre-web
 ```
@@ -165,7 +173,7 @@ Unrar is included by default and needs to be set in the Calibre-Web admin page (
 
 **x86-64 only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
-To use this option add the optional environmental variable as detailed above to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert`  
+To use this option add the optional environmental variable as detailed above to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert`
 
 This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
 
@@ -252,6 +260,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.01.21:** - Add nightly tag
 * **19.01.21:** - Add python3-pkg-resources
 * **13.01.21:** - Rebase to Ubuntu Focal, see [here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal) for troubleshooting armhf.
 * **12.10.20:** - Add libxi6
