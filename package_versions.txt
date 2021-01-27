@@ -63,7 +63,7 @@ libblkid12.34-0.1ubuntu9.1
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
 libbz2-1.01.0.8-2
-libc62.31-0ubuntu9.1
+libc62.31-0ubuntu9.2
 libcairo21.16.0-4ubuntu1
 libcap-ng00.7.9-2.1build1
 libc-bin2.31-0ubuntu9.1
