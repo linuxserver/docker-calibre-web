@@ -206,7 +206,7 @@ libxml22.9.10+dfsg-5
 libxrender11:0.9.10-1
 libxslt1.11.1.34-4
 libzstd11.4.4+dfsg-3
-locales2.31-0ubuntu9.1
+locales2.31-0ubuntu9.2
 login1:4.8.1-1ubuntu5.20.04
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
@@ -234,7 +234,7 @@ sensible-utils0.0.12+nmu1
 shared-mime-info1.15-1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.1
-tzdata2020f-0ubuntu0.20.04.1
+tzdata2021a-0ubuntu0.20.04
 ubuntu-keyring2020.02.11.2
 ucf3.0038+nmu1
 unrar1:5.6.6-2build1
