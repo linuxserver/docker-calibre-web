@@ -22,6 +22,7 @@ RUN \
 	libxml2-dev \
 	libxslt1-dev \
 	python3-pip \
+	rustc \
 	zlib1g-dev && \
  echo "**** install runtime packages ****" && \
  apt-get install -y \
@@ -74,6 +75,7 @@ RUN \
 	libxml2-dev \
 	libxslt1-dev \
 	python3-pip \
+	rustc \
 	zlib1g-dev && \
  apt-get -y autoremove && \
  rm -rf \
