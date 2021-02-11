@@ -260,6 +260,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.02.21:** - Add libxrandr2
 * **25.01.21:** - Add nightly tag
 * **19.01.21:** - Add python3-pkg-resources
 * **13.01.21:** - Rebase to Ubuntu Focal, see [here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal) for troubleshooting armhf.
