@@ -71,6 +71,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "10.02.21:", desc: "Add libxrandr2"}
   - { date: "19.01.21:", desc: "Add python3-pkg-resources"}
   - { date: "13.01.21:", desc: "Rebase to Ubuntu Focal, see [here](https://docs.linuxserver.io/faq#my-host-is-incompatible-with-images-based-on-ubuntu-focal) for troubleshooting armhf." }
   - { date: "12.10.20:", desc: "Add libxi6"}

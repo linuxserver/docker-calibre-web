@@ -30,6 +30,7 @@ RUN \
 	libsasl2-2 \
 	libxcomposite1 \
 	libxi6 \
+	libxrandr2 \
 	libxslt1.1 \
 	python3-minimal \
 	python3-pkg-resources \
