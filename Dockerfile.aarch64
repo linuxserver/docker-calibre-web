@@ -49,9 +49,10 @@ RUN \
  /tmp/calibre-web.tar.gz -C \
 	/app/calibre-web --strip-components=1 && \
  cd /app/calibre-web && \
- pip3 install --no-cache-dir -U -r \
-	requirements.txt && \
- pip3 install --no-cache-dir -U -r \
+ pip3 install --no-cache-dir -U \
+	pip && \
+ pip install --no-cache-dir -U -r \
+	requirements.txt -r \
 	optional-requirements.txt && \
  echo "***install kepubify" && \
  if [ -z ${KEPUBIFY_RELEASE+x} ]; then \
@@ -78,7 +79,8 @@ RUN \
  rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \
-	/var/tmp/*
+	/var/tmp/* \
+	/root/.cache
 
 # add local files
 COPY root/ /
