@@ -159,8 +159,8 @@ libpixman-1-00.38.4-0ubuntu1
 libpng16-161.6.37-2
 libprocps82:3.3.16-1ubuntu2
 libpsl50.21.0-1ubuntu1
-libpython3.8-minimal3.8.5-1~20.04
-libpython3.8-stdlib3.8.5-1~20.04
+libpython3.8-minimal3.8.5-1~20.04.2
+libpython3.8-stdlib3.8.5-1~20.04.2
 libpython3-stdlib3.8.2-0ubuntu2
 libreadline88.0-4
 libroken18-heimdal7.7.0+dfsg-1ubuntu1
@@ -183,7 +183,7 @@ libsystemd0245.4-4ubuntu3.4
 libtasn1-64.16.0-2
 libthai00.1.28-3
 libthai-data0.1.28-3
-libtiff54.1.0+git191117-2build1
+libtiff54.1.0+git191117-2ubuntu0.20.04.1
 libtinfo66.2-0ubuntu2
 libudev1245.4-4ubuntu3.4
 libunistring20.9.10-2
@@ -225,8 +225,8 @@ poppler-data0.4.9-2
 procps2:3.3.16-1ubuntu2
 publicsuffix20200303.0012-1
 python33.8.2-0ubuntu2
-python3.83.8.5-1~20.04
-python3.8-minimal3.8.5-1~20.04
+python3.83.8.5-1~20.04.2
+python3.8-minimal3.8.5-1~20.04.2
 python3-minimal3.8.2-0ubuntu2
 python3-pkg-resources45.2.0-1
 readline-common8.0-4
