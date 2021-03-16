@@ -87,8 +87,8 @@ libfreetype62.10.1-2ubuntu0.1
 libfribidi01.0.8-2
 libgcc-s110.2.0-5ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1
-libglib2.0-02.64.6-1~ubuntu20.04.2
-libglib2.0-data2.64.6-1~ubuntu20.04.2
+libglib2.0-02.64.6-1~ubuntu20.04.3
+libglib2.0-data2.64.6-1~ubuntu20.04.3
 libgmp102:6.2.0+dfsg-4
 libgnutls303.6.13-2ubuntu1.3
 libgomp110.2.0-5ubuntu1~20.04
