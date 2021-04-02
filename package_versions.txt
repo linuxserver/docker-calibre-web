@@ -141,7 +141,7 @@ libnghttp2-141.40.0-1build1
 libnpth01.6-1
 libnspr42:4.25-1
 libnss32:3.49.1-1ubuntu1.5
-libopenexr242.3.0-6ubuntu0.3
+libopenexr242.3.0-6ubuntu0.5
 libopenjp2-72.3.1-1ubuntu4.20.04.1
 libp11-kit00.23.20-1ubuntu0.1
 libpam0g1.3.1-5ubuntu4.1
