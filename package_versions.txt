@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
 ca-certificates20210119~20.04.1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.4
+curl7.68.0-1ubuntu2.5
 dash0.5.10.2-6
 dbus1.12.16-2ubuntu2.1
 debconf1.5.73
@@ -70,7 +70,7 @@ libc-bin2.31-0ubuntu9.2
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcups22.3.1-9ubuntu1.1
-libcurl47.68.0-1ubuntu2.4
+libcurl47.68.0-1ubuntu2.5
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.1
@@ -236,7 +236,7 @@ shared-mime-info1.15-1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.1
 tzdata2021a-0ubuntu0.20.04
-ubuntu-keyring2020.02.11.2
+ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
 unrar1:5.6.6-2build1
 util-linux2.34-0.1ubuntu9.1
