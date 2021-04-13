@@ -1,6 +1,6 @@
 adduser3.118ubuntu2
-apt2.0.4
-apt-utils2.0.4
+apt2.0.5
+apt-utils2.0.5
 base-files11ubuntu5.3
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
@@ -50,7 +50,7 @@ init-system-helpers1.57
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapparmor12.13.3-7ubuntu5.1
-libapt-pkg6.02.0.4
+libapt-pkg6.02.0.5
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
@@ -179,13 +179,13 @@ libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2.3
 libstdc++610.2.0-5ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.5
+libsystemd0245.4-4ubuntu3.6
 libtasn1-64.16.0-2
 libthai00.1.28-3
 libthai-data0.1.28-3
 libtiff54.1.0+git191117-2ubuntu0.20.04.1
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.5
+libudev1245.4-4ubuntu3.6
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libwebp60.6.1-2
