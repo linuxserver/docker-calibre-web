@@ -63,7 +63,7 @@ libblkid12.34-0.1ubuntu9.1
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
 libbz2-1.01.0.8-2
-libc62.31-0ubuntu9.3
+libc62.31-0ubuntu9.2
 libcairo21.16.0-4ubuntu1
 libcap-ng00.7.9-2.1build1
 libc-bin2.31-0ubuntu9.2
@@ -207,7 +207,7 @@ libxrandr22:1.5.2-0ubuntu1
 libxrender11:0.9.10-1
 libxslt1.11.1.34-4
 libzstd11.4.4+dfsg-3ubuntu0.1
-locales2.31-0ubuntu9.3
+locales2.31-0ubuntu9.2
 login1:4.8.1-1ubuntu5.20.04
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
