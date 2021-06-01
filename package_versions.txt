@@ -192,8 +192,8 @@ libwebp60.6.1-2
 libwebpmux30.6.1-2
 libwind0-heimdal7.7.0+dfsg-1ubuntu1
 libwmf0.2-70.2.8.4-17ubuntu1
-libx11-62:1.6.9-2ubuntu1.1
-libx11-data2:1.6.9-2ubuntu1.1
+libx11-62:1.6.9-2ubuntu1.2
+libx11-data2:1.6.9-2ubuntu1.2
 libxau61:1.0.9-0ubuntu1
 libxcb11.14-2
 libxcb-render01.14-2
