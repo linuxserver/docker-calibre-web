@@ -124,7 +124,7 @@ libldap-2.4-22.4.49+dfsg-2ubuntu1.8
 libldap-common2.4.49+dfsg-2ubuntu1.8
 liblqr-1-00.4.2-2.1
 libltdl72.4.6-14
-liblz4-11.9.2-2
+liblz4-11.9.2-2ubuntu0.20.04.1
 liblzma55.2.4-1ubuntu1
 libmagic11:5.38-4
 libmagickcore-6.q16-68:6.9.10.23+dfsg-2.1ubuntu11.2
@@ -144,10 +144,10 @@ libnss32:3.49.1-1ubuntu1.5
 libopenexr242.3.0-6ubuntu0.5
 libopenjp2-72.3.1-1ubuntu4.20.04.1
 libp11-kit00.23.20-1ubuntu0.1
-libpam0g1.3.1-5ubuntu4.1
-libpam-modules1.3.1-5ubuntu4.1
-libpam-modules-bin1.3.1-5ubuntu4.1
-libpam-runtime1.3.1-5ubuntu4.1
+libpam0g1.3.1-5ubuntu4.2
+libpam-modules1.3.1-5ubuntu4.2
+libpam-modules-bin1.3.1-5ubuntu4.2
+libpam-runtime1.3.1-5ubuntu4.2
 libpango-1.0-01.44.7-2ubuntu4
 libpangocairo-1.0-01.44.7-2ubuntu4
 libpangoft2-1.0-01.44.7-2ubuntu4
