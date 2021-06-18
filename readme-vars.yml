@@ -77,6 +77,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "18.06.21:", desc: "Add package libllvm11"}
   - { date: "17.05.21:", desc: "Add linuxserver wheel index."}
   - { date: "10.02.21:", desc: "Add libxrandr2"}
   - { date: "25.01.21:", desc: "Add nightly tag"}

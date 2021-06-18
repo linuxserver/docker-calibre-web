@@ -18,6 +18,7 @@ RUN \
   echo "**** install runtime packages ****" && \
   apt-get install -y \
     imagemagick \
+    libllvm11 \
     libnss3 \
     libxcomposite1 \
     libxi6 \

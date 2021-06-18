@@ -27,6 +27,7 @@ RUN \
   echo "**** install runtime packages ****" && \
   apt-get install -y \
     imagemagick \
+    libllvm11 \
     libldap-2.4-2 \
     libnss3 \
     libsasl2-2 \
