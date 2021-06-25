@@ -28,7 +28,6 @@ param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
-  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Where calibre-web stores the internal database and config." }
@@ -38,7 +37,10 @@ param_ports:
   - { external_port: "8083", internal_port: "8083", port_desc: "WebUI" }
 
 # optional container parameters
-opt_param_usage_include_env: false
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
+  - { env_var: "OAUTHLIB_RELAX_TOKEN_SCOPE", env_value: "1", desc: "Optionally set this to allow Google OAUTH to work" }
 opt_param_usage_include_vols: false
 opt_param_usage_include_ports: false
 opt_param_device_map: false
@@ -77,6 +79,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "24.06.21:", desc: "Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support."}
   - { date: "18.06.21:", desc: "Add package libllvm11"}
   - { date: "17.05.21:", desc: "Add linuxserver wheel index."}
   - { date: "10.02.21:", desc: "Add libxrandr2"}
