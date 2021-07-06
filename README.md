@@ -33,7 +33,6 @@ Find us at:
 [![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-calibre-web/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver/docker-calibre-web/packages)
 [![GitLab Container Registry](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitLab%20Registry&logo=gitlab)](https://gitlab.com/linuxserver.io/docker-calibre-web/container_registry)
-[![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge)](https://microbadger.com/images/linuxserver/calibre-web "Get your own version badge on microbadger.com")
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/linuxserver/calibre-web)
 [![Docker Stars](https://img.shields.io/docker/stars/linuxserver/calibre-web.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=stars&logo=docker)](https://hub.docker.com/r/linuxserver/calibre-web)
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-calibre-web%2Fjob%2Fnightly%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-calibre-web/job/nightly/)
@@ -101,9 +100,7 @@ To reverse proxy with our Letsencrypt docker container we include a preconfigure
 
 Here are some example snippets to help you get started creating a container.
 
-### docker-compose ([recommended](https://docs.linuxserver.io/general/docker-compose))
-
-Compatible with docker-compose v2 schemas.
+### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
 ```yaml
 ---
@@ -125,7 +122,7 @@ services:
     restart: unless-stopped
 ```
 
-### docker cli
+### docker cli ([click here for more info](https://docs.docker.com/engine/reference/commandline/cli/))
 
 ```bash
 docker run -d \
