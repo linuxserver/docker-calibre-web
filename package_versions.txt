@@ -56,9 +56,9 @@ libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
 libaudit-common1:2.8.5-2ubuntu6
-libavahi-client30.7-4ubuntu7
-libavahi-common30.7-4ubuntu7
-libavahi-common-data0.7-4ubuntu7
+libavahi-client30.7-4ubuntu7.1
+libavahi-common30.7-4ubuntu7.1
+libavahi-common-data0.7-4ubuntu7.1
 libblkid12.34-0.1ubuntu9.1
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
