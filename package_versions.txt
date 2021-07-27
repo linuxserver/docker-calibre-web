@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
 ca-certificates20210119~20.04.1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.5
+curl7.68.0-1ubuntu2.6
 dash0.5.10.2-6
 dbus1.12.16-2ubuntu2.1
 debconf1.5.73
@@ -70,7 +70,7 @@ libc-bin2.31-0ubuntu9.2
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcups22.3.1-9ubuntu1.1
-libcurl47.68.0-1ubuntu2.5
+libcurl47.68.0-1ubuntu2.6
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.1
@@ -87,8 +87,8 @@ libfreetype62.10.1-2ubuntu0.1
 libfribidi01.0.8-2
 libgcc-s110.3.0-1ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1
-libglib2.0-02.64.6-1~ubuntu20.04.3
-libglib2.0-data2.64.6-1~ubuntu20.04.3
+libglib2.0-02.64.6-1~ubuntu20.04.4
+libglib2.0-data2.64.6-1~ubuntu20.04.4
 libgmp102:6.2.0+dfsg-4
 libgnutls303.6.13-2ubuntu1.3
 libgomp110.3.0-1ubuntu1~20.04
@@ -179,13 +179,13 @@ libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2.4
 libstdc++610.3.0-1ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.7
+libsystemd0245.4-4ubuntu3.10
 libtasn1-64.16.0-2
 libthai00.1.28-3
 libthai-data0.1.28-3
 libtiff54.1.0+git191117-2ubuntu0.20.04.1
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.7
+libudev1245.4-4ubuntu3.10
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libwebp60.6.1-2ubuntu0.20.04.1
