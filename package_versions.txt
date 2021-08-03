@@ -90,7 +90,7 @@ libgcrypt201.8.5-5ubuntu1
 libglib2.0-02.64.6-1~ubuntu20.04.4
 libglib2.0-data2.64.6-1~ubuntu20.04.4
 libgmp102:6.2.0+dfsg-4
-libgnutls303.6.13-2ubuntu1.3
+libgnutls303.6.13-2ubuntu1.6
 libgomp110.3.0-1ubuntu1~20.04
 libgpg-error01.37-1
 libgraphite2-31.3.13-11build1
@@ -179,13 +179,13 @@ libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2.4
 libstdc++610.3.0-1ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.10
+libsystemd0245.4-4ubuntu3.11
 libtasn1-64.16.0-2
 libthai00.1.28-3
 libthai-data0.1.28-3
 libtiff54.1.0+git191117-2ubuntu0.20.04.1
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.10
+libudev1245.4-4ubuntu3.11
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libwebp60.6.1-2ubuntu0.20.04.1
@@ -208,7 +208,7 @@ libxrender11:0.9.10-1
 libxslt1.11.1.34-4
 libzstd11.4.4+dfsg-3ubuntu0.1
 locales2.31-0ubuntu9.2
-login1:4.8.1-1ubuntu5.20.04
+login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
@@ -218,7 +218,7 @@ ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 netpbm2:10.0-15.3build1
 openssl1.1.1f-1ubuntu2.4
-passwd1:4.8.1-1ubuntu5.20.04
+passwd1:4.8.1-1ubuntu5.20.04.1
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
 poppler-data0.4.9-2
