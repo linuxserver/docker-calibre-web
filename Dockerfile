@@ -11,6 +11,7 @@ RUN \
  echo "**** Install packages ****" && \
  apt-get update && \
  apt-get install -y \
+  libxdamage1 \
 	xz-utils && \
  echo "**** Fetch calibre bin ****" && \
  if [ -z ${CALIBRE_RELEASE+x} ]; then \
