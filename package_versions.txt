@@ -177,7 +177,7 @@ libsmartcols12.34-0.1ubuntu9.1
 libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
-libssl1.11.1.1f-1ubuntu2.4
+libssl1.11.1.1f-1ubuntu2.5
 libstdc++610.3.0-1ubuntu1~20.04
 libsystemd0245.4-4ubuntu3.11
 libtasn1-64.16.0-2
@@ -217,7 +217,7 @@ mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 netpbm2:10.0-15.3build1
-openssl1.1.1f-1ubuntu2.4
+openssl1.1.1f-1ubuntu2.5
 passwd1:4.8.1-1ubuntu5.20.04.1
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
