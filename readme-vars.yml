@@ -79,6 +79,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "04.11.21:", desc: "Update pip arguments to ignore distro installed packages."}
   - { date: "24.06.21:", desc: "Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support."}
   - { date: "17.05.21:", desc: "Add linuxserver wheel index."}
   - { date: "10.02.21:", desc: "Add libxrandr2"}
