@@ -44,7 +44,7 @@ RUN \
   cd /app/calibre-web && \
   pip3 install --no-cache-dir -U \
     pip && \
-  pip install --no-cache-dir -U --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
+  pip install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
     requirements.txt -r \
     optional-requirements.txt && \
   echo "***install kepubify" && \
