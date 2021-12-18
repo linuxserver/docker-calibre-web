@@ -128,12 +128,11 @@ pipeline {
             script: '''echo ${EXT_RELEASE} | sed 's/[~,%@+;:/]//g' ''',
             returnStdout: true).trim()
 
-          env.SEMVER = (new Date()).format('YYYY.MM.dd')
-          def semver = env.EXT_RELEASE_CLEAN =~ /(\d+)\.(\d+)\.(\d+)$/
+          def semver = env.EXT_RELEASE_CLEAN =~ /(\d+)\.(\d+)\.(\d+)/
           if (semver.find()) {
             env.SEMVER = "${semver[0][1]}.${semver[0][2]}.${semver[0][3]}"
           } else {
-            semver = env.EXT_RELEASE_CLEAN =~ /(\d+)\.(\d+)(?:\.(\d+))?(.*)$/
+            semver = env.EXT_RELEASE_CLEAN =~ /(\d+)\.(\d+)(?:\.(\d+))?(.*)/
             if (semver.find()) {
               if (semver[0][3]) {
                 env.SEMVER = "${semver[0][1]}.${semver[0][2]}.${semver[0][3]}"
@@ -143,7 +142,15 @@ pipeline {
             }
           }
 
-          println("SEMVER: ${env.SEMVER}")
+          if (env.SEMVER != null) {
+            if (BRANCH_NAME != "master" && BRANCH_NAME != "main") {
+              env.SEMVER = "${env.SEMVER}-${BRANCH_NAME}"
+            }
+            println("SEMVER: ${env.SEMVER}")
+          } else {
+            println("No SEMVER detected")
+          }
+
         }
       }
     }
@@ -412,10 +419,10 @@ pipeline {
       steps{
         sh '''#! /bin/bash
               set -e
-              PACKAGE_UUID=$(curl -X GET -H "Authorization: Bearer ${SCARF_TOKEN}" https://scarf.sh/api/v1/packages | jq -r '.[] | select(.name=="linuxserver/calibre-web") | .uuid')
+              PACKAGE_UUID=$(curl -X GET -H "Authorization: Bearer ${SCARF_TOKEN}" https://scarf.sh/api/v1/organizations/linuxserver-ci/packages | jq -r '.[] | select(.name=="linuxserver/calibre-web") | .uuid')
               if [ -z "${PACKAGE_UUID}" ]; then
                 echo "Adding package to Scarf.sh"
-                PACKAGE_UUID=$(curl -sX POST https://scarf.sh/api/v1/packages \
+                curl -sX POST https://scarf.sh/api/v1/organizations/linuxserver-ci/packages \
                   -H "Authorization: Bearer ${SCARF_TOKEN}" \
                   -H "Content-Type: application/json" \
                   -d '{"name":"linuxserver/calibre-web",\
@@ -423,22 +430,10 @@ pipeline {
                        "libraryType":"docker",\
                        "website":"https://github.com/linuxserver/docker-calibre-web",\
                        "backendUrl":"https://ghcr.io/linuxserver/calibre-web",\
-                       "publicUrl":"https://lscr.io/linuxserver/calibre-web"}' \
-                  | jq -r .uuid)
+                       "publicUrl":"https://lscr.io/linuxserver/calibre-web"}' || :
               else
                 echo "Package already exists on Scarf.sh"
               fi
-              echo "Setting permissions on Scarf.sh for package ${PACKAGE_UUID}"
-              curl -X POST https://scarf.sh/api/v1/packages/${PACKAGE_UUID}/permissions \
-                -H "Authorization: Bearer ${SCARF_TOKEN}" \
-                -H "Content-Type: application/json" \
-                -d '[{"userQuery":"Spad","permissionLevel":"admin"},\
-                     {"userQuery":"roxedus","permissionLevel":"admin"},\
-                     {"userQuery":"nemchik","permissionLevel":"admin"},\
-                     {"userQuery":"driz","permissionLevel":"admin"},\
-                     {"userQuery":"aptalca","permissionLevel":"admin"},\
-                     {"userQuery":"saarg","permissionLevel":"admin"},\
-                     {"userQuery":"Stark","permissionLevel":"admin"}]'
            '''
       } 
     }
@@ -762,11 +757,15 @@ pipeline {
                     docker tag ${IMAGE}:${META_TAG} ${PUSHIMAGE}:${META_TAG}
                     docker tag ${PUSHIMAGE}:${META_TAG} ${PUSHIMAGE}:nightly
                     docker tag ${PUSHIMAGE}:${META_TAG} ${PUSHIMAGE}:${EXT_RELEASE_TAG}
-                    docker tag ${PUSHIMAGE}:${META_TAG} ${PUSHIMAGE}:${SEMVER}
+                    if [ -n "${SEMVER}" ]; then
+                      docker tag ${PUSHIMAGE}:${META_TAG} ${PUSHIMAGE}:${SEMVER}
+                    fi
                     docker push ${PUSHIMAGE}:nightly
                     docker push ${PUSHIMAGE}:${META_TAG}
                     docker push ${PUSHIMAGE}:${EXT_RELEASE_TAG}
-                    docker push ${PUSHIMAGE}:${SEMVER}
+                    if [ -n "${SEMVER}" ]; then
+                     docker push ${PUSHIMAGE}:${SEMVER}
+                    fi
                   done
                '''
           }
@@ -775,8 +774,10 @@ pipeline {
                   docker rmi \
                   ${DELETEIMAGE}:${META_TAG} \
                   ${DELETEIMAGE}:${EXT_RELEASE_TAG} \
-                  ${DELETEIMAGE}:nightly \
-                  ${DELETEIMAGE}:${SEMVER} || :
+                  ${DELETEIMAGE}:nightly || :
+                  if [ -n "${SEMVER}" ]; then
+                    docker rmi ${DELETEIMAGE}:${SEMVER} || :
+                  fi
                 done
              '''
         }
@@ -826,9 +827,11 @@ pipeline {
                     docker tag ${MANIFESTIMAGE}:amd64-${META_TAG} ${MANIFESTIMAGE}:amd64-${EXT_RELEASE_TAG}
                     docker tag ${MANIFESTIMAGE}:arm32v7-${META_TAG} ${MANIFESTIMAGE}:arm32v7-${EXT_RELEASE_TAG}
                     docker tag ${MANIFESTIMAGE}:arm64v8-${META_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG}
-                    docker tag ${MANIFESTIMAGE}:amd64-${META_TAG} ${MANIFESTIMAGE}:amd64-${SEMVER}
-                    docker tag ${MANIFESTIMAGE}:arm32v7-${META_TAG} ${MANIFESTIMAGE}:arm32v7-${SEMVER}
-                    docker tag ${MANIFESTIMAGE}:arm64v8-${META_TAG} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
+                    if [ -n "${SEMVER}" ]; then
+                      docker tag ${MANIFESTIMAGE}:amd64-${META_TAG} ${MANIFESTIMAGE}:amd64-${SEMVER}
+                      docker tag ${MANIFESTIMAGE}:arm32v7-${META_TAG} ${MANIFESTIMAGE}:arm32v7-${SEMVER}
+                      docker tag ${MANIFESTIMAGE}:arm64v8-${META_TAG} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
+                    fi
                     docker push ${MANIFESTIMAGE}:amd64-${META_TAG}
                     docker push ${MANIFESTIMAGE}:arm32v7-${META_TAG}
                     docker push ${MANIFESTIMAGE}:arm64v8-${META_TAG}
@@ -838,9 +841,11 @@ pipeline {
                     docker push ${MANIFESTIMAGE}:amd64-${EXT_RELEASE_TAG}
                     docker push ${MANIFESTIMAGE}:arm32v7-${EXT_RELEASE_TAG}
                     docker push ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG}
-                    docker push ${MANIFESTIMAGE}:amd64-${SEMVER}
-                    docker push ${MANIFESTIMAGE}:arm32v7-${SEMVER}
-                    docker push ${MANIFESTIMAGE}:arm64v8-${SEMVER}
+                    if [ -n "${SEMVER}" ]; then
+                      docker push ${MANIFESTIMAGE}:amd64-${SEMVER}
+                      docker push ${MANIFESTIMAGE}:arm32v7-${SEMVER}
+                      docker push ${MANIFESTIMAGE}:arm64v8-${SEMVER}
+                    fi
                     docker manifest push --purge ${MANIFESTIMAGE}:nightly || :
                     docker manifest create ${MANIFESTIMAGE}:nightly ${MANIFESTIMAGE}:amd64-nightly ${MANIFESTIMAGE}:arm32v7-nightly ${MANIFESTIMAGE}:arm64v8-nightly
                     docker manifest annotate ${MANIFESTIMAGE}:nightly ${MANIFESTIMAGE}:arm32v7-nightly --os linux --arch arm
@@ -853,14 +858,18 @@ pipeline {
                     docker manifest create ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:amd64-${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm32v7-${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG}
                     docker manifest annotate ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm32v7-${EXT_RELEASE_TAG} --os linux --arch arm
                     docker manifest annotate ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} ${MANIFESTIMAGE}:arm64v8-${EXT_RELEASE_TAG} --os linux --arch arm64 --variant v8
-                    docker manifest push --purge ${MANIFESTIMAGE}:${SEMVER} || :
-                    docker manifest create ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:amd64-${SEMVER} ${MANIFESTIMAGE}:arm32v7-${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
-                    docker manifest annotate ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:arm32v7-${SEMVER} --os linux --arch arm
-                    docker manifest annotate ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER} --os linux --arch arm64 --variant v8
+                    if [ -n "${SEMVER}" ]; then
+                      docker manifest push --purge ${MANIFESTIMAGE}:${SEMVER} || :
+                      docker manifest create ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:amd64-${SEMVER} ${MANIFESTIMAGE}:arm32v7-${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER}
+                      docker manifest annotate ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:arm32v7-${SEMVER} --os linux --arch arm
+                      docker manifest annotate ${MANIFESTIMAGE}:${SEMVER} ${MANIFESTIMAGE}:arm64v8-${SEMVER} --os linux --arch arm64 --variant v8
+                    fi
                     docker manifest push --purge ${MANIFESTIMAGE}:nightly
                     docker manifest push --purge ${MANIFESTIMAGE}:${META_TAG} 
                     docker manifest push --purge ${MANIFESTIMAGE}:${EXT_RELEASE_TAG} 
-                    docker manifest push --purge ${MANIFESTIMAGE}:${SEMVER} 
+                    if [ -n "${SEMVER}" ]; then
+                      docker manifest push --purge ${MANIFESTIMAGE}:${SEMVER} 
+                    fi
                   done
                '''
           }
@@ -870,15 +879,18 @@ pipeline {
                   ${DELETEIMAGE}:amd64-${META_TAG} \
                   ${DELETEIMAGE}:amd64-nightly \
                   ${DELETEIMAGE}:amd64-${EXT_RELEASE_TAG} \
-                  ${DELETEIMAGE}:amd64-${SEMVER} \
                   ${DELETEIMAGE}:arm32v7-${META_TAG} \
                   ${DELETEIMAGE}:arm32v7-nightly \
                   ${DELETEIMAGE}:arm32v7-${EXT_RELEASE_TAG} \
-                  ${DELETEIMAGE}:arm32v7-${SEMVER} \
                   ${DELETEIMAGE}:arm64v8-${META_TAG} \
                   ${DELETEIMAGE}:arm64v8-nightly \
-                  ${DELETEIMAGE}:arm64v8-${EXT_RELEASE_TAG} \
-                  ${DELETEIMAGE}:arm64v8-${SEMVER} || :
+                  ${DELETEIMAGE}:arm64v8-${EXT_RELEASE_TAG} || :
+                  if [ -n "${SEMVER}" ]; then
+                    docker rmi \
+                    ${DELETEIMAGE}:amd64-${SEMVER} \
+                    ${DELETEIMAGE}:arm32v7-${SEMVER} \
+                    ${DELETEIMAGE}:arm64v8-${SEMVER} || :
+                  fi
                 done
                 docker rmi \
                 ghcr.io/linuxserver/lsiodev-buildcache:arm32v7-${COMMIT_SHA}-${BUILD_NUMBER} \
