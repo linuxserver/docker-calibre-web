@@ -179,13 +179,13 @@ libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.2
 libssl1.11.1.1f-1ubuntu2.10
 libstdc++610.3.0-1ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.13
+libsystemd0245.4-4ubuntu3.14
 libtasn1-64.16.0-2
 libthai00.1.28-3
 libthai-data0.1.28-3
 libtiff54.1.0+git191117-2ubuntu0.20.04.2
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.13
+libudev1245.4-4ubuntu3.14
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libwebp60.6.1-2ubuntu0.20.04.1
