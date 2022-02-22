@@ -77,7 +77,7 @@ libdbus-1-31.12.16-2ubuntu2.1
 libdebconfclient00.251ubuntu1
 libdjvulibre213.5.27.1-14ubuntu0.1
 libdjvulibre-text3.5.27.1-14ubuntu0.1
-libexpat12.2.9-1build1
+libexpat12.2.9-1ubuntu0.2
 libext2fs21.45.5-2ubuntu1
 libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
