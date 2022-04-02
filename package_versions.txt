@@ -242,4 +242,4 @@ unrar1:5.6.6-2build1
 util-linux2.34-0.1ubuntu9.3
 xdg-user-dirs0.17-2ubuntu1
 xz-utils5.2.4-1ubuntu1
-zlib1g1:1.2.11.dfsg-2ubuntu1.2
+zlib1g1:1.2.11.dfsg-2ubuntu1.3
