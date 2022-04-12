@@ -84,7 +84,7 @@ libffi73.3-4
 libfftw3-double33.3.8-2ubuntu1
 libfontconfig12.13.1-2ubuntu3
 libfreetype62.10.1-2ubuntu0.1
-libfribidi01.0.8-2
+libfribidi01.0.8-2ubuntu0.1
 libgcc-s110.3.0-1ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1.1
 libglib2.0-02.64.6-1~ubuntu20.04.4
