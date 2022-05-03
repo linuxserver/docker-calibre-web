@@ -8,7 +8,7 @@ bsdutils1:2.34-0.1ubuntu9.3
 bzip21.0.8-2
 ca-certificates20210119~20.04.2
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.7
+curl7.68.0-1ubuntu2.10
 dash0.5.10.2-6
 dbus1.12.16-2ubuntu2.1
 debconf1.5.73
@@ -70,7 +70,7 @@ libc-bin2.31-0ubuntu9.7
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcups22.3.1-9ubuntu1.1
-libcurl47.68.0-1ubuntu2.7
+libcurl47.68.0-1ubuntu2.10
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdbus-1-31.12.16-2ubuntu2.1
