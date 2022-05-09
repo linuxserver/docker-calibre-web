@@ -10,7 +10,7 @@ ca-certificates20210119~20.04.2
 coreutils8.30-3ubuntu2
 curl7.68.0-1ubuntu2.10
 dash0.5.10.2-6
-dbus1.12.16-2ubuntu2.1
+dbus1.12.16-2ubuntu2.2
 debconf1.5.73
 debianutils4.9.1
 diffutils1:3.7-3
@@ -73,7 +73,7 @@ libcups22.3.1-9ubuntu1.1
 libcurl47.68.0-1ubuntu2.10
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
-libdbus-1-31.12.16-2ubuntu2.1
+libdbus-1-31.12.16-2ubuntu2.2
 libdebconfclient00.251ubuntu1
 libdjvulibre213.5.27.1-14ubuntu0.1
 libdjvulibre-text3.5.27.1-14ubuntu0.1
