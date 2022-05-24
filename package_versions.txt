@@ -1,6 +1,6 @@
 adduser3.118ubuntu2
-apt2.0.6
-apt-utils2.0.6
+apt2.0.8
+apt-utils2.0.8
 base-files11ubuntu5.5
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
@@ -50,7 +50,7 @@ init-system-helpers1.57
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapparmor12.13.3-7ubuntu5.1
-libapt-pkg6.02.0.6
+libapt-pkg6.02.0.8
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
@@ -121,7 +121,7 @@ libkrb5support01.17-6ubuntu4.1
 libksba81.3.5-2
 liblcms2-22.9-4
 libldap-2.4-22.4.49+dfsg-2ubuntu1.9
-libldap-common2.4.49+dfsg-2ubuntu1.8
+libldap-common2.4.49+dfsg-2ubuntu1.9
 liblqr-1-00.4.2-2.1
 libltdl72.4.6-14
 liblz4-11.9.2-2ubuntu0.20.04.1
