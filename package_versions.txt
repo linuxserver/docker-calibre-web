@@ -69,7 +69,7 @@ libcap-ng00.7.9-2.1build1
 libc-bin2.31-0ubuntu9.7
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
-libcups22.3.1-9ubuntu1.1
+libcups22.3.1-9ubuntu1.2
 libcurl47.68.0-1ubuntu2.11
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
