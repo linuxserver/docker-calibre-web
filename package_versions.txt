@@ -69,7 +69,7 @@ libcap-ng00.7.9-2.1build1
 libc-bin2.31-0ubuntu9.7
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
-libcups22.3.1-9ubuntu1.1
+libcups22.3.1-9ubuntu1.2
 libcurl47.68.0-1ubuntu2.11
 libdatrie10.2.12-3
 libdb5.35.3.28+dfsg1-0.6ubuntu2
@@ -114,7 +114,7 @@ libjbig2dec00.18-1ubuntu1
 libjpeg88c-2ubuntu8
 libjpeg-turbo82.0.3-0ubuntu1.20.04.1
 libk5crypto31.17-6ubuntu4.1
-libkeyutils11.6-6ubuntu1
+libkeyutils11.6-6ubuntu1.1
 libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
