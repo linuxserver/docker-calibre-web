@@ -29,3 +29,16 @@ fi
 if [ ! -e /usr/bin/calibre-server ]; then
   /app/calibre/calibre_postinstall
 fi
+
+cat <<-EOF
+    ********************************************************
+    ********************************************************
+    *                                                      *
+    *                         !!!!                         *
+    *   This mod is no longer updated, please switch to    *
+    *      ghcr.io/linuxserver/mods:universal-calibre      *
+    *                                                      *
+    *                                                      *
+    ********************************************************
+    ********************************************************
+EOF
