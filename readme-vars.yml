@@ -39,7 +39,7 @@ param_ports:
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
+  - { env_var: "DOCKER_MODS", env_value: "linuxserver/mods:universal-calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
   - { env_var: "OAUTHLIB_RELAX_TOKEN_SCOPE", env_value: "1", desc: "Optionally set this to allow Google OAUTH to work" }
 opt_param_usage_include_vols: false
 opt_param_usage_include_ports: false
