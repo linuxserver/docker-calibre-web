@@ -28,7 +28,7 @@ param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
-  - { env_var: "DOCKER_MODS", env_value: "linuxserver/calibre-web:calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
+  - { env_var: "DOCKER_MODS", env_value: "linuxserver/mods:universal-calibre", desc: "#optional & **x86-64 only** Adds the ability to perform ebook conversion"}
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Where calibre-web stores the internal database and config." }
