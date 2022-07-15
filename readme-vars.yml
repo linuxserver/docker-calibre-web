@@ -6,5 +6,5 @@ full_custom_readme: |
   {% raw -%}
   # Calibre - Docker mod for calibre-web
 
-  This mod is no longer updated, please switch to using [ghcr.io/linuxserver/mods:universal-calibre](ghcr.io/linuxserver/mods:universal-calibre)
+  This mod is no longer updated, please switch to using [ghcr.io/linuxserver/mods:universal-calibre](https://github.com/linuxserver/docker-mods/tree/universal-calibre)
   {%- endraw %}
