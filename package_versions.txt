@@ -83,7 +83,7 @@ libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
 libfftw3-double33.3.8-2ubuntu1
 libfontconfig12.13.1-2ubuntu3
-libfreetype62.10.1-2ubuntu0.1
+libfreetype62.10.1-2ubuntu0.2
 libfribidi01.0.8-2ubuntu0.1
 libgcc-s110.3.0-1ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1.1
@@ -98,7 +98,7 @@ libgs99.50~dfsg-5ubuntu4.5
 libgs9-common9.50~dfsg-5ubuntu4.5
 libgssapi3-heimdal7.7.0+dfsg-1ubuntu1
 libgssapi-krb5-21.17-6ubuntu4.1
-libharfbuzz0b2.6.4-1ubuntu4
+libharfbuzz0b2.6.4-1ubuntu4.2
 libhcrypto4-heimdal7.7.0+dfsg-1ubuntu1
 libheimbase1-heimdal7.7.0+dfsg-1ubuntu1
 libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1
