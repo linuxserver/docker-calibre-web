@@ -183,7 +183,7 @@ libsystemd0245.4-4ubuntu3.15
 libtasn1-64.16.0-2
 libthai00.1.28-3
 libthai-data0.1.28-3
-libtiff54.1.0+git191117-2ubuntu0.20.04.3
+libtiff54.1.0+git191117-2ubuntu0.20.04.4
 libtinfo66.2-0ubuntu2
 libudev1245.4-4ubuntu3.15
 libunistring20.9.10-2
