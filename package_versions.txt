@@ -112,7 +112,7 @@ libilmbase242.3.0-6build1
 libjbig02.1-3.1build1
 libjbig2dec00.18-1ubuntu1
 libjpeg88c-2ubuntu8
-libjpeg-turbo82.0.3-0ubuntu1.20.04.1
+libjpeg-turbo82.0.3-0ubuntu1.20.04.3
 libk5crypto31.17-6ubuntu4.1
 libkeyutils11.6-6ubuntu1.1
 libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1
