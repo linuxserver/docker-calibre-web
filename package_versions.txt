@@ -51,7 +51,7 @@ krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapparmor12.13.3-7ubuntu5.1
 libapt-pkg6.02.0.9
-libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
+libasn1-8-heimdal7.7.0+dfsg-1ubuntu1.1
 libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
@@ -96,14 +96,14 @@ libgpg-error01.37-1
 libgraphite2-31.3.13-11build1
 libgs99.50~dfsg-5ubuntu4.6
 libgs9-common9.50~dfsg-5ubuntu4.6
-libgssapi3-heimdal7.7.0+dfsg-1ubuntu1
+libgssapi3-heimdal7.7.0+dfsg-1ubuntu1.1
 libgssapi-krb5-21.17-6ubuntu4.1
 libharfbuzz0b2.6.4-1ubuntu4.2
-libhcrypto4-heimdal7.7.0+dfsg-1ubuntu1
-libheimbase1-heimdal7.7.0+dfsg-1ubuntu1
-libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1
+libhcrypto4-heimdal7.7.0+dfsg-1ubuntu1.1
+libheimbase1-heimdal7.7.0+dfsg-1ubuntu1.1
+libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1.1
 libhogweed53.5.1+really3.5.1-2ubuntu0.2
-libhx509-5-heimdal7.7.0+dfsg-1ubuntu1
+libhx509-5-heimdal7.7.0+dfsg-1ubuntu1.1
 libicu6666.1-2ubuntu2.1
 libidn111.33-2.2ubuntu2
 libidn2-02.2.0-2
@@ -115,7 +115,7 @@ libjpeg88c-2ubuntu8
 libjpeg-turbo82.0.3-0ubuntu1.20.04.3
 libk5crypto31.17-6ubuntu4.1
 libkeyutils11.6-6ubuntu1.1
-libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1
+libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1.1
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
 libksba81.3.5-2
@@ -163,7 +163,7 @@ libpython3.8-minimal3.8.10-0ubuntu1~20.04.5
 libpython3.8-stdlib3.8.10-0ubuntu1~20.04.5
 libpython3-stdlib3.8.2-0ubuntu2
 libreadline88.0-4
-libroken18-heimdal7.7.0+dfsg-1ubuntu1
+libroken18-heimdal7.7.0+dfsg-1ubuntu1.1
 librtmp12.4+20151223.gitfa8646d.1-2build1
 libsasl2-22.1.27+dfsg-2ubuntu0.1
 libsasl2-modules2.1.27+dfsg-2ubuntu0.1
@@ -190,7 +190,7 @@ libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.3
 libwebp60.6.1-2ubuntu0.20.04.1
 libwebpmux30.6.1-2ubuntu0.20.04.1
-libwind0-heimdal7.7.0+dfsg-1ubuntu1
+libwind0-heimdal7.7.0+dfsg-1ubuntu1.1
 libwmf0.2-70.2.8.4-17ubuntu1
 libx11-62:1.6.9-2ubuntu1.2
 libx11-data2:1.6.9-2ubuntu1.2
@@ -242,4 +242,4 @@ unrar1:5.6.6-2build1
 util-linux2.34-0.1ubuntu9.3
 xdg-user-dirs0.17-2ubuntu1
 xz-utils5.2.4-1ubuntu1.1
-zlib1g1:1.2.11.dfsg-2ubuntu1.4
+zlib1g1:1.2.11.dfsg-2ubuntu1.5
