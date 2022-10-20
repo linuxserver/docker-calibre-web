@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
+FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
 # set version label
 ARG BUILD_DATE
@@ -10,22 +10,24 @@ LABEL maintainer="chbmb"
 RUN \
   echo "**** install build packages ****" && \
   apt-get update && \
-  apt-get install -y \
+  apt-get install -y --no-install-recommends \
+    build-essential \
     git \
     libldap2-dev \
     libsasl2-dev \
-    python3-pip && \
+    python3-dev && \
   echo "**** install runtime packages ****" && \
-  apt-get install -y \
+  apt-get install -y --no-install-recommends \
     imagemagick \
+    libldap-2.5-0 \
     libnss3 \
+    libsasl2-2 \
     libxcomposite1 \
     libxi6 \
-    libxslt1.1 \
-    libldap-2.4-2 \
-    libsasl2-2 \
     libxrandr2 \
+    libxslt1.1 \
     python3-minimal \
+    python3-pip \
     python3-pkg-resources \
     unrar && \
   echo "**** install calibre-web ****" && \
@@ -43,7 +45,7 @@ RUN \
     /app/calibre-web --strip-components=1 && \
   cd /app/calibre-web && \
   pip3 install --no-cache-dir -U \
-    pip && \
+    pip wheel && \
   pip install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
     requirements.txt -r \
     optional-requirements.txt && \
@@ -57,10 +59,11 @@ RUN \
     https://github.com/pgaskin/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-64bit && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
+    build-essential \
     git \
     libldap2-dev \
     libsasl2-dev \
-    python3-pip && \
+    python3-dev && \
   apt-get -y autoremove && \
   rm -rf \
     /tmp/* \

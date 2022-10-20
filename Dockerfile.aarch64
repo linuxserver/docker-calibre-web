@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-focal
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-jammy
 
 # set version label
 ARG BUILD_DATE
@@ -10,9 +10,8 @@ LABEL maintainer="chbmb"
 RUN \
   echo "**** install build packages ****" && \
   apt-get update && \
-  apt-get install -y \
-    g++ \
-    gcc \
+  apt-get install -y --no-install-recommends \
+    build-essential \
     git \
     libffi-dev \
     libjpeg-dev \
@@ -20,12 +19,13 @@ RUN \
     libsasl2-dev \
     libxml2-dev \
     libxslt1-dev \
-    python3-pip \
+    python3-dev \
+    rustc \
     zlib1g-dev && \
   echo "**** install runtime packages ****" && \
-  apt-get install -y \
+  apt-get install -y --no-install-recommends \
     imagemagick \
-    libldap-2.4-2 \
+    libldap-2.5-0 \
     libnss3 \
     libsasl2-2 \
     libxcomposite1 \
@@ -33,6 +33,7 @@ RUN \
     libxrandr2 \
     libxslt1.1 \
     python3-minimal \
+    python3-pip \
     python3-pkg-resources \
     unrar && \
   echo "**** install calibre-web ****" && \
@@ -50,7 +51,7 @@ RUN \
     /app/calibre-web --strip-components=1 && \
   cd /app/calibre-web && \
   pip3 install --no-cache-dir -U \
-    pip && \
+    pip wheel && \
   pip install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
     requirements.txt -r \
     optional-requirements.txt && \
@@ -64,8 +65,7 @@ RUN \
     https://github.com/pgaskin/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-arm64 && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
-    g++ \
-    gcc \
+    build-essential \
     git \
     libffi-dev \
     libjpeg-dev \
@@ -73,7 +73,7 @@ RUN \
     libsasl2-dev \
     libxml2-dev \
     libxslt1-dev \
-    python3-pip \
+    python3-dev \
     zlib1g-dev && \
   apt-get -y autoremove && \
   rm -rf \
