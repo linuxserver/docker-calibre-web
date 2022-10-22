@@ -266,6 +266,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
 * **04.11.21:** - Update pip arguments to ignore distro installed packages.
 * **24.06.21:** - Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support.
 * **17.05.21:** - Add linuxserver wheel index.
