@@ -59,7 +59,8 @@ RUN \
     /usr/bin/kepubify -L \
     https://github.com/pgaskin/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-64bit && \
   echo "**** cleanup ****" && \
-  build-essential \
+  apt-get -y purge \
+    build-essential \
     git \
     libldap2-dev \
     libsasl2-dev \
