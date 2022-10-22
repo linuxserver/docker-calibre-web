@@ -263,6 +263,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **22.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
 * **04.11.21:** - Fix pip arguments
 * **10.02.21:** - Add libxrandr2
 * **25.01.21:** - Add nightly tag
