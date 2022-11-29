@@ -61,7 +61,7 @@ libdb5.35.3.28+dfsg1-0.8ubuntu3
 libde265-01.0.8-1
 libdebconfclient00.261ubuntu1
 libdeflate01.10-2
-libexpat12.4.7-1ubuntu0.1
+libexpat12.4.7-1ubuntu0.2
 libext2fs21.46.5-2ubuntu1.1
 libffi83.4.2-4
 libfftw3-double33.3.8-2ubuntu8
@@ -79,7 +79,7 @@ libheif11.12.0-2build1
 libhogweed63.7.3-1build2
 libicu7070.1-2
 libidn2-02.3.2-2build1
-libjbig02.1-3.1build3
+libjbig02.1-3.1ubuntu0.22.04.1
 libjpeg88c-2ubuntu10
 libjpeg-turbo82.1.2-0ubuntu1
 libjq11.6-2.1ubuntu3
