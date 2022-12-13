@@ -121,8 +121,8 @@ libpcre32:8.39-13ubuntu0.22.04.1
 libpng16-161.6.37-3build5
 libprocps82:3.3.17-6ubuntu2
 libpsl50.21.0-1.2build2
-libpython3.10-minimal3.10.6-1~22.04.1
-libpython3.10-stdlib3.10.6-1~22.04.1
+libpython3.10-minimal3.10.6-1~22.04.2
+libpython3.10-stdlib3.10.6-1~22.04.2
 libpython3-stdlib3.10.6-1~22.04
 libreadline88.1.2-1
 librtmp12.4+20151223.gitfa8646d.1-2build4
@@ -184,8 +184,8 @@ perl-base5.34.0-3ubuntu1.1
 pinentry-curses1.1.1-1build2
 procps2:3.3.17-6ubuntu2
 publicsuffix20211207.1025-1
-python3.103.10.6-1~22.04.1
-python3.10-minimal3.10.6-1~22.04.1
+python3.103.10.6-1~22.04.2
+python3.10-minimal3.10.6-1~22.04.2
 python33.10.6-1~22.04
 python3-distutils3.10.6-1~22.04
 python3-lib2to33.10.6-1~22.04
@@ -199,7 +199,7 @@ sed4.8-1ubuntu2
 sensible-utils0.0.17
 sysvinit-utils3.01-1ubuntu1
 tar1.34+dfsg-1build3
-tzdata2022f-0ubuntu0.22.04.1
+tzdata2022g-0ubuntu0.22.04.1
 ubuntu-keyring2021.03.26
 ucf3.0043
 unrar1:6.1.5-1
