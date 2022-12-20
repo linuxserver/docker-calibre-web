@@ -255,7 +255,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **20.12.22:** - Fix init to prevent gdrive.db related error.
+* **20.12.22:** - Improve init script and prevent harmless error.
 * **19.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
 * **04.11.21:** - Update pip arguments to ignore distro installed packages.
 * **24.06.21:** - Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support.
