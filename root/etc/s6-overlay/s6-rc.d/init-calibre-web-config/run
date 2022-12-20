@@ -33,9 +33,9 @@ rm -rf /app/calibre-web/gdrive.db
 ln -s /config/gdrive.db /app/calibre-web/gdrive.db
 
 # check if kepubify is present and if so make executable
-[[ -f /usr/bin/kepubify ]] && \
-[[ ! -x /usr/bin/kepubify ]] && \
+if [[ -f /usr/bin/kepubify ]] && [[ ! -x /usr/bin/kepubify ]]; then
     chmod +x /usr/bin/kepubify
+fi
 
 # permissions
 chown -R abc:abc \
