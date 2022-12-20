@@ -87,17 +87,6 @@ To use this option add the optional environmental variable as shown in the docke
 
 This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
 
-To reverse proxy with our Letsencrypt docker container we include a preconfigured reverse proxy config, for other instances of Nginx use the following location block:
-```
-        location /calibre-web {
-                proxy_pass              http://<your-ip>:8083;
-                proxy_set_header        Host            $http_host;
-                proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
-                proxy_set_header        X-Scheme        $scheme;
-                proxy_set_header        X-Script-Name   /calibre-web;
-        }
-```
-
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -266,6 +255,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.12.22:** - Fix init to prevent gdrive.db related error.
 * **19.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
 * **04.11.21:** - Update pip arguments to ignore distro installed packages.
 * **24.06.21:** - Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support.
