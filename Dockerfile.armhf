@@ -26,13 +26,16 @@ RUN \
   echo "**** install runtime packages ****" && \
   apt-get install -y --no-install-recommends \
     imagemagick \
+    ghostscript \
     libldap-2.5-0 \
     libnss3 \
     libsasl2-2 \
     libxcomposite1 \
     libxi6 \
     libxrandr2 \
+    libxkbfile-dev \
     libxslt1.1 \
+    libxtst6 \
     python3-minimal \
     python3-pip \
     python3-pkg-resources \
