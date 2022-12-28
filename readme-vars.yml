@@ -67,6 +67,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.12.22:", desc: "Add ghostscript, libxtst6, libxkbfile-dev."}
   - { date: "20.12.22:", desc: "Improve init script and prevent harmless error."}
   - { date: "22.10.22:", desc: "Rebase to jammy. Upgrade to s6v3. Clean up build dependencies."}
   - { date: "04.11.21:", desc: "Fix pip arguments"}
