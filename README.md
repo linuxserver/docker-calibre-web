@@ -252,6 +252,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.12.22:** - Add ghostscript, libxtst6, libxkbfile-dev.
 * **20.12.22:** - Improve init script and prevent harmless error.
 * **22.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
 * **04.11.21:** - Fix pip arguments
