@@ -7,7 +7,7 @@ bash5.1-6ubuntu1
 bsdutils1:2.37.2-4ubuntu3
 ca-certificates20211016ubuntu0.22.04.1
 coreutils8.32-4.1ubuntu1
-curl7.81.0-1ubuntu1.6
+curl7.81.0-1ubuntu1.7
 dash0.5.11+git20210903+057cd650a4ed-3build1
 debconf1.5.79ubuntu1
 debianutils5.5-1ubuntu2
@@ -60,7 +60,7 @@ libc-bin2.35-0ubuntu3.1
 libcom-err21.46.5-2ubuntu1.1
 libcrypt11:4.4.27-1
 libcups22.4.1op1-1ubuntu4.1
-libcurl47.81.0-1ubuntu1.6
+libcurl47.81.0-1ubuntu1.7
 libdav1d50.9.2-1
 libdb5.35.3.28+dfsg1-0.8ubuntu3
 libdbus-1-31.12.20-2ubuntu4.1
@@ -98,7 +98,7 @@ libk5crypto31.19.2-2
 libkeyutils11.6.1-2ubuntu3
 libkrb5-31.19.2-2
 libkrb5support01.19.2-2
-libksba81.6.0-2ubuntu0.1
+libksba81.6.0-2ubuntu0.2
 liblcms2-22.12~rc1-2build2
 libldap-2.5-02.5.13+dfsg-0ubuntu0.22.04.1
 libldap-common2.5.13+dfsg-0ubuntu0.22.04.1
@@ -139,9 +139,9 @@ libpython3.10-stdlib3.10.6-1~22.04.2
 libpython3-stdlib3.10.6-1~22.04
 libreadline88.1.2-1
 librtmp12.4+20151223.gitfa8646d.1-2build4
-libsasl2-22.1.27+dfsg2-3ubuntu1
-libsasl2-modules2.1.27+dfsg2-3ubuntu1
-libsasl2-modules-db2.1.27+dfsg2-3ubuntu1
+libsasl2-22.1.27+dfsg2-3ubuntu1.1
+libsasl2-modules2.1.27+dfsg2-3ubuntu1.1
+libsasl2-modules-db2.1.27+dfsg2-3ubuntu1.1
 libseccomp22.5.3-2ubuntu2
 libselinux13.3-1build2
 libsemanage23.3-1build2
