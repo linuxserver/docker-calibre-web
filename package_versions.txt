@@ -214,7 +214,7 @@ python3-minimal3.10.6-1~22.04
 python3-pip22.0.2+dfsg-1
 python3-pkg-resources59.6.0-1.2ubuntu0.22.04.1
 python3-setuptools59.6.0-1.2ubuntu0.22.04.1
-python3-wheel0.37.1-2
+python3-wheel0.37.1-2ubuntu0.22.04.1
 readline-common8.1.2-1
 sed4.8-1ubuntu2
 sensible-utils0.0.17
