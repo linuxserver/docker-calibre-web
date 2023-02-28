@@ -7,7 +7,7 @@ bash5.1-6ubuntu1
 bsdutils1:2.37.2-4ubuntu3
 ca-certificates20211016ubuntu0.22.04.1
 coreutils8.32-4.1ubuntu1
-curl7.81.0-1ubuntu1.7
+curl7.81.0-1ubuntu1.8
 dash0.5.11+git20210903+057cd650a4ed-3build1
 debconf1.5.79ubuntu1
 debianutils5.5-1ubuntu2
@@ -60,7 +60,7 @@ libc-bin2.35-0ubuntu3.1
 libcom-err21.46.5-2ubuntu1.1
 libcrypt11:4.4.27-1
 libcups22.4.1op1-1ubuntu4.1
-libcurl47.81.0-1ubuntu1.7
+libcurl47.81.0-1ubuntu1.8
 libdav1d50.9.2-1
 libdb5.35.3.28+dfsg1-0.8ubuntu3
 libdbus-1-31.12.20-2ubuntu4.1
@@ -118,7 +118,7 @@ libnghttp2-141.43.0-1build3
 libnpth01.6-3build2
 libnsl21.3.0-2build2
 libnspr42:4.32-3build1
-libnss32:3.68.2-0ubuntu1.1
+libnss32:3.68.2-0ubuntu1.2
 libnuma12.0.14-3ubuntu2
 libonig56.9.7.1-2build1
 libopenjp2-72.4.0-6
