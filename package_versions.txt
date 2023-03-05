@@ -4,7 +4,7 @@ Babel                               2.12.1                                   pyt
 Deprecated                          1.2.13                                   python     
 Flask                               2.1.3                                    python     
 Flask-Dance                         6.2.0                                    python     
-Flask-Limiter                       3.2.0                                    python     
+Flask-Limiter                       3.3.0                                    python     
 Flask-Login                         0.6.2                                    python     
 Flask-Principal                     0.4.0                                    python     
 Flask-SimpleLDAP                    1.4.0                                    python     
@@ -47,7 +47,7 @@ cchardet                            2.1.7                                    pyt
 certifi                             2022.12.7                                python     
 cffi                                1.15.1                                   python     
 chardet                             4.0.0                                    python     
-charset-normalizer                  2.0.12                                   python     
+charset-normalizer                  3.0.1                                    python     
 click                               8.1.3                                    python     
 comicapi                            2.2.1                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
@@ -277,7 +277,7 @@ mawk                                1.3.4.20200120-3                         deb
 mdurl                               0.1.2                                    python     
 media-types                         7.0.0                                    deb        
 mount                               2.37.2-4ubuntu3                          deb        
-natsort                             8.2.0                                    python     
+natsort                             8.3.1                                    python     
 ncurses-base                        6.3-2                                    deb        
 ncurses-bin                         6.3-2                                    deb        
 ndg-httpsclient                     0.5.1                                    python     
@@ -306,7 +306,7 @@ pyasn1                              0.4.8                                    pyt
 pyasn1-modules                      0.2.8                                    python     
 pycparser                           2.21                                     python     
 pyparsing                           3.0.9                                    python     
-pypdf                               3.4.0                                    python     
+pypdf                               3.5.1                                    python     
 pyrsistent                          0.19.3                                   python     
 python                              3.10.6                                   binary     
 python-Levenshtein                  0.20.9                                   python     
@@ -329,10 +329,10 @@ rapidfuzz                           2.13.7                                   pyt
 rarfile                             4.0                                      python     
 rauth                               0.7.3                                    python     
 readline-common                     8.1.2-1                                  deb        
-requests                            2.27.1                                   python     
+requests                            2.28.2                                   python     
 requests-oauthlib                   1.3.1                                    python     
 rfc3986                             1.5.0                                    python     
-rich                                13.3.1                                   python     
+rich                                13.3.2                                   python     
 rsa                                 4.9                                      python     
 scholarly                           1.7.11                                   python     
 sed                                 4.8-1ubuntu2                             deb        
