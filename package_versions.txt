@@ -213,8 +213,8 @@ libprocps8                          2:3.3.17-6ubuntu2                        deb
 libpsl5                             0.21.0-1.2build2                         deb        
 libpthread-stubs0-dev               0.4-1build2                              deb        
 libpython3-stdlib                   3.10.6-1~22.04                           deb        
-libpython3.10-minimal               3.10.6-1~22.04.2                         deb        
-libpython3.10-stdlib                3.10.6-1~22.04.2                         deb        
+libpython3.10-minimal               3.10.6-1~22.04.2ubuntu1                  deb        
+libpython3.10-stdlib                3.10.6-1~22.04.2ubuntu1                  deb        
 libreadline8                        8.1.2-1                                  deb        
 librtmp1                            2.4+20151223.gitfa8646d.1-2build4        deb        
 libsasl2-2                          2.1.27+dfsg2-3ubuntu1.2                  deb        
@@ -321,8 +321,8 @@ python3-pip                         22.0.2+dfsg-1ubuntu0.2                   deb
 python3-pkg-resources               59.6.0-1.2ubuntu0.22.04.1                deb        
 python3-setuptools                  59.6.0-1.2ubuntu0.22.04.1                deb        
 python3-wheel                       0.37.1-2ubuntu0.22.04.1                  deb        
-python3.10                          3.10.6-1~22.04.2                         deb        
-python3.10-minimal                  3.10.6-1~22.04.2                         deb        
+python3.10                          3.10.6-1~22.04.2ubuntu1                  deb        
+python3.10-minimal                  3.10.6-1~22.04.2ubuntu1                  deb        
 pytz                                2022.7.1                                 python     
 pytz-deprecation-shim               0.1.0.post0                              python     
 rapidfuzz                           2.13.7                                   python     
