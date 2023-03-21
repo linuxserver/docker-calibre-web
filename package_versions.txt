@@ -88,7 +88,7 @@ google-api-python-client            2.77.0                                   pyt
 google-auth                         2.16.2                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
-googleapis-common-protos            1.58.0                                   python     
+googleapis-common-protos            1.59.0                                   python     
 gpg                                 2.2.27-3ubuntu2.1                        deb        
 gpg-agent                           2.2.27-3ubuntu2.1                        deb        
 gpg-wks-client                      2.2.27-3ubuntu2.1                        deb        
@@ -111,6 +111,7 @@ imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb
 imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
 imagesize                           1.4.1                                    python     
+importlib-resources                 5.12.0                                   python     
 init-system-helpers                 1.62                                     deb        
 iso-639                             0.4.5                                    python     
 itsdangerous                        2.1.2                                    python     
@@ -265,7 +266,7 @@ libxslt1.1                          1.1.34-4ubuntu0.22.04.1                  deb
 libxtst6                            2:1.2.3-1build4                          deb        
 libxxhash0                          0.8.1-1                                  deb        
 libzstd1                            1.4.8+dfsg-3build1                       deb        
-limits                              3.2.0                                    python     
+limits                              3.3.0                                    python     
 locales                             2.35-0ubuntu3.1                          deb        
 login                               1:4.8.1-2ubuntu2.1                       deb        
 logsave                             1.46.5-2ubuntu1.1                        deb        
