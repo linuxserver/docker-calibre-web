@@ -84,7 +84,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
 google-api-core                     2.11.0                                   python     
-google-api-python-client            2.77.0                                   python     
+google-api-python-client            2.82.0                                   python     
 google-auth                         2.16.3                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
@@ -104,7 +104,7 @@ hicolor-icon-theme                  0.17-2                                   deb
 hostname                            3.23ubuntu2                              deb        
 html2text                           2020.1.16                                python     
 httpcore                            0.16.3                                   python     
-httplib2                            0.21.0                                   python     
+httplib2                            0.22.0                                   python     
 httpx                               0.23.3                                   python     
 idna                                3.4                                      python     
 imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
