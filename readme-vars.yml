@@ -69,6 +69,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.03.23:", desc: "Add cmake as build dep for Levenshtein."}
   - { date: "27.12.22:", desc: "Add ghostscript, libxtst6, libxkbfile-dev."}
   - { date: "20.12.22:", desc: "Improve init script and prevent harmless error."}
   - { date: "19.10.22:", desc: "Rebase to jammy. Upgrade to s6v3. Clean up build dependencies."}
