@@ -12,6 +12,7 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     build-essential \
+    cmake \
     git \
     libffi-dev \
     libjpeg-dev \
@@ -70,6 +71,7 @@ RUN \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     build-essential \
+    cmake \
     git \
     libffi-dev \
     libjpeg-dev \
