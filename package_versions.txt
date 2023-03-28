@@ -302,7 +302,7 @@ poppler-data                        0.4.11-1                                 deb
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.22.1                                   python     
 publicsuffix                        20211207.1025-1                          deb        
-pyOpenSSL                           23.1.0                                   python     
+pyOpenSSL                           23.1.1                                   python     
 pyasn1                              0.4.8                                    python     
 pyasn1-modules                      0.2.8                                    python     
 pycparser                           2.21                                     python     
