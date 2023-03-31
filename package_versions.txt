@@ -85,7 +85,7 @@ golang.org/x/text                   v0.3.6                                   go-
 goodreads                           0.3.2                                    python     
 google-api-core                     2.11.0                                   python     
 google-api-python-client            2.83.0                                   python     
-google-auth                         2.17.0                                   python     
+google-auth                         2.17.1                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
 googleapis-common-protos            1.59.0                                   python     
