@@ -84,8 +84,8 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
 google-api-core                     2.11.0                                   python     
-google-api-python-client            2.82.0                                   python     
-google-auth                         2.16.3                                   python     
+google-api-python-client            2.83.0                                   python     
+google-auth                         2.17.1                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
 googleapis-common-protos            1.59.0                                   python     
@@ -107,9 +107,9 @@ httpcore                            0.16.3                                   pyt
 httplib2                            0.22.0                                   python     
 httpx                               0.23.3                                   python     
 idna                                3.4                                      python     
-imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
-imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
-imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
+imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
+imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
+imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 imagesize                           1.4.1                                    python     
 importlib-resources                 5.12.0                                   python     
 init-system-helpers                 1.62                                     deb        
@@ -185,8 +185,8 @@ liblqr-1-0                          0.4.2-2.1                                deb
 libltdl7                            2.4.6-15build2                           deb        
 liblz4-1                            1.9.3-2build2                            deb        
 liblzma5                            5.2.5-2ubuntu1                           deb        
-libmagickcore-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
-libmagickwand-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
+libmagickcore-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
+libmagickwand-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 libmd0                              1.0.4-1build1                            deb        
 libmount1                           2.37.2-4ubuntu3                          deb        
 libmpdec3                           2.5.1-2build2                            deb        
@@ -326,7 +326,7 @@ python3.10                          3.10.6-1~22.04.2ubuntu1                  deb
 python3.10-minimal                  3.10.6-1~22.04.2ubuntu1                  deb        
 pytz                                2022.7.1                                 python     
 pytz-deprecation-shim               0.1.0.post0                              python     
-rapidfuzz                           2.13.7                                   python     
+rapidfuzz                           2.14.0                                   python     
 rarfile                             4.0                                      python     
 rauth                               0.7.3                                    python     
 readline-common                     8.1.2-1                                  deb        
@@ -340,7 +340,7 @@ sed                                 4.8-1ubuntu2                             deb
 selenium                            4.8.3                                    python     
 sensible-utils                      0.0.17                                   deb        
 setuptools                          59.6.0                                   python     
-setuptools                          67.6.0                                   python     
+setuptools                          67.6.1                                   python     
 six                                 1.16.0                                   python     
 sniffio                             1.3.0                                    python     
 snowballstemmer                     2.2.0                                    python     
@@ -361,7 +361,7 @@ trio                                0.22.0                                   pyt
 trio-websocket                      0.10.2                                   python     
 typing_extensions                   4.5.0                                    python     
 tzdata                              2022g-0ubuntu0.22.04.1                   deb        
-tzdata                              2023.2                                   python     
+tzdata                              2023.3                                   python     
 tzlocal                             4.3                                      python     
 ubuntu-keyring                      2021.03.26                               deb        
 ucf                                 3.0043                                   deb        
