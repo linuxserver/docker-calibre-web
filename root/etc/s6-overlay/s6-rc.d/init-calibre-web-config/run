@@ -38,6 +38,6 @@ if [[ -f /usr/bin/kepubify ]] && [[ ! -x /usr/bin/kepubify ]]; then
 fi
 
 # permissions
-chown -R abc:abc \
+lsiown -R abc:abc \
     /config \
     /app/calibre-web
