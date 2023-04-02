@@ -12,7 +12,7 @@ Flask-WTF                           1.1.1                                    pyt
 Jinja2                              3.1.2                                    python     
 Levenshtein                         0.20.9                                   python     
 MarkupSafe                          2.1.2                                    python     
-PyDrive2                            1.15.1                                   python     
+PyDrive2                            1.15.2                                   python     
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0                                      python     
 Pygments                            2.14.0                                   python     
@@ -107,9 +107,9 @@ httpcore                            0.16.3                                   pyt
 httplib2                            0.22.0                                   python     
 httpx                               0.23.3                                   python     
 idna                                3.4                                      python     
-imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
-imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
-imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
+imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
+imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
+imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 imagesize                           1.4.1                                    python     
 importlib-resources                 5.12.0                                   python     
 init-system-helpers                 1.62                                     deb        
@@ -185,8 +185,8 @@ liblqr-1-0                          0.4.2-2.1                                deb
 libltdl7                            2.4.6-15build2                           deb        
 liblz4-1                            1.9.3-2build2                            deb        
 liblzma5                            5.2.5-2ubuntu1                           deb        
-libmagickcore-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
-libmagickwand-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.2      deb        
+libmagickcore-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
+libmagickwand-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 libmd0                              1.0.4-1build1                            deb        
 libmount1                           2.37.2-4ubuntu3                          deb        
 libmpdec3                           2.5.1-2build2                            deb        
@@ -326,7 +326,7 @@ python3.10                          3.10.6-1~22.04.2ubuntu1                  deb
 python3.10-minimal                  3.10.6-1~22.04.2ubuntu1                  deb        
 pytz                                2022.7.1                                 python     
 pytz-deprecation-shim               0.1.0.post0                              python     
-rapidfuzz                           2.13.7                                   python     
+rapidfuzz                           2.15.0                                   python     
 rarfile                             4.0                                      python     
 rauth                               0.7.3                                    python     
 readline-common                     8.1.2-1                                  deb        
