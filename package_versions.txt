@@ -39,7 +39,7 @@ base-passwd                         3.5.52build1                             deb
 bash                                5.1-6ubuntu1                             deb        
 beautifulsoup4                      4.11.2                                   python     
 bibtexparser                        1.4.0                                    python     
-blinker                             1.5                                      python     
+blinker                             1.6                                      python     
 bsdutils                            1:2.37.2-4ubuntu3                        deb        
 ca-certificates                     20211016ubuntu0.22.04.1                  deb        
 cachetools                          5.3.0                                    python     
