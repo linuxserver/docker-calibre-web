@@ -12,7 +12,7 @@ Flask-WTF                           1.1.1                                    pyt
 Jinja2                              3.1.2                                    python     
 Levenshtein                         0.20.9                                   python     
 MarkupSafe                          2.1.2                                    python     
-PyDrive2                            1.15.1                                   python     
+PyDrive2                            1.15.2                                   python     
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0                                      python     
 Pygments                            2.14.0                                   python     
@@ -39,7 +39,7 @@ base-passwd                         3.5.52build1                             deb
 bash                                5.1-6ubuntu1                             deb        
 beautifulsoup4                      4.11.2                                   python     
 bibtexparser                        1.4.0                                    python     
-blinker                             1.5                                      python     
+blinker                             1.6                                      python     
 bsdutils                            1:2.37.2-4ubuntu3                        deb        
 ca-certificates                     20211016ubuntu0.22.04.1                  deb        
 cachetools                          5.3.0                                    python     
@@ -84,8 +84,8 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
 google-api-core                     2.11.0                                   python     
-google-api-python-client            2.83.0                                   python     
-google-auth                         2.17.1                                   python     
+google-api-python-client            2.84.0                                   python     
+google-auth                         2.17.2                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
 googleapis-common-protos            1.59.0                                   python     
@@ -326,7 +326,7 @@ python3.10                          3.10.6-1~22.04.2ubuntu1                  deb
 python3.10-minimal                  3.10.6-1~22.04.2ubuntu1                  deb        
 pytz                                2022.7.1                                 python     
 pytz-deprecation-shim               0.1.0.post0                              python     
-rapidfuzz                           2.14.0                                   python     
+rapidfuzz                           2.15.0                                   python     
 rarfile                             4.0                                      python     
 rauth                               0.7.3                                    python     
 readline-common                     8.1.2-1                                  deb        
