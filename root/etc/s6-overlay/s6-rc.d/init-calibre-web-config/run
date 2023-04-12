@@ -39,5 +39,4 @@ fi
 
 # permissions
 lsiown -R abc:abc \
-    /config \
-    /app/calibre-web
+    /config
