@@ -37,6 +37,11 @@ if [[ -f /usr/bin/kepubify ]] && [[ ! -x /usr/bin/kepubify ]]; then
     chmod +x /usr/bin/kepubify
 fi
 
+# Symlink logfiles
+if [[ ! -L "/app/calibre-web/calibre-web.log" ]]; then
+    ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
+fi
+
 # permissions
 lsiown -R abc:abc \
     /config
