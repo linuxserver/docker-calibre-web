@@ -5,6 +5,7 @@ external_type: github_commit
 release_type: prerelease
 release_tag: nightly
 ls_branch: nightly
+build_armhf: false
 external_trigger_delay_hours: 6
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
