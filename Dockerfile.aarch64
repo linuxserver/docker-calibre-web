@@ -13,7 +13,6 @@ RUN \
   apt-get install -y --no-install-recommends \
     build-essential \
     cmake \
-    git \
     libffi-dev \
     libjpeg-dev \
     libldap2-dev \
@@ -54,8 +53,9 @@ RUN \
     /app/calibre-web --strip-components=1 && \
   cd /app/calibre-web && \
   pip3 install --no-cache-dir -U \
-    pip wheel && \
-  pip install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
+    pip \
+    wheel && \
+  pip3 install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
     requirements.txt -r \
     optional-requirements.txt && \
   echo "***install kepubify" && \
@@ -70,7 +70,6 @@ RUN \
   apt-get -y purge \
     build-essential \
     cmake \
-    git \
     libffi-dev \
     libjpeg-dev \
     libldap2-dev \
