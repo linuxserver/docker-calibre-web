@@ -8,8 +8,6 @@ ln -s /defaults/policy.xml /etc/ImageMagick-6/policy.xml
 if [[ ! -f /config/client_secrets.json ]]; then
     echo "{}" > /config/client_secrets.json
 fi
-rm -rf /app/calibre-web/client_secrets.json
-ln -s /config/client_secrets.json /app/calibre-web/client_secrets.json
 
 # check if kepubify is present and if so make executable
 if [[ -f /usr/bin/kepubify ]] && [[ ! -x /usr/bin/kepubify ]]; then
