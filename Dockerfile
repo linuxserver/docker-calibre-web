@@ -15,7 +15,6 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     build-essential \
-    git \
     libldap2-dev \
     libsasl2-dev \
     python3-dev && \
@@ -51,14 +50,15 @@ RUN \
     /app/calibre-web --strip-components=1 && \
   cd /app/calibre-web && \
   pip3 install --no-cache-dir -U \
-    pip wheel && \
-  pip install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
+    pip \
+    wheel && \
+  pip3 install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
     requirements.txt -r \
     optional-requirements.txt && \
   echo "***install kepubify" && \
   if [ -z ${KEPUBIFY_RELEASE+x} ]; then \
     KEPUBIFY_RELEASE=$(curl -sX GET "https://api.github.com/repos/pgaskin/kepubify/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   curl -o \
     /usr/bin/kepubify -L \
@@ -66,7 +66,6 @@ RUN \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     build-essential \
-    git \
     libldap2-dev \
     libsasl2-dev \
     python3-dev && \
