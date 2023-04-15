@@ -43,6 +43,11 @@ if [[ ! -L "/app/calibre-web/calibre-web.log" ]]; then
     lsiown abc:abc /app/calibre-web/calibre-web.log
 fi
 
+if [[ ! -L "/app/calibre-web/access.log" ]]; then
+    ln -s /config/access.log /app/calibre-web/access.log
+    lsiown abc:abc /app/calibre-web/access.log
+fi
+
 # Pre-stage some files & directories for permissions purposes
 mkdir -p /app/calibre-web/cps/cache
 touch /app/calibre-web/.key
