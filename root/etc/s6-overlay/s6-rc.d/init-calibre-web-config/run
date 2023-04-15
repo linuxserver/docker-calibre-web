@@ -40,8 +40,15 @@ fi
 # Symlink logfiles
 if [[ ! -L "/app/calibre-web/calibre-web.log" ]]; then
     ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
+    lsiown abc:abc /app/calibre-web/calibre-web.log
 fi
+
+# Pre-stage some files & directories for permissions purposes
+mkdir -p /app/calibre-web/cps/cache
+touch /app/calibre-web/.key
 
 # permissions
 lsiown -R abc:abc \
-    /config
+    /config \
+    /app/calibre-web/cps/cache \
+    /app/calibre-web/.key
