@@ -4,19 +4,12 @@
 rm -rf /etc/ImageMagick-6/policy.xml
 ln -s /defaults/policy.xml /etc/ImageMagick-6/policy.xml
 
-# create symlinks for database and log
+# create symlinks for database
 if [[ ! -f /config/app.db ]] && [[ -f /app/calibre-web/app.db ]]; then
     cp /defaults/app.db /config/app.db
 fi
 rm -rf /app/calibre-web/app.db
 ln -s /config/app.db /app/calibre-web/app.db
-
-# create symlinks for log
-if [[ ! -f /config/calibre-web.log ]]; then
-    touch /config/calibre-web.log
-fi
-rm -rf /app/calibre-web/calibre-web.log
-ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
 
 # create Google drive client_secrets.json file
 if [[ ! -f /config/client_secrets.json ]]; then
@@ -40,12 +33,12 @@ fi
 # Symlink logfiles
 if [[ ! -L "/app/calibre-web/calibre-web.log" ]]; then
     ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
-    lsiown abc:abc /app/calibre-web/calibre-web.log
+    touch /config/calibre-web.log
 fi
 
 if [[ ! -L "/app/calibre-web/access.log" ]]; then
     ln -s /config/access.log /app/calibre-web/access.log
-    lsiown abc:abc /app/calibre-web/access.log
+    touch /config/access.log
 fi
 
 # Pre-stage some files & directories for permissions purposes
