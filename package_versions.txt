@@ -33,7 +33,6 @@ apt-utils                           2.4.8                                    deb
 arrow                               1.2.3                                    python     
 async-generator                     1.10                                     python     
 attrs                               22.2.0                                   python     
-backports-abc                       0.5                                      python     
 base-files                          12ubuntu4.3                              deb        
 base-passwd                         3.5.52build1                             deb        
 bash                                5.1-6ubuntu1                             deb        
@@ -50,7 +49,7 @@ charset-normalizer                  3.1.0                                    pyt
 click                               8.1.3                                    python     
 comicapi                            2.2.1                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
-cryptography                        40.0.1                                   python     
+cryptography                        40.0.2                                   python     
 curl                                7.81.0-1ubuntu1.10                       deb        
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb        
 debconf                             1.5.79ubuntu1                            deb        
@@ -71,7 +70,7 @@ fonts-urw-base35                    20200910-1                               deb
 free-proxy                          1.1.1                                    python     
 gcc-12-base                         12.1.0-2ubuntu1~22.04                    deb        
 gevent                              22.10.2                                  python     
-ghostscript                         9.55.0~dfsg1-0ubuntu5.1                  deb        
+ghostscript                         9.55.0~dfsg1-0ubuntu5.2                  deb        
 github.com/beevik/etree             v1.1.0                                   go-module  
 github.com/kr/smartypants           v0.1.0                                   go-module  
 github.com/pgaskin/kepubify/_/html  v0.0.0-20211223234002-6ee2cc632cdc       go-module  
@@ -158,8 +157,8 @@ libgmp10                            2:6.2.1+dfsg-3ubuntu1                    deb
 libgnutls30                         3.7.3-4ubuntu1.2                         deb        
 libgomp1                            12.1.0-2ubuntu1~22.04                    deb        
 libgpg-error0                       1.43-3                                   deb        
-libgs9                              9.55.0~dfsg1-0ubuntu5.1                  deb        
-libgs9-common                       9.55.0~dfsg1-0ubuntu5.1                  deb        
+libgs9                              9.55.0~dfsg1-0ubuntu5.2                  deb        
+libgs9-common                       9.55.0~dfsg1-0ubuntu5.2                  deb        
 libgssapi-krb5-2                    1.19.2-2ubuntu0.1                        deb        
 libheif1                            1.12.0-2build1                           deb        
 libhogweed6                         3.7.3-1build2                            deb        
@@ -297,7 +296,7 @@ perl                                5.34.0-3ubuntu1.1                        deb
 perl-base                           5.34.0-3ubuntu1.1                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
 pip                                 22.0.2                                   python     
-pip                                 23.0.1                                   python     
+pip                                 23.1                                     python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.22.3                                   python     
@@ -307,7 +306,7 @@ pyasn1                              0.4.8                                    pyt
 pyasn1-modules                      0.2.8                                    python     
 pycparser                           2.21                                     python     
 pyparsing                           3.0.9                                    python     
-pypdf                               3.5.2                                    python     
+pypdf                               3.7.1                                    python     
 pyrsistent                          0.19.3                                   python     
 python                              3.10.6                                   binary     
 python-Levenshtein                  0.20.9                                   python     
