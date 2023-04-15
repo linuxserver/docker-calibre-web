@@ -4,13 +4,6 @@
 rm -rf /etc/ImageMagick-6/policy.xml
 ln -s /defaults/policy.xml /etc/ImageMagick-6/policy.xml
 
-# create symlinks for database
-if [[ ! -f /config/app.db ]] && [[ -f /app/calibre-web/app.db ]]; then
-    cp /defaults/app.db /config/app.db
-fi
-rm -rf /app/calibre-web/app.db
-ln -s /config/app.db /app/calibre-web/app.db
-
 # create Google drive client_secrets.json file
 if [[ ! -f /config/client_secrets.json ]]; then
     echo "{}" > /config/client_secrets.json
@@ -18,35 +11,15 @@ fi
 rm -rf /app/calibre-web/client_secrets.json
 ln -s /config/client_secrets.json /app/calibre-web/client_secrets.json
 
-# create Google drive symlinks for database
-if [[ ! -f /config/gdrive.db ]] && [[ -f /app/calibre-web/gdrive.db ]]; then
-    cp /app/calibre-web/gdrive.db /config/gdrive.db
-fi
-rm -rf /app/calibre-web/gdrive.db
-ln -s /config/gdrive.db /app/calibre-web/gdrive.db
-
 # check if kepubify is present and if so make executable
 if [[ -f /usr/bin/kepubify ]] && [[ ! -x /usr/bin/kepubify ]]; then
     chmod +x /usr/bin/kepubify
 fi
 
-# Symlink logfiles
-if [[ ! -L "/app/calibre-web/calibre-web.log" ]]; then
-    ln -s /config/calibre-web.log /app/calibre-web/calibre-web.log
-    touch /config/calibre-web.log
-fi
-
-if [[ ! -L "/app/calibre-web/access.log" ]]; then
-    ln -s /config/access.log /app/calibre-web/access.log
-    touch /config/access.log
-fi
-
 # Pre-stage some files & directories for permissions purposes
 mkdir -p /app/calibre-web/cps/cache
-touch /app/calibre-web/.key
 
 # permissions
 lsiown -R abc:abc \
     /config \
-    /app/calibre-web/cps/cache \
-    /app/calibre-web/.key
+    /app/calibre-web/cps/cache
