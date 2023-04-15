@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # create symlinks for imagemagick policy.xml
 rm -rf /etc/ImageMagick-6/policy.xml
