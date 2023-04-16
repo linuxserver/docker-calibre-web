@@ -32,7 +32,7 @@ apt                                 2.4.8                                    deb
 apt-utils                           2.4.8                                    deb        
 arrow                               1.2.3                                    python     
 async-generator                     1.10                                     python     
-attrs                               22.2.0                                   python     
+attrs                               23.1.0                                   python     
 base-files                          12ubuntu4.3                              deb        
 base-passwd                         3.5.52build1                             deb        
 bash                                5.1-6ubuntu1                             deb        
