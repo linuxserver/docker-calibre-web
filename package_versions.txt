@@ -265,7 +265,7 @@ libxslt1.1                          1.1.34-4ubuntu0.22.04.1                  deb
 libxtst6                            2:1.2.3-1build4                          deb        
 libxxhash0                          0.8.1-1                                  deb        
 libzstd1                            1.4.8+dfsg-3build1                       deb        
-limits                              3.3.1                                    python     
+limits                              3.4.0                                    python     
 locales                             2.35-0ubuntu3.1                          deb        
 login                               1:4.8.1-2ubuntu2.1                       deb        
 logsave                             1.46.5-2ubuntu1.1                        deb        
@@ -343,7 +343,7 @@ six                                 1.16.0                                   pyt
 sniffio                             1.3.0                                    python     
 snowballstemmer                     2.2.0                                    python     
 sortedcontainers                    2.4.0                                    python     
-soupsieve                           2.4                                      python     
+soupsieve                           2.4.1                                    python     
 sphinx-rtd-theme                    1.2.0                                    python     
 sphinxcontrib-applehelp             1.0.4                                    python     
 sphinxcontrib-devhelp               1.0.2                                    python     
