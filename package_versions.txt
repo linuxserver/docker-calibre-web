@@ -258,7 +258,7 @@ libxext6                            2:1.3.4-1build1                          deb
 libxi6                              2:1.8-1build1                            deb        
 libxkbfile-dev                      1:1.1.0-1build3                          deb        
 libxkbfile1                         1:1.1.0-1build3                          deb        
-libxml2                             2.9.13+dfsg-1ubuntu0.2                   deb        
+libxml2                             2.9.13+dfsg-1ubuntu0.3                   deb        
 libxrandr2                          2:1.5.2-1build1                          deb        
 libxrender1                         1:0.9.10-1build4                         deb        
 libxslt1.1                          1.1.34-4ubuntu0.22.04.1                  deb        
@@ -335,10 +335,10 @@ rich                                13.3.4                                   pyt
 rsa                                 4.9                                      python     
 scholarly                           1.7.11                                   python     
 sed                                 4.8-1ubuntu2                             deb        
-selenium                            4.8.3                                    python     
+selenium                            4.9.0                                    python     
 sensible-utils                      0.0.17                                   deb        
 setuptools                          59.6.0                                   python     
-setuptools                          67.6.1                                   python     
+setuptools                          67.7.1                                   python     
 six                                 1.16.0                                   python     
 sniffio                             1.3.0                                    python     
 snowballstemmer                     2.2.0                                    python     
