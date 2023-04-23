@@ -296,7 +296,7 @@ perl                                5.34.0-3ubuntu1.1                        deb
 perl-base                           5.34.0-3ubuntu1.1                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
 pip                                 22.0.2                                   python     
-pip                                 23.1                                     python     
+pip                                 23.1.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.22.3                                   python     
