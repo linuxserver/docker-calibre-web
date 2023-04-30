@@ -18,7 +18,7 @@ PyYAML                              6.0                                      pyt
 Pygments                            2.15.1                                   python     
 SQLAlchemy                          1.4.47                                   python     
 SQLAlchemy-Utils                    0.39.0                                   python     
-Sphinx                              6.1.3                                    python     
+Sphinx                              6.2.1                                    python     
 URLObject                           2.4.3                                    python     
 Unidecode                           1.3.6                                    python     
 WTForms                             3.0.1                                    python     
@@ -28,8 +28,8 @@ adduser                             3.118ubuntu5                             deb
 advocate                            1.0.0                                    python     
 alabaster                           0.7.13                                   python     
 anyio                               3.6.2                                    python     
-apt                                 2.4.8                                    deb        
-apt-utils                           2.4.8                                    deb        
+apt                                 2.4.9                                    deb        
+apt-utils                           2.4.9                                    deb        
 arrow                               1.2.3                                    python     
 async-generator                     1.10                                     python     
 attrs                               23.1.0                                   python     
@@ -118,7 +118,7 @@ jq                                  1.6-2.1ubuntu3                           deb
 jsonschema                          4.17.3                                   python     
 libacl1                             2.3.1-1                                  deb        
 libaom3                             3.3.0-1                                  deb        
-libapt-pkg6.0                       2.4.8                                    deb        
+libapt-pkg6.0                       2.4.9                                    deb        
 libassuan0                          2.5.5-1build1                            deb        
 libattr1                            1:2.5.1-1build1                          deb        
 libaudit-common                     1:3.0.7-1build1                          deb        
@@ -152,7 +152,7 @@ libfontconfig1                      2.13.1-4.2ubuntu5                        deb
 libfreetype6                        2.11.1+dfsg-1ubuntu0.1                   deb        
 libgcc-s1                           12.1.0-2ubuntu1~22.04                    deb        
 libgcrypt20                         1.9.4-3ubuntu3                           deb        
-libglib2.0-0                        2.72.4-0ubuntu1                          deb        
+libglib2.0-0                        2.72.4-0ubuntu2                          deb        
 libgmp10                            2:6.2.1+dfsg-3ubuntu1                    deb        
 libgnutls30                         3.7.3-4ubuntu1.2                         deb        
 libgomp1                            12.1.0-2ubuntu1~22.04                    deb        
@@ -287,7 +287,7 @@ netifaces                           0.11.0                                   pyt
 nose                                1.3.7                                    python     
 oauth2client                        4.1.3                                    python     
 oauthlib                            3.2.2                                    python     
-openssl                             3.0.2-0ubuntu1.8                         deb        
+openssl                             3.0.2-0ubuntu1.9                         deb        
 ordered-set                         4.1.0                                    python     
 outcome                             1.2.0                                    python     
 packaging                           23.1                                     python     
@@ -296,7 +296,7 @@ perl                                5.34.0-3ubuntu1.1                        deb
 perl-base                           5.34.0-3ubuntu1.1                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
 pip                                 22.0.2                                   python     
-pip                                 23.1.1                                   python     
+pip                                 23.1.2                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.22.3                                   python     
@@ -331,14 +331,14 @@ rauth                               0.7.3                                    pyt
 readline-common                     8.1.2-1                                  deb        
 requests                            2.28.2                                   python     
 requests-oauthlib                   1.3.1                                    python     
-rich                                13.3.4                                   python     
+rich                                13.3.5                                   python     
 rsa                                 4.9                                      python     
 scholarly                           1.7.11                                   python     
 sed                                 4.8-1ubuntu2                             deb        
 selenium                            4.9.0                                    python     
 sensible-utils                      0.0.17                                   deb        
 setuptools                          59.6.0                                   python     
-setuptools                          67.7.1                                   python     
+setuptools                          67.7.2                                   python     
 six                                 1.16.0                                   python     
 sniffio                             1.3.0                                    python     
 snowballstemmer                     2.2.0                                    python     
