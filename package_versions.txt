@@ -16,7 +16,7 @@ PyDrive2                            1.15.3                                   pyt
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0                                      python     
 Pygments                            2.15.1                                   python     
-SQLAlchemy                          1.4.47                                   python     
+SQLAlchemy                          1.4.48                                   python     
 SQLAlchemy-Utils                    0.39.0                                   python     
 Sphinx                              6.2.1                                    python     
 URLObject                           2.4.3                                    python     
