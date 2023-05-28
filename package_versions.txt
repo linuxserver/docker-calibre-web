@@ -2,7 +2,7 @@ NAME                                VERSION                                  TYP
 APScheduler                         3.10.1                                   python     
 Babel                               2.12.1                                   python     
 Deprecated                          1.2.14                                   python     
-Flask                               2.1.3                                    python     
+Flask                               2.3.2                                    python     
 Flask-Dance                         6.2.0                                    python     
 Flask-Limiter                       3.3.1                                    python     
 Flask-Login                         0.6.2                                    python     
@@ -23,7 +23,7 @@ URLObject                           2.4.3                                    pyt
 Unidecode                           1.3.6                                    python     
 WTForms                             3.0.1                                    python     
 Wand                                0.6.11                                   python     
-Werkzeug                            2.0.3                                    python     
+Werkzeug                            2.3.4                                    python     
 adduser                             3.118ubuntu5                             deb        
 advocate                            1.0.0                                    python     
 alabaster                           0.7.13                                   python     
