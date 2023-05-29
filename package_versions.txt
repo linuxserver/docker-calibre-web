@@ -302,8 +302,8 @@ procps                              2:3.3.17-6ubuntu2                        deb
 protobuf                            4.23.2                                   python     
 publicsuffix                        20211207.1025-1                          deb        
 pyOpenSSL                           23.1.1                                   python     
-pyasn1                              0.4.8                                    python     
-pyasn1-modules                      0.2.8                                    python     
+pyasn1                              0.5.0                                    python     
+pyasn1-modules                      0.3.0                                    python     
 pycparser                           2.21                                     python     
 pyparsing                           3.0.9                                    python     
 pypdf                               3.7.1                                    python     
