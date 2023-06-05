@@ -292,8 +292,8 @@ ordered-set                         4.1.0                                    pyt
 outcome                             1.2.0                                    python     
 packaging                           23.1                                     python     
 passwd                              1:4.8.1-2ubuntu2.1                       deb        
-perl                                5.34.0-3ubuntu1.1                        deb        
-perl-base                           5.34.0-3ubuntu1.1                        deb        
+perl                                5.34.0-3ubuntu1.2                        deb        
+perl-base                           5.34.0-3ubuntu1.2                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
 pip                                 22.0.2                                   python     
 pip                                 23.1.2                                   python     
