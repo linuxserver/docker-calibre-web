@@ -82,12 +82,12 @@ gnupg-utils                         2.2.27-3ubuntu2.1                        deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-module  
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
-google-api-core                     2.11.0                                   python     
-google-api-python-client            2.88.0                                   python     
-google-auth                         2.19.1                                   python     
+google-api-core                     2.11.1                                   python     
+google-api-python-client            2.89.0                                   python     
+google-auth                         2.20.0                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
-googleapis-common-protos            1.59.0                                   python     
+googleapis-common-protos            1.59.1                                   python     
 gpg                                 2.2.27-3ubuntu2.1                        deb        
 gpg-agent                           2.2.27-3ubuntu2.1                        deb        
 gpg-wks-client                      2.2.27-3ubuntu2.1                        deb        
@@ -152,7 +152,7 @@ libfontconfig1                      2.13.1-4.2ubuntu5                        deb
 libfreetype6                        2.11.1+dfsg-1ubuntu0.2                   deb        
 libgcc-s1                           12.1.0-2ubuntu1~22.04                    deb        
 libgcrypt20                         1.9.4-3ubuntu3                           deb        
-libglib2.0-0                        2.72.4-0ubuntu2                          deb        
+libglib2.0-0                        2.72.4-0ubuntu2.2                        deb        
 libgmp10                            2:6.2.1+dfsg-3ubuntu1                    deb        
 libgnutls30                         3.7.3-4ubuntu1.2                         deb        
 libgomp1                            12.1.0-2ubuntu1~22.04                    deb        
@@ -243,9 +243,9 @@ libuuid1                            2.37.2-4ubuntu3                          deb
 libwebp7                            1.2.2-2ubuntu0.22.04.1                   deb        
 libwebpdemux2                       1.2.2-2ubuntu0.22.04.1                   deb        
 libwebpmux3                         1.2.2-2ubuntu0.22.04.1                   deb        
-libx11-6                            2:1.7.5-1                                deb        
-libx11-data                         2:1.7.5-1                                deb        
-libx11-dev                          2:1.7.5-1                                deb        
+libx11-6                            2:1.7.5-1ubuntu0.2                       deb        
+libx11-data                         2:1.7.5-1ubuntu0.2                       deb        
+libx11-dev                          2:1.7.5-1ubuntu0.2                       deb        
 libx265-199                         3.5-2                                    deb        
 libxau-dev                          1:1.0.9-1build5                          deb        
 libxau6                             1:1.0.9-1build5                          deb        
@@ -271,7 +271,7 @@ login                               1:4.8.1-2ubuntu2.1                       deb
 logsave                             1.46.5-2ubuntu1.1                        deb        
 lsb-base                            11.1.0ubuntu4                            deb        
 lxml                                4.9.2                                    python     
-markdown-it-py                      2.2.0                                    python     
+markdown-it-py                      3.0.0                                    python     
 markdown2                           2.4.8                                    python     
 mawk                                1.3.4.20200120-3                         deb        
 mdurl                               0.1.2                                    python     
@@ -299,7 +299,7 @@ pip                                 22.0.2                                   pyt
 pip                                 23.1.2                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
-protobuf                            4.23.2                                   python     
+protobuf                            4.23.3                                   python     
 publicsuffix                        20211207.1025-1                          deb        
 pyOpenSSL                           23.2.0                                   python     
 pyasn1                              0.5.0                                    python     
@@ -317,7 +317,7 @@ python3                             3.10.6-1~22.04                           deb
 python3-distutils                   3.10.6-1~22.04                           deb        
 python3-lib2to3                     3.10.6-1~22.04                           deb        
 python3-minimal                     3.10.6-1~22.04                           deb        
-python3-pip                         22.0.2+dfsg-1ubuntu0.2                   deb        
+python3-pip                         22.0.2+dfsg-1ubuntu0.3                   deb        
 python3-pkg-resources               59.6.0-1.2ubuntu0.22.04.1                deb        
 python3-setuptools                  59.6.0-1.2ubuntu0.22.04.1                deb        
 python3-wheel                       0.37.1-2ubuntu0.22.04.1                  deb        
@@ -330,7 +330,7 @@ rauth                               0.7.3                                    pyt
 readline-common                     8.1.2-1                                  deb        
 requests                            2.28.2                                   python     
 requests-oauthlib                   1.3.1                                    python     
-rich                                13.4.1                                   python     
+rich                                13.4.2                                   python     
 rsa                                 4.9                                      python     
 scholarly                           1.7.11                                   python     
 sed                                 4.8-1ubuntu2                             deb        
