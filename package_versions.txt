@@ -85,7 +85,7 @@ golang.org/x/text                   v0.3.6                                   go-
 goodreads                           0.3.2                                    python     
 google-api-core                     2.11.1                                   python     
 google-api-python-client            2.89.0                                   python     
-google-auth                         2.20.0                                   python     
+google-auth                         2.21.0                                   python     
 google-auth-httplib2                0.1.0                                    python     
 google-auth-oauthlib                0.8.0                                    python     
 googleapis-common-protos            1.59.1                                   python     
@@ -134,7 +134,7 @@ libbz2-1.0                          1.0.8-5build1                            deb
 libc-bin                            2.35-0ubuntu3.1                          deb        
 libc6                               2.35-0ubuntu3.1                          deb        
 libcap-ng0                          0.7.9-2.2build3                          deb        
-libcap2                             1:2.44-1build3                           deb        
+libcap2                             1:2.44-1ubuntu0.22.04.1                  deb        
 libcom-err2                         1.46.5-2ubuntu1.1                        deb        
 libcrypt1                           1:4.4.27-1                               deb        
 libcups2                            2.4.1op1-1ubuntu4.4                      deb        
@@ -357,7 +357,7 @@ tar                                 1.34+dfsg-1ubuntu0.1.22.04.1             deb
 tornado                             6.2                                      python     
 trio                                0.22.0                                   python     
 trio-websocket                      0.10.3                                   python     
-typing_extensions                   4.6.3                                    python     
+typing_extensions                   4.7.0                                    python     
 tzdata                              2023c-0ubuntu0.22.04.2                   deb        
 tzlocal                             5.0.1                                    python     
 ubuntu-keyring                      2021.03.26                               deb        
