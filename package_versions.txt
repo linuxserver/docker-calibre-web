@@ -14,7 +14,7 @@ Levenshtein                         0.20.9                                   pyt
 MarkupSafe                          2.1.3                                    python     
 PyDrive2                            1.15.4                                   python     
 PySocks                             1.7.1                                    python     
-PyYAML                              6.0                                      python     
+PyYAML                              6.0.1                                    python     
 Pygments                            2.15.1                                   python     
 SQLAlchemy                          1.4.49                                   python     
 SQLAlchemy-Utils                    0.39.0                                   python     
@@ -41,11 +41,11 @@ blinker                             1.6.2                                    pyt
 bsdutils                            1:2.37.2-4ubuntu3                        deb        
 ca-certificates                     20230311ubuntu0.22.04.1                  deb        
 cachetools                          5.3.1                                    python     
-certifi                             2023.5.7                                 python     
+certifi                             2023.7.22                                python     
 cffi                                1.15.1                                   python     
 chardet                             4.0.0                                    python     
 charset-normalizer                  3.2.0                                    python     
-click                               8.1.5                                    python     
+click                               8.1.6                                    python     
 comicapi                            2.2.1                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
 cryptography                        41.0.2                                   python     
@@ -295,7 +295,7 @@ perl                                5.34.0-3ubuntu1.2                        deb
 perl-base                           5.34.0-3ubuntu1.2                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
 pip                                 22.0.2                                   python     
-pip                                 23.2                                     python     
+pip                                 23.2.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.23.4                                   python     
@@ -366,7 +366,7 @@ urllib3                             1.26.16                                  pyt
 usrmerge                            25ubuntu2                                deb        
 util-linux                          2.37.2-4ubuntu3                          deb        
 wheel                               0.37.1                                   python     
-wheel                               0.40.0                                   python     
+wheel                               0.41.0                                   python     
 wrapt                               1.15.0                                   python     
 wsproto                             1.2.0                                    python     
 x11-common                          1:7.7+23ubuntu2                          deb        
