@@ -307,7 +307,7 @@ pyasn1                              0.5.0                                    pyt
 pyasn1-modules                      0.3.0                                    python     
 pycountry                           22.3.5                                   python     
 pycparser                           2.21                                     python     
-pyparsing                           3.1.0                                    python     
+pyparsing                           3.1.1                                    python     
 pypdf                               3.7.1                                    python     
 pyrsistent                          0.19.3                                   python     
 python                              3.10.6                                   binary     
