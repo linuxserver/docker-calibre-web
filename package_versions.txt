@@ -16,7 +16,7 @@ Pillow                              10.0.0                                   pyt
 PyDrive2                            1.15.4                                   python     
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0.1                                    python     
-Pygments                            2.15.1                                   python     
+Pygments                            2.16.1                                   python     
 SQLAlchemy                          1.4.49                                   python     
 SQLAlchemy-Utils                    0.39.0                                   python     
 Simple Launcher Executable          1.1.0.14                                 dotnet     
@@ -112,7 +112,7 @@ imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 imagesize                           1.4.1                                    python     
 importlib-metadata                  6.8.0                                    python     
-importlib-resources                 6.0.0                                    python     
+importlib-resources                 6.0.1                                    python     
 init-system-helpers                 1.62                                     deb        
 iso-639                             0.4.5                                    python     
 itsdangerous                        2.1.2                                    python     
@@ -347,13 +347,13 @@ snowballstemmer                     2.2.0                                    pyt
 sortedcontainers                    2.4.0                                    python     
 soupsieve                           2.4.1                                    python     
 sphinx-rtd-theme                    1.2.2                                    python     
-sphinxcontrib-applehelp             1.0.4                                    python     
-sphinxcontrib-devhelp               1.0.2                                    python     
-sphinxcontrib-htmlhelp              2.0.1                                    python     
+sphinxcontrib-applehelp             1.0.5                                    python     
+sphinxcontrib-devhelp               1.0.3                                    python     
+sphinxcontrib-htmlhelp              2.0.2                                    python     
 sphinxcontrib-jquery                4.1                                      python     
 sphinxcontrib-jsmath                1.0.1                                    python     
-sphinxcontrib-qthelp                1.0.3                                    python     
-sphinxcontrib-serializinghtml       1.1.5                                    python     
+sphinxcontrib-qthelp                1.0.4                                    python     
+sphinxcontrib-serializinghtml       1.1.6                                    python     
 sysvinit-utils                      3.01-1ubuntu1                            deb        
 tar                                 1.34+dfsg-1ubuntu0.1.22.04.1             deb        
 text2digits                         0.1.0                                    python     
