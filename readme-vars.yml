@@ -55,6 +55,10 @@ app_setup_block: |
   *Username:* admin
   *Password:* admin123
 
+  If you lock yourself out or forget a password, you will need to specify the app.db similar to this: 
+  `docker exec -it calibre-web python3 /app/calibre-web/cps.py -p /config/app.db -s <user>:<pass>`
+  If you fail to specify the proper db, it will appear to succeed, but it will not work.
+
   Unrar is included by default and needs to be set in the Calibre-Web admin page (Basic Configuration:External Binaries) with a path of `/usr/bin/unrar`
 
   **x86-64 only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
