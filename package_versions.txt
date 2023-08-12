@@ -63,7 +63,7 @@ dpkg-dev                            1.21.1ubuntu2.2                          deb
 e2fsprogs                           1.46.5-2ubuntu1.1                        deb        
 exceptiongroup                      1.1.2                                    python     
 fake-useragent                      1.2.1                                    python     
-faust-cchardet                      2.1.18                                   python     
+faust-cchardet                      2.1.19                                   python     
 findutils                           4.8.0-1ubuntu3                           deb        
 flask-babel                         3.0.1                                    python     
 fontconfig-config                   2.13.1-4.2ubuntu5                        deb        
@@ -180,7 +180,7 @@ libkrb5-3                           1.19.2-2ubuntu0.2                        deb
 libkrb5support0                     1.19.2-2ubuntu0.2                        deb        
 libksba8                            1.6.0-2ubuntu0.2                         deb        
 liblcms2-2                          2.12~rc1-2build2                         deb        
-libldap-2.5-0                       2.5.15+dfsg-0ubuntu0.22.04.1             deb        
+libldap-2.5-0                       2.5.16+dfsg-0ubuntu0.22.04.1             deb        
 libldap-common                      2.5.15+dfsg-0ubuntu0.22.04.1             deb        
 liblqr-1-0                          0.4.2-2.1                                deb        
 libltdl7                            2.4.6-15build2                           deb        
@@ -301,7 +301,7 @@ pip                                 22.0.2                                   pyt
 pip                                 23.2.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
-protobuf                            4.23.4                                   python     
+protobuf                            4.24.0                                   python     
 publicsuffix                        20211207.1025-1                          deb        
 pyOpenSSL                           23.2.0                                   python     
 pyasn1                              0.5.0                                    python     
@@ -347,13 +347,13 @@ snowballstemmer                     2.2.0                                    pyt
 sortedcontainers                    2.4.0                                    python     
 soupsieve                           2.4.1                                    python     
 sphinx-rtd-theme                    1.2.2                                    python     
-sphinxcontrib-applehelp             1.0.5                                    python     
-sphinxcontrib-devhelp               1.0.3                                    python     
-sphinxcontrib-htmlhelp              2.0.2                                    python     
+sphinxcontrib-applehelp             1.0.6                                    python     
+sphinxcontrib-devhelp               1.0.4                                    python     
+sphinxcontrib-htmlhelp              2.0.3                                    python     
 sphinxcontrib-jquery                4.1                                      python     
 sphinxcontrib-jsmath                1.0.1                                    python     
-sphinxcontrib-qthelp                1.0.4                                    python     
-sphinxcontrib-serializinghtml       1.1.6                                    python     
+sphinxcontrib-qthelp                1.0.5                                    python     
+sphinxcontrib-serializinghtml       1.1.7                                    python     
 sysvinit-utils                      3.01-1ubuntu1                            deb        
 tar                                 1.34+dfsg-1ubuntu0.1.22.04.1             deb        
 text2digits                         0.1.0                                    python     
