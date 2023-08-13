@@ -1,5 +1,5 @@
 NAME                                VERSION                                  TYPE      
-APScheduler                         3.10.1                                   python     
+APScheduler                         3.10.2                                   python     
 Babel                               2.12.1                                   python     
 Deprecated                          1.2.14                                   python     
 Flask                               2.1.3                                    python     
