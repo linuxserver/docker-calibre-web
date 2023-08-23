@@ -1,8 +1,9 @@
 NAME                                VERSION                                  TYPE      
 APScheduler                         3.10.4                                   python     
 Babel                               2.12.1                                   python     
+Brotli                              1.0.9                                    python     
 Deprecated                          1.2.14                                   python     
-Flask                               2.3.2                                    python     
+Flask                               2.3.3                                    python     
 Flask-Dance                         6.2.0                                    python     
 Flask-Limiter                       3.3.1                                    python     
 Flask-Login                         0.6.2                                    python     
@@ -20,7 +21,7 @@ Pygments                            2.16.1                                   pyt
 SQLAlchemy                          1.4.49                                   python     
 SQLAlchemy-Utils                    0.39.0                                   python     
 Simple Launcher Executable          1.1.0.14                                 dotnet     
-Sphinx                              6.2.1                                    python     
+Sphinx                              7.2.2                                    python     
 URLObject                           2.4.3                                    python     
 Unidecode                           1.3.6                                    python     
 WTForms                             3.0.1                                    python     
@@ -113,6 +114,7 @@ imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb
 imagesize                           1.4.1                                    python     
 importlib-metadata                  6.8.0                                    python     
 importlib-resources                 6.0.1                                    python     
+inflate64                           0.3.1                                    python     
 init-system-helpers                 1.62                                     deb        
 iso-639                             0.4.5                                    python     
 itsdangerous                        2.1.2                                    python     
@@ -279,6 +281,7 @@ mawk                                1.3.4.20200120-3                         deb
 mdurl                               0.1.2                                    python     
 media-types                         7.0.0                                    deb        
 mount                               2.37.2-4ubuntu3                          deb        
+multivolumefile                     0.2.3                                    python     
 natsort                             8.3.1                                    python     
 ncurses-base                        6.3-2ubuntu0.1                           deb        
 ncurses-bin                         6.3-2ubuntu0.1                           deb        
@@ -302,14 +305,19 @@ pip                                 23.2.1                                   pyt
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.24.1                                   python     
+psutil                              5.9.5                                    python     
 publicsuffix                        20211207.1025-1                          deb        
+py7zr                               0.20.6                                   python     
 pyOpenSSL                           23.2.0                                   python     
 pyasn1                              0.5.0                                    python     
 pyasn1-modules                      0.3.0                                    python     
+pybcj                               1.0.1                                    python     
 pycountry                           22.3.5                                   python     
 pycparser                           2.21                                     python     
+pycryptodomex                       3.18.0                                   python     
 pyparsing                           3.1.1                                    python     
 pypdf                               3.7.1                                    python     
+pyppmd                              1.0.0                                    python     
 pyrsistent                          0.19.3                                   python     
 python-Levenshtein                  0.20.9                                   python     
 python-dateutil                     2.8.2                                    python     
@@ -326,6 +334,7 @@ python3-wheel                       0.37.1-2ubuntu0.22.04.1                  deb
 python3.10                          3.10.12-1~22.04.2                        deb        
 python3.10-minimal                  3.10.12-1~22.04.2                        deb        
 pytz                                2022.7.1                                 python     
+pyzstd                              0.15.9                                   python     
 rapidfuzz                           2.15.1                                   python     
 rarfile                             4.0                                      python     
 rauth                               0.7.3                                    python     
@@ -345,17 +354,18 @@ sniffio                             1.3.0                                    pyt
 snowballstemmer                     2.2.0                                    python     
 sortedcontainers                    2.4.0                                    python     
 soupsieve                           2.4.1                                    python     
-sphinx-rtd-theme                    1.2.2                                    python     
+sphinx-rtd-theme                    1.3.0                                    python     
 sphinxcontrib-applehelp             1.0.7                                    python     
 sphinxcontrib-devhelp               1.0.5                                    python     
 sphinxcontrib-htmlhelp              2.0.4                                    python     
 sphinxcontrib-jquery                4.1                                      python     
 sphinxcontrib-jsmath                1.0.1                                    python     
 sphinxcontrib-qthelp                1.0.6                                    python     
-sphinxcontrib-serializinghtml       1.1.8                                    python     
+sphinxcontrib-serializinghtml       1.1.9                                    python     
 sysvinit-utils                      3.01-1ubuntu1                            deb        
 tar                                 1.34+dfsg-1ubuntu0.1.22.04.1             deb        
 text2digits                         0.1.0                                    python     
+texttable                           1.6.7                                    python     
 tornado                             6.2                                      python     
 trio                                0.22.2                                   python     
 trio-websocket                      0.10.3                                   python     
@@ -370,7 +380,7 @@ urllib3                             1.26.16                                  pyt
 usrmerge                            25ubuntu2                                deb        
 util-linux                          2.37.2-4ubuntu3                          deb        
 wheel                               0.37.1                                   python     
-wheel                               0.41.1                                   python     
+wheel                               0.41.2                                   python     
 wordninja                           2.0.0                                    python     
 wrapt                               1.15.0                                   python     
 wsproto                             1.2.0                                    python     
