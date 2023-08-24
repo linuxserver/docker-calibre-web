@@ -21,7 +21,7 @@ Pygments                            2.16.1                                   pyt
 SQLAlchemy                          1.4.49                                   python     
 SQLAlchemy-Utils                    0.39.0                                   python     
 Simple Launcher Executable          1.1.0.14                                 dotnet     
-Sphinx                              7.2.2                                    python     
+Sphinx                              7.2.3                                    python     
 URLObject                           2.4.3                                    python     
 Unidecode                           1.3.6                                    python     
 WTForms                             3.0.1                                    python     
