@@ -38,6 +38,7 @@ attrs                               23.1.0                                   pyt
 base-files                          12ubuntu4.3                              deb        
 base-passwd                         3.5.52build1                             deb        
 bash                                5.1-6ubuntu1                             deb        
+bash                                5.1.16                                   binary     
 beautifulsoup4                      4.11.2                                   python     
 bibtexparser                        1.4.0                                    python     
 blinker                             1.6.2                                    python     
@@ -304,7 +305,7 @@ pip                                 22.0.2                                   pyt
 pip                                 23.2.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
-protobuf                            4.24.1                                   python     
+protobuf                            4.24.2                                   python     
 psutil                              5.9.5                                    python     
 publicsuffix                        20211207.1025-1                          deb        
 py7zr                               0.20.6                                   python     
