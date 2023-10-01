@@ -9,7 +9,7 @@ Flask-Limiter                       3.3.1                                    pyt
 Flask-Login                         0.6.2                                    python     
 Flask-Principal                     0.4.0                                    python     
 Flask-SimpleLDAP                    1.4.0                                    python     
-Flask-WTF                           1.1.1                                    python     
+Flask-WTF                           1.1.2                                    python     
 Jinja2                              3.1.2                                    python     
 Levenshtein                         0.20.9                                   python     
 MarkupSafe                          2.1.3                                    python     
@@ -23,17 +23,17 @@ SQLAlchemy-Utils                    0.39.0                                   pyt
 Simple Launcher Executable          1.1.0.14                                 dotnet     
 Sphinx                              7.2.6                                    python     
 URLObject                           2.4.3                                    python     
-Unidecode                           1.3.6                                    python     
+Unidecode                           1.3.7                                    python     
 WTForms                             3.0.1                                    python     
 Wand                                0.6.11                                   python     
-Werkzeug                            2.3.7                                    python     
+Werkzeug                            3.0.0                                    python     
 adduser                             3.118ubuntu5                             deb        
 advocate                            1.0.0                                    python     
 alabaster                           0.7.13                                   python     
 anyio                               4.0.0                                    python     
 apt                                 2.4.10                                   deb        
 apt-utils                           2.4.10                                   deb        
-arrow                               1.2.3                                    python     
+arrow                               1.3.0                                    python     
 attrs                               23.1.0                                   python     
 base-files                          12ubuntu4.3                              deb        
 base-passwd                         3.5.52build1                             deb        
@@ -46,9 +46,9 @@ bsdutils                            1:2.37.2-4ubuntu3                        deb
 ca-certificates                     20230311ubuntu0.22.04.1                  deb        
 cachetools                          5.3.1                                    python     
 certifi                             2023.7.22                                python     
-cffi                                1.15.1                                   python     
+cffi                                1.16.0                                   python     
 chardet                             4.0.0                                    python     
-charset-normalizer                  3.2.0                                    python     
+charset-normalizer                  3.3.0                                    python     
 click                               8.1.7                                    python     
 comicapi                            3.2.0                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
@@ -85,9 +85,9 @@ gnupg-utils                         2.2.27-3ubuntu2.1                        deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-module  
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
-google-api-core                     2.11.1                                   python     
+google-api-core                     2.12.0                                   python     
 google-api-python-client            2.89.0                                   python     
-google-auth                         2.23.0                                   python     
+google-auth                         2.23.2                                   python     
 google-auth-httplib2                0.1.1                                    python     
 google-auth-oauthlib                0.8.0                                    python     
 googleapis-common-protos            1.60.0                                   python     
@@ -342,11 +342,11 @@ rauth                               0.7.3                                    pyt
 readline-common                     8.1.2-1                                  deb        
 requests                            2.28.2                                   python     
 requests-oauthlib                   1.3.1                                    python     
-rich                                13.5.3                                   python     
+rich                                13.6.0                                   python     
 rsa                                 4.9                                      python     
 scholarly                           1.7.11                                   python     
 sed                                 4.8-1ubuntu2                             deb        
-selenium                            4.12.0                                   python     
+selenium                            4.13.0                                   python     
 sensible-utils                      0.0.17                                   deb        
 setuptools                          59.6.0                                   python     
 setuptools                          68.2.2                                   python     
@@ -369,7 +369,8 @@ text2digits                         0.1.0                                    pyt
 texttable                           1.6.7                                    python     
 tornado                             6.2                                      python     
 trio                                0.22.2                                   python     
-trio-websocket                      0.10.4                                   python     
+trio-websocket                      0.11.1                                   python     
+types-python-dateutil               2.8.19.14                                python     
 typing_extensions                   4.8.0                                    python     
 tzdata                              2023c-0ubuntu0.22.04.2                   deb        
 tzlocal                             5.0.1                                    python     
