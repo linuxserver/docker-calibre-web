@@ -296,7 +296,7 @@ oauthlib                            3.2.2                                    pyt
 openssl                             3.0.2-0ubuntu1.10                        deb        
 ordered-set                         4.1.0                                    python     
 outcome                             1.2.0                                    python     
-packaging                           23.1                                     python     
+packaging                           23.2                                     python     
 passwd                              1:4.8.1-2ubuntu2.1                       deb        
 perl                                5.34.0-3ubuntu1.2                        deb        
 perl-base                           5.34.0-3ubuntu1.2                        deb        
@@ -378,7 +378,7 @@ ubuntu-keyring                      2021.03.26                               deb
 ucf                                 3.0043                                   deb        
 unrar                               1:6.1.5-1                                deb        
 uritemplate                         4.1.1                                    python     
-urllib3                             1.26.16                                  python     
+urllib3                             1.26.17                                  python     
 usrmerge                            25ubuntu2                                deb        
 util-linux                          2.37.2-4ubuntu3                          deb        
 wheel                               0.37.1                                   python     
