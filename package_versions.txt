@@ -1,6 +1,6 @@
 NAME                                VERSION                                  TYPE      
 APScheduler                         3.10.4                                   python     
-Babel                               2.12.1                                   python     
+Babel                               2.13.0                                   python     
 Brotli                              1.1.0                                    python     
 Deprecated                          1.2.14                                   python     
 Flask                               2.3.3                                    python     
