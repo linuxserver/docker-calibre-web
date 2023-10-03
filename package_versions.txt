@@ -64,7 +64,7 @@ dpkg                                1.21.1ubuntu2.2                          deb
 dpkg-dev                            1.21.1ubuntu2.2                          deb        
 e2fsprogs                           1.46.5-2ubuntu1.1                        deb        
 exceptiongroup                      1.1.3                                    python     
-fake-useragent                      1.2.1                                    python     
+fake-useragent                      1.3.0                                    python     
 faust-cchardet                      2.1.19                                   python     
 findutils                           4.8.0-1ubuntu3                           deb        
 flask-babel                         3.0.1                                    python     
