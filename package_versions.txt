@@ -136,7 +136,7 @@ libbrotli1                          1.0.9-2build6                            deb
 libbsd0                             0.11.5-1                                 deb        
 libbz2-1.0                          1.0.8-5build1                            deb        
 libc-bin                            2.35-0ubuntu3.1                          deb        
-libc6                               2.35-0ubuntu3.3                          deb        
+libc6                               2.35-0ubuntu3.4                          deb        
 libcap-ng0                          0.7.9-2.2build3                          deb        
 libcap2                             1:2.44-1ubuntu0.22.04.1                  deb        
 libcom-err2                         1.46.5-2ubuntu1.1                        deb        
@@ -248,9 +248,9 @@ libuuid1                            2.37.2-4ubuntu3                          deb
 libwebp7                            1.2.2-2ubuntu0.22.04.2                   deb        
 libwebpdemux2                       1.2.2-2ubuntu0.22.04.2                   deb        
 libwebpmux3                         1.2.2-2ubuntu0.22.04.2                   deb        
-libx11-6                            2:1.7.5-1ubuntu0.2                       deb        
-libx11-data                         2:1.7.5-1ubuntu0.2                       deb        
-libx11-dev                          2:1.7.5-1ubuntu0.2                       deb        
+libx11-6                            2:1.7.5-1ubuntu0.3                       deb        
+libx11-data                         2:1.7.5-1ubuntu0.3                       deb        
+libx11-dev                          2:1.7.5-1ubuntu0.3                       deb        
 libx265-199                         3.5-2                                    deb        
 libxau-dev                          1:1.0.9-1build5                          deb        
 libxau6                             1:1.0.9-1build5                          deb        
