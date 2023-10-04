@@ -26,7 +26,7 @@ URLObject                           2.4.3                                    pyt
 Unidecode                           1.3.7                                    python     
 WTForms                             3.0.1                                    python     
 Wand                                0.6.11                                   python     
-Werkzeug                            3.0.0                                    python     
+Werkzeug                            2.3.7                                    python     
 adduser                             3.118ubuntu5                             deb        
 advocate                            1.0.0                                    python     
 alabaster                           0.7.13                                   python     
@@ -305,7 +305,7 @@ pip                                 22.0.2                                   pyt
 pip                                 23.2.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
-protobuf                            4.24.3                                   python     
+protobuf                            4.24.4                                   python     
 psutil                              5.9.5                                    python     
 publicsuffix                        20211207.1025-1                          deb        
 py7zr                               0.20.6                                   python     
@@ -373,7 +373,7 @@ trio-websocket                      0.11.1                                   pyt
 types-python-dateutil               2.8.19.14                                python     
 typing_extensions                   4.8.0                                    python     
 tzdata                              2023c-0ubuntu0.22.04.2                   deb        
-tzlocal                             5.0.1                                    python     
+tzlocal                             5.1                                      python     
 ubuntu-keyring                      2021.03.26                               deb        
 ucf                                 3.0043                                   deb        
 unrar                               1:6.1.5-1                                deb        
