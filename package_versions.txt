@@ -271,7 +271,7 @@ libxtst6                            2:1.2.3-1build4                          deb
 libxxhash0                          0.8.1-1                                  deb        
 libzstd1                            1.4.8+dfsg-3build1                       deb        
 limits                              3.6.0                                    python     
-locales                             2.35-0ubuntu3.3                          deb        
+locales                             2.35-0ubuntu3.4                          deb        
 login                               1:4.8.1-2ubuntu2.1                       deb        
 logsave                             1.46.5-2ubuntu1.1                        deb        
 lsb-base                            11.1.0ubuntu4                            deb        
