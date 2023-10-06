@@ -394,4 +394,4 @@ xtrans-dev                          1.4.0-1                                  deb
 zipp                                3.17.0                                   python     
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb        
 zope.event                          5.0                                      python     
-zope.interface                      6.0                                      python     
+zope.interface                      6.1                                      python     
