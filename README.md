@@ -325,6 +325,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
 * **13.04.23:** - Deprecate armhf.
 * **27.03.23:** - Add cmake as build dep for Levenshtein.
 * **27.12.22:** - Add ghostscript, libxtst6, libxkbfile-dev.

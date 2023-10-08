@@ -72,6 +72,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment."}
   - { date: "13.04.23:", desc: "Deprecate armhf."}
   - { date: "27.03.23:", desc: "Add cmake as build dep for Levenshtein."}
   - { date: "27.12.22:", desc: "Add ghostscript, libxtst6, libxkbfile-dev."}

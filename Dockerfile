@@ -1,3 +1,7 @@
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/unrar:latest as unrar
+
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
 # set version label
@@ -28,10 +32,7 @@ RUN \
     libxkbfile-dev \
     libxslt1.1 \
     libxtst6 \
-    python3-minimal \
-    python3-pip \
-    python3-pkg-resources \
-    unrar && \
+    python3-venv && \
   echo "**** install calibre-web ****" && \
   if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
     CALIBREWEB_RELEASE=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/releases/latest" \
@@ -46,10 +47,11 @@ RUN \
     /tmp/calibre-web.tar.gz -C \
     /app/calibre-web --strip-components=1 && \
   cd /app/calibre-web && \
-  pip3 install --no-cache-dir -U \
+  python3 -m venv /lsiopy && \
+  pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip3 install --no-cache-dir -U --ignore-installed --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/ubuntu/ -r \
     requirements.txt -r \
     optional-requirements.txt && \
   echo "***install kepubify" && \
@@ -75,6 +77,9 @@ RUN \
 
 # add local files
 COPY root/ /
+
+# add unrar
+COPY --from=unrar /usr/bin/unrar-ubuntu /usr/bin/unrar
 
 # ports and volumes
 EXPOSE 8083
