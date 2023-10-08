@@ -1,5 +1,7 @@
 # syntax=docker/dockerfile:1
 
+FROM ghcr.io/linuxserver/unrar:latest as unrar
+
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
 
@@ -33,8 +35,7 @@ RUN \
     libxtst6 \
     python3-minimal \
     python3-pip \
-    python3-pkg-resources \
-    unrar && \
+    python3-pkg-resources && \
   echo "**** install calibre-web ****" && \
   if [ -z ${CALIBREWEB_COMMIT+x} ]; then \
     CALIBREWEB_COMMIT=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/commits/master" \
@@ -78,6 +79,9 @@ RUN \
 
 # add local files
 COPY root/ /
+
+# add unrar
+COPY --from=unrar /usr/bin/unrar-ubuntu /usr/bin/unrar
 
 # ports and volumes
 EXPOSE 8083
