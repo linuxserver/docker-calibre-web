@@ -41,7 +41,7 @@ bash                                5.1-6ubuntu1                             deb
 bash                                5.1.16                                   binary     
 beautifulsoup4                      4.11.2                                   python     
 bibtexparser                        1.4.1                                    python     
-blinker                             1.6.2                                    python     
+blinker                             1.6.3                                    python     
 bsdutils                            1:2.37.2-4ubuntu3                        deb        
 ca-certificates                     20230311ubuntu0.22.04.1                  deb        
 cachetools                          5.3.1                                    python     
@@ -336,7 +336,7 @@ python3.10                          3.10.12-1~22.04.2                        deb
 python3.10-minimal                  3.10.12-1~22.04.2                        deb        
 pytz                                2022.7.1                                 python     
 pyzstd                              0.15.9                                   python     
-rapidfuzz                           2.15.1                                   python     
+rapidfuzz                           2.15.2                                   python     
 rarfile                             4.1                                      python     
 rauth                               0.7.3                                    python     
 readline-common                     8.1.2-1                                  deb        
