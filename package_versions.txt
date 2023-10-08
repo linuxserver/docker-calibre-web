@@ -297,7 +297,6 @@ passwd                              1:4.8.1-2ubuntu2.1                       deb
 perl                                5.34.0-3ubuntu1.2                        deb        
 perl-base                           5.34.0-3ubuntu1.2                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
-pip                                 22.0.2                                   python     
 pip                                 23.2.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
@@ -318,12 +317,12 @@ python3                             3.10.6-1~22.04                           deb
 python3-distutils                   3.10.8-1~22.04                           deb        
 python3-lib2to3                     3.10.8-1~22.04                           deb        
 python3-minimal                     3.10.6-1~22.04                           deb        
-python3-pip                         22.0.2+dfsg-1ubuntu0.3                   deb        
-python3-pkg-resources               59.6.0-1.2ubuntu0.22.04.1                deb        
-python3-setuptools                  59.6.0-1.2ubuntu0.22.04.1                deb        
-python3-wheel                       0.37.1-2ubuntu0.22.04.1                  deb        
+python3-pip-whl                     22.0.2+dfsg-1ubuntu0.3                   deb        
+python3-setuptools-whl              59.6.0-1.2ubuntu0.22.04.1                deb        
+python3-venv                        3.10.6-1~22.04                           deb        
 python3.10                          3.10.12-1~22.04.2                        deb        
 python3.10-minimal                  3.10.12-1~22.04.2                        deb        
+python3.10-venv                     3.10.12-1~22.04.2                        deb        
 pytz                                2022.7.1                                 python     
 rapidfuzz                           2.15.2                                   python     
 rarfile                             4.1                                      python     
@@ -338,7 +337,6 @@ sed                                 4.8-1ubuntu2                             deb
 selenium                            4.13.0                                   python     
 sensible-utils                      0.0.17                                   deb        
 setuptools                          59.6.0                                   python     
-setuptools                          68.2.2                                   python     
 six                                 1.16.0                                   python     
 sniffio                             1.3.0                                    python     
 snowballstemmer                     2.2.0                                    python     
@@ -363,12 +361,10 @@ tzdata                              2023c-0ubuntu0.22.04.2                   deb
 tzlocal                             5.1                                      python     
 ubuntu-keyring                      2021.03.26                               deb        
 ucf                                 3.0043                                   deb        
-unrar                               1:6.1.5-1                                deb        
 uritemplate                         4.1.1                                    python     
 urllib3                             1.26.17                                  python     
 usrmerge                            25ubuntu2                                deb        
 util-linux                          2.37.2-4ubuntu3                          deb        
-wheel                               0.37.1                                   python     
 wheel                               0.41.2                                   python     
 wrapt                               1.15.0                                   python     
 wsproto                             1.2.0                                    python     
