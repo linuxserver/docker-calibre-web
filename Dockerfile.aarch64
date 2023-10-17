@@ -30,14 +30,9 @@ RUN \
     imagemagick \
     ghostscript \
     libldap-2.5-0 \
-    libnss3 \
     libsasl2-2 \
-    libxcomposite1 \
     libxi6 \
-    libxrandr2 \
-    libxkbfile-dev \
     libxslt1.1 \
-    libxtst6 \
     python3-venv && \
   echo "**** install calibre-web ****" && \
   if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
