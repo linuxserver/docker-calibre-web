@@ -325,6 +325,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **17.10.23:** - Remove some packages that are required by the calibre mod but not the base container.
 * **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment.
 * **13.04.23:** - Deprecate armhf.
 * **27.03.23:** - Add cmake as build dep for Levenshtein.
