@@ -10,7 +10,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG CALIBREWEB_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="chbmb"
+LABEL maintainer="notdriz"
 
 RUN \
   echo "**** install build packages ****" && \
@@ -25,14 +25,9 @@ RUN \
     imagemagick \
     ghostscript \
     libldap-2.5-0 \
-    libnss3 \
     libsasl2-2 \
-    libxcomposite1 \
     libxi6 \
-    libxrandr2 \
-    libxkbfile-dev \
     libxslt1.1 \
-    libxtst6 \
     python3-venv && \
   echo "**** install calibre-web ****" && \
   if [ -z ${CALIBREWEB_COMMIT+x} ]; then \
