@@ -289,7 +289,7 @@ passwd                              1:4.8.1-2ubuntu2.1                       deb
 perl                                5.34.0-3ubuntu1.2                        deb        
 perl-base                           5.34.0-3ubuntu1.2                        deb        
 pinentry-curses                     1.1.1-1build2                            deb        
-pip                                 23.3                                     python     
+pip                                 23.3.1                                   python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.24.4                                   python     
