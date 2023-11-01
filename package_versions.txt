@@ -48,7 +48,7 @@ cachetools                          5.3.2                                    pyt
 certifi                             2023.7.22                                python     
 cffi                                1.16.0                                   python     
 chardet                             4.0.0                                    python     
-charset-normalizer                  3.3.1                                    python     
+charset-normalizer                  3.3.2                                    python     
 click                               8.1.7                                    python     
 comicapi                            3.2.0                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
@@ -87,7 +87,7 @@ golang.org/x/text                   v0.3.6                                   go-
 goodreads                           0.3.2                                    python     
 google-api-core                     2.12.0                                   python     
 google-api-python-client            2.97.0                                   python     
-google-auth                         2.23.3                                   python     
+google-auth                         2.23.4                                   python     
 google-auth-httplib2                0.1.1                                    python     
 google-auth-oauthlib                1.0.0                                    python     
 googleapis-common-protos            1.61.0                                   python     
