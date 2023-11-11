@@ -86,7 +86,7 @@ gnupg-utils                         2.2.27-3ubuntu2.1                        deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-module  
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
-google-api-core                     2.13.0                                   python     
+google-api-core                     2.14.0                                   python     
 google-api-python-client            2.97.0                                   python     
 google-auth                         2.23.4                                   python     
 google-auth-httplib2                0.1.1                                    python     
@@ -106,7 +106,7 @@ h11                                 0.14.0                                   pyt
 hicolor-icon-theme                  0.17-2                                   deb        
 hostname                            3.23ubuntu2                              deb        
 html2text                           2020.1.16                                python     
-httpcore                            1.0.1                                    python     
+httpcore                            1.0.2                                    python     
 httplib2                            0.22.0                                   python     
 httpx                               0.25.1                                   python     
 idna                                3.4                                      python     
