@@ -29,8 +29,8 @@ param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Where calibre-web stores the internal database and config." }
-  - { vol_path: "/books", vol_host_path: "/path/to/calibre/library", desc: "Where your preexisting calibre database is located." }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Directory where calibre-web stores the internal database and config. Host directory can be empty." }
+  - { vol_path: "/books", vol_host_path: "/path/to/calibre/library", desc: "Directory where your preexisting calibre database is located (possibly get one [here](https://raw.githubusercontent.com/janeczku/calibre-web/master/library/metadata.db)) and any uploaded media will be stored later on." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8083", internal_port: "8083", port_desc: "WebUI" }
