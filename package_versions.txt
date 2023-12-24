@@ -20,7 +20,7 @@ PyYAML                              6.0.1                                    pyt
 Pygments                            2.17.2                                   python     
 SQLAlchemy                          1.4.50                                   python     
 SQLAlchemy-Utils                    0.41.1                                   python     
-SimpleLauncherExecutable            1.1.0.14                                 dotnet     
+Simple Launcher                     1.1.0.14                                 dotnet     
 Sphinx                              7.2.6                                    python     
 URLObject                           2.4.3                                    python     
 Unidecode                           1.3.7                                    python     
@@ -114,7 +114,7 @@ imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb
 imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb        
 imagesize                           1.4.1                                    python     
-importlib-metadata                  7.0.0                                    python     
+importlib-metadata                  7.0.1                                    python     
 importlib-resources                 6.1.1                                    python     
 inflate64                           1.0.0                                    python     
 init-system-helpers                 1.62                                     deb        
