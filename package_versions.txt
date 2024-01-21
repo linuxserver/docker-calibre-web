@@ -12,7 +12,7 @@ Flask-SimpleLDAP                    1.4.0                                    pyt
 Flask-WTF                           1.1.2                                    python     
 Jinja2                              3.1.3                                    python     
 Levenshtein                         0.21.1                                   python     
-MarkupSafe                          2.1.3                                    python     
+MarkupSafe                          2.1.4                                    python     
 PyDrive2                            1.17.0                                   python     
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0.1                                    python     
@@ -38,7 +38,7 @@ base-files                          12ubuntu4.3                              deb
 base-passwd                         3.5.52build1                             deb        
 bash                                5.1-6ubuntu1                             deb        
 bash                                5.1.16                                   binary     
-beautifulsoup4                      4.12.2                                   python     
+beautifulsoup4                      4.12.3                                   python     
 bibtexparser                        1.4.1                                    python     
 blinker                             1.7.0                                    python     
 bsdutils                            1:2.37.2-4ubuntu3                        deb        
@@ -259,7 +259,7 @@ libxslt1.1                          1.1.34-4ubuntu0.22.04.1                  deb
 libxxhash0                          0.8.1-1                                  deb        
 libzstd1                            1.4.8+dfsg-3build1                       deb        
 limits                              3.7.0                                    python     
-locales                             2.35-0ubuntu3.5                          deb        
+locales                             2.35-0ubuntu3.6                          deb        
 login                               1:4.8.1-2ubuntu2.1                       deb        
 logsave                             1.46.5-2ubuntu1.1                        deb        
 lsb-base                            11.1.0ubuntu4                            deb        
@@ -294,7 +294,7 @@ pip                                 23.3.2                                   pyt
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.25.2                                   python     
-psutil                              5.9.7                                    python     
+psutil                              5.9.8                                    python     
 publicsuffix                        20211207.1025-1                          deb        
 py7zr                               0.20.8                                   python     
 pyOpenSSL                           23.3.0                                   python     
@@ -361,7 +361,7 @@ trio                                0.24.0                                   pyt
 trio-websocket                      0.11.1                                   python     
 types-python-dateutil               2.8.19.20240106                          python     
 typing_extensions                   4.9.0                                    python     
-tzdata                              2023c-0ubuntu0.22.04.2                   deb        
+tzdata                              2023d-0ubuntu0.22.04                     deb        
 tzlocal                             5.2                                      python     
 ubuntu-keyring                      2021.03.26                               deb        
 ucf                                 3.0043                                   deb        
