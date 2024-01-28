@@ -52,7 +52,7 @@ click                               8.1.7                                    pyt
 comicapi                            3.2.0                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
 cron                                3.0pl1-137ubuntu3                        deb        
-cryptography                        41.0.7                                   python     
+cryptography                        42.0.1                                   python     
 curl                                7.81.0-1ubuntu1.15                       deb        
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb        
 debconf                             1.5.79ubuntu1                            deb        
@@ -87,7 +87,7 @@ golang.org/x/text                   v0.3.6                                   go-
 goodreads                           0.3.2                                    python     
 google-api-core                     2.15.0                                   python     
 google-api-python-client            2.107.0                                  python     
-google-auth                         2.26.2                                   python     
+google-auth                         2.27.0                                   python     
 google-auth-httplib2                0.2.0                                    python     
 google-auth-oauthlib                1.0.0                                    python     
 googleapis-common-protos            1.62.0                                   python     
@@ -231,7 +231,7 @@ libsepol2                           3.3-1build1                              deb
 libsmartcols1                       2.37.2-4ubuntu3                          deb        
 libsqlite3-0                        3.37.2-2ubuntu0.3                        deb        
 libss2                              1.46.5-2ubuntu1.1                        deb        
-libssh-4                            0.9.6-2ubuntu0.22.04.2                   deb        
+libssh-4                            0.9.6-2ubuntu0.22.04.3                   deb        
 libssl3                             3.0.2-0ubuntu1.10                        deb        
 libstdc++6                          12.3.0-1ubuntu1~22.04                    deb        
 libsystemd0                         249.11-0ubuntu3.9                        deb        
@@ -297,7 +297,7 @@ protobuf                            4.25.2                                   pyt
 psutil                              5.9.8                                    python     
 publicsuffix                        20211207.1025-1                          deb        
 py7zr                               0.20.8                                   python     
-pyOpenSSL                           23.3.0                                   python     
+pyOpenSSL                           24.0.0                                   python     
 pyasn1                              0.5.1                                    python     
 pyasn1-modules                      0.3.0                                    python     
 pybcj                               1.0.2                                    python     
@@ -309,7 +309,7 @@ pypdf                               3.15.5                                   pyt
 pyppmd                              1.1.0                                    python     
 python-Levenshtein                  0.21.1                                   python     
 python-dateutil                     2.8.2                                    python     
-python-dotenv                       1.0.0                                    python     
+python-dotenv                       1.0.1                                    python     
 python-ldap                         3.4.4                                    python     
 python3                             3.10.6-1~22.04                           deb        
 python3-distutils                   3.10.8-1~22.04                           deb        
@@ -335,7 +335,7 @@ rpds-py                             0.17.1                                   pyt
 rsa                                 4.9                                      python     
 scholarly                           1.7.11                                   python     
 sed                                 4.8-1ubuntu2                             deb        
-selenium                            4.16.0                                   python     
+selenium                            4.17.2                                   python     
 sensible-utils                      0.0.17                                   deb        
 setuptools                          59.6.0                                   python     
 six                                 1.16.0                                   python     
