@@ -12,7 +12,7 @@ Flask-SimpleLDAP                    1.4.0                                    pyt
 Flask-WTF                           1.2.1                                    python     
 Jinja2                              3.1.3                                    python     
 Levenshtein                         0.21.1                                   python     
-MarkupSafe                          2.1.4                                    python     
+MarkupSafe                          2.1.5                                    python     
 PyDrive2                            1.17.0                                   python     
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0.1                                    python     
@@ -44,7 +44,7 @@ blinker                             1.7.0                                    pyt
 bsdutils                            1:2.37.2-4ubuntu3                        deb        
 ca-certificates                     20230311ubuntu0.22.04.1                  deb        
 cachetools                          5.3.2                                    python     
-certifi                             2023.11.17                               python     
+certifi                             2024.2.2                                 python     
 cffi                                1.16.0                                   python     
 chardet                             4.0.0                                    python     
 charset-normalizer                  3.3.2                                    python     
@@ -52,7 +52,7 @@ click                               8.1.7                                    pyt
 comicapi                            3.2.0                                    python     
 coreutils                           8.32-4.1ubuntu1                          deb        
 cron                                3.0pl1-137ubuntu3                        deb        
-cryptography                        42.0.1                                   python     
+cryptography                        42.0.2                                   python     
 curl                                7.81.0-1ubuntu1.15                       deb        
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb        
 debconf                             1.5.79ubuntu1                            deb        
@@ -85,7 +85,7 @@ gnupg-utils                         2.2.27-3ubuntu2.1                        deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-module  
 golang.org/x/text                   v0.3.6                                   go-module  
 goodreads                           0.3.2                                    python     
-google-api-core                     2.15.0                                   python     
+google-api-core                     2.16.2                                   python     
 google-api-python-client            2.107.0                                  python     
 google-auth                         2.27.0                                   python     
 google-auth-httplib2                0.2.0                                    python     
@@ -184,8 +184,8 @@ libkrb5-3                           1.19.2-2ubuntu0.2                        deb
 libkrb5support0                     1.19.2-2ubuntu0.2                        deb        
 libksba8                            1.6.0-2ubuntu0.2                         deb        
 liblcms2-2                          2.12~rc1-2build2                         deb        
-libldap-2.5-0                       2.5.16+dfsg-0ubuntu0.22.04.1             deb        
-libldap-common                      2.5.16+dfsg-0ubuntu0.22.04.1             deb        
+libldap-2.5-0                       2.5.16+dfsg-0ubuntu0.22.04.2             deb        
+libldap-common                      2.5.16+dfsg-0ubuntu0.22.04.2             deb        
 liblqr-1-0                          0.4.2-2.1                                deb        
 libltdl7                            2.4.6-15build2                           deb        
 liblz4-1                            1.9.3-2build2                            deb        
@@ -281,7 +281,7 @@ netifaces                           0.11.0                                   pyt
 nose                                1.3.7                                    python     
 oauth2client                        4.1.3                                    python     
 oauthlib                            3.2.2                                    python     
-openssl                             3.0.2-0ubuntu1.12                        deb        
+openssl                             3.0.2-0ubuntu1.13                        deb        
 ordered-set                         4.1.0                                    python     
 outcome                             1.3.0.post0                              python     
 packaging                           23.2                                     python     
@@ -290,7 +290,7 @@ perl                                5.34.0-3ubuntu1.3                        deb
 perl-base                           5.34.0-3ubuntu1.3                        deb        
 pillow                              10.2.0                                   python     
 pinentry-curses                     1.1.1-1build2                            deb        
-pip                                 23.3.2                                   python     
+pip                                 24.0                                     python     
 poppler-data                        0.4.11-1                                 deb        
 procps                              2:3.3.17-6ubuntu2                        deb        
 protobuf                            4.25.2                                   python     
@@ -321,13 +321,13 @@ python3-venv                        3.10.6-1~22.04                           deb
 python3.10                          3.10.12-1~22.04.3                        deb        
 python3.10-minimal                  3.10.12-1~22.04.3                        deb        
 python3.10-venv                     3.10.12-1~22.04.3                        deb        
-pytz                                2023.3.post1                             python     
+pytz                                2024.1                                   python     
 pyzstd                              0.15.9                                   python     
 rapidfuzz                           3.6.1                                    python     
 rarfile                             4.1                                      python     
 rauth                               0.7.3                                    python     
 readline-common                     8.1.2-1                                  deb        
-referencing                         0.32.1                                   python     
+referencing                         0.33.0                                   python     
 requests                            2.31.0                                   python     
 requests-oauthlib                   1.3.1                                    python     
 rich                                13.7.0                                   python     
