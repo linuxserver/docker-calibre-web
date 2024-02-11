@@ -98,7 +98,7 @@ gpg-wks-server                      2.2.27-3ubuntu2.1                        deb
 gpgconf                             2.2.27-3ubuntu2.1                        deb        
 gpgsm                               2.2.27-3ubuntu2.1                        deb        
 gpgv                                2.2.27-3ubuntu2.1                        deb        
-greenlet                            2.0.2                                    python     
+greenlet                            3.0.3                                    python     
 grep                                3.7-1build1                              deb        
 gzip                                1.10-4ubuntu4.1                          deb        
 h11                                 0.14.0                                   python     
@@ -120,7 +120,7 @@ init-system-helpers                 1.62                                     deb
 iso-639                             0.4.5                                    python     
 itsdangerous                        2.1.2                                    python     
 jq                                  1.6-2.1ubuntu3                           deb        
-jsonschema                          4.19.2                                   python     
+jsonschema                          4.21.1                                   python     
 jsonschema-specifications           2023.12.1                                python     
 libacl1                             2.3.1-1                                  deb        
 libaom3                             3.3.0-1                                  deb        
@@ -271,7 +271,7 @@ mdurl                               0.1.2                                    pyt
 media-types                         7.0.0                                    deb        
 mount                               2.37.2-4ubuntu3                          deb        
 multivolumefile                     0.2.3                                    python     
-natsort                             8.3.1                                    python     
+natsort                             8.4.0                                    python     
 ncurses-base                        6.3-2ubuntu0.1                           deb        
 ncurses-bin                         6.3-2ubuntu0.1                           deb        
 ndg-httpsclient                     0.5.1                                    python     
