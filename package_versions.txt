@@ -5,7 +5,7 @@ Brotli                              1.1.0                                    pyt
 Deprecated                          1.2.14                                   python     
 Flask                               2.3.3                                    python     
 Flask-Dance                         7.0.1                                    python     
-Flask-Limiter                       3.5.0                                    python     
+Flask-Limiter                       3.5.1                                    python     
 Flask-Login                         0.6.2                                    python     
 Flask-Principal                     0.4.0                                    python     
 Flask-SimpleLDAP                    1.4.0                                    python     
@@ -17,7 +17,7 @@ PyDrive2                            1.17.0                                   pyt
 PySocks                             1.7.1                                    python     
 PyYAML                              6.0.1                                    python     
 Pygments                            2.17.2                                   python     
-SQLAlchemy                          2.0.25                                   python     
+SQLAlchemy                          2.0.26                                   python     
 SQLAlchemy-Utils                    0.41.1                                   python     
 Simple Launcher                     1.1.0.14                                 dotnet     
 Sphinx                              7.2.6                                    python     
