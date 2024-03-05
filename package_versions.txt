@@ -17,7 +17,7 @@ PyDrive2                            1.19.0                                   pyt
 PySocks                             1.7.1                                    python                      
 PyYAML                              6.0.1                                    python                      
 Pygments                            2.17.2                                   python                      
-SQLAlchemy                          2.0.27                                   python                      
+SQLAlchemy                          2.0.28                                   python                      
 SQLAlchemy-Utils                    0.41.1                                   python                      
 Simple Launcher                     1.1.0.14                                 dotnet     (+5 duplicates)  
 Sphinx                              7.2.6                                    python                      
