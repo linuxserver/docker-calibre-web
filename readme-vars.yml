@@ -5,6 +5,7 @@ project_name: calibre-web
 project_url: "https://github.com/janeczku/calibre-web"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png"
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Books"
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.   It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.
 
