@@ -18,7 +18,7 @@ PySocks                             1.7.1                                    pyt
 PyYAML                              6.0.1                                    python                      
 Pygments                            2.17.2                                   python                      
 SQLAlchemy                          1.4.52                                   python                      
-SQLAlchemy-Utils                    0.41.1                                   python                      
+SQLAlchemy-Utils                    0.41.2                                   python                      
 Simple Launcher                     1.1.0.14                                 dotnet     (+5 duplicates)  
 Sphinx                              7.2.6                                    python                      
 URLObject                           2.4.3                                    python                      
@@ -105,7 +105,7 @@ h11                                 0.14.0                                   pyt
 hicolor-icon-theme                  0.17-2                                   deb                         
 hostname                            3.23ubuntu2                              deb                         
 html2text                           2020.1.16                                python                      
-httpcore                            1.0.4                                    python                      
+httpcore                            1.0.5                                    python                      
 httplib2                            0.22.0                                   python                      
 httpx                               0.27.0                                   python                      
 idna                                3.6                                      python                      
@@ -303,7 +303,7 @@ pyasn1                              0.5.1                                    pyt
 pyasn1-modules                      0.3.0                                    python                      
 pybcj                               1.0.2                                    python                      
 pycountry                           22.3.5                                   python                      
-pycparser                           2.21                                     python                      
+pycparser                           2.22                                     python                      
 pycryptodomex                       3.20.0                                   python                      
 pyparsing                           3.1.2                                    python                      
 pypdf                               3.15.5                                   python                      
@@ -323,8 +323,8 @@ python3.10                          3.10.12-1~22.04.3                        deb
 python3.10-minimal                  3.10.12-1~22.04.3                        deb                         
 python3.10-venv                     3.10.12-1~22.04.3                        deb                         
 pytz                                2024.1                                   python                      
-pyzstd                              0.15.9                                   python                      
-rapidfuzz                           3.6.2                                    python                      
+pyzstd                              0.15.10                                  python                      
+rapidfuzz                           3.7.0                                    python                      
 rarfile                             4.1                                      python                      
 rauth                               0.7.3                                    python                      
 readline-common                     8.1.2-1                                  deb                         
@@ -336,7 +336,7 @@ rpds-py                             0.18.0                                   pyt
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
-selenium                            4.18.1                                   python                      
+selenium                            4.19.0                                   python                      
 sensible-utils                      0.0.17                                   deb                         
 setuptools                          59.6.0                                   python                      
 six                                 1.16.0                                   python                      
