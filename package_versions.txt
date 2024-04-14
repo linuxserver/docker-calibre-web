@@ -108,7 +108,7 @@ html2text                           2020.1.16                                pyt
 httpcore                            1.0.5                                    python                      
 httplib2                            0.22.0                                   python                      
 httpx                               0.27.0                                   python                      
-idna                                3.6                                      python                      
+idna                                3.7                                      python                      
 imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
@@ -324,7 +324,7 @@ python3.10-minimal                  3.10.12-1~22.04.3                        deb
 python3.10-venv                     3.10.12-1~22.04.3                        deb                         
 pytz                                2024.1                                   python                      
 pyzstd                              0.15.10                                  python                      
-rapidfuzz                           3.8.0                                    python                      
+rapidfuzz                           3.8.1                                    python                      
 rarfile                             4.2                                      python                      
 rauth                               0.7.3                                    python                      
 readline-common                     8.1.2-1                                  deb                         
@@ -378,4 +378,4 @@ xmltodict                           0.13.0                                   pyt
 zipp                                3.18.1                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope.event                          5.0                                      python                      
-zope.interface                      6.2                                      python                      
+zope.interface                      6.3                                      python                      
