@@ -258,7 +258,7 @@ libxml2                             2.9.13+dfsg-1ubuntu0.4                   deb
 libxslt1.1                          1.1.34-4ubuntu0.22.04.1                  deb                         
 libxxhash0                          0.8.1-1                                  deb                         
 libzstd1                            1.4.8+dfsg-3build1                       deb                         
-limits                              3.10.1                                   python                      
+limits                              3.11.0                                   python                      
 locales                             2.35-0ubuntu3.6                          deb                         
 login                               1:4.8.1-2ubuntu2.2                       deb                         
 logsave                             1.46.5-2ubuntu1.1                        deb                         
