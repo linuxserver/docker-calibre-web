@@ -8,7 +8,7 @@ Flask-Dance                         7.0.1                                    pyt
 Flask-Limiter                       3.5.1                                    python                      
 Flask-Login                         0.6.3                                    python                      
 Flask-Principal                     0.4.0                                    python                      
-Flask-SimpleLDAP                    1.4.0                                    python                      
+Flask-SimpleLDAP                    2.0.0                                    python                      
 Flask-WTF                           1.2.1                                    python                      
 Jinja2                              3.1.4                                    python                      
 Levenshtein                         0.25.1                                   python                      
