@@ -120,7 +120,7 @@ init-system-helpers                 1.62                                     deb
 iso-639                             0.4.5                                    python                      
 itsdangerous                        2.2.0                                    python                      
 jq                                  1.6-2.1ubuntu3                           deb                         
-jsonschema                          4.21.1                                   python                      
+jsonschema                          4.22.0                                   python                      
 jsonschema-specifications           2023.12.1                                python                      
 libacl1                             2.3.1-1                                  deb                         
 libaom3                             3.3.0-1                                  deb                         
@@ -299,8 +299,8 @@ psutil                              5.9.8                                    pyt
 publicsuffix                        20211207.1025-1                          deb                         
 py7zr                               0.20.8                                   python                      
 pyOpenSSL                           24.1.0                                   python                      
-pyasn1                              0.5.1                                    python                      
-pyasn1-modules                      0.3.0                                    python                      
+pyasn1                              0.6.0                                    python                      
+pyasn1_modules                      0.4.0                                    python                      
 pybcj                               1.0.2                                    python                      
 pycountry                           22.3.5                                   python                      
 pycparser                           2.22                                     python                      
@@ -309,7 +309,7 @@ pyparsing                           3.1.2                                    pyt
 pypdf                               4.0.2                                    python                      
 pyppmd                              1.1.0                                    python                      
 python-Levenshtein                  0.25.1                                   python                      
-python-dateutil                     2.8.2                                    python                      
+python-dateutil                     2.9.0.post0                              python                      
 python-dotenv                       1.0.1                                    python                      
 python-ldap                         3.4.4                                    python                      
 python3                             3.10.6-1~22.04                           deb                         
@@ -325,7 +325,7 @@ python3.10-venv                     3.10.12-1~22.04.3                        deb
 pytz                                2024.1                                   python                      
 pyzstd                              0.15.10                                  python                      
 rapidfuzz                           3.9.0                                    python                      
-rarfile                             4.1                                      python                      
+rarfile                             4.2                                      python                      
 rauth                               0.7.3                                    python                      
 readline-common                     8.1.2-1                                  deb                         
 referencing                         0.35.1                                   python                      
