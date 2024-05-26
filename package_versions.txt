@@ -323,8 +323,8 @@ python3.10                          3.10.12-1~22.04.3                        deb
 python3.10-minimal                  3.10.12-1~22.04.3                        deb                         
 python3.10-venv                     3.10.12-1~22.04.3                        deb                         
 pytz                                2024.1                                   python                      
-pyzstd                              0.15.10                                  python                      
-rapidfuzz                           3.9.0                                    python                      
+pyzstd                              0.16.0                                   python                      
+rapidfuzz                           3.9.1                                    python                      
 rarfile                             4.2                                      python                      
 rauth                               0.7.3                                    python                      
 readline-common                     8.1.2-1                                  deb                         
@@ -363,7 +363,7 @@ tornado                             6.4                                      pyt
 trio                                0.25.1                                   python                      
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
-typing_extensions                   4.11.0                                   python                      
+typing_extensions                   4.12.0                                   python                      
 tzdata                              2024a-0ubuntu0.22.04                     deb                         
 tzlocal                             5.2                                      python                      
 ubuntu-keyring                      2021.03.26                               deb                         
@@ -380,4 +380,4 @@ xmltodict                           0.13.0                                   pyt
 zipp                                3.18.2                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope.event                          5.0                                      python                      
-zope.interface                      6.4                                      python                      
+zope.interface                      6.4.post2                                python                      
