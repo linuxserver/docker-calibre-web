@@ -44,7 +44,7 @@ bsdutils                            1:2.37.2-4ubuntu3.4                      deb
 ca-certificates                     20230311ubuntu0.22.04.1                  deb                         
 cachetools                          5.3.3                                    python                      
 catatonit                           0.1.7-1                                  deb                         
-certifi                             2024.2.2                                 python                      
+certifi                             2024.6.2                                 python                      
 cffi                                1.16.0                                   python                      
 chardet                             4.0.0                                    python                      
 charset-normalizer                  3.3.2                                    python                      
