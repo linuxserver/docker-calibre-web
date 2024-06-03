@@ -90,7 +90,7 @@ google-api-python-client            2.119.0                                  pyt
 google-auth                         2.29.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.0                                    python                      
-googleapis-common-protos            1.63.0                                   python                      
+googleapis-common-protos            1.63.1                                   python                      
 gpg                                 2.2.27-3ubuntu2.1                        deb                         
 gpg-agent                           2.2.27-3ubuntu2.1                        deb                         
 gpg-wks-client                      2.2.27-3ubuntu2.1                        deb                         
