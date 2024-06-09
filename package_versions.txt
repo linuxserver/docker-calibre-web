@@ -52,7 +52,7 @@ click                               8.1.7                                    pyt
 comicapi                            3.2.0                                    python                      
 coreutils                           8.32-4.1ubuntu1.2                        deb                         
 cron                                3.0pl1-137ubuntu3                        deb                         
-cryptography                        42.0.7                                   python                      
+cryptography                        42.0.8                                   python                      
 curl                                7.81.0-1ubuntu1.16                       deb                         
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb                         
 debconf                             1.5.79ubuntu1                            deb                         
@@ -87,7 +87,7 @@ golang.org/x/text                   v0.3.6                                   go-
 goodreads                           0.3.2                                    python                      
 google-api-core                     2.19.0                                   python                      
 google-api-python-client            2.119.0                                  python                      
-google-auth                         2.29.0                                   python                      
+google-auth                         2.30.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.0                                    python                      
 googleapis-common-protos            1.63.1                                   python                      
@@ -136,7 +136,7 @@ libblkid1                           2.37.2-4ubuntu3.4                        deb
 libbrotli1                          1.0.9-2build6                            deb                         
 libbsd0                             0.11.5-1                                 deb                         
 libbz2-1.0                          1.0.8-5build1                            deb                         
-libc-bin                            2.35-0ubuntu3.7                          deb                         
+libc-bin                            2.35-0ubuntu3.8                          deb                         
 libc6                               2.35-0ubuntu3.8                          deb                         
 libcap-ng0                          0.7.9-2.2build3                          deb                         
 libcap2                             1:2.44-1ubuntu0.22.04.1                  deb                         
@@ -259,7 +259,7 @@ libxslt1.1                          1.1.34-4ubuntu0.22.04.1                  deb
 libxxhash0                          0.8.1-1                                  deb                         
 libzstd1                            1.4.8+dfsg-3build1                       deb                         
 limits                              3.12.0                                   python                      
-locales                             2.35-0ubuntu3.7                          deb                         
+locales                             2.35-0ubuntu3.8                          deb                         
 login                               1:4.8.1-2ubuntu2.2                       deb                         
 logsave                             1.46.5-2ubuntu1.1                        deb                         
 lsb-base                            11.1.0ubuntu4                            deb                         
@@ -359,11 +359,11 @@ tar                                 1.34+dfsg-1ubuntu0.1.22.04.2             deb
 text2digits                         0.1.0                                    python                      
 texttable                           1.7.0                                    python                      
 tomli                               2.0.1                                    python                      
-tornado                             6.4                                      python                      
+tornado                             6.4.1                                    python                      
 trio                                0.25.1                                   python                      
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
-typing_extensions                   4.12.1                                   python                      
+typing_extensions                   4.12.2                                   python                      
 tzdata                              2024a-0ubuntu0.22.04                     deb                         
 tzlocal                             5.2                                      python                      
 ubuntu-keyring                      2021.03.26                               deb                         
@@ -377,7 +377,7 @@ wordninja                           2.0.0                                    pyt
 wrapt                               1.16.0                                   python                      
 wsproto                             1.2.0                                    python                      
 xmltodict                           0.13.0                                   python                      
-zipp                                3.19.1                                   python                      
+zipp                                3.19.2                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope.event                          5.0                                      python                      
 zope.interface                      6.4.post2                                python                      
