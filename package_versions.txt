@@ -39,6 +39,7 @@ base-passwd                         3.5.52build1                             deb
 bash                                5.1-6ubuntu1.1                           deb                         
 beautifulsoup4                      4.12.3                                   python                      
 bibtexparser                        1.4.1                                    python                      
+bleach                              6.1.0                                    python                      
 blinker                             1.8.2                                    python                      
 bsdutils                            1:2.37.2-4ubuntu3.4                      deb                         
 ca-certificates                     20230311ubuntu0.22.04.1                  deb                         
@@ -105,6 +106,7 @@ h11                                 0.14.0                                   pyt
 hicolor-icon-theme                  0.17-2                                   deb                         
 hostname                            3.23ubuntu2                              deb                         
 html2text                           2024.2.25                                python                      
+html5lib                            1.1                                      python                      
 httpcore                            1.0.5                                    python                      
 httplib2                            0.22.0                                   python                      
 httpx                               0.27.0                                   python                      
@@ -372,6 +374,7 @@ uritemplate                         4.1.1                                    pyt
 urllib3                             1.26.18                                  python                      
 usrmerge                            25ubuntu2                                deb                         
 util-linux                          2.37.2-4ubuntu3.4                        deb                         
+webencodings                        0.5.1                                    python                      
 wheel                               0.43.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
