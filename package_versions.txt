@@ -292,7 +292,7 @@ perl                                5.34.0-3ubuntu1.3                        deb
 perl-base                           5.34.0-3ubuntu1.3                        deb                         
 pillow                              10.3.0                                   python                      
 pinentry-curses                     1.1.1-1build2                            deb                         
-pip                                 24.0                                     python                      
+pip                                 24.1                                     python                      
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
 proto-plus                          1.24.0                                   python                      
@@ -339,7 +339,7 @@ rpds-py                             0.18.1                                   pyt
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
-selenium                            4.21.0                                   python                      
+selenium                            4.22.0                                   python                      
 sensible-utils                      0.0.17                                   deb                         
 setuptools                          59.6.0                                   python                      
 six                                 1.16.0                                   python                      
@@ -375,6 +375,7 @@ urllib3                             1.26.19                                  pyt
 usrmerge                            25ubuntu2                                deb                         
 util-linux                          2.37.2-4ubuntu3.4                        deb                         
 webencodings                        0.5.1                                    python                      
+websocket-client                    1.8.0                                    python                      
 wheel                               0.43.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
