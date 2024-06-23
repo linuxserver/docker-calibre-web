@@ -73,7 +73,7 @@ fonts-urw-base35                    20200910-1                               deb
 free-proxy                          1.1.1                                    python                      
 gcc-12-base                         12.3.0-1ubuntu1~22.04                    deb                         
 gevent                              23.9.1                                   python                      
-ghostscript                         9.55.0~dfsg1-0ubuntu5.6                  deb                         
+ghostscript                         9.55.0~dfsg1-0ubuntu5.7                  deb                         
 github.com/beevik/etree             v1.1.0                                   go-module                   
 github.com/kr/smartypants           v0.1.0                                   go-module                   
 github.com/pgaskin/kepubify/_/html  v0.0.0-20211223234002-6ee2cc632cdc       go-module                   
@@ -113,7 +113,7 @@ imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb
 imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 imagesize                           1.4.1                                    python                      
-importlib_metadata                  7.1.0                                    python                      
+importlib_metadata                  7.2.0                                    python                      
 importlib_resources                 6.4.0                                    python                      
 inflate64                           1.0.0                                    python                      
 init-system-helpers                 1.62                                     deb                         
@@ -163,8 +163,8 @@ libgmp10                            2:6.2.1+dfsg-3ubuntu1                    deb
 libgnutls30                         3.7.3-4ubuntu1.5                         deb                         
 libgomp1                            12.3.0-1ubuntu1~22.04                    deb                         
 libgpg-error0                       1.43-3                                   deb                         
-libgs9                              9.55.0~dfsg1-0ubuntu5.6                  deb                         
-libgs9-common                       9.55.0~dfsg1-0ubuntu5.6                  deb                         
+libgs9                              9.55.0~dfsg1-0ubuntu5.7                  deb                         
+libgs9-common                       9.55.0~dfsg1-0ubuntu5.7                  deb                         
 libgssapi-krb5-2                    1.19.2-2ubuntu0.3                        deb                         
 libheif1                            1.12.0-2build1                           deb                         
 libhogweed6                         3.7.3-1build2                            deb                         
@@ -290,12 +290,12 @@ perl                                5.34.0-3ubuntu1.3                        deb
 perl-base                           5.34.0-3ubuntu1.3                        deb                         
 pillow                              10.3.0                                   python                      
 pinentry-curses                     1.1.1-1build2                            deb                         
-pip                                 24.0                                     python                      
+pip                                 24.1                                     python                      
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
-proto-plus                          1.23.0                                   python                      
+proto-plus                          1.24.0                                   python                      
 protobuf                            4.25.3                                   python                      
-psutil                              5.9.8                                    python                      
+psutil                              6.0.0                                    python                      
 publicsuffix                        20211207.1025-1                          deb                         
 py7zr                               0.20.8                                   python                      
 pyOpenSSL                           24.1.0                                   python                      
@@ -336,7 +336,7 @@ rpds-py                             0.18.1                                   pyt
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
-selenium                            4.21.0                                   python                      
+selenium                            4.22.0                                   python                      
 sensible-utils                      0.0.17                                   deb                         
 setuptools                          59.6.0                                   python                      
 six                                 1.16.0                                   python                      
@@ -368,9 +368,10 @@ tzlocal                             5.2                                      pyt
 ubuntu-keyring                      2021.03.26                               deb                         
 ucf                                 3.0043                                   deb                         
 uritemplate                         4.1.1                                    python                      
-urllib3                             1.26.18                                  python                      
+urllib3                             1.26.19                                  python                      
 usrmerge                            25ubuntu2                                deb                         
 util-linux                          2.37.2-4ubuntu3.4                        deb                         
+websocket-client                    1.8.0                                    python                      
 wheel                               0.43.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
