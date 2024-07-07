@@ -192,6 +192,8 @@ liblqr-1-0                          0.4.2-2.1                                deb
 libltdl7                            2.4.6-15build2                           deb                         
 liblz4-1                            1.9.3-2build2                            deb                         
 liblzma5                            5.2.5-2ubuntu1                           deb                         
+libmagic-mgc                        1:5.41-3ubuntu0.1                        deb                         
+libmagic1                           1:5.41-3ubuntu0.1                        deb                         
 libmagickcore-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 libmagickwand-6.q16-6               8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 libmd0                              1.0.4-1build1                            deb                         
@@ -292,7 +294,7 @@ perl                                5.34.0-3ubuntu1.3                        deb
 perl-base                           5.34.0-3ubuntu1.3                        deb                         
 pillow                              10.4.0                                   python                      
 pinentry-curses                     1.1.1-1build2                            deb                         
-pip                                 24.1.1                                   python                      
+pip                                 24.1.2                                   python                      
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
 proto-plus                          1.24.0                                   python                      
