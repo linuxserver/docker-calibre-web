@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/unrar:latest as unrar
+FROM ghcr.io/linuxserver/unrar:latest AS unrar
 
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 
@@ -24,6 +24,7 @@ RUN \
     imagemagick \
     ghostscript \
     libldap-2.5-0 \
+    libmagic1 \
     libsasl2-2 \
     libxi6 \
     libxslt1.1 \
