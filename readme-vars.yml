@@ -71,6 +71,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "07.07.24:", desc: "Add new dep, libmagic1."}
   - { date: "17.10.23:", desc: "Remove some packages that are required by the calibre mod but not the base container."}
   - { date: "07.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment."}
   - { date: "13.04.23:", desc: "Deprecate armhf."}
