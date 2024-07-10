@@ -369,7 +369,7 @@ trio                                0.26.0                                   pyt
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
 typing_extensions                   4.12.2                                   python                      
-tzdata                              2024a-0ubuntu0.22.04                     deb                         
+tzdata                              2024a-0ubuntu0.22.04.1                   deb                         
 tzlocal                             5.2                                      python                      
 ubuntu-keyring                      2021.03.26                               deb                         
 ucf                                 3.0043                                   deb                         
