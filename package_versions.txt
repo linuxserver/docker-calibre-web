@@ -122,7 +122,7 @@ init-system-helpers                 1.62                                     deb
 iso-639                             0.4.5                                    python                      
 itsdangerous                        2.2.0                                    python                      
 jq                                  1.6-2.1ubuntu3                           deb                         
-jsonschema                          4.22.0                                   python                      
+jsonschema                          4.23.0                                   python                      
 jsonschema-specifications           2023.12.1                                python                      
 libacl1                             2.3.1-1                                  deb                         
 libaom3                             3.3.0-1                                  deb                         
@@ -186,7 +186,7 @@ libkrb5-3                           1.19.2-2ubuntu0.3                        deb
 libkrb5support0                     1.19.2-2ubuntu0.3                        deb                         
 libksba8                            1.6.0-2ubuntu0.2                         deb                         
 liblcms2-2                          2.12~rc1-2build2                         deb                         
-libldap-2.5-0                       2.5.17+dfsg-0ubuntu0.22.04.1             deb                         
+libldap-2.5-0                       2.5.18+dfsg-0ubuntu0.22.04.1             deb                         
 libldap-common                      2.5.17+dfsg-0ubuntu0.22.04.1             deb                         
 liblqr-1-0                          0.4.2-2.1                                deb                         
 libltdl7                            2.4.6-15build2                           deb                         
