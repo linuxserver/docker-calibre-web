@@ -64,7 +64,7 @@ docutils                            0.20.1                                   pyt
 dpkg                                1.21.1ubuntu2.3                          deb                         
 dpkg-dev                            1.21.1ubuntu2.3                          deb                         
 e2fsprogs                           1.46.5-2ubuntu1.1                        deb                         
-exceptiongroup                      1.2.1                                    python                      
+exceptiongroup                      1.2.2                                    python                      
 fake-useragent                      1.5.1                                    python                      
 faust-cchardet                      2.1.19                                   python                      
 findutils                           4.8.0-1ubuntu3                           deb                         
@@ -87,10 +87,10 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
 google-api-core                     2.19.1                                   python                      
-google-api-python-client            2.136.0                                  python                      
-google-auth                         2.31.0                                   python                      
+google-api-python-client            2.137.0                                  python                      
+google-auth                         2.32.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
-google-auth-oauthlib                1.2.0                                    python                      
+google-auth-oauthlib                1.2.1                                    python                      
 googleapis-common-protos            1.63.2                                   python                      
 gpg                                 2.2.27-3ubuntu2.1                        deb                         
 gpg-agent                           2.2.27-3ubuntu2.1                        deb                         
@@ -186,7 +186,7 @@ libkrb5-3                           1.19.2-2ubuntu0.3                        deb
 libkrb5support0                     1.19.2-2ubuntu0.3                        deb                         
 libksba8                            1.6.0-2ubuntu0.2                         deb                         
 liblcms2-2                          2.12~rc1-2build2                         deb                         
-libldap-2.5-0                       2.5.17+dfsg-0ubuntu0.22.04.1             deb                         
+libldap-2.5-0                       2.5.18+dfsg-0ubuntu0.22.04.1             deb                         
 libldap-common                      2.5.17+dfsg-0ubuntu0.22.04.1             deb                         
 liblqr-1-0                          0.4.2-2.1                                deb                         
 libltdl7                            2.4.6-15build2                           deb                         
@@ -220,8 +220,8 @@ libpng16-16                         1.6.37-3build5                           deb
 libprocps8                          2:3.3.17-6ubuntu2.1                      deb                         
 libpsl5                             0.21.0-1.2build2                         deb                         
 libpython3-stdlib                   3.10.6-1~22.04                           deb                         
-libpython3.10-minimal               3.10.12-1~22.04.3                        deb                         
-libpython3.10-stdlib                3.10.12-1~22.04.3                        deb                         
+libpython3.10-minimal               3.10.12-1~22.04.4                        deb                         
+libpython3.10-stdlib                3.10.12-1~22.04.4                        deb                         
 libreadline8                        8.1.2-1                                  deb                         
 librtmp1                            2.4+20151223.gitfa8646d.1-2build4        deb                         
 libsasl2-2                          2.1.27+dfsg2-3ubuntu1.2                  deb                         
@@ -324,9 +324,9 @@ python3-minimal                     3.10.6-1~22.04                           deb
 python3-pip-whl                     22.0.2+dfsg-1ubuntu0.4                   deb                         
 python3-setuptools-whl              59.6.0-1.2ubuntu0.22.04.1                deb                         
 python3-venv                        3.10.6-1~22.04                           deb                         
-python3.10                          3.10.12-1~22.04.3                        deb                         
-python3.10-minimal                  3.10.12-1~22.04.3                        deb                         
-python3.10-venv                     3.10.12-1~22.04.3                        deb                         
+python3.10                          3.10.12-1~22.04.4                        deb                         
+python3.10-minimal                  3.10.12-1~22.04.4                        deb                         
+python3.10-venv                     3.10.12-1~22.04.4                        deb                         
 pytz                                2024.1                                   python                      
 pyzstd                              0.16.0                                   python                      
 rapidfuzz                           3.9.4                                    python                      
@@ -338,7 +338,7 @@ regex                               2024.5.15                                pyt
 requests                            2.31.0                                   python                      
 requests-oauthlib                   2.0.0                                    python                      
 rich                                13.7.1                                   python                      
-rpds-py                             0.18.1                                   python                      
+rpds-py                             0.19.0                                   python                      
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
@@ -369,7 +369,7 @@ trio                                0.26.0                                   pyt
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
 typing_extensions                   4.12.2                                   python                      
-tzdata                              2024a-0ubuntu0.22.04                     deb                         
+tzdata                              2024a-0ubuntu0.22.04.1                   deb                         
 tzlocal                             5.2                                      python                      
 ubuntu-keyring                      2021.03.26                               deb                         
 ucf                                 3.0043                                   deb                         
