@@ -64,7 +64,7 @@ docutils                            0.20.1                                   pyt
 dpkg                                1.21.1ubuntu2.3                          deb                         
 dpkg-dev                            1.21.1ubuntu2.3                          deb                         
 e2fsprogs                           1.46.5-2ubuntu1.1                        deb                         
-exceptiongroup                      1.2.1                                    python                      
+exceptiongroup                      1.2.2                                    python                      
 fake-useragent                      1.5.1                                    python                      
 faust-cchardet                      2.1.19                                   python                      
 findutils                           4.8.0-1ubuntu3                           deb                         
