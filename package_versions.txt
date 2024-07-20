@@ -342,7 +342,7 @@ rpds-py                             0.19.0                                   pyt
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
-selenium                            4.22.0                                   python                      
+selenium                            4.23.0                                   python                      
 sensible-utils                      0.0.17                                   deb                         
 setuptools                          59.6.0                                   python                      
 six                                 1.16.0                                   python                      
@@ -368,7 +368,7 @@ tornado                             6.4.1                                    pyt
 trio                                0.26.0                                   python                      
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
-typing_extensions                   4.12.2                                   python                      
+typing_extensions                   4.9.0                                    python                      
 tzdata                              2024a-0ubuntu0.22.04.1                   deb                         
 tzlocal                             5.2                                      python                      
 ubuntu-keyring                      2021.03.26                               deb                         
