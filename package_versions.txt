@@ -53,7 +53,7 @@ click                               8.1.7                                    pyt
 comicapi                            3.2.0                                    python                      
 coreutils                           8.32-4.1ubuntu1.2                        deb                         
 cron                                3.0pl1-137ubuntu3                        deb                         
-cryptography                        42.0.8                                   python                      
+cryptography                        43.0.0                                   python                      
 curl                                7.81.0-1ubuntu1.16                       deb                         
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb                         
 debconf                             1.5.79ubuntu1                            deb                         
@@ -302,7 +302,7 @@ protobuf                            5.27.2                                   pyt
 psutil                              6.0.0                                    python                      
 publicsuffix                        20211207.1025-1                          deb                         
 py7zr                               0.20.8                                   python                      
-pyOpenSSL                           24.1.0                                   python                      
+pyOpenSSL                           24.2.1                                   python                      
 pyasn1                              0.6.0                                    python                      
 pyasn1_modules                      0.4.0                                    python                      
 pybcj                               1.0.2                                    python                      
