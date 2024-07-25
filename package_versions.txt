@@ -87,7 +87,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
 google-api-core                     2.19.1                                   python                      
-google-api-python-client            2.137.0                                  python                      
+google-api-python-client            2.138.0                                  python                      
 google-auth                         2.32.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.1                                    python                      
@@ -115,7 +115,7 @@ imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb
 imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.3      deb                         
 imagesize                           1.4.1                                    python                      
-importlib_metadata                  8.0.0                                    python                      
+importlib_metadata                  8.2.0                                    python                      
 importlib_resources                 6.4.0                                    python                      
 inflate64                           1.0.0                                    python                      
 init-system-helpers                 1.62                                     deb                         
@@ -186,7 +186,7 @@ libkrb5-3                           1.19.2-2ubuntu0.3                        deb
 libkrb5support0                     1.19.2-2ubuntu0.3                        deb                         
 libksba8                            1.6.0-2ubuntu0.2                         deb                         
 liblcms2-2                          2.12~rc1-2build2                         deb                         
-libldap-2.5-0                       2.5.18+dfsg-0ubuntu0.22.04.1             deb                         
+libldap-2.5-0                       2.5.18+dfsg-0ubuntu0.22.04.2             deb                         
 libldap-common                      2.5.18+dfsg-0ubuntu0.22.04.1             deb                         
 liblqr-1-0                          0.4.2-2.1                                deb                         
 libltdl7                            2.4.6-15build2                           deb                         
@@ -338,11 +338,11 @@ regex                               2024.5.15                                pyt
 requests                            2.31.0                                   python                      
 requests-oauthlib                   2.0.0                                    python                      
 rich                                13.7.1                                   python                      
-rpds-py                             0.19.0                                   python                      
+rpds-py                             0.19.1                                   python                      
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
-selenium                            4.23.0                                   python                      
+selenium                            4.23.1                                   python                      
 sensible-utils                      0.0.17                                   deb                         
 setuptools                          59.6.0                                   python                      
 six                                 1.16.0                                   python                      
@@ -368,7 +368,7 @@ tornado                             6.4.1                                    pyt
 trio                                0.26.0                                   python                      
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
-typing_extensions                   4.9.0                                    python                      
+typing_extensions                   4.12.2                                   python                      
 tzdata                              2024a-0ubuntu0.22.04.1                   deb                         
 tzlocal                             5.2                                      python                      
 ubuntu-keyring                      2021.03.26                               deb                         
