@@ -46,11 +46,11 @@ exceptiongroup                      1.2.2                                    pyt
 fake-useragent                      1.5.1                                    python                      
 faust-cchardet                      2.1.19                                   python                      
 findutils                           4.8.0-1ubuntu3                           deb                         
-flask                               2.3.3                                    python                      
+flask                               3.0.3                                    python                      
 flask-babel                         4.0.0                                    python                      
 flask-dance                         7.0.1                                    python                      
-flask-limiter                       3.5.1                                    python                      
-flask-login                         0.6.3                                    python                      
+flask-httpauth                      4.8.0                                    python                      
+flask-limiter                       3.8.0                                    python                      
 flask-principal                     0.4.0                                    python                      
 flask-simpleldap                    2.0.0                                    python                      
 flask-wtf                           1.2.1                                    python                      
@@ -108,7 +108,7 @@ iso-639                             0.4.5                                    pyt
 itsdangerous                        2.2.0                                    python                      
 jinja2                              3.1.4                                    python                      
 jq                                  1.6-2.1ubuntu3                           deb                         
-jsonschema                          4.22.0                                   python                      
+jsonschema                          4.23.0                                   python                      
 jsonschema-specifications           2023.12.1                                python                      
 levenshtein                         0.25.1                                   python                      
 libacl1                             2.3.1-1                                  deb                         
@@ -320,7 +320,7 @@ python3.10-minimal                  3.10.12-1~22.04.5                        deb
 python3.10-venv                     3.10.12-1~22.04.5                        deb                         
 pytz                                2024.1                                   python                      
 pyyaml                              6.0.1                                    python                      
-pyzstd                              0.16.0                                   python                      
+pyzstd                              0.16.1                                   python                      
 rapidfuzz                           3.9.5                                    python                      
 rarfile                             4.2                                      python                      
 rauth                               0.7.3                                    python                      
@@ -360,7 +360,7 @@ text2digits                         0.1.0                                    pyt
 texttable                           1.7.0                                    python                      
 tomli                               2.0.1                                    python                      
 tornado                             6.4.1                                    python                      
-trio                                0.26.0                                   python                      
+trio                                0.26.1                                   python                      
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20240316                           python                      
 typing-extensions                   4.12.2                                   python                      
@@ -377,8 +377,8 @@ util-linux                          2.37.2-4ubuntu3.4                        deb
 wand                                0.6.13                                   python                      
 webencodings                        0.5.1                                    python                      
 websocket-client                    1.8.0                                    python                      
-werkzeug                            2.3.8                                    python                      
-wheel                               0.43.0                                   python                      
+werkzeug                            3.0.3                                    python                      
+wheel                               0.44.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
 wsproto                             1.2.0                                    python                      
