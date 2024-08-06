@@ -351,7 +351,7 @@ sphinxcontrib-jquery                4.1                                      pyt
 sphinxcontrib-jsmath                1.0.1                                    python                      
 sphinxcontrib-qthelp                2.0.0                                    python                      
 sphinxcontrib-serializinghtml       2.0.0                                    python                      
-sqlalchemy                          2.0.31                                   python                      
+sqlalchemy                          2.0.32                                   python                      
 sqlalchemy-utils                    0.41.2                                   python                      
 stdlib                              go1.17.8                                 go-module                   
 sysvinit-utils                      3.01-1ubuntu1                            deb                         
@@ -387,4 +387,4 @@ xmltodict                           0.13.0                                   pyt
 zipp                                3.19.2                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope-event                          5.0                                      python                      
-zope-interface                      6.4.post2                                python                      
+zope-interface                      7.0                                      python                      
