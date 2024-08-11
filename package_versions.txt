@@ -24,7 +24,7 @@ cachetools                          5.4.0                                    pyt
 catatonit                           0.1.7-1                                  deb                         
 certifi                             2024.7.4                                 python                      
 cffi                                1.17.0                                   python                      
-chardet                             4.0.0                                    python                      
+chardet                             5.2.0                                    python                      
 charset-normalizer                  3.3.2                                    python                      
 click                               8.1.7                                    python                      
 comicapi                            3.2.0                                    python                      
@@ -263,6 +263,7 @@ mdurl                               0.1.2                                    pyt
 media-types                         7.0.0                                    deb                         
 mount                               2.37.2-4ubuntu3.4                        deb                         
 multivolumefile                     0.2.3                                    python                      
+mutagen                             1.47.0                                   python                      
 natsort                             8.4.0                                    python                      
 ncurses-base                        6.3-2ubuntu0.1                           deb                         
 ncurses-bin                         6.3-2ubuntu0.1                           deb                         
