@@ -385,7 +385,7 @@ wrapt                               1.16.0                                   pyt
 wsproto                             1.2.0                                    python                      
 wtforms                             3.1.2                                    python                      
 xmltodict                           0.13.0                                   python                      
-zipp                                3.19.2                                   python                      
+zipp                                3.20.0                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope-event                          5.0                                      python                      
 zope-interface                      7.0.1                                    python                      
