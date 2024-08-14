@@ -154,7 +154,7 @@ libgomp1                            12.3.0-1ubuntu1~22.04                    deb
 libgpg-error0                       1.43-3                                   deb                         
 libgs9                              9.55.0~dfsg1-0ubuntu5.9                  deb                         
 libgs9-common                       9.55.0~dfsg1-0ubuntu5.9                  deb                         
-libgssapi-krb5-2                    1.19.2-2ubuntu0.3                        deb                         
+libgssapi-krb5-2                    1.19.2-2ubuntu0.4                        deb                         
 libheif1                            1.12.0-2build1                           deb                         
 libhogweed6                         3.7.3-1build2                            deb                         
 libicu70                            70.1-2                                   deb                         
@@ -167,10 +167,10 @@ libjpeg-turbo8                      2.1.2-0ubuntu1                           deb
 libjpeg8                            8c-2ubuntu10                             deb                         
 libjq1                              1.6-2.1ubuntu3                           deb                         
 libjs-jquery                        3.6.0+dfsg+~3.5.13-1                     deb                         
-libk5crypto3                        1.19.2-2ubuntu0.3                        deb                         
+libk5crypto3                        1.19.2-2ubuntu0.4                        deb                         
 libkeyutils1                        1.6.1-2ubuntu3                           deb                         
-libkrb5-3                           1.19.2-2ubuntu0.3                        deb                         
-libkrb5support0                     1.19.2-2ubuntu0.3                        deb                         
+libkrb5-3                           1.19.2-2ubuntu0.4                        deb                         
+libkrb5support0                     1.19.2-2ubuntu0.4                        deb                         
 libksba8                            1.6.0-2ubuntu0.2                         deb                         
 liblcms2-2                          2.12~rc1-2build2                         deb                         
 libldap-2.5-0                       2.5.18+dfsg-0ubuntu0.22.04.2             deb                         
