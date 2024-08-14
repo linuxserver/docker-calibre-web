@@ -72,7 +72,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
 google-api-core                     2.19.1                                   python                      
-google-api-python-client            2.140.0                                  python                      
+google-api-python-client            2.141.0                                  python                      
 google-auth                         2.33.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.1                                    python                      
@@ -101,7 +101,7 @@ imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb                         
 imagesize                           1.4.1                                    python                      
 importlib-metadata                  8.2.0                                    python                      
-importlib-resources                 6.4.0                                    python                      
+importlib-resources                 6.4.2                                    python                      
 inflate64                           1.0.0                                    python                      
 init-system-helpers                 1.62                                     deb                         
 iso-639                             0.4.5                                    python                      
