@@ -101,7 +101,7 @@ imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb                         
 imagesize                           1.4.1                                    python                      
 importlib-metadata                  8.4.0                                    python                      
-importlib-resources                 6.4.3                                    python                      
+importlib-resources                 6.4.4                                    python                      
 inflate64                           1.0.0                                    python                      
 init-system-helpers                 1.62                                     deb                         
 iso-639                             0.4.5                                    python                      
@@ -378,7 +378,7 @@ util-linux                          2.37.2-4ubuntu3.4                        deb
 wand                                0.6.13                                   python                      
 webencodings                        0.5.1                                    python                      
 websocket-client                    1.8.0                                    python                      
-werkzeug                            3.0.3                                    python                      
+werkzeug                            3.0.4                                    python                      
 wheel                               0.44.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
