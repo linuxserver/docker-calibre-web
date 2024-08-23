@@ -206,7 +206,7 @@ libpcre3                            2:8.39-13ubuntu0.22.04.1                 deb
 libpng16-16                         1.6.37-3build5                           deb                         
 libprocps8                          2:3.3.17-6ubuntu2.1                      deb                         
 libpsl5                             0.21.0-1.2build2                         deb                         
-libpython3-stdlib                   3.10.6-1~22.04                           deb                         
+libpython3-stdlib                   3.10.6-1~22.04.1                         deb                         
 libpython3.10-minimal               3.10.12-1~22.04.5                        deb                         
 libpython3.10-stdlib                3.10.12-1~22.04.5                        deb                         
 libreadline8                        8.1.2-1                                  deb                         
@@ -309,13 +309,13 @@ python-dotenv                       1.0.1                                    pyt
 python-ldap                         3.4.4                                    python                      
 python-levenshtein                  0.25.1                                   python                      
 python-magic                        0.4.27                                   python                      
-python3                             3.10.6-1~22.04                           deb                         
+python3                             3.10.6-1~22.04.1                         deb                         
 python3-distutils                   3.10.8-1~22.04                           deb                         
 python3-lib2to3                     3.10.8-1~22.04                           deb                         
-python3-minimal                     3.10.6-1~22.04                           deb                         
+python3-minimal                     3.10.6-1~22.04.1                         deb                         
 python3-pip-whl                     22.0.2+dfsg-1ubuntu0.4                   deb                         
 python3-setuptools-whl              59.6.0-1.2ubuntu0.22.04.1                deb                         
-python3-venv                        3.10.6-1~22.04                           deb                         
+python3-venv                        3.10.6-1~22.04.1                         deb                         
 python3.10                          3.10.12-1~22.04.5                        deb                         
 python3.10-minimal                  3.10.12-1~22.04.5                        deb                         
 python3.10-venv                     3.10.12-1~22.04.5                        deb                         
