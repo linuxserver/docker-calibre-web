@@ -95,7 +95,7 @@ html5lib                            1.1                                      pyt
 httpcore                            1.0.5                                    python                      
 httplib2                            0.22.0                                   python                      
 httpx                               0.27.0                                   python                      
-idna                                3.7                                      python                      
+idna                                3.8                                      python                      
 imagemagick                         8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb                         
 imagemagick-6-common                8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb                         
 imagemagick-6.q16                   8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5      deb                         
