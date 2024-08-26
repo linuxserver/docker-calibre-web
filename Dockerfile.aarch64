@@ -34,7 +34,8 @@ RUN \
     libsasl2-2 \
     libxi6 \
     libxslt1.1 \
-    python3-venv && \
+    python3-venv \
+    xdg-utils && \
   echo "**** install calibre-web ****" && \
   if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
     CALIBREWEB_RELEASE=$(curl -sX GET "https://api.github.com/repos/janeczku/calibre-web/releases/latest" \
