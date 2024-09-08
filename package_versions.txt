@@ -23,14 +23,14 @@ ca-certificates                     20230311ubuntu0.22.04.1                  deb
 cachetools                          5.5.0                                    python                      
 catatonit                           0.1.7-1                                  deb                         
 certifi                             2024.8.30                                python                      
-cffi                                1.17.0                                   python                      
+cffi                                1.17.1                                   python                      
 chardet                             5.2.0                                    python                      
 charset-normalizer                  3.3.2                                    python                      
 click                               8.1.7                                    python                      
 comicapi                            3.2.0                                    python                      
 coreutils                           8.32-4.1ubuntu1.2                        deb                         
 cron                                3.0pl1-137ubuntu3                        deb                         
-cryptography                        43.0.0                                   python                      
+cryptography                        43.0.1                                   python                      
 curl                                7.81.0-1ubuntu1.17                       deb                         
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb                         
 debconf                             1.5.79ubuntu1                            deb                         
@@ -56,7 +56,7 @@ flask-simpleldap                    2.0.0                                    pyt
 flask-wtf                           1.2.1                                    python                      
 fontconfig-config                   2.13.1-4.2ubuntu5                        deb                         
 fonts-urw-base35                    20200910-1                               deb                         
-free-proxy                          1.1.1                                    python                      
+free-proxy                          1.1.2                                    python                      
 gcc-12-base                         12.3.0-1ubuntu1~22.04                    deb                         
 gevent                              24.2.1                                   python                      
 ghostscript                         9.55.0~dfsg1-0ubuntu5.9                  deb                         
@@ -72,7 +72,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
 google-api-core                     2.19.2                                   python                      
-google-api-python-client            2.143.0                                  python                      
+google-api-python-client            2.144.0                                  python                      
 google-auth                         2.34.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.1                                    python                      
@@ -223,7 +223,7 @@ libsmartcols1                       2.37.2-4ubuntu3.4                        deb
 libsqlite3-0                        3.37.2-2ubuntu0.3                        deb                         
 libss2                              1.46.5-2ubuntu1.2                        deb                         
 libssh-4                            0.9.6-2ubuntu0.22.04.3                   deb                         
-libssl3                             3.0.2-0ubuntu1.17                        deb                         
+libssl3                             3.0.2-0ubuntu1.18                        deb                         
 libstdc++6                          12.3.0-1ubuntu1~22.04                    deb                         
 libsystemd0                         249.11-0ubuntu3.12                       deb                         
 libtasn1-6                          4.18.0-4build1                           deb                         
@@ -274,7 +274,7 @@ netifaces                           0.11.0                                   pyt
 nose                                1.3.7                                    python                      
 oauth2client                        4.1.3                                    python                      
 oauthlib                            3.2.2                                    python                      
-openssl                             3.0.2-0ubuntu1.17                        deb                         
+openssl                             3.0.2-0ubuntu1.18                        deb                         
 ordered-set                         4.1.0                                    python                      
 outcome                             1.3.0.post0                              python                      
 packaging                           24.1                                     python                      
@@ -322,7 +322,7 @@ python3.10-venv                     3.10.12-1~22.04.5                        deb
 pytz                                2024.1                                   python                      
 pyyaml                              6.0.2                                    python                      
 pyzstd                              0.16.1                                   python                      
-rapidfuzz                           3.9.6                                    python                      
+rapidfuzz                           3.9.7                                    python                      
 rarfile                             4.2                                      python                      
 rauth                               0.7.3                                    python                      
 readline-common                     8.1.2-1                                  deb                         
@@ -352,7 +352,7 @@ sphinxcontrib-jquery                4.1                                      pyt
 sphinxcontrib-jsmath                1.0.1                                    python                      
 sphinxcontrib-qthelp                2.0.0                                    python                      
 sphinxcontrib-serializinghtml       2.0.0                                    python                      
-sqlalchemy                          2.0.32                                   python                      
+sqlalchemy                          2.0.34                                   python                      
 sqlalchemy-utils                    0.41.2                                   python                      
 stdlib                              go1.17.8                                 go-module                   
 sysvinit-utils                      3.01-1ubuntu1                            deb                         
@@ -363,7 +363,7 @@ tomli                               2.0.1                                    pyt
 tornado                             6.4.1                                    python                      
 trio                                0.26.2                                   python                      
 trio-websocket                      0.11.1                                   python                      
-types-python-dateutil               2.9.0.20240821                           python                      
+types-python-dateutil               2.9.0.20240906                           python                      
 typing-extensions                   4.12.2                                   python                      
 tzdata                              2024a-0ubuntu0.22.04.1                   deb                         
 tzlocal                             5.2                                      python                      
