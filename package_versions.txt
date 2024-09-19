@@ -287,7 +287,7 @@ pip                                 24.2                                     pyt
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
 proto-plus                          1.24.0                                   python                      
-protobuf                            5.28.1                                   python                      
+protobuf                            5.28.2                                   python                      
 psutil                              6.0.0                                    python                      
 publicsuffix                        20211207.1025-1                          deb                         
 py7zr                               0.20.8                                   python                      
