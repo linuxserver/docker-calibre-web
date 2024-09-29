@@ -130,7 +130,7 @@ libcap-ng0                          0.7.9-2.2build3                          deb
 libcap2                             1:2.44-1ubuntu0.22.04.1                  deb                         
 libcom-err2                         1.46.5-2ubuntu1.2                        deb                         
 libcrypt1                           1:4.4.27-1                               deb                         
-libcups2                            2.4.1op1-1ubuntu4.10                     deb                         
+libcups2                            2.4.1op1-1ubuntu4.11                     deb                         
 libcurl4                            7.81.0-1ubuntu1.18                       deb                         
 libdav1d5                           0.9.2-1                                  deb                         
 libdb5.3                            5.3.28+dfsg1-0.8ubuntu3                  deb                         
