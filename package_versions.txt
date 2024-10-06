@@ -14,12 +14,12 @@ base-files                          12ubuntu4.7                              deb
 base-passwd                         3.5.52build1                             deb                         
 bash                                5.1-6ubuntu1.1                           deb                         
 beautifulsoup4                      4.12.3                                   python                      
-bibtexparser                        1.4.1                                    python                      
+bibtexparser                        1.4.2                                    python                      
 bleach                              6.1.0                                    python                      
 blinker                             1.8.2                                    python                      
 brotli                              1.1.0                                    python                      
 bsdutils                            1:2.37.2-4ubuntu3.4                      deb                         
-ca-certificates                     20230311ubuntu0.22.04.1                  deb                         
+ca-certificates                     20240203~22.04.1                         deb                         
 cachetools                          5.5.0                                    python                      
 catatonit                           0.1.7-1                                  deb                         
 certifi                             2024.8.30                                python                      
@@ -92,7 +92,7 @@ hicolor-icon-theme                  0.17-2                                   deb
 hostname                            3.23ubuntu2                              deb                         
 html2text                           2024.2.25                                python                      
 html5lib                            1.1                                      python                      
-httpcore                            1.0.5                                    python                      
+httpcore                            1.0.6                                    python                      
 httplib2                            0.22.0                                   python                      
 httpx                               0.27.2                                   python                      
 idna                                3.10                                     python                      
@@ -295,7 +295,7 @@ pyasn1-modules                      0.4.1                                    pyt
 pybcj                               1.0.2                                    python                      
 pycountry                           22.3.5                                   python                      
 pycparser                           2.22                                     python                      
-pycryptodomex                       3.20.0                                   python                      
+pycryptodomex                       3.21.0                                   python                      
 pydrive2                            1.19.0                                   python                      
 pygments                            2.18.0                                   python                      
 pyopenssl                           24.2.1                                   python                      
@@ -329,7 +329,7 @@ referencing                         0.35.1                                   pyt
 regex                               2024.5.15                                python                      
 requests                            2.31.0                                   python                      
 requests-oauthlib                   2.0.0                                    python                      
-rich                                13.8.1                                   python                      
+rich                                13.9.2                                   python                      
 rpds-py                             0.20.0                                   python                      
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
@@ -358,11 +358,11 @@ sysvinit-utils                      3.01-1ubuntu1                            deb
 tar                                 1.34+dfsg-1ubuntu0.1.22.04.2             deb                         
 text2digits                         0.1.0                                    python                      
 texttable                           1.7.0                                    python                      
-tomli                               2.0.1                                    python                      
+tomli                               2.0.2                                    python                      
 tornado                             6.4.1                                    python                      
 trio                                0.26.2                                   python                      
 trio-websocket                      0.11.1                                   python                      
-types-python-dateutil               2.9.0.20240906                           python                      
+types-python-dateutil               2.9.0.20241003                           python                      
 typing-extensions                   4.12.2                                   python                      
 tzdata                              2024a-0ubuntu0.22.04.1                   deb                         
 tzlocal                             5.2                                      python                      
