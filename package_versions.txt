@@ -2,7 +2,7 @@ NAME                                VERSION                                  TYP
 Simple Launcher                     1.1.0.14                                 dotnet     (+5 duplicates)  
 adduser                             3.118ubuntu5                             deb                         
 alabaster                           1.0.0                                    python                      
-anyio                               4.6.0                                    python                      
+anyio                               4.6.2.post1                              python                      
 apscheduler                         3.10.4                                   python                      
 apt                                 2.4.13                                   deb                         
 apt-utils                           2.4.13                                   deb                         
@@ -29,7 +29,7 @@ click                               8.1.7                                    pyt
 comicapi                            3.2.0                                    python                      
 coreutils                           8.32-4.1ubuntu1.2                        deb                         
 cron                                3.0pl1-137ubuntu3                        deb                         
-cryptography                        43.0.1                                   python                      
+cryptography                        43.0.3                                   python                      
 curl                                7.81.0-1ubuntu1.18                       deb                         
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb                         
 debconf                             1.5.79ubuntu1                            deb                         
@@ -62,7 +62,7 @@ ghostscript                         9.55.0~dfsg1-0ubuntu5.9                  deb
 github.com/beevik/etree             v1.1.0                                   go-module                   
 github.com/kr/smartypants           v0.1.0                                   go-module                   
 github.com/pgaskin/kepubify/_/html  v0.0.0-20211223234002-6ee2cc632cdc       go-module                   
-github.com/pgaskin/kepubify/v4      (devel)                                  go-module                   
+github.com/pgaskin/kepubify/v4      v4.0.4                                   go-module                   
 github.com/spf13/pflag              v1.0.5                                   go-module                   
 gnupg                               2.2.27-3ubuntu2.1                        deb                         
 gnupg-l10n                          2.2.27-3ubuntu2.1                        deb                         
@@ -256,7 +256,7 @@ lsb-base                            11.1.0ubuntu4                            deb
 lxml                                5.2.2                                    python                      
 markdown-it-py                      3.0.0                                    python                      
 markdown2                           2.4.13                                   python                      
-markupsafe                          3.0.1                                    python                      
+markupsafe                          3.0.2                                    python                      
 mawk                                1.3.4.20200120-3                         deb                         
 mdurl                               0.1.2                                    python                      
 media-types                         7.0.0                                    deb                         
@@ -279,14 +279,14 @@ packaging                           24.1                                     pyt
 passwd                              1:4.8.1-2ubuntu2.2                       deb                         
 perl                                5.34.0-3ubuntu1.3                        deb                         
 perl-base                           5.34.0-3ubuntu1.3                        deb                         
-pillow                              10.4.0                                   python                      
+pillow                              11.0.0                                   python                      
 pinentry-curses                     1.1.1-1build2                            deb                         
 pip                                 24.2                                     python                      
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
 proto-plus                          1.24.0                                   python                      
 protobuf                            5.28.2                                   python                      
-psutil                              6.0.0                                    python                      
+psutil                              6.1.0                                    python                      
 publicsuffix                        20211207.1025-1                          deb                         
 py7zr                               0.20.8                                   python                      
 pyasn1                              0.6.1                                    python                      
@@ -298,7 +298,7 @@ pycryptodomex                       3.21.0                                   pyt
 pydrive2                            1.19.0                                   python                      
 pygments                            2.18.0                                   python                      
 pyopenssl                           24.2.1                                   python                      
-pyparsing                           3.1.4                                    python                      
+pyparsing                           3.2.0                                    python                      
 pypdf                               5.0.1                                    python                      
 pyppmd                              1.1.0                                    python                      
 pysocks                             1.7.1                                    python                      
@@ -341,7 +341,7 @@ sniffio                             1.3.1                                    pyt
 snowballstemmer                     2.2.0                                    python                      
 sortedcontainers                    2.4.0                                    python                      
 soupsieve                           2.6                                      python                      
-sphinx                              8.1.2                                    python                      
+sphinx                              8.1.3                                    python                      
 sphinx-rtd-theme                    3.0.1                                    python                      
 sphinxcontrib-applehelp             2.0.0                                    python                      
 sphinxcontrib-devhelp               2.0.0                                    python                      
@@ -350,7 +350,7 @@ sphinxcontrib-jquery                4.1                                      pyt
 sphinxcontrib-jsmath                1.0.1                                    python                      
 sphinxcontrib-qthelp                2.0.0                                    python                      
 sphinxcontrib-serializinghtml       2.0.0                                    python                      
-sqlalchemy                          2.0.35                                   python                      
+sqlalchemy                          2.0.36                                   python                      
 sqlalchemy-utils                    0.41.2                                   python                      
 stdlib                              go1.17.8                                 go-module                   
 sysvinit-utils                      3.01-1ubuntu1                            deb                         
@@ -359,7 +359,7 @@ text2digits                         0.1.0                                    pyt
 texttable                           1.7.0                                    python                      
 tomli                               2.0.2                                    python                      
 tornado                             6.4.1                                    python                      
-trio                                0.26.2                                   python                      
+trio                                0.27.0                                   python                      
 trio-websocket                      0.11.1                                   python                      
 types-python-dateutil               2.9.0.20241003                           python                      
 typing-extensions                   4.12.2                                   python                      
@@ -383,7 +383,7 @@ wrapt                               1.16.0                                   pyt
 wsproto                             1.2.0                                    python                      
 wtforms                             3.1.2                                    python                      
 xdg-utils                           1.1.3-4.1ubuntu3~22.04.1                 deb                         
-xmltodict                           0.14.1                                   python                      
+xmltodict                           0.14.2                                   python                      
 zipp                                3.20.2                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope-event                          5.0                                      python                      
