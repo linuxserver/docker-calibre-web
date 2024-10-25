@@ -52,7 +52,7 @@ flask-httpauth                      4.8.0                                    pyt
 flask-limiter                       3.8.0                                    python                      
 flask-principal                     0.4.0                                    python                      
 flask-simpleldap                    2.0.0                                    python                      
-flask-wtf                           1.2.1                                    python                      
+flask-wtf                           1.2.2                                    python                      
 fontconfig-config                   2.13.1-4.2ubuntu5                        deb                         
 fonts-urw-base35                    20200910-1                               deb                         
 free-proxy                          1.1.2                                    python                      
@@ -320,7 +320,7 @@ python3.10-venv                     3.10.12-1~22.04.6                        deb
 pytz                                2024.2                                   python                      
 pyyaml                              6.0.2                                    python                      
 pyzstd                              0.16.2                                   python                      
-rapidfuzz                           3.10.0                                   python                      
+rapidfuzz                           3.10.1                                   python                      
 rarfile                             4.2                                      python                      
 rauth                               0.7.3                                    python                      
 readline-common                     8.1.2-1                                  deb                         
@@ -376,7 +376,7 @@ util-linux                          2.37.2-4ubuntu3.4                        deb
 wand                                0.6.13                                   python                      
 webencodings                        0.5.1                                    python                      
 websocket-client                    1.8.0                                    python                      
-werkzeug                            3.0.4                                    python                      
+werkzeug                            3.0.5                                    python                      
 wheel                               0.44.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
