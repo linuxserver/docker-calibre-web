@@ -376,7 +376,7 @@ util-linux                          2.37.2-4ubuntu3.4                        deb
 wand                                0.6.13                                   python                      
 webencodings                        0.5.1                                    python                      
 websocket-client                    1.8.0                                    python                      
-werkzeug                            3.0.5                                    python                      
+werkzeug                            3.0.6                                    python                      
 wheel                               0.44.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
