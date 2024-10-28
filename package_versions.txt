@@ -109,7 +109,7 @@ jinja2                              3.1.4                                    pyt
 jq                                  1.6-2.1ubuntu3                           deb                         
 jsonschema                          4.23.0                                   python                      
 jsonschema-specifications           2024.10.1                                python                      
-levenshtein                         0.26.0                                   python                      
+levenshtein                         0.26.1                                   python                      
 libacl1                             2.3.1-1                                  deb                         
 libaom3                             3.3.0-1                                  deb                         
 libapt-pkg6.0                       2.4.13                                   deb                         
@@ -281,7 +281,7 @@ perl                                5.34.0-3ubuntu1.3                        deb
 perl-base                           5.34.0-3ubuntu1.3                        deb                         
 pillow                              11.0.0                                   python                      
 pinentry-curses                     1.1.1-1build2                            deb                         
-pip                                 24.2                                     python                      
+pip                                 24.3.1                                   python                      
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
 proto-plus                          1.25.0                                   python                      
@@ -305,7 +305,7 @@ pysocks                             1.7.1                                    pyt
 python-dateutil                     2.9.0.post0                              python                      
 python-dotenv                       1.0.1                                    python                      
 python-ldap                         3.4.4                                    python                      
-python-levenshtein                  0.26.0                                   python                      
+python-levenshtein                  0.26.1                                   python                      
 python-magic                        0.4.27                                   python                      
 python3                             3.10.6-1~22.04.1                         deb                         
 python3-distutils                   3.10.8-1~22.04                           deb                         
