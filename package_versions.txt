@@ -71,8 +71,8 @@ gnupg-utils                         2.2.27-3ubuntu2.1                        deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-module                   
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
-google-api-core                     2.21.0                                   python                      
-google-api-python-client            2.149.0                                  python                      
+google-api-core                     2.22.0                                   python                      
+google-api-python-client            2.151.0                                  python                      
 google-auth                         2.35.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.1                                    python                      
@@ -282,7 +282,7 @@ perl                                5.34.0-3ubuntu1.3                        deb
 perl-base                           5.34.0-3ubuntu1.3                        deb                         
 pillow                              11.0.0                                   python                      
 pinentry-curses                     1.1.1-1build2                            deb                         
-pip                                 24.2                                     python                      
+pip                                 24.3.1                                   python                      
 poppler-data                        0.4.11-1                                 deb                         
 procps                              2:3.3.17-6ubuntu2.1                      deb                         
 proto-plus                          1.25.0                                   python                      
@@ -312,7 +312,7 @@ python3                             3.10.6-1~22.04.1                         deb
 python3-distutils                   3.10.8-1~22.04                           deb                         
 python3-lib2to3                     3.10.8-1~22.04                           deb                         
 python3-minimal                     3.10.6-1~22.04.1                         deb                         
-python3-pip-whl                     22.0.2+dfsg-1ubuntu0.4                   deb                         
+python3-pip-whl                     22.0.2+dfsg-1ubuntu0.5                   deb                         
 python3-setuptools-whl              59.6.0-1.2ubuntu0.22.04.2                deb                         
 python3-venv                        3.10.6-1~22.04.1                         deb                         
 python3.10                          3.10.12-1~22.04.6                        deb                         
@@ -329,12 +329,12 @@ referencing                         0.35.1                                   pyt
 regex                               2024.5.15                                python                      
 requests                            2.31.0                                   python                      
 requests-oauthlib                   2.0.0                                    python                      
-rich                                13.9.3                                   python                      
-rpds-py                             0.20.0                                   python                      
+rich                                13.9.4                                   python                      
+rpds-py                             0.20.1                                   python                      
 rsa                                 4.9                                      python                      
 scholarly                           1.7.11                                   python                      
 sed                                 4.8-1ubuntu2                             deb                         
-selenium                            4.25.0                                   python                      
+selenium                            4.26.1                                   python                      
 sensible-utils                      0.0.17                                   deb                         
 setuptools                          59.6.0                                   python                      
 six                                 1.16.0                                   python                      
@@ -377,7 +377,7 @@ util-linux                          2.37.2-4ubuntu3.4                        deb
 wand                                0.6.13                                   python                      
 webencodings                        0.5.1                                    python                      
 websocket-client                    1.8.0                                    python                      
-werkzeug                            3.0.6                                    python                      
+werkzeug                            3.1.1                                    python                      
 wheel                               0.44.0                                   python                      
 wordninja                           2.0.0                                    python                      
 wrapt                               1.16.0                                   python                      
