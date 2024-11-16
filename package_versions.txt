@@ -1,7 +1,6 @@
 NAME                                VERSION                                  TYPE                       
 Simple Launcher                     1.1.0.14                                 dotnet     (+5 duplicates)  
 adduser                             3.118ubuntu5                             deb                         
-advocate                            1.0.0                                    python                      
 alabaster                           1.0.0                                    python                      
 anyio                               4.6.2.post1                              python                      
 apscheduler                         3.10.4                                   python                      
@@ -24,7 +23,7 @@ cachetools                          5.5.0                                    pyt
 catatonit                           0.1.7-1                                  deb                         
 certifi                             2024.8.30                                python                      
 cffi                                1.17.1                                   python                      
-chardet                             4.0.0                                    python                      
+chardet                             5.2.0                                    python                      
 charset-normalizer                  3.4.0                                    python                      
 click                               8.1.7                                    python                      
 comicapi                            3.2.0                                    python                      
@@ -35,7 +34,7 @@ curl                                7.81.0-1ubuntu1.18                       deb
 dash                                0.5.11+git20210903+057cd650a4ed-3build1  deb                         
 debconf                             1.5.79ubuntu1                            deb                         
 debianutils                         5.5-1ubuntu2                             deb                         
-deprecated                          1.2.14                                   python                      
+deprecated                          1.2.15                                   python                      
 diffutils                           1:3.8-0ubuntu2                           deb                         
 dirmngr                             2.2.27-3ubuntu2.1                        deb                         
 docutils                            0.21.2                                   python                      
@@ -59,7 +58,7 @@ fonts-urw-base35                    20200910-1                               deb
 free-proxy                          1.1.3                                    python                      
 gcc-12-base                         12.3.0-1ubuntu1~22.04                    deb                         
 gevent                              24.2.1                                   python                      
-ghostscript                         9.55.0~dfsg1-0ubuntu5.9                  deb                         
+ghostscript                         9.55.0~dfsg1-0ubuntu5.10                 deb                         
 github.com/beevik/etree             v1.1.0                                   go-module                   
 github.com/kr/smartypants           v0.1.0                                   go-module                   
 github.com/pgaskin/kepubify/_/html  v0.0.0-20211223234002-6ee2cc632cdc       go-module                   
@@ -71,12 +70,12 @@ gnupg-utils                         2.2.27-3ubuntu2.1                        deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-module                   
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
-google-api-core                     2.22.0                                   python                      
-google-api-python-client            2.151.0                                  python                      
+google-api-core                     2.23.0                                   python                      
+google-api-python-client            2.153.0                                  python                      
 google-auth                         2.36.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.1                                    python                      
-googleapis-common-protos            1.65.0                                   python                      
+googleapis-common-protos            1.66.0                                   python                      
 gpg                                 2.2.27-3ubuntu2.1                        deb                         
 gpg-agent                           2.2.27-3ubuntu2.1                        deb                         
 gpg-wks-client                      2.2.27-3ubuntu2.1                        deb                         
@@ -92,7 +91,7 @@ hicolor-icon-theme                  0.17-2                                   deb
 hostname                            3.23ubuntu2                              deb                         
 html2text                           2024.2.25                                python                      
 html5lib                            1.1                                      python                      
-httpcore                            1.0.6                                    python                      
+httpcore                            1.0.7                                    python                      
 httplib2                            0.22.0                                   python                      
 httpx                               0.27.2                                   python                      
 idna                                3.10                                     python                      
@@ -110,7 +109,7 @@ jinja2                              3.1.4                                    pyt
 jq                                  1.6-2.1ubuntu3                           deb                         
 jsonschema                          4.23.0                                   python                      
 jsonschema-specifications           2024.10.1                                python                      
-levenshtein                         0.25.1                                   python                      
+levenshtein                         0.26.1                                   python                      
 libacl1                             2.3.1-1                                  deb                         
 libaom3                             3.3.0-1                                  deb                         
 libapt-pkg6.0                       2.4.13                                   deb                         
@@ -152,8 +151,8 @@ libgmp10                            2:6.2.1+dfsg-3ubuntu1                    deb
 libgnutls30                         3.7.3-4ubuntu1.5                         deb                         
 libgomp1                            12.3.0-1ubuntu1~22.04                    deb                         
 libgpg-error0                       1.43-3                                   deb                         
-libgs9                              9.55.0~dfsg1-0ubuntu5.9                  deb                         
-libgs9-common                       9.55.0~dfsg1-0ubuntu5.9                  deb                         
+libgs9                              9.55.0~dfsg1-0ubuntu5.10                 deb                         
+libgs9-common                       9.55.0~dfsg1-0ubuntu5.10                 deb                         
 libgssapi-krb5-2                    1.19.2-2ubuntu0.4                        deb                         
 libheif1                            1.12.0-2build1                           deb                         
 libhogweed6                         3.7.3-1build2                            deb                         
@@ -263,13 +262,13 @@ mdurl                               0.1.2                                    pyt
 media-types                         7.0.0                                    deb                         
 mount                               2.37.2-4ubuntu3.4                        deb                         
 multivolumefile                     0.2.3                                    python                      
+mutagen                             1.47.0                                   python                      
 natsort                             8.4.0                                    python                      
 ncurses-base                        6.3-2ubuntu0.1                           deb                         
 ncurses-bin                         6.3-2ubuntu0.1                           deb                         
-ndg-httpsclient                     0.5.1                                    python                      
 netcat                              1.218-4ubuntu1                           deb                         
 netcat-openbsd                      1.218-4ubuntu1                           deb                         
-netifaces                           0.11.0                                   python                      
+netifaces-plus                      0.12.3                                   python                      
 nose                                1.3.7                                    python                      
 oauth2client                        4.1.3                                    python                      
 oauthlib                            3.2.2                                    python                      
@@ -300,13 +299,13 @@ pydrive2                            1.19.0                                   pyt
 pygments                            2.18.0                                   python                      
 pyopenssl                           24.2.1                                   python                      
 pyparsing                           3.2.0                                    python                      
-pypdf                               4.2.0                                    python                      
+pypdf                               5.0.1                                    python                      
 pyppmd                              1.1.0                                    python                      
 pysocks                             1.7.1                                    python                      
 python-dateutil                     2.9.0.post0                              python                      
 python-dotenv                       1.0.1                                    python                      
 python-ldap                         3.4.4                                    python                      
-python-levenshtein                  0.25.1                                   python                      
+python-levenshtein                  0.26.1                                   python                      
 python-magic                        0.4.27                                   python                      
 python3                             3.10.6-1~22.04.1                         deb                         
 python3-distutils                   3.10.8-1~22.04                           deb                         
@@ -327,7 +326,7 @@ rauth                               0.7.3                                    pyt
 readline-common                     8.1.2-1                                  deb                         
 referencing                         0.35.1                                   python                      
 regex                               2024.5.15                                python                      
-requests                            2.31.0                                   python                      
+requests                            2.32.3                                   python                      
 requests-oauthlib                   2.0.0                                    python                      
 rich                                13.9.4                                   python                      
 rpds-py                             0.21.0                                   python                      
@@ -343,7 +342,7 @@ snowballstemmer                     2.2.0                                    pyt
 sortedcontainers                    2.4.0                                    python                      
 soupsieve                           2.6                                      python                      
 sphinx                              8.1.3                                    python                      
-sphinx-rtd-theme                    3.0.1                                    python                      
+sphinx-rtd-theme                    3.0.2                                    python                      
 sphinxcontrib-applehelp             2.0.0                                    python                      
 sphinxcontrib-devhelp               2.0.0                                    python                      
 sphinxcontrib-htmlhelp              2.1.0                                    python                      
@@ -358,7 +357,7 @@ sysvinit-utils                      3.01-1ubuntu1                            deb
 tar                                 1.34+dfsg-1ubuntu0.1.22.04.2             deb                         
 text2digits                         0.1.0                                    python                      
 texttable                           1.7.0                                    python                      
-tomli                               2.0.2                                    python                      
+tomli                               2.1.0                                    python                      
 tornado                             6.4.1                                    python                      
 trio                                0.27.0                                   python                      
 trio-websocket                      0.11.1                                   python                      
@@ -370,7 +369,7 @@ ubuntu-keyring                      2021.03.26                               deb
 ucf                                 3.0043                                   deb                         
 unidecode                           1.3.8                                    python                      
 uritemplate                         4.1.1                                    python                      
-urllib3                             1.26.20                                  python                      
+urllib3                             2.2.3                                    python                      
 urlobject                           2.4.3                                    python                      
 usrmerge                            25ubuntu2                                deb                         
 util-linux                          2.37.2-4ubuntu3.4                        deb                         
@@ -385,7 +384,7 @@ wsproto                             1.2.0                                    pyt
 wtforms                             3.2.1                                    python                      
 xdg-utils                           1.1.3-4.1ubuntu3~22.04.1                 deb                         
 xmltodict                           0.14.2                                   python                      
-zipp                                3.20.2                                   python                      
+zipp                                3.21.0                                   python                      
 zlib1g                              1:1.2.11.dfsg-2ubuntu9.2                 deb                         
 zope-event                          5.0                                      python                      
 zope-interface                      7.1.1                                    python                      
