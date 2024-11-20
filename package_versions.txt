@@ -71,7 +71,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c       go-
 golang.org/x/text                   v0.3.6                                   go-module                   
 goodreads                           0.3.2                                    python                      
 google-api-core                     2.23.0                                   python                      
-google-api-python-client            2.153.0                                  python                      
+google-api-python-client            2.154.0                                  python                      
 google-auth                         2.36.0                                   python                      
 google-auth-httplib2                0.2.0                                    python                      
 google-auth-oauthlib                1.2.1                                    python                      
@@ -206,8 +206,8 @@ libpng16-16                         1.6.37-3build5                           deb
 libprocps8                          2:3.3.17-6ubuntu2.1                      deb                         
 libpsl5                             0.21.0-1.2build2                         deb                         
 libpython3-stdlib                   3.10.6-1~22.04.1                         deb                         
-libpython3.10-minimal               3.10.12-1~22.04.6                        deb                         
-libpython3.10-stdlib                3.10.12-1~22.04.6                        deb                         
+libpython3.10-minimal               3.10.12-1~22.04.7                        deb                         
+libpython3.10-stdlib                3.10.12-1~22.04.7                        deb                         
 libreadline8                        8.1.2-1                                  deb                         
 librtmp1                            2.4+20151223.gitfa8646d.1-2build4        deb                         
 libsasl2-2                          2.1.27+dfsg2-3ubuntu1.2                  deb                         
@@ -314,9 +314,9 @@ python3-minimal                     3.10.6-1~22.04.1                         deb
 python3-pip-whl                     22.0.2+dfsg-1ubuntu0.5                   deb                         
 python3-setuptools-whl              59.6.0-1.2ubuntu0.22.04.2                deb                         
 python3-venv                        3.10.6-1~22.04.1                         deb                         
-python3.10                          3.10.12-1~22.04.6                        deb                         
-python3.10-minimal                  3.10.12-1~22.04.6                        deb                         
-python3.10-venv                     3.10.12-1~22.04.6                        deb                         
+python3.10                          3.10.12-1~22.04.7                        deb                         
+python3.10-minimal                  3.10.12-1~22.04.7                        deb                         
+python3.10-venv                     3.10.12-1~22.04.7                        deb                         
 pytz                                2024.2                                   python                      
 pyyaml                              6.0.2                                    python                      
 pyzstd                              0.16.2                                   python                      
