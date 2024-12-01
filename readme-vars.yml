@@ -69,9 +69,6 @@ app_setup_block: |
   This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
 
 
-# init diagram
-init_diagram:
-
 # changelog
 changelogs:
   - { date: "26.08.24:", desc: "Add new dep, xdg-utils."}
