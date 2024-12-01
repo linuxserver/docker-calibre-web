@@ -348,34 +348,6 @@ pipeline {
               else
                 echo "No templates to delete"
               fi
-              echo "Starting Stage 2.5 - Update init diagram"
-              if ! grep -q 'init_diagram:' readme-vars.yml; then
-                echo "Adding the key 'init_diagram' to readme-vars.yml"
-                sed -i '\\|^#.*changelog.*$|d' readme-vars.yml 
-                sed -i 's|^changelogs:|# init diagram\\ninit_diagram:\\n\\n# changelog\\nchangelogs:|' readme-vars.yml
-              fi
-              mkdir -p ${TEMPDIR}/d2
-              docker run -d --rm -v ${TEMPDIR}/d2:/output -e PUID=$(id -u) -e PGID=$(id -g) -e RAW="true" ghcr.io/linuxserver/d2-builder:latest ${CONTAINER_NAME}:nightly
-              yq -ei ".init_diagram |= load_str(\\"${TEMPDIR}/d2/${CONTAINER_NAME}-nightly.d2\\")" readme-vars.yml || :
-              if [[ $(md5sum readme-vars.yml | cut -c1-8) != $(md5sum ${TEMPDIR}/docker-${CONTAINER_NAME}/readme-vars.yml | cut -c1-8) ]]; then
-                echo "'init_diagram' has been updated. Updating repo and exiting build, new one will trigger based on commit."
-                mkdir -p ${TEMPDIR}/repo
-                git clone https://github.com/${LS_USER}/${LS_REPO}.git ${TEMPDIR}/repo/${LS_REPO}
-                cd ${TEMPDIR}/repo/${LS_REPO}
-                git checkout -f nightly
-                cp ${WORKSPACE}/readme-vars.yml ${TEMPDIR}/repo/${LS_REPO}/readme-vars.yml
-                git add readme-vars.yml
-                git commit -m 'Bot Updating Templated Files'
-                git pull https://LinuxServer-CI:${GITHUB_TOKEN}@github.com/${LS_USER}/${LS_REPO}.git nightly
-                git push https://LinuxServer-CI:${GITHUB_TOKEN}@github.com/${LS_USER}/${LS_REPO}.git nightly
-                echo "true" > /tmp/${COMMIT_SHA}-${BUILD_NUMBER}
-                echo "Updating templates and exiting build, new one will trigger based on commit"
-                rm -Rf ${TEMPDIR}
-                exit 0
-              else
-                echo "false" > /tmp/${COMMIT_SHA}-${BUILD_NUMBER}
-                echo "Init diagram is unchanged"
-              fi
               echo "Starting Stage 3 - Update templates"
               CURRENTHASH=$(grep -hs ^ ${TEMPLATED_FILES} | md5sum | cut -c1-8)
               cd ${TEMPDIR}/docker-${CONTAINER_NAME}
