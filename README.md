@@ -78,15 +78,15 @@ On the initial setup screen, enter `/books` as your calibre library location.
 *Username:* admin
 *Password:* admin123
 
-If you lock yourself out or forget a password, you will need to specify the app.db similar to this: 
+If you lock yourself out or forget a password, you will need to specify the app.db similar to this:
 `docker exec -it calibre-web python3 /app/calibre-web/cps.py -p /config/app.db -s <user>:<pass>`
 If you fail to specify the proper db, it will appear to succeed, but it will not work.
 
 Unrar is included by default and needs to be set in the Calibre-Web admin page (Basic Configuration:External Binaries) with a path of `/usr/bin/unrar`
 
-**x86-64 only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
+**64bit only** We have implemented the optional ability to pull in the dependencies to enable ebook conversion utilising Calibre, this means if you don't require this feature the container isn't uneccessarily bloated but should you require it, it is easily available.
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
-To use this option add the optional environmental variable as detailed above to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert` on versions 0.6.21 and lower. For 0.6.22 and higher, set the directory, `/usr/bin/` only.
+To use this option add the optional environmental variable as shown in the docker-mods section to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert` on versions 0.6.21 and lower. For 0.6.22 and higher, set the directory, `/usr/bin/` only.
 
 This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
 
@@ -109,9 +109,10 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - DOCKER_MODS=linuxserver/mods:universal-calibre
+      - DOCKER_MODS=linuxserver/mods:universal-calibre #optional
+      - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
-      - /path/to/data:/config
+      - /path/to/calibre-web/data:/config
       - /path/to/calibre/library:/books
     ports:
       - 8083:8083
@@ -126,9 +127,10 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e DOCKER_MODS=linuxserver/mods:universal-calibre \
+  -e DOCKER_MODS=linuxserver/mods:universal-calibre `#optional` \
+  -e OAUTHLIB_RELAX_TOKEN_SCOPE=1 `#optional` \
   -p 8083:8083 \
-  -v /path/to/data:/config \
+  -v /path/to/calibre-web/data:/config \
   -v /path/to/calibre/library:/books \
   --restart unless-stopped \
   lscr.io/linuxserver/calibre-web:nightly
@@ -145,8 +147,9 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e DOCKER_MODS=linuxserver/mods:universal-calibre` | #optional & **x86-64 only** Adds the ability to perform ebook conversion |
+| `-e OAUTHLIB_RELAX_TOKEN_SCOPE=1` | Optionally set this to allow Google OAUTH to work |
 | `-v /config` | Where calibre-web stores the internal database and config. |
-| `-v /books` | Where your preexisting calibre database is locate. |
+| `-v /books` | Where your preexisting calibre database is located. |
 
 ## Environment variables from files (Docker secrets)
 
@@ -315,11 +318,13 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 * **17.10.23:** - Remove some packages that are required by the calibre mod but not the base container.
 * **07.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar). Switch to Python virtual environment.
 * **13.04.23:** - Deprecate armhf.
-* **29.01.23:** - Add cmake as build dep for Levenshtein.
+* **27.03.23:** - Add cmake as build dep for Levenshtein.
 * **27.12.22:** - Add ghostscript, libxtst6, libxkbfile-dev.
 * **20.12.22:** - Improve init script and prevent harmless error.
-* **22.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
-* **04.11.21:** - Fix pip arguments
+* **19.10.22:** - Rebase to jammy. Upgrade to s6v3. Clean up build dependencies.
+* **04.11.21:** - Update pip arguments to ignore distro installed packages.
+* **24.06.21:** - Add note on optional OAUTHLIB_RELAX_TOKEN_SCOPE for Google OAUTH support.
+* **17.05.21:** - Add linuxserver wheel index.
 * **10.02.21:** - Add libxrandr2
 * **25.01.21:** - Add nightly tag
 * **19.01.21:** - Add python3-pkg-resources
