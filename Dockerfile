@@ -23,8 +23,8 @@ RUN \
   apt-get install -y --no-install-recommends \
     imagemagick \
     ghostscript \
-    libldap-2.5-0 \
-    libmagic1 \
+    libldap2 \
+    libmagic1t64 \
     libsasl2-2 \
     libxi6 \
     libxslt1.1 \
