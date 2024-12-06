@@ -313,6 +313,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **05.12.24:** - Rebase to noble.
 * **26.08.24:** - Add new dep, xdg-utils.
 * **07.07.24:** - Add new dep, libmagic1.
 * **17.10.23:** - Remove some packages that are required by the calibre mod but not the base container.
