@@ -2,7 +2,7 @@
 
 FROM ghcr.io/linuxserver/unrar:latest AS unrar
 
-FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
+FROM ghcr.io/linuxserver/baseimage-ubuntu:noble
 
 
 # set version label
@@ -24,8 +24,8 @@ RUN \
   apt-get install -y --no-install-recommends \
     imagemagick \
     ghostscript \
-    libldap-2.5-0 \
-    libmagic1 \
+    libldap2 \
+    libmagic1t64 \
     libsasl2-2 \
     libxi6 \
     libxslt1.1 \
