@@ -104,6 +104,7 @@ init_diagram: |
   "calibre-web:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "05.12.24:", desc: "Rebase to noble."}
   - {date: "26.08.24:", desc: "Add new dep, xdg-utils."}
   - {date: "07.07.24:", desc: "Add new dep, libmagic1."}
   - {date: "17.10.23:", desc: "Remove some packages that are required by the calibre mod but not the base container."}
