@@ -88,7 +88,7 @@ gpg-wks-client                      2.4.4-2ubuntu17                     deb
 gpgconf                             2.4.4-2ubuntu17                     deb                         
 gpgsm                               2.4.4-2ubuntu17                     deb                         
 gpgv                                2.4.4-2ubuntu17                     deb                         
-greenlet                            3.0.3                               python                      
+greenlet                            3.1.1                               python                      
 grep                                3.11-4build1                        deb                         
 gzip                                1.12-1ubuntu3                       deb                         
 h11                                 0.14.0                              python                      
@@ -310,9 +310,9 @@ pybcj                               1.0.2                               python
 pycountry                           22.3.5                              python                      
 pycparser                           2.22                                python                      
 pycryptodomex                       3.21.0                              python                      
-pydrive2                            1.19.0                              python                      
+pydrive2                            1.21.3                              python                      
 pygments                            2.18.0                              python                      
-pyopenssl                           24.3.0                              python                      
+pyopenssl                           24.2.1                              python                      
 pyparsing                           3.2.0                               python                      
 pypdf                               5.0.1                               python                      
 pyppmd                              1.1.0                               python                      
