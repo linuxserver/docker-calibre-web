@@ -46,7 +46,7 @@ docutils                            0.21.2                              python
 dpkg                                1.22.6ubuntu6.1                     deb                         
 dpkg-dev                            1.22.6ubuntu6.1                     deb                         
 e2fsprogs                           1.47.0-2.4~exp1ubuntu4.1            deb                         
-fake-useragent                      2.0.0                               python                      
+fake-useragent                      2.0.1                               python                      
 faust-cchardet                      2.1.19                              python                      
 findutils                           4.9.0-5build1                       deb                         
 flask                               3.0.3                               python                      
@@ -106,6 +106,7 @@ imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb
 imagesize                           1.4.1                               python                      
 importlib-metadata                  8.0.0                               python                      
 importlib-metadata                  8.5.0                               python                      
+importlib-resources                 6.4.5                               python                      
 inflate64                           1.0.0                               python                      
 inflect                             7.3.1                               python                      
 init-system-helpers                 1.66ubuntu1                         deb                         
