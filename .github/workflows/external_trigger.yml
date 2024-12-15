@@ -95,7 +95,7 @@ jobs:
             else
               printf "\n## Trigger new build\n\n" >> $GITHUB_STEP_SUMMARY
               echo "New version \`${EXT_RELEASE}\` found; old version was \`${IMAGE_VERSION}\`. Triggering new build" >> $GITHUB_STEP_SUMMARY
-              if "${artifacts_found}" == "true" ]]; then
+              if [[ "${artifacts_found}" == "true" ]]; then
                 echo "All artifacts seem to be uploaded." >> $GITHUB_STEP_SUMMARY
               fi
               response=$(curl -iX POST \
