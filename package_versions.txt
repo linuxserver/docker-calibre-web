@@ -27,7 +27,7 @@ catatonit                           0.1.7-1                             deb
 certifi                             2024.12.14                          python                      
 cffi                                1.17.1                              python                      
 chardet                             5.2.0                               python                      
-charset-normalizer                  3.4.0                               python                      
+charset-normalizer                  3.4.1                               python                      
 click                               8.1.8                               python                      
 comicapi                            3.2.0                               python                      
 coreutils                           9.4-3ubuntu6                        deb                         
@@ -106,7 +106,7 @@ imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb
 imagesize                           1.4.1                               python                      
 importlib-metadata                  8.0.0                               python                      
 importlib-metadata                  8.5.0                               python                      
-inflate64                           1.0.0                               python                      
+inflate64                           1.0.1                               python                      
 inflect                             7.3.1                               python                      
 init-system-helpers                 1.66ubuntu1                         deb                         
 itsdangerous                        2.2.0                               python                      
@@ -306,7 +306,7 @@ publicsuffix                        20231001.0357-0.1                   deb
 py7zr                               0.20.8                              python                      
 pyasn1                              0.6.1                               python                      
 pyasn1-modules                      0.4.1                               python                      
-pybcj                               1.0.2                               python                      
+pybcj                               1.0.3                               python                      
 pycountry                           22.3.5                              python                      
 pycparser                           2.22                                python                      
 pycryptodomex                       3.21.0                              python                      
@@ -315,7 +315,7 @@ pygments                            2.18.0                              python
 pyopenssl                           24.2.1                              python                      
 pyparsing                           3.2.0                               python                      
 pypdf                               5.0.1                               python                      
-pyppmd                              1.1.0                               python                      
+pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
 python-dateutil                     2.9.0.post0                         python                      
 python-dotenv                       1.0.1                               python                      
@@ -373,7 +373,7 @@ text2digits                         0.1.0                               python
 texttable                           1.7.0                               python                      
 tomli                               2.0.1                               python                      
 tornado                             6.4.2                               python                      
-trio                                0.27.0                              python                      
+trio                                0.28.0                              python                      
 trio-websocket                      0.11.1                              python                      
 typeguard                           4.3.0                               python                      
 types-python-dateutil               2.9.0.20241206                      python                      
