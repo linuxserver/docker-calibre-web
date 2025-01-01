@@ -28,6 +28,7 @@ RUN \
     libsasl2-2 \
     libxi6 \
     libxslt1.1 \
+    libnss3 \
     python3-venv \
     xdg-utils && \
   echo "**** install calibre-web ****" && \
