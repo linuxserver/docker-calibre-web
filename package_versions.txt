@@ -311,7 +311,7 @@ pycountry                           22.3.5                              python
 pycparser                           2.22                                python                      
 pycryptodomex                       3.21.0                              python                      
 pydrive2                            1.21.3                              python                      
-pygments                            2.19.0                              python                      
+pygments                            2.19.1                              python                      
 pyopenssl                           24.2.1                              python                      
 pyparsing                           3.2.1                               python                      
 pypdf                               5.0.1                               python                      
