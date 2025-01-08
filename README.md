@@ -88,7 +88,7 @@ Unrar is included by default and needs to be set in the Calibre-Web admin page (
 This optional layer will be rebuilt automatically on our CI pipeline upon new Calibre releases so you can stay up to date.
 To use this option add the optional environmental variable as shown in the docker-mods section to pull an addition docker layer to enable ebook conversion and then in the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Calibre E-Book Converter** to `/usr/bin/ebook-convert` on versions 0.6.21 and lower. For 0.6.22 and higher, set the directory, `/usr/bin/` only.
 
-This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.  In the Calibre-Web admin page (Basic Configuration:External Binaries) set the **Path to Kepubify E-Book Converter** to `/usr/bin/kepubify`
+This image contains the [kepubify](https://pgaskin.net/kepubify/) ebook conversion tool (MIT License) to convert epub to kepub.
 
 ## Usage
 
@@ -313,6 +313,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.01.25:** - Set kepubify path by default.
 * **05.12.24:** - Rebase to noble.
 * **26.08.24:** - Add new dep, xdg-utils.
 * **07.07.24:** - Add new dep, libmagic1.
