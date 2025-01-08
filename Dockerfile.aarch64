@@ -24,6 +24,7 @@ RUN \
     libxml2-dev \
     libxslt1-dev \
     python3-dev \
+    sqlite3 \
     zlib1g-dev && \
   echo "**** install runtime packages ****" && \
   apt-get install -y --no-install-recommends \
