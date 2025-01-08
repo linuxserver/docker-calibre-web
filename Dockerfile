@@ -60,9 +60,6 @@ RUN \
   curl -o \
     /usr/bin/kepubify -L \
     https://github.com/pgaskin/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-64bit && \
-  echo "**** install sqlite3 after CW install ****" && \
-  apt-get install -y --no-install-recommends \
-    sqlite3 && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     build-essential \
