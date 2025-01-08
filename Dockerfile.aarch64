@@ -24,7 +24,6 @@ RUN \
     libxml2-dev \
     libxslt1-dev \
     python3-dev \
-    sqlite3 \
     zlib1g-dev && \
   echo "**** install runtime packages ****" && \
   apt-get install -y --no-install-recommends \
@@ -66,6 +65,9 @@ RUN \
   curl -o \
     /usr/bin/kepubify -L \
     https://github.com/pgaskin/kepubify/releases/download/${KEPUBIFY_RELEASE}/kepubify-linux-arm64 && \
+  echo "**** install sqlite3 after CW install ****" && \
+  apt-get install -y --no-install-recommends \
+    sqlite3 && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     build-essential \
