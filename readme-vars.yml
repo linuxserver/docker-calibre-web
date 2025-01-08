@@ -104,6 +104,7 @@ init_diagram: |
   "calibre-web:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "07.01.25:", desc: "Set kepubify path by default."}
   - {date: "26.08.24:", desc: "Add new dep, xdg-utils."}
   - {date: "07.07.24:", desc: "Add new dep, libmagic1."}
   - {date: "17.10.23:", desc: "Remove some packages that are required by the calibre mod but not the base container."}
