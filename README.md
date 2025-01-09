@@ -313,6 +313,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.01.25:** - Set kepubify path by default.
 * **05.12.24:** - Rebase to noble.
 * **26.08.24:** - Add new dep, xdg-utils.
 * **07.07.24:** - Add new dep, libmagic1.
