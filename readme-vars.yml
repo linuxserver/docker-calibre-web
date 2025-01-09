@@ -100,6 +100,7 @@ init_diagram: |
   "calibre-web:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "07.01.25:", desc: "Set kepubify path by default."}
   - {date: "05.12.24:", desc: "Rebase to noble."}
   - {date: "26.08.24:", desc: "Add new dep, xdg-utils."}
   - {date: "07.07.24:", desc: "Add new dep, libmagic1."}

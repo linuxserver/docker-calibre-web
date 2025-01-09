@@ -29,6 +29,7 @@ RUN \
     libxi6 \
     libxslt1.1 \
     python3-venv \
+    sqlite3 \
     xdg-utils && \
   echo "**** install calibre-web ****" && \
   if [ -z ${CALIBREWEB_RELEASE+x} ]; then \
