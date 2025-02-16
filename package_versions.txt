@@ -11,7 +11,7 @@ attrs                               25.1.0                              python
 autocommand                         2.2.2                               python                      
 babel                               2.17.0                              python                      
 backports-tarfile                   1.2.0                               python                      
-base-files                          13ubuntu10.1                        deb                         
+base-files                          13ubuntu10.2                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
 beautifulsoup4                      4.12.3                              python                      
@@ -77,11 +77,11 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.24.1                              python                      
-google-api-python-client            2.160.0                             python                      
+google-api-python-client            2.161.0                             python                      
 google-auth                         2.38.0                              python                      
 google-auth-httplib2                0.2.0                               python                      
 google-auth-oauthlib                1.2.1                               python                      
-googleapis-common-protos            1.67.0rc1                           python                      
+googleapis-common-protos            1.67.0                              python                      
 gpg                                 2.4.4-2ubuntu17                     deb                         
 gpg-agent                           2.4.4-2ubuntu17                     deb                         
 gpg-wks-client                      2.4.4-2ubuntu17                     deb                         
@@ -119,7 +119,7 @@ jq                                  1.7.1-3build1                       deb
 jsonschema                          4.23.0                              python                      
 jsonschema-specifications           2024.10.1                           python                      
 keyboxd                             2.4.4-2ubuntu17                     deb                         
-krb5-locales                        1.20.1-6ubuntu2.2                   deb                         
+krb5-locales                        1.20.1-6ubuntu2.3                   deb                         
 levenshtein                         0.26.1                              python                      
 libacl1                             2.3.2-1build1.1                     deb                         
 libaom3                             3.8.2-2ubuntu0.1                    deb                         
@@ -166,7 +166,7 @@ libgpg-error0                       1.47-3build2.1                      deb
 libgs-common                        10.02.1~dfsg1-0ubuntu7.4            deb                         
 libgs10                             10.02.1~dfsg1-0ubuntu7.4            deb                         
 libgs10-common                      10.02.1~dfsg1-0ubuntu7.4            deb                         
-libgssapi-krb5-2                    1.20.1-6ubuntu2.2                   deb                         
+libgssapi-krb5-2                    1.20.1-6ubuntu2.3                   deb                         
 libheif-plugin-aomdec               1.17.6-1ubuntu4.1                   deb                         
 libheif-plugin-libde265             1.17.6-1ubuntu4.1                   deb                         
 libheif1                            1.17.6-1ubuntu4.1                   deb                         
@@ -182,10 +182,10 @@ libjpeg-turbo8                      2.1.5-2ubuntu2                      deb
 libjpeg8                            8c-2ubuntu11                        deb                         
 libjq1                              1.7.1-3build1                       deb                         
 libjs-jquery                        3.6.1+dfsg+~3.5.14-1                deb                         
-libk5crypto3                        1.20.1-6ubuntu2.2                   deb                         
+libk5crypto3                        1.20.1-6ubuntu2.3                   deb                         
 libkeyutils1                        1.6.3-3build1                       deb                         
-libkrb5-3                           1.20.1-6ubuntu2.2                   deb                         
-libkrb5support0                     1.20.1-6ubuntu2.2                   deb                         
+libkrb5-3                           1.20.1-6ubuntu2.3                   deb                         
+libkrb5support0                     1.20.1-6ubuntu2.3                   deb                         
 libksba8                            1.6.6-1build1                       deb                         
 liblcms2-2                          2.14-2build1                        deb                         
 libldap-common                      2.6.7+dfsg-1~exp1ubuntu8.1          deb                         
@@ -295,13 +295,13 @@ perl                                5.38.2-3.2build2.1                  deb
 perl-base                           5.38.2-3.2build2.1                  deb                         
 pillow                              11.1.0                              python                      
 pinentry-curses                     1.2.1-3ubuntu5                      deb                         
-pip                                 25.0                                python                      
+pip                                 25.0.1                              python                      
 platformdirs                        4.2.2                               python                      
 poppler-data                        0.4.12-1                            deb                         
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
 proto-plus                          1.26.0                              python                      
 protobuf                            5.29.3                              python                      
-psutil                              6.1.1                               python                      
+psutil                              7.0.0                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
 pyasn1                              0.6.1                               python                      
@@ -374,13 +374,13 @@ text2digits                         0.1.0                               python
 texttable                           1.7.0                               python                      
 tomli                               2.0.1                               python                      
 tornado                             6.4.2                               python                      
-trio                                0.28.0                              python                      
+trio                                0.29.0                              python                      
 trio-websocket                      0.11.1                              python                      
 typeguard                           4.3.0                               python                      
 types-python-dateutil               2.9.0.20241206                      python                      
 typing-extensions                   4.12.2                              python     (+1 duplicate)   
-tzdata                              2024b-0ubuntu0.24.04                deb                         
-tzlocal                             5.2                                 python                      
+tzdata                              2024b-0ubuntu0.24.04.1              deb                         
+tzlocal                             5.3                                 python                      
 ubuntu-keyring                      2023.11.28.1                        deb                         
 ucf                                 3.0043+nmu1                         deb                         
 unidecode                           1.3.8                               python                      
