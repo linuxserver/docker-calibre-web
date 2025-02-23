@@ -22,7 +22,7 @@ blinker                             1.9.0                               python
 brotli                              1.1.0                               python                      
 bsdutils                            1:2.39.3-9ubuntu6.2                 deb                         
 ca-certificates                     20240203                            deb                         
-cachetools                          5.5.1                               python                      
+cachetools                          5.5.2                               python                      
 catatonit                           0.1.7-1                             deb                         
 certifi                             2025.1.31                           python                      
 cffi                                1.17.1                              python                      
@@ -81,7 +81,7 @@ google-api-python-client            2.161.0                             python
 google-auth                         2.38.0                              python                      
 google-auth-httplib2                0.2.0                               python                      
 google-auth-oauthlib                1.2.1                               python                      
-googleapis-common-protos            1.67.0                              python                      
+googleapis-common-protos            1.68.0                              python                      
 gpg                                 2.4.4-2ubuntu17                     deb                         
 gpg-agent                           2.4.4-2ubuntu17                     deb                         
 gpg-wks-client                      2.4.4-2ubuntu17                     deb                         
@@ -119,7 +119,7 @@ jq                                  1.7.1-3build1                       deb
 jsonschema                          4.23.0                              python                      
 jsonschema-specifications           2024.10.1                           python                      
 keyboxd                             2.4.4-2ubuntu17                     deb                         
-krb5-locales                        1.20.1-6ubuntu2.3                   deb                         
+krb5-locales                        1.20.1-6ubuntu2.4                   deb                         
 levenshtein                         0.26.1                              python                      
 libacl1                             2.3.2-1build1.1                     deb                         
 libaom3                             3.8.2-2ubuntu0.1                    deb                         
@@ -166,7 +166,7 @@ libgpg-error0                       1.47-3build2.1                      deb
 libgs-common                        10.02.1~dfsg1-0ubuntu7.4            deb                         
 libgs10                             10.02.1~dfsg1-0ubuntu7.4            deb                         
 libgs10-common                      10.02.1~dfsg1-0ubuntu7.4            deb                         
-libgssapi-krb5-2                    1.20.1-6ubuntu2.3                   deb                         
+libgssapi-krb5-2                    1.20.1-6ubuntu2.4                   deb                         
 libheif-plugin-aomdec               1.17.6-1ubuntu4.1                   deb                         
 libheif-plugin-libde265             1.17.6-1ubuntu4.1                   deb                         
 libheif1                            1.17.6-1ubuntu4.1                   deb                         
@@ -182,14 +182,14 @@ libjpeg-turbo8                      2.1.5-2ubuntu2                      deb
 libjpeg8                            8c-2ubuntu11                        deb                         
 libjq1                              1.7.1-3build1                       deb                         
 libjs-jquery                        3.6.1+dfsg+~3.5.14-1                deb                         
-libk5crypto3                        1.20.1-6ubuntu2.3                   deb                         
+libk5crypto3                        1.20.1-6ubuntu2.4                   deb                         
 libkeyutils1                        1.6.3-3build1                       deb                         
-libkrb5-3                           1.20.1-6ubuntu2.3                   deb                         
-libkrb5support0                     1.20.1-6ubuntu2.3                   deb                         
+libkrb5-3                           1.20.1-6ubuntu2.4                   deb                         
+libkrb5support0                     1.20.1-6ubuntu2.4                   deb                         
 libksba8                            1.6.6-1build1                       deb                         
 liblcms2-2                          2.14-2build1                        deb                         
-libldap-common                      2.6.7+dfsg-1~exp1ubuntu8.1          deb                         
-libldap2                            2.6.7+dfsg-1~exp1ubuntu8.1          deb                         
+libldap-common                      2.6.7+dfsg-1~exp1ubuntu8.2          deb                         
+libldap2                            2.6.7+dfsg-1~exp1ubuntu8.2          deb                         
 liblerc4                            4.0.0+ds-4ubuntu2                   deb                         
 liblqr-1-0                          0.4.2-2.1build2                     deb                         
 libltdl7                            2.4.7-7build1                       deb                         
@@ -218,8 +218,8 @@ libpng16-16t64                      1.6.43-5build1                      deb
 libproc2-0                          2:4.0.4-4ubuntu3.2                  deb                         
 libpsl5t64                          0.21.2-1.1build1                    deb                         
 libpython3-stdlib                   3.12.3-0ubuntu2                     deb                         
-libpython3.12-minimal               3.12.3-1ubuntu0.4                   deb                         
-libpython3.12-stdlib                3.12.3-1ubuntu0.4                   deb                         
+libpython3.12-minimal               3.12.3-1ubuntu0.5                   deb                         
+libpython3.12-stdlib                3.12.3-1ubuntu0.5                   deb                         
 libraw23t64                         0.21.2-2.1build1                    deb                         
 libreadline8t64                     8.2-4build1                         deb                         
 librtmp1                            2.4+20151223.gitfa8646d.1-2build7   deb                         
@@ -237,7 +237,7 @@ libsmartcols1                       2.39.3-9ubuntu6.2                   deb
 libsqlite3-0                        3.45.1-1ubuntu2.1                   deb                         
 libss2                              1.47.0-2.4~exp1ubuntu4.1            deb                         
 libssh-4                            0.10.6-2build2                      deb                         
-libssl3t64                          3.0.13-0ubuntu3.4                   deb                         
+libssl3t64                          3.0.13-0ubuntu3.5                   deb                         
 libstdc++6                          14.2.0-4ubuntu2~24.04               deb                         
 libsystemd0                         255.4-1ubuntu8.5                    deb                         
 libtasn1-6                          4.19.0-3build1                      deb                         
@@ -286,7 +286,7 @@ netifaces-plus                      0.12.4                              python
 nose                                1.3.7                               python                      
 oauth2client                        4.1.3                               python                      
 oauthlib                            3.2.2                               python                      
-openssl                             3.0.13-0ubuntu3.4                   deb                         
+openssl                             3.0.13-0ubuntu3.5                   deb                         
 ordered-set                         4.1.0                               python                      
 outcome                             1.3.0.post0                         python                      
 packaging                           24.2                                python     (+1 duplicate)   
@@ -327,9 +327,9 @@ python3-minimal                     3.12.3-0ubuntu2                     deb
 python3-pip-whl                     24.0+dfsg-1ubuntu1.1                deb                         
 python3-setuptools-whl              68.1.2-2ubuntu1.1                   deb                         
 python3-venv                        3.12.3-0ubuntu2                     deb                         
-python3.12                          3.12.3-1ubuntu0.4                   deb                         
-python3.12-minimal                  3.12.3-1ubuntu0.4                   deb                         
-python3.12-venv                     3.12.3-1ubuntu0.4                   deb                         
+python3.12                          3.12.3-1ubuntu0.5                   deb                         
+python3.12-minimal                  3.12.3-1ubuntu0.5                   deb                         
+python3.12-venv                     3.12.3-1ubuntu0.5                   deb                         
 pytz                                2025.1                              python                      
 pyyaml                              6.0.2                               python                      
 pyzstd                              0.16.2                              python                      
@@ -342,11 +342,12 @@ regex                               2024.5.15                           python
 requests                            2.32.3                              python                      
 requests-oauthlib                   2.0.0                               python                      
 rich                                13.9.4                              python                      
-rpds-py                             0.22.3                              python                      
+roman-numerals-py                   3.1.0                               python                      
+rpds-py                             0.23.1                              python                      
 rsa                                 4.9                                 python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2build1                         deb                         
-selenium                            4.28.1                              python                      
+selenium                            4.29.0                              python                      
 sensible-utils                      0.0.22                              deb                         
 setuptools                          75.8.0                              python                      
 six                                 1.17.0                              python                      
@@ -354,7 +355,7 @@ sniffio                             1.3.1                               python
 snowballstemmer                     2.2.0                               python                      
 sortedcontainers                    2.4.0                               python                      
 soupsieve                           2.6                                 python                      
-sphinx                              8.1.3                               python                      
+sphinx                              8.2.1                               python                      
 sphinx-rtd-theme                    3.0.2                               python                      
 sphinxcontrib-applehelp             2.0.0                               python                      
 sphinxcontrib-devhelp               2.0.0                               python                      
@@ -375,7 +376,7 @@ texttable                           1.7.0                               python
 tomli                               2.0.1                               python                      
 tornado                             6.4.2                               python                      
 trio                                0.29.0                              python                      
-trio-websocket                      0.11.1                              python                      
+trio-websocket                      0.12.1                              python                      
 typeguard                           4.3.0                               python                      
 types-python-dateutil               2.9.0.20241206                      python                      
 typing-extensions                   4.12.2                              python     (+1 duplicate)   
