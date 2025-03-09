@@ -77,11 +77,11 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.24.1                              python                      
-google-api-python-client            2.162.0                             python                      
+google-api-python-client            2.163.0                             python                      
 google-auth                         2.38.0                              python                      
 google-auth-httplib2                0.2.0                               python                      
 google-auth-oauthlib                1.2.1                               python                      
-googleapis-common-protos            1.68.0                              python                      
+googleapis-common-protos            1.69.1                              python                      
 gpg                                 2.4.4-2ubuntu17                     deb                         
 gpg-agent                           2.4.4-2ubuntu17                     deb                         
 gpg-wks-client                      2.4.4-2ubuntu17                     deb                         
@@ -114,12 +114,12 @@ jaraco-collections                  5.1.0                               python
 jaraco-context                      5.3.0                               python                      
 jaraco-functools                    4.0.1                               python                      
 jaraco-text                         3.12.1                              python                      
-jinja2                              3.1.5                               python                      
+jinja2                              3.1.6                               python                      
 jq                                  1.7.1-3build1                       deb                         
 jsonschema                          4.23.0                              python                      
 jsonschema-specifications           2024.10.1                           python                      
 keyboxd                             2.4.4-2ubuntu17                     deb                         
-krb5-locales                        1.20.1-6ubuntu2.4                   deb                         
+krb5-locales                        1.20.1-6ubuntu2.5                   deb                         
 levenshtein                         0.26.1                              python                      
 libacl1                             2.3.2-1build1.1                     deb                         
 libaom3                             3.8.2-2ubuntu0.1                    deb                         
@@ -166,7 +166,7 @@ libgpg-error0                       1.47-3build2.1                      deb
 libgs-common                        10.02.1~dfsg1-0ubuntu7.4            deb                         
 libgs10                             10.02.1~dfsg1-0ubuntu7.4            deb                         
 libgs10-common                      10.02.1~dfsg1-0ubuntu7.4            deb                         
-libgssapi-krb5-2                    1.20.1-6ubuntu2.4                   deb                         
+libgssapi-krb5-2                    1.20.1-6ubuntu2.5                   deb                         
 libheif-plugin-aomdec               1.17.6-1ubuntu4.1                   deb                         
 libheif-plugin-libde265             1.17.6-1ubuntu4.1                   deb                         
 libheif1                            1.17.6-1ubuntu4.1                   deb                         
@@ -182,10 +182,10 @@ libjpeg-turbo8                      2.1.5-2ubuntu2                      deb
 libjpeg8                            8c-2ubuntu11                        deb                         
 libjq1                              1.7.1-3build1                       deb                         
 libjs-jquery                        3.6.1+dfsg+~3.5.14-1                deb                         
-libk5crypto3                        1.20.1-6ubuntu2.4                   deb                         
+libk5crypto3                        1.20.1-6ubuntu2.5                   deb                         
 libkeyutils1                        1.6.3-3build1                       deb                         
-libkrb5-3                           1.20.1-6ubuntu2.4                   deb                         
-libkrb5support0                     1.20.1-6ubuntu2.4                   deb                         
+libkrb5-3                           1.20.1-6ubuntu2.5                   deb                         
+libkrb5support0                     1.20.1-6ubuntu2.5                   deb                         
 libksba8                            1.6.6-1build1                       deb                         
 liblcms2-2                          2.14-2build1                        deb                         
 libldap-common                      2.6.7+dfsg-1~exp1ubuntu8.2          deb                         
@@ -261,7 +261,7 @@ libxslt1.1                          1.1.39-0exp1build1                  deb
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
 libzstd1                            1.5.5+dfsg2-2build1.1               deb                         
-limits                              4.0.1                               python                      
+limits                              4.1                                 python                      
 locales                             2.39-0ubuntu8.4                     deb                         
 login                               1:4.13+dfsg1-4ubuntu3.2             deb                         
 logsave                             1.47.0-2.4~exp1ubuntu4.1            deb                         
@@ -333,7 +333,7 @@ python3.12-venv                     3.12.3-1ubuntu0.5                   deb
 pytz                                2025.1                              python                      
 pyyaml                              6.0.2                               python                      
 pyzstd                              0.16.2                              python                      
-rapidfuzz                           3.12.1                              python                      
+rapidfuzz                           3.12.2                              python                      
 rarfile                             4.2                                 python                      
 rauth                               0.7.3                               python                      
 readline-common                     8.2-4build1                         deb                         
@@ -349,13 +349,13 @@ scholarly                           1.7.11                              python
 sed                                 4.9-2build1                         deb                         
 selenium                            4.29.0                              python                      
 sensible-utils                      0.0.22                              deb                         
-setuptools                          75.8.2                              python                      
+setuptools                          75.9.0                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
 snowballstemmer                     2.2.0                               python                      
 sortedcontainers                    2.4.0                               python                      
 soupsieve                           2.6                                 python                      
-sphinx                              8.2.1                               python                      
+sphinx                              8.2.3                               python                      
 sphinx-rtd-theme                    3.0.2                               python                      
 sphinxcontrib-applehelp             2.0.0                               python                      
 sphinxcontrib-devhelp               2.0.0                               python                      
@@ -381,7 +381,7 @@ typeguard                           4.3.0                               python
 types-python-dateutil               2.9.0.20241206                      python                      
 typing-extensions                   4.12.2                              python     (+1 duplicate)   
 tzdata                              2024b-0ubuntu0.24.04.1              deb                         
-tzlocal                             5.3                                 python                      
+tzlocal                             5.3.1                               python                      
 ubuntu-keyring                      2023.11.28.1                        deb                         
 ucf                                 3.0043+nmu1                         deb                         
 unidecode                           1.3.8                               python                      
