@@ -7,7 +7,7 @@ apscheduler                         3.10.4                              python
 apt                                 2.7.14build2                        deb                         
 apt-utils                           2.7.14build2                        deb                         
 arrow                               1.3.0                               python                      
-attrs                               25.1.0                              python                      
+attrs                               25.3.0                              python                      
 autocommand                         2.2.2                               python                      
 babel                               2.17.0                              python                      
 backports-tarfile                   1.2.0                               python                      
@@ -46,7 +46,7 @@ docutils                            0.21.2                              python
 dpkg                                1.22.6ubuntu6.1                     deb                         
 dpkg-dev                            1.22.6ubuntu6.1                     deb                         
 e2fsprogs                           1.47.0-2.4~exp1ubuntu4.1            deb                         
-fake-useragent                      2.0.3                               python                      
+fake-useragent                      2.1.0                               python                      
 faust-cchardet                      2.1.19                              python                      
 findutils                           4.9.0-5build1                       deb                         
 flask                               3.0.3                               python                      
@@ -76,8 +76,8 @@ gnupg-utils                         2.4.4-2ubuntu17                     deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-module                   
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
-google-api-core                     2.24.1                              python                      
-google-api-python-client            2.163.0                             python                      
+google-api-core                     2.24.2                              python                      
+google-api-python-client            2.164.0                             python                      
 google-auth                         2.38.0                              python                      
 google-auth-httplib2                0.2.0                               python                      
 google-auth-oauthlib                1.2.1                               python                      
@@ -261,7 +261,7 @@ libxslt1.1                          1.1.39-0exp1build1                  deb
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
 libzstd1                            1.5.5+dfsg2-2build1.1               deb                         
-limits                              4.1                                 python                      
+limits                              4.4.1                               python                      
 locales                             2.39-0ubuntu8.4                     deb                         
 login                               1:4.13+dfsg1-4ubuntu3.2             deb                         
 logsave                             1.47.0-2.4~exp1ubuntu4.1            deb                         
@@ -299,7 +299,7 @@ pip                                 25.0.1                              python
 platformdirs                        4.2.2                               python                      
 poppler-data                        0.4.12-1                            deb                         
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
-proto-plus                          1.26.0                              python                      
+proto-plus                          1.26.1                              python                      
 protobuf                            5.29.3                              python                      
 psutil                              7.0.0                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
@@ -309,7 +309,7 @@ pyasn1-modules                      0.4.1                               python
 pybcj                               1.0.3                               python                      
 pycountry                           22.3.5                              python                      
 pycparser                           2.22                                python                      
-pycryptodomex                       3.21.0                              python                      
+pycryptodomex                       3.22.0                              python                      
 pydrive2                            1.19.0                              python                      
 pygments                            2.19.1                              python                      
 pyopenssl                           25.0.0                              python                      
@@ -349,7 +349,7 @@ scholarly                           1.7.11                              python
 sed                                 4.9-2build1                         deb                         
 selenium                            4.29.0                              python                      
 sensible-utils                      0.0.22                              deb                         
-setuptools                          75.9.0                              python                      
+setuptools                          76.0.0                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
 snowballstemmer                     2.2.0                               python                      
@@ -364,7 +364,7 @@ sphinxcontrib-jquery                4.1                                 python
 sphinxcontrib-jsmath                1.0.1                               python                      
 sphinxcontrib-qthelp                2.0.0                               python                      
 sphinxcontrib-serializinghtml       2.0.0                               python                      
-sqlalchemy                          2.0.38                              python                      
+sqlalchemy                          2.0.39                              python                      
 sqlalchemy-utils                    0.41.2                              python                      
 sqlite3                             3.45.1-1ubuntu2.1                   deb                         
 stdlib                              go1.17.8                            go-module                   
