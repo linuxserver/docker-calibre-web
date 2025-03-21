@@ -2,7 +2,7 @@ NAME                                VERSION                             TYPE
 Simple Launcher                     1.1.0.14                            dotnet     (+5 duplicates)  
 adduser                             3.137ubuntu1                        deb                         
 alabaster                           1.0.0                               python                      
-anyio                               4.8.0                               python                      
+anyio                               4.9.0                               python                      
 apscheduler                         3.10.4                              python                      
 apt                                 2.7.14build2                        deb                         
 apt-utils                           2.7.14build2                        deb                         
@@ -77,11 +77,11 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.24.2                              python                      
-google-api-python-client            2.164.0                             python                      
+google-api-python-client            2.165.0                             python                      
 google-auth                         2.38.0                              python                      
 google-auth-httplib2                0.2.0                               python                      
 google-auth-oauthlib                1.2.1                               python                      
-googleapis-common-protos            1.69.1                              python                      
+googleapis-common-protos            1.69.2                              python                      
 gpg                                 2.4.4-2ubuntu17                     deb                         
 gpg-agent                           2.4.4-2ubuntu17                     deb                         
 gpg-wks-client                      2.4.4-2ubuntu17                     deb                         
@@ -239,11 +239,11 @@ libss2                              1.47.0-2.4~exp1ubuntu4.1            deb
 libssh-4                            0.10.6-2build2                      deb                         
 libssl3t64                          3.0.13-0ubuntu3.5                   deb                         
 libstdc++6                          14.2.0-4ubuntu2~24.04               deb                         
-libsystemd0                         255.4-1ubuntu8.5                    deb                         
+libsystemd0                         255.4-1ubuntu8.6                    deb                         
 libtasn1-6                          4.19.0-3ubuntu0.24.04.1             deb                         
 libtiff6                            4.5.1+git230720-4ubuntu2.2          deb                         
 libtinfo6                           6.4+20240113-1ubuntu2               deb                         
-libudev1                            255.4-1ubuntu8.5                    deb                         
+libudev1                            255.4-1ubuntu8.6                    deb                         
 libunistring5                       1.1-2build1.1                       deb                         
 libuuid1                            2.39.3-9ubuntu6.2                   deb                         
 libwebp7                            1.3.2-0.4build3                     deb                         
@@ -257,7 +257,7 @@ libxdmcp6                           1:1.1.3-0ubuntu6                    deb
 libxext6                            2:1.3.4-1build2                     deb                         
 libxi6                              2:1.8.1-1build1                     deb                         
 libxml2                             2.9.14+dfsg-1.3ubuntu3.2            deb                         
-libxslt1.1                          1.1.39-0exp1build1                  deb                         
+libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.2         deb                         
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
 libzstd1                            1.5.5+dfsg2-2build1.1               deb                         
@@ -300,7 +300,7 @@ platformdirs                        4.2.2                               python
 poppler-data                        0.4.12-1                            deb                         
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
 proto-plus                          1.26.1                              python                      
-protobuf                            5.29.3                              python                      
+protobuf                            6.30.1                              python                      
 psutil                              7.0.0                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
@@ -349,7 +349,7 @@ scholarly                           1.7.11                              python
 sed                                 4.9-2build1                         deb                         
 selenium                            4.29.0                              python                      
 sensible-utils                      0.0.22                              deb                         
-setuptools                          76.0.0                              python                      
+setuptools                          77.0.3                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
 snowballstemmer                     2.2.0                               python                      
@@ -368,7 +368,7 @@ sqlalchemy                          2.0.39                              python
 sqlalchemy-utils                    0.41.2                              python                      
 sqlite3                             3.45.1-1ubuntu2.1                   deb                         
 stdlib                              go1.17.8                            go-module                   
-systemd-standalone-sysusers         255.4-1ubuntu8.5                    deb                         
+systemd-standalone-sysusers         255.4-1ubuntu8.6                    deb                         
 sysvinit-utils                      3.08-6ubuntu3                       deb                         
 tar                                 1.35+dfsg-3build1                   deb                         
 text2digits                         0.1.0                               python                      
@@ -394,8 +394,7 @@ wand                                0.6.13                              python
 webencodings                        0.5.1                               python                      
 websocket-client                    1.8.0                               python                      
 werkzeug                            3.1.3                               python                      
-wheel                               0.43.0                              python                      
-wheel                               0.45.1                              python                      
+wheel                               0.45.1                              python     (+1 duplicate)   
 wordninja                           2.0.0                               python                      
 wrapt                               1.17.2                              python                      
 wsproto                             1.2.0                               python                      
