@@ -313,7 +313,7 @@ pycryptodomex                       3.22.0                              python
 pydrive2                            1.21.2                              python                      
 pygments                            2.19.1                              python                      
 pyopenssl                           22.0.0                              python                      
-pyparsing                           3.2.1                               python                      
+pyparsing                           3.2.2                               python                      
 pypdf                               5.4.0                               python                      
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
