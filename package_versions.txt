@@ -318,7 +318,7 @@ pypdf                               5.4.0                               python
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
 python-dateutil                     2.9.0.post0                         python                      
-python-dotenv                       1.0.1                               python                      
+python-dotenv                       1.1.0                               python                      
 python-ldap                         3.4.4                               python                      
 python-levenshtein                  0.27.1                              python                      
 python-magic                        0.4.27                              python                      
