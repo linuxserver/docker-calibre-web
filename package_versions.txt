@@ -313,7 +313,7 @@ pycryptodomex                       3.22.0                              python
 pydrive2                            1.21.2                              python                      
 pygments                            2.19.1                              python                      
 pyopenssl                           22.0.0                              python                      
-pyparsing                           3.2.2                               python                      
+pyparsing                           3.2.3                               python                      
 pypdf                               5.4.0                               python                      
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
@@ -330,7 +330,7 @@ python3-venv                        3.12.3-0ubuntu2                     deb
 python3.12                          3.12.3-1ubuntu0.5                   deb                         
 python3.12-minimal                  3.12.3-1ubuntu0.5                   deb                         
 python3.12-venv                     3.12.3-1ubuntu0.5                   deb                         
-pytz                                2025.1                              python                      
+pytz                                2025.2                              python                      
 pyyaml                              6.0.2                               python                      
 pyzstd                              0.16.2                              python                      
 rapidfuzz                           3.12.2                              python                      
