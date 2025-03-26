@@ -343,7 +343,7 @@ requests                            2.32.3                              python
 requests-oauthlib                   2.0.0                               python                      
 rich                                13.9.4                              python                      
 roman-numerals-py                   3.1.0                               python                      
-rpds-py                             0.23.1                              python                      
+rpds-py                             0.24.0                              python                      
 rsa                                 4.9                                 python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2build1                         deb                         
