@@ -364,7 +364,7 @@ sphinxcontrib-jquery                4.1                                 python
 sphinxcontrib-jsmath                1.0.1                               python                      
 sphinxcontrib-qthelp                2.0.0                               python                      
 sphinxcontrib-serializinghtml       2.0.0                               python                      
-sqlalchemy                          2.0.39                              python                      
+sqlalchemy                          2.0.40                              python                      
 sqlalchemy-utils                    0.41.2                              python                      
 sqlite3                             3.45.1-1ubuntu2.1                   deb                         
 stdlib                              go1.17.8                            go-module                   
