@@ -17,7 +17,7 @@ bash                                5.2.21-2ubuntu4                     deb
 beautifulsoup4                      4.13.3                              python                      
 bibtexparser                        1.4.3                               python                      
 binutils-common                     2.42-4ubuntu2.4                     deb                         
-bleach                              6.1.0                               python                      
+bleach                              6.2.0                               python                      
 blinker                             1.9.0                               python                      
 brotli                              1.1.0                               python                      
 bsdutils                            1:2.39.3-9ubuntu6.2                 deb                         
@@ -34,7 +34,7 @@ coreutils                           9.4-3ubuntu6                        deb
 cpp                                 4:13.2.0-7ubuntu1                   deb                         
 cron                                3.0pl1-184ubuntu2                   deb                         
 cron-daemon-common                  3.0pl1-184ubuntu2                   deb                         
-cryptography                        44.0.2                              python                      
+cryptography                        43.0.3                              python                      
 curl                                8.5.0-2ubuntu10.6                   deb                         
 dash                                0.5.12-6ubuntu5                     deb                         
 debconf                             1.5.86ubuntu1                       deb                         
@@ -310,9 +310,9 @@ pybcj                               1.0.3                               python
 pycountry                           22.3.5                              python                      
 pycparser                           2.22                                python                      
 pycryptodomex                       3.22.0                              python                      
-pydrive2                            1.21.2                              python                      
+pydrive2                            1.21.3                              python                      
 pygments                            2.19.1                              python                      
-pyopenssl                           22.0.0                              python                      
+pyopenssl                           24.2.1                              python                      
 pyparsing                           3.2.3                               python                      
 pypdf                               5.4.0                               python                      
 pyppmd                              1.1.1                               python                      
