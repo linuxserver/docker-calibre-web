@@ -305,7 +305,7 @@ psutil                              7.0.0                               python
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
 pyasn1                              0.6.1                               python                      
-pyasn1-modules                      0.4.1                               python                      
+pyasn1-modules                      0.4.2                               python                      
 pybcj                               1.0.3                               python                      
 pycountry                           22.3.5                              python                      
 pycparser                           2.22                                python                      
