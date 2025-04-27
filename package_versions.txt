@@ -23,7 +23,7 @@ bsdutils                            1:2.39.3-9ubuntu6.2                 deb
 ca-certificates                     20240203                            deb                        
 cachetools                          5.5.2                               python                     
 catatonit                           0.1.7-1                             deb                        
-certifi                             2025.1.31                           python                     
+certifi                             2025.4.26                           python                     
 cffi                                1.17.1                              python                     
 chardet                             5.2.0                               python                     
 charset-normalizer                  3.4.1                               python                     
@@ -76,10 +76,10 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                  
 goodreads                           0.3.2                               python                     
 google-api-core                     2.24.2                              python                     
-google-api-python-client            2.167.0                             python                     
+google-api-python-client            2.168.0                             python                     
 google-auth                         2.39.0                              python                     
 google-auth-httplib2                0.2.0                               python                     
-google-auth-oauthlib                1.2.1                               python                     
+google-auth-oauthlib                1.2.2                               python                     
 googleapis-common-protos            1.70.0                              python                     
 gpg                                 2.4.4-2ubuntu17.2                   deb                        
 gpg-agent                           2.4.4-2ubuntu17.2                   deb                        
@@ -90,12 +90,12 @@ gpgv                                2.4.4-2ubuntu17.2                   deb
 greenlet                            3.1.1                               python                     
 grep                                3.11-4build1                        deb                        
 gzip                                1.12-1ubuntu3                       deb                        
-h11                                 0.14.0                              python                     
+h11                                 0.16.0                              python                     
 hicolor-icon-theme                  0.17-2                              deb                        
 hostname                            3.23+nmu2ubuntu2                    deb                        
 html2text                           2024.2.26                           python                     
 html5lib                            1.1                                 python                     
-httpcore                            1.0.8                               python                     
+httpcore                            1.0.9                               python                     
 httplib2                            0.22.0                              python                     
 httpx                               0.28.1                              python                     
 idna                                3.10                                python                     
@@ -116,7 +116,7 @@ jaraco-text                         3.12.1                              python
 jinja2                              3.1.6                               python                     
 jq                                  1.7.1-3build1                       deb                        
 jsonschema                          4.23.0                              python                     
-jsonschema-specifications           2024.10.1                           python                     
+jsonschema-specifications           2025.4.1                            python                     
 keyboxd                             2.4.4-2ubuntu17.2                   deb                        
 krb5-locales                        1.20.1-6ubuntu2.5                   deb                        
 levenshtein                         0.27.1                              python                     
@@ -260,7 +260,7 @@ libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.2         deb
 libxt6t64                           1:1.2.1-1.2build1                   deb                        
 libxxhash0                          0.8.2-2build1                       deb                        
 libzstd1                            1.5.5+dfsg2-2build1.1               deb                        
-limits                              5.0.0                               python                     
+limits                              5.1.0                               python                     
 locales                             2.39-0ubuntu8.4                     deb                        
 login                               1:4.13+dfsg1-4ubuntu3.2             deb                        
 logsave                             1.47.0-2.4~exp1ubuntu4.1            deb                        
@@ -288,13 +288,14 @@ oauthlib                            3.2.2                               python
 openssl                             3.0.13-0ubuntu3.5                   deb                        
 ordered-set                         4.1.0                               python                     
 outcome                             1.3.0.post0                         python                     
-packaging                           24.2                                python     (+1 duplicate)  
+packaging                           24.2                                python                     
+packaging                           25.0                                python                     
 passwd                              1:4.13+dfsg1-4ubuntu3.2             deb                        
 perl                                5.38.2-3.2ubuntu0.1                 deb                        
 perl-base                           5.38.2-3.2ubuntu0.1                 deb                        
 pillow                              11.2.1                              python                     
 pinentry-curses                     1.2.1-3ubuntu5                      deb                        
-pip                                 25.0.1                              python                     
+pip                                 25.1                                python                     
 platformdirs                        4.2.2                               python                     
 poppler-data                        0.4.12-1                            deb                        
 procps                              2:4.0.4-4ubuntu3.2                  deb                        
@@ -348,12 +349,12 @@ scholarly                           1.7.11                              python
 sed                                 4.9-2build1                         deb                        
 selenium                            4.31.0                              python                     
 sensible-utils                      0.0.22                              deb                        
-setuptools                          78.1.1                              python                     
+setuptools                          79.0.1                              python                     
 six                                 1.17.0                              python                     
 sniffio                             1.3.1                               python                     
 snowballstemmer                     2.2.0                               python                     
 sortedcontainers                    2.4.0                               python                     
-soupsieve                           2.6                                 python                     
+soupsieve                           2.7                                 python                     
 sphinx                              8.2.3                               python                     
 sphinx-rtd-theme                    3.0.2                               python                     
 sphinxcontrib-applehelp             2.0.0                               python                     
@@ -374,7 +375,7 @@ text2digits                         0.1.0                               python
 texttable                           1.7.0                               python                     
 tomli                               2.0.1                               python                     
 tornado                             6.4.2                               python                     
-trio                                0.29.0                              python                     
+trio                                0.30.0                              python                     
 trio-websocket                      0.12.2                              python                     
 typeguard                           4.3.0                               python                     
 types-python-dateutil               2.9.0.20241206                      python                     
