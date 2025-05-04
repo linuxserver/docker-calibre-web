@@ -26,7 +26,7 @@ catatonit                           0.1.7-1                             deb
 certifi                             2025.4.26                           python                     
 cffi                                1.17.1                              python                     
 chardet                             5.2.0                               python                     
-charset-normalizer                  3.4.1                               python                     
+charset-normalizer                  3.4.2                               python                     
 click                               8.1.8                               python                     
 comicapi                            3.2.0                               python                     
 coreutils                           9.4-3ubuntu6                        deb                        
@@ -63,7 +63,7 @@ fonts-urw-base35                    20200910-8                          deb
 free-proxy                          1.1.3                               python                     
 gcc-14-base                         14.2.0-4ubuntu2~24.04               deb                        
 gevent                              24.11.1                             python                     
-ghostscript                         10.02.1~dfsg1-0ubuntu7.5            deb                        
+ghostscript                         10.02.1~dfsg1-0ubuntu7.6            deb                        
 github.com/beevik/etree             v1.1.0                              go-module                  
 github.com/kr/smartypants           v0.1.0                              go-module                  
 github.com/pgaskin/kepubify/_/html  v0.0.0-20211223234002-6ee2cc632cdc  go-module                  
@@ -76,7 +76,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                  
 goodreads                           0.3.2                               python                     
 google-api-core                     2.24.2                              python                     
-google-api-python-client            2.168.0                             python                     
+google-api-python-client            2.169.0                             python                     
 google-auth                         2.39.0                              python                     
 google-auth-httplib2                0.2.0                               python                     
 google-auth-oauthlib                1.2.2                               python                     
@@ -104,7 +104,7 @@ imagemagick-6-common                8:6.9.12.98+dfsg1-5.2build2         deb
 imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb                        
 imagesize                           1.4.1                               python                     
 importlib-metadata                  8.0.0                               python                     
-importlib-metadata                  8.6.1                               python                     
+importlib-metadata                  8.7.0                               python                     
 inflate64                           1.0.1                               python                     
 inflect                             7.3.1                               python                     
 init-system-helpers                 1.66ubuntu1                         deb                        
@@ -162,9 +162,9 @@ libgmp10                            2:6.3.0+dfsg-2ubuntu6.1             deb
 libgnutls30t64                      3.8.3-1.1ubuntu3.3                  deb                        
 libgomp1                            14.2.0-4ubuntu2~24.04               deb                        
 libgpg-error0                       1.47-3build2.1                      deb                        
-libgs-common                        10.02.1~dfsg1-0ubuntu7.5            deb                        
-libgs10                             10.02.1~dfsg1-0ubuntu7.5            deb                        
-libgs10-common                      10.02.1~dfsg1-0ubuntu7.5            deb                        
+libgs-common                        10.02.1~dfsg1-0ubuntu7.6            deb                        
+libgs10                             10.02.1~dfsg1-0ubuntu7.6            deb                        
+libgs10-common                      10.02.1~dfsg1-0ubuntu7.6            deb                        
 libgssapi-krb5-2                    1.20.1-6ubuntu2.5                   deb                        
 libheif-plugin-aomdec               1.17.6-1ubuntu4.1                   deb                        
 libheif-plugin-libde265             1.17.6-1ubuntu4.1                   deb                        
@@ -255,7 +255,7 @@ libxcb1                             1.15-1ubuntu2                       deb
 libxdmcp6                           1:1.1.3-0ubuntu6                    deb                        
 libxext6                            2:1.3.4-1build2                     deb                        
 libxi6                              2:1.8.1-1build1                     deb                        
-libxml2                             2.9.14+dfsg-1.3ubuntu3.2            deb                        
+libxml2                             2.9.14+dfsg-1.3ubuntu3.3            deb                        
 libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.2         deb                        
 libxt6t64                           1:1.2.1-1.2build1                   deb                        
 libxxhash0                          0.8.2-2build1                       deb                        
@@ -295,7 +295,7 @@ perl                                5.38.2-3.2ubuntu0.1                 deb
 perl-base                           5.38.2-3.2ubuntu0.1                 deb                        
 pillow                              11.2.1                              python                     
 pinentry-curses                     1.2.1-3ubuntu5                      deb                        
-pip                                 25.1                                python                     
+pip                                 25.1.1                              python                     
 platformdirs                        4.2.2                               python                     
 poppler-data                        0.4.12-1                            deb                        
 procps                              2:4.0.4-4ubuntu3.2                  deb                        
@@ -306,7 +306,7 @@ publicsuffix                        20231001.0357-0.1                   deb
 py7zr                               0.20.8                              python                     
 pyasn1                              0.6.1                               python                     
 pyasn1-modules                      0.4.2                               python                     
-pybcj                               1.0.3                               python                     
+pybcj                               1.0.6                               python                     
 pycountry                           22.3.5                              python                     
 pycparser                           2.22                                python                     
 pycryptodomex                       3.22.0                              python                     
@@ -347,9 +347,9 @@ rpds-py                             0.24.0                              python
 rsa                                 4.9.1                               python                     
 scholarly                           1.7.11                              python                     
 sed                                 4.9-2build1                         deb                        
-selenium                            4.31.0                              python                     
+selenium                            4.32.0                              python                     
 sensible-utils                      0.0.22                              deb                        
-setuptools                          79.0.1                              python                     
+setuptools                          80.3.0                              python                     
 six                                 1.17.0                              python                     
 sniffio                             1.3.1                               python                     
 snowballstemmer                     2.2.0                               python                     
