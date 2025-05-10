@@ -28,3 +28,5 @@ repo_vars:
   - CI_DOCKERENV='TZ=America/Los_Angeles'
   - CI_AUTH='user:password'
   - CI_WEBPATH=''
+sponsor_links:
+  - { name: "Calibre-Web", url: "https://paypal.me/calibreweb" }
