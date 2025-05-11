@@ -27,7 +27,7 @@ certifi                             2025.4.26                           python
 cffi                                1.17.1                              python                     
 chardet                             5.2.0                               python                     
 charset-normalizer                  3.4.2                               python                     
-click                               8.1.8                               python                     
+click                               8.2.0                               python                     
 comicapi                            3.2.0                               python                     
 coreutils                           9.4-3ubuntu6                        deb                        
 cpp                                 4:13.2.0-7ubuntu1                   deb                        
@@ -332,7 +332,7 @@ python3.12-minimal                  3.12.3-1ubuntu0.5                   deb
 python3.12-venv                     3.12.3-1ubuntu0.5                   deb                        
 pytz                                2025.2                              python                     
 pyyaml                              6.0.2                               python                     
-pyzstd                              0.16.2                              python                     
+pyzstd                              0.17.0                              python                     
 rapidfuzz                           3.13.0                              python                     
 rarfile                             4.2                                 python                     
 rauth                               0.7.3                               python                     
