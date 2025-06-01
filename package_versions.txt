@@ -114,7 +114,7 @@ imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb
 imagesize                           1.4.1                               python                      
 importlib-metadata                  8.0.0                               python                      
 importlib-metadata                  8.7.0                               python                      
-inflate64                           1.0.1                               python                      
+inflate64                           1.0.3                               python                      
 inflect                             7.3.1                               python                      
 init-system-helpers                 1.66ubuntu1                         deb                         
 itsdangerous                        2.2.0                               python                      
