@@ -81,7 +81,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.25.1                              python                      
-google-api-python-client            2.178.0                             python                      
+google-api-python-client            2.179.0                             python                      
 google-auth                         2.40.3                              python                      
 google-auth-httplib2                0.2.0                               python                      
 google-auth-oauthlib                1.2.2                               python                      
@@ -274,7 +274,7 @@ locales                             2.39-0ubuntu8.5                     deb
 login                               1:4.13+dfsg1-4ubuntu3.2             deb                         
 logsave                             1.47.0-2.4~exp1ubuntu4.1            deb                         
 lxml                                5.2.2                               python                      
-markdown-it-py                      3.0.0                               python                      
+markdown-it-py                      4.0.0                               python                      
 markdown2                           2.4.13                              python                      
 markupsafe                          3.0.2                               python                      
 mawk                                1.3.4.20240123-1build1              deb                         
@@ -309,7 +309,7 @@ platformdirs                        4.2.2                               python
 poppler-data                        0.4.12-1                            deb                         
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
 proto-plus                          1.26.1                              python                      
-protobuf                            6.31.1                              python                      
+protobuf                            6.32.0                              python                      
 psutil                              7.0.0                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
@@ -356,7 +356,7 @@ rpds-py                             0.27.0                              python
 rsa                                 4.9.1                               python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2build1                         deb                         
-selenium                            4.34.2                              python                      
+selenium                            4.35.0                              python                      
 selenium-manager                    UNKNOWN                             binary                      
 sensible-utils                      0.0.22                              deb                         
 setuptools                          80.9.0                              python                      
@@ -374,7 +374,7 @@ sphinxcontrib-jquery                4.1                                 python
 sphinxcontrib-jsmath                1.0.1                               python                      
 sphinxcontrib-qthelp                2.0.0                               python                      
 sphinxcontrib-serializinghtml       2.0.0                               python                      
-sqlalchemy                          2.0.42                              python                      
+sqlalchemy                          2.0.43                              python                      
 sqlalchemy-utils                    0.41.2                              python                      
 sqlite3                             3.45.1-1ubuntu2.4                   deb                         
 stdlib                              go1.17.8                            go-module                   
@@ -407,7 +407,7 @@ websocket-client                    1.8.0                               python
 werkzeug                            3.1.3                               python                      
 wheel                               0.45.1                              python     (+1 duplicate)   
 wordninja                           2.0.0                               python                      
-wrapt                               1.17.2                              python                      
+wrapt                               1.17.3                              python                      
 wsproto                             1.2.0                               python                      
 wtforms                             3.2.1                               python                      
 x11-common                          1:7.7+23ubuntu3                     deb                         
