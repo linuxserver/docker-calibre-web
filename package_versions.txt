@@ -14,7 +14,7 @@ backports-tarfile                   1.2.0                               python
 base-files                          13ubuntu10.3                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
-beautifulsoup4                      4.13.4                              python                      
+beautifulsoup4                      4.13.5                              python                      
 bibtexparser                        1.4.3                               python                      
 binutils-common                     2.42-4ubuntu2.5                     deb                         
 bleach                              6.2.0                               python                      
