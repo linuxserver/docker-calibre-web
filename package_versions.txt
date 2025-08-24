@@ -226,8 +226,8 @@ libpng16-16t64                      1.6.43-5build1                      deb
 libproc2-0                          2:4.0.4-4ubuntu3.2                  deb                         
 libpsl5t64                          0.21.2-1.1build1                    deb                         
 libpython3-stdlib                   3.12.3-0ubuntu2                     deb                         
-libpython3.12-minimal               3.12.3-1ubuntu0.7                   deb                         
-libpython3.12-stdlib                3.12.3-1ubuntu0.7                   deb                         
+libpython3.12-minimal               3.12.3-1ubuntu0.8                   deb                         
+libpython3.12-stdlib                3.12.3-1ubuntu0.8                   deb                         
 libraw23t64                         0.21.2-2.1ubuntu0.24.04.1           deb                         
 libreadline8t64                     8.2-4build1                         deb                         
 librtmp1                            2.4+20151223.gitfa8646d.1-2build7   deb                         
@@ -249,7 +249,7 @@ libssl3t64                          3.0.13-0ubuntu3.5                   deb
 libstdc++6                          14.2.0-4ubuntu2~24.04               deb                         
 libsystemd0                         255.4-1ubuntu8.10                   deb                         
 libtasn1-6                          4.19.0-3ubuntu0.24.04.1             deb                         
-libtiff6                            4.5.1+git230720-4ubuntu2.2          deb                         
+libtiff6                            4.5.1+git230720-4ubuntu2.3          deb                         
 libtinfo6                           6.4+20240113-1ubuntu2               deb                         
 libudev1                            255.4-1ubuntu8.10                   deb                         
 libunistring5                       1.1-2build1.1                       deb                         
@@ -264,7 +264,7 @@ libxcb1                             1.15-1ubuntu2                       deb
 libxdmcp6                           1:1.1.3-0ubuntu6                    deb                         
 libxext6                            2:1.3.4-1build2                     deb                         
 libxi6                              2:1.8.1-1build1                     deb                         
-libxml2                             2.9.14+dfsg-1.3ubuntu3.3            deb                         
+libxml2                             2.9.14+dfsg-1.3ubuntu3.4            deb                         
 libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.2         deb                         
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
@@ -336,9 +336,9 @@ python3-minimal                     3.12.3-0ubuntu2                     deb
 python3-pip-whl                     24.0+dfsg-1ubuntu1.2                deb                         
 python3-setuptools-whl              68.1.2-2ubuntu1.2                   deb                         
 python3-venv                        3.12.3-0ubuntu2                     deb                         
-python3.12                          3.12.3-1ubuntu0.7                   deb                         
-python3.12-minimal                  3.12.3-1ubuntu0.7                   deb                         
-python3.12-venv                     3.12.3-1ubuntu0.7                   deb                         
+python3.12                          3.12.3-1ubuntu0.8                   deb                         
+python3.12-minimal                  3.12.3-1ubuntu0.8                   deb                         
+python3.12-venv                     3.12.3-1ubuntu0.8                   deb                         
 pytz                                2025.2                              python                      
 pyyaml                              6.0.2                               python                      
 pyzstd                              0.17.0                              python                      
@@ -348,7 +348,7 @@ rauth                               0.7.3                               python
 readline-common                     8.2-4build1                         deb                         
 referencing                         0.36.2                              python                      
 regex                               2024.5.15                           python                      
-requests                            2.32.4                              python                      
+requests                            2.32.5                              python                      
 requests-oauthlib                   2.0.0                               python                      
 rich                                13.9.4                              python                      
 roman-numerals-py                   3.1.0                               python                      
@@ -388,7 +388,7 @@ tornado                             6.4.2                               python
 trio                                0.30.0                              python                      
 trio-websocket                      0.12.2                              python                      
 typeguard                           4.3.0                               python                      
-types-python-dateutil               2.9.0.20250809                      python                      
+types-python-dateutil               2.9.0.20250822                      python                      
 typing-extensions                   4.12.2                              python                      
 typing-extensions                   4.14.1                              python                      
 tzdata                              2025b-0ubuntu0.24.04.1              deb                         
