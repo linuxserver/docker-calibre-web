@@ -414,7 +414,7 @@ x11-common                          1:7.7+23ubuntu3                     deb
 xdg-utils                           1.1.3-4.1ubuntu3                    deb                         
 xfonts-encodings                    1:1.0.5-0ubuntu2                    deb                         
 xfonts-utils                        1:7.7+6build3                       deb                         
-xmltodict                           0.15.0                              python                      
+xmltodict                           0.15.1                              python                      
 zipp                                3.19.2                              python                      
 zipp                                3.23.0                              python                      
 zlib1g                              1:1.3.dfsg-3.1ubuntu2.1             deb                         
