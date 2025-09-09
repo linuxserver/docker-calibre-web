@@ -317,7 +317,7 @@ pyasn1                              0.6.1                               python
 pyasn1-modules                      0.4.2                               python                      
 pybcj                               1.0.6                               python                      
 pycountry                           22.3.5                              python                      
-pycparser                           2.22                                python                      
+pycparser                           2.23                                python                      
 pycryptodomex                       3.23.0                              python                      
 pydrive2                            1.21.3                              python                      
 pygments                            2.19.2                              python                      
