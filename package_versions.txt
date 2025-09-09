@@ -25,7 +25,7 @@ ca-certificates                     20240203                            deb
 cachetools                          5.5.2                               python                      
 catatonit                           0.1.7-1                             deb                         
 certifi                             2025.8.3                            python                      
-cffi                                1.17.1                              python                      
+cffi                                2.0.0                               python                      
 chardet                             5.2.0                               python                      
 charset-normalizer                  3.4.3                               python                      
 cli                                 UNKNOWN                             binary                      
@@ -342,7 +342,7 @@ python3.12-venv                     3.12.3-1ubuntu0.8                   deb
 pytz                                2025.2                              python                      
 pyyaml                              6.0.2                               python                      
 pyzstd                              0.17.0                              python                      
-rapidfuzz                           3.14.0                              python                      
+rapidfuzz                           3.14.1                              python                      
 rarfile                             4.2                                 python                      
 rauth                               0.7.3                               python                      
 readline-common                     8.2-4build1                         deb                         
