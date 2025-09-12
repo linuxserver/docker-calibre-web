@@ -34,7 +34,7 @@ cli-64                              UNKNOWN                             binary
 cli-arm64                           UNKNOWN                             binary                      
 click                               8.2.1                               python                      
 comicapi                            3.2.0                               python                      
-coreutils                           9.4-3ubuntu6                        deb                         
+coreutils                           9.4-3ubuntu6.1                      deb                         
 cpp                                 4:13.2.0-7ubuntu1                   deb                         
 cron                                3.0pl1-184ubuntu2                   deb                         
 cron-daemon-common                  3.0pl1-184ubuntu2                   deb                         
@@ -150,7 +150,7 @@ libcap2                             1:2.66-5ubuntu2.2                   deb
 libcom-err2                         1.47.0-2.4~exp1ubuntu4.1            deb                         
 libcrypt-dev                        1:4.4.36-4build1                    deb                         
 libcrypt1                           1:4.4.36-4build1                    deb                         
-libcups2t64                         2.4.7-1.2ubuntu7.3                  deb                         
+libcups2t64                         2.4.7-1.2ubuntu7.4                  deb                         
 libcurl4t64                         8.5.0-2ubuntu10.6                   deb                         
 libdb5.3t64                         5.3.28+dfsg2-7                      deb                         
 libdbus-1-3                         1.14.10-4ubuntu4.1                  deb                         
@@ -264,7 +264,7 @@ libxcb1                             1.15-1ubuntu2                       deb
 libxdmcp6                           1:1.1.3-0ubuntu6                    deb                         
 libxext6                            2:1.3.4-1build2                     deb                         
 libxi6                              2:1.8.1-1build1                     deb                         
-libxml2                             2.9.14+dfsg-1.3ubuntu3.4            deb                         
+libxml2                             2.9.14+dfsg-1.3ubuntu3.5            deb                         
 libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.2         deb                         
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
@@ -309,7 +309,7 @@ platformdirs                        4.2.2                               python
 poppler-data                        0.4.12-1                            deb                         
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
 proto-plus                          1.26.1                              python                      
-protobuf                            6.32.0                              python                      
+protobuf                            6.32.1                              python                      
 psutil                              7.0.0                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
