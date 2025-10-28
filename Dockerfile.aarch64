@@ -20,12 +20,10 @@ RUN \
   apt-get install -y --no-install-recommends \
     build-essential \
     cmake \
-    libasound2t64 \
     libffi-dev \
     libjpeg-dev \
     libldap2-dev \
     libsasl2-dev \
-    libxfixes3 \
     libxml2-dev \
     libxslt1-dev \
     python3-dev \
@@ -34,9 +32,11 @@ RUN \
   apt-get install -y --no-install-recommends \
     imagemagick \
     ghostscript \
+    libasound2t64 \
     libldap2 \
     libmagic1t64 \
     libsasl2-2 \
+    libxfixes3 \
     libxi6 \
     libxslt1.1 \
     python3-venv \
