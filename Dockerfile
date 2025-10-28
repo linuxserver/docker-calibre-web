@@ -12,6 +12,9 @@ ARG CALIBREWEB_COMMIT
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="notdriz"
 
+ENV \
+  QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox"
+
 RUN \
   echo "**** install build packages ****" && \
   apt-get update && \
@@ -24,11 +27,13 @@ RUN \
   apt-get install -y --no-install-recommends \
     imagemagick \
     ghostscript \
+    libasound2t64 \
     libldap2 \
     libmagic1t64 \
     libsasl2-2 \
     libxi6 \
     libxslt1.1 \
+    libxfixes3 \
     python3-venv \
     sqlite3 \
     xdg-utils && \
