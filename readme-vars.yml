@@ -102,6 +102,7 @@ init_diagram: |
   "calibre-web:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "10.28.25:", desc: "Add libxfixes3 and libasound2t64 to support epub to pdf conversion; also set --no-sandbox for qtwebengine."}
   - {date: "07.01.25:", desc: "Set kepubify path by default."}
   - {date: "05.12.24:", desc: "Rebase to noble."}
   - {date: "26.08.24:", desc: "Add new dep, xdg-utils."}
