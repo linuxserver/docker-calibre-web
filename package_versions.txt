@@ -32,7 +32,7 @@ cli                                 UNKNOWN                             binary
 cli-32                              UNKNOWN                             binary                      
 cli-64                              UNKNOWN                             binary                      
 cli-arm64                           UNKNOWN                             binary                      
-click                               8.3.0                               python                      
+click                               8.3.1                               python                      
 comicapi                            3.2.0                               python                      
 coreutils                           9.4-3ubuntu6.1                      deb                         
 cpp                                 4:13.2.0-7ubuntu1                   deb                         
