@@ -310,7 +310,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **10.28.25:** - Add libxfixes3 and libasound2t64 to support epub to pdf conversion; also set --no-sandbox for qtwebengine.
+* **28.10.25:** - Add libxfixes3 and libasound2t64 to support epub to pdf conversion; also set --no-sandbox for qtwebengine.
 * **07.01.25:** - Set kepubify path by default.
 * **05.12.24:** - Rebase to noble.
 * **26.08.24:** - Add new dep, xdg-utils.
