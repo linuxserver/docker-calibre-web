@@ -16,7 +16,7 @@ base-passwd                         3.6.3build1                         deb
 bash                                5.2.21-2ubuntu4                     deb                         
 beautifulsoup4                      4.13.5                              python                      
 bibtexparser                        1.4.3                               python                      
-binutils-common                     2.42-4ubuntu2.6                     deb                         
+binutils-common                     2.42-4ubuntu2.7                     deb                         
 bleach                              6.2.0                               python                      
 blinker                             1.9.0                               python                      
 brotli                              1.2.0                               python                      
@@ -168,7 +168,7 @@ libfontenc1                         1:1.1.8-1build1                     deb
 libfreetype6                        2.13.2+dfsg-1build3                 deb                         
 libgcc-s1                           14.2.0-4ubuntu2~24.04               deb                         
 libgcrypt20                         1.10.3-2build1                      deb                         
-libglib2.0-0t64                     2.80.0-6ubuntu3.4                   deb                         
+libglib2.0-0t64                     2.80.0-6ubuntu3.5                   deb                         
 libgmp10                            2:6.3.0+dfsg-2ubuntu6.1             deb                         
 libgnutls30t64                      3.8.3-1.1ubuntu3.4                  deb                         
 libgomp1                            14.2.0-4ubuntu2~24.04               deb                         
@@ -355,7 +355,7 @@ requests                            2.32.5                              python
 requests-oauthlib                   2.0.0                               python                      
 rich                                13.9.4                              python                      
 roman-numerals-py                   3.1.0                               python                      
-rpds-py                             0.29.0                              python                      
+rpds-py                             0.30.0                              python                      
 rsa                                 4.9.1                               python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2build1                         deb                         
