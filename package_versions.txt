@@ -152,7 +152,7 @@ libcap2                             1:2.66-5ubuntu2.2                   deb
 libcom-err2                         1.47.0-2.4~exp1ubuntu4.1            deb                         
 libcrypt-dev                        1:4.4.36-4build1                    deb                         
 libcrypt1                           1:4.4.36-4build1                    deb                         
-libcups2t64                         2.4.7-1.2ubuntu7.7                  deb                         
+libcups2t64                         2.4.7-1.2ubuntu7.9                  deb                         
 libcurl4t64                         8.5.0-2ubuntu10.6                   deb                         
 libdb5.3t64                         5.3.28+dfsg2-7                      deb                         
 libdbus-1-3                         1.14.10-4ubuntu4.1                  deb                         
