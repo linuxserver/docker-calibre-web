@@ -11,6 +11,7 @@ attrs                               25.4.0                              python
 autocommand                         2.2.2                               python                      
 babel                               2.17.0                              python                      
 backports-tarfile                   1.2.0                               python                      
+backports-zstd                      1.2.0                               python                      
 base-files                          13ubuntu10.3                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
@@ -326,7 +327,7 @@ pydrive2                            1.21.3                              python
 pygments                            2.19.2                              python                      
 pyopenssl                           24.2.1                              python                      
 pyparsing                           3.2.5                               python                      
-pypdf                               6.4.0                               python                      
+pypdf                               6.4.1                               python                      
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
 python-dateutil                     2.9.0.post0                         python                      
@@ -344,7 +345,7 @@ python3.12-minimal                  3.12.3-1ubuntu0.9                   deb
 python3.12-venv                     3.12.3-1ubuntu0.9                   deb                         
 pytz                                2025.2                              python                      
 pyyaml                              6.0.3                               python                      
-pyzstd                              0.18.0                              python                      
+pyzstd                              0.19.0                              python                      
 rapidfuzz                           3.14.3                              python                      
 rarfile                             4.2                                 python                      
 rauth                               0.7.3                               python                      
