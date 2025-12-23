@@ -3,7 +3,7 @@ Simple Launcher                     1.1.0.14                            binary  
 adduser                             3.137ubuntu1                        deb                         
 alabaster                           1.0.0                               python                      
 anyio                               4.12.0                              python                      
-apscheduler                         3.11.1                              python                      
+apscheduler                         3.11.2                              python                      
 apt                                 2.8.3                               deb                         
 apt-utils                           2.8.3                               deb                         
 arrow                               1.4.0                               python                      
@@ -114,7 +114,7 @@ imagemagick-6-common                8:6.9.12.98+dfsg1-5.2build2         deb
 imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagesize                           1.4.1                               python                      
 importlib-metadata                  8.0.0                               python                      
-importlib-metadata                  8.7.0                               python                      
+importlib-metadata                  8.7.1                               python                      
 inflate64                           1.0.4                               python                      
 inflect                             7.3.1                               python                      
 init-system-helpers                 1.66ubuntu1                         deb                         
@@ -326,7 +326,7 @@ pycryptodomex                       3.23.0                              python
 pydrive2                            1.21.3                              python                      
 pygments                            2.19.2                              python                      
 pyopenssl                           24.2.1                              python                      
-pyparsing                           3.2.5                               python                      
+pyparsing                           3.3.1                               python                      
 pypdf                               6.4.2                               python                      
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
