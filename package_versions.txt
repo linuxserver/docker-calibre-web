@@ -314,7 +314,7 @@ poppler-data                        0.4.12-1                            deb
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
 proto-plus                          1.27.0                              python                      
 protobuf                            6.33.2                              python                      
-psutil                              7.2.0                               python                      
+psutil                              7.2.1                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
 pyasn1                              0.6.1                               python                      
