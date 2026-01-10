@@ -125,7 +125,7 @@ jaraco-functools                    4.0.1                               python
 jaraco-text                         3.12.1                              python                      
 jinja2                              3.1.6                               python                      
 jq                                  1.7.1-3ubuntu0.24.04.1              deb                         
-jsonschema                          4.23.0                              python                      
+jsonschema                          4.26.0                              python                      
 jsonschema-specifications           2025.9.1                            python                      
 keyboxd                             2.4.4-2ubuntu17.3                   deb                         
 krb5-locales                        1.20.1-6ubuntu2.6                   deb                         
