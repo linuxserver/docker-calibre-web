@@ -404,7 +404,7 @@ websocket-client                    1.9.0                               python
 werkzeug                            3.1.5                               python                      
 wheel                               0.46.3                              python     (+1 duplicate)   
 wordninja                           2.0.0                               python                      
-wrapt                               2.0.1                               python                      
+wrapt                               2.1.0                               python                      
 wsproto                             1.3.2                               python                      
 wtforms                             3.2.1                               python                      
 x11-common                          1:7.7+23ubuntu3                     deb                         
