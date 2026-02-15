@@ -12,7 +12,7 @@ autocommand                         2.2.2                               python
 babel                               2.18.0                              python                      
 backports-tarfile                   1.2.0                               python                      
 backports-zstd                      1.3.0                               python                      
-base-files                          13ubuntu10.3                        deb                         
+base-files                          13ubuntu10.4                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
 beautifulsoup4                      4.13.5                              python                      
@@ -81,7 +81,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.29.0                              python                      
-google-api-python-client            2.189.0                             python                      
+google-api-python-client            2.190.0                             python                      
 google-auth                         2.48.0                              python                      
 google-auth-httplib2                0.3.0                               python                      
 google-auth-oauthlib                1.2.4                               python                      
@@ -221,7 +221,7 @@ libpam-runtime                      1.5.3-5ubuntu5.5                    deb
 libpam0g                            1.5.3-5ubuntu5.5                    deb                         
 libpaper1                           1.1.29build1                        deb                         
 libpcre2-8-0                        10.42-4ubuntu2.1                    deb                         
-libpng16-16t64                      1.6.43-5ubuntu0.4                   deb                         
+libpng16-16t64                      1.6.43-5ubuntu0.5                   deb                         
 libproc2-0                          2:4.0.4-4ubuntu3.2                  deb                         
 libpsl5t64                          0.21.2-1.1build1                    deb                         
 libpython3-stdlib                   3.12.3-0ubuntu2.1                   deb                         
@@ -284,7 +284,6 @@ more-itertools                      10.8.0                              python
 mount                               2.39.3-9ubuntu6.4                   deb                         
 multivolumefile                     0.2.3                               python                      
 mutagen                             1.47.0                              python                      
-my-test-package                     1.0                                 python                      
 natsort                             8.4.0                               python                      
 ncurses-base                        6.4+20240113-1ubuntu2               deb                         
 ncurses-bin                         6.4+20240113-1ubuntu2               deb                         
@@ -301,7 +300,7 @@ packaging                           26.0                                python  
 passwd                              1:4.13+dfsg1-4ubuntu3.2             deb                         
 perl                                5.38.2-3.2ubuntu0.2                 deb                         
 perl-base                           5.38.2-3.2ubuntu0.2                 deb                         
-pillow                              12.1.0                              python                      
+pillow                              12.1.1                              python                      
 pinentry-curses                     1.2.1-3ubuntu5                      deb                         
 pip                                 26.0.1                              python                      
 platformdirs                        4.4.0                               python                      
@@ -358,7 +357,7 @@ sed                                 4.9-2build1                         deb
 selenium                            4.36.0                              python                      
 selenium-manager                    UNKNOWN                             binary                      
 sensible-utils                      0.0.22                              deb                         
-setuptools                          81.0.0                              python                      
+setuptools                          82.0.0                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
 snowballstemmer                     3.0.1                               python                      
@@ -384,7 +383,7 @@ text2digits                         0.1.0                               python
 texttable                           1.7.0                               python                      
 tomli                               2.4.0                               python                      
 tornado                             6.5.4                               python                      
-trio                                0.32.0                              python                      
+trio                                0.33.0                              python                      
 trio-websocket                      0.12.2                              python                      
 typing-extensions                   4.15.0                              python                      
 tzdata                              2025.3                              python                      
