@@ -384,7 +384,7 @@ text2digits                         0.1.0                               python
 texttable                           1.7.0                               python                      
 tomli                               2.4.0                               python                      
 tornado                             6.5.4                               python                      
-trio                                0.32.0                              python                      
+trio                                0.33.0                              python                      
 trio-typing                         0.10.0                              python                      
 trio-websocket                      0.12.2                              python                      
 types-certifi                       2021.10.8.3                         python                      
