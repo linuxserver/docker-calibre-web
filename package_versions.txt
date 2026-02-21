@@ -92,7 +92,7 @@ gpg-wks-client                      2.4.4-2ubuntu17.4                   deb
 gpgconf                             2.4.4-2ubuntu17.4                   deb                         
 gpgsm                               2.4.4-2ubuntu17.4                   deb                         
 gpgv                                2.4.4-2ubuntu17.4                   deb                         
-greenlet                            3.3.1                               python                      
+greenlet                            3.3.2                               python                      
 grep                                3.11-4build1                        deb                         
 gui                                 UNKNOWN                             binary                      
 gui-32                              UNKNOWN                             binary                      
