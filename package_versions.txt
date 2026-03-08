@@ -27,7 +27,7 @@ catatonit                           0.1.7-1                             deb
 certifi                             2025.8.3                            python                      
 cffi                                2.0.0                               python                      
 chardet                             5.2.0                               python                      
-charset-normalizer                  3.4.4                               python                      
+charset-normalizer                  3.4.5                               python                      
 cli                                 UNKNOWN                             binary                      
 cli-32                              UNKNOWN                             binary                      
 cli-64                              UNKNOWN                             binary                      
@@ -81,11 +81,11 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.30.0                              python                      
-google-api-python-client            2.190.0                             python                      
-google-auth                         2.48.0                              python                      
+google-api-python-client            2.192.0                             python                      
+google-auth                         2.49.0                              python                      
 google-auth-httplib2                0.3.0                               python                      
 google-auth-oauthlib                1.2.4                               python                      
-googleapis-common-protos            1.72.0                              python                      
+googleapis-common-protos            1.73.0                              python                      
 gpg                                 2.4.4-2ubuntu17.4                   deb                         
 gpg-agent                           2.4.4-2ubuntu17.4                   deb                         
 gpg-wks-client                      2.4.4-2ubuntu17.4                   deb                         
@@ -111,7 +111,7 @@ idna                                3.11                                python
 imagemagick                         8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagemagick-6-common                8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb                         
-imagesize                           1.4.1                               python                      
+imagesize                           2.0.0                               python                      
 importlib-metadata                  8.7.1                               python     (+1 duplicate)   
 inflate64                           1.0.4                               python                      
 init-system-helpers                 1.66ubuntu1                         deb                         
@@ -275,7 +275,7 @@ login                               1:4.13+dfsg1-4ubuntu3.2             deb
 logsave                             1.47.0-2.4~exp1ubuntu4.1            deb                         
 lxml                                5.3.2                               python                      
 markdown-it-py                      4.0.0                               python                      
-markdown2                           2.5.4                               python                      
+markdown2                           2.5.5                               python                      
 markupsafe                          3.0.3                               python                      
 mawk                                1.3.4.20240123-1build1              deb                         
 mdurl                               0.1.2                               python                      
@@ -325,7 +325,7 @@ pypdf                               6.4.2                               python
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
 python-dateutil                     2.9.0.post0                         python                      
-python-dotenv                       1.2.1                               python                      
+python-dotenv                       1.2.2                               python                      
 python-ldap                         3.4.5                               python                      
 python-levenshtein                  0.27.3                              python                      
 python-magic                        0.4.27                              python                      
@@ -337,7 +337,7 @@ python3-venv                        3.12.3-0ubuntu2.1                   deb
 python3.12                          3.12.3-1ubuntu0.11                  deb                         
 python3.12-minimal                  3.12.3-1ubuntu0.11                  deb                         
 python3.12-venv                     3.12.3-1ubuntu0.11                  deb                         
-pytz                                2025.2                              python                      
+pytz                                2026.1.post1                        python                      
 pyyaml                              6.0.3                               python                      
 pyzstd                              0.19.1                              python                      
 rapidfuzz                           3.14.3                              python                      
@@ -372,7 +372,7 @@ sphinxcontrib-jquery                4.1                                 python
 sphinxcontrib-jsmath                1.0.1                               python                      
 sphinxcontrib-qthelp                2.0.0                               python                      
 sphinxcontrib-serializinghtml       2.0.0                               python                      
-sqlalchemy                          2.0.47                              python                      
+sqlalchemy                          2.0.48                              python                      
 sqlalchemy-utils                    0.41.2                              python                      
 sqlite3                             3.45.1-1ubuntu2.5                   deb                         
 stdlib                              go1.17.8                            go-module                   
@@ -403,7 +403,7 @@ websocket-client                    1.9.0                               python
 werkzeug                            3.1.6                               python                      
 wheel                               0.46.3                              python     (+1 duplicate)   
 wordninja                           2.0.0                               python                      
-wrapt                               2.1.1                               python                      
+wrapt                               2.1.2                               python                      
 wsproto                             1.3.2                               python                      
 wtforms                             3.2.1                               python                      
 x11-common                          1:7.7+23ubuntu3                     deb                         
