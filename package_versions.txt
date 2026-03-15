@@ -82,7 +82,7 @@ golang.org/x/text                   v0.3.6                              go-modul
 goodreads                           0.3.2                               python                      
 google-api-core                     2.30.0                              python                      
 google-api-python-client            2.192.0                             python                      
-google-auth                         2.49.0                              python                      
+google-auth                         2.49.1                              python                      
 google-auth-httplib2                0.3.0                               python                      
 google-auth-oauthlib                1.2.4                               python                      
 googleapis-common-protos            1.73.0                              python                      
@@ -162,7 +162,7 @@ libffi8                             3.4.6-1build1                       deb
 libfftw3-double3                    3.3.10-1ubuntu3                     deb                         
 libfontconfig1                      2.15.0-1.1ubuntu2                   deb                         
 libfontenc1                         1:1.1.8-1build1                     deb                         
-libfreetype6                        2.13.2+dfsg-1build3                 deb                         
+libfreetype6                        2.13.2+dfsg-1ubuntu0.1              deb                         
 libgcc-s1                           14.2.0-4ubuntu2~24.04.1             deb                         
 libgcrypt20                         1.10.3-2build1                      deb                         
 libglib2.0-0t64                     2.80.0-6ubuntu3.8                   deb                         
@@ -225,8 +225,8 @@ libpng16-16t64                      1.6.43-5ubuntu0.5                   deb
 libproc2-0                          2:4.0.4-4ubuntu3.2                  deb                         
 libpsl5t64                          0.21.2-1.1build1                    deb                         
 libpython3-stdlib                   3.12.3-0ubuntu2.1                   deb                         
-libpython3.12-minimal               3.12.3-1ubuntu0.11                  deb                         
-libpython3.12-stdlib                3.12.3-1ubuntu0.11                  deb                         
+libpython3.12-minimal               3.12.3-1ubuntu0.12                  deb                         
+libpython3.12-stdlib                3.12.3-1ubuntu0.12                  deb                         
 libraw23t64                         0.21.2-2.1ubuntu0.24.04.1           deb                         
 libreadline8t64                     8.2-4build1                         deb                         
 librtmp1                            2.4+20151223.gitfa8646d.1-2build7   deb                         
@@ -332,9 +332,9 @@ python3-minimal                     3.12.3-0ubuntu2.1                   deb
 python3-pip-whl                     24.0+dfsg-1ubuntu1.3                deb                         
 python3-setuptools-whl              68.1.2-2ubuntu1.2                   deb                         
 python3-venv                        3.12.3-0ubuntu2.1                   deb                         
-python3.12                          3.12.3-1ubuntu0.11                  deb                         
-python3.12-minimal                  3.12.3-1ubuntu0.11                  deb                         
-python3.12-venv                     3.12.3-1ubuntu0.11                  deb                         
+python3.12                          3.12.3-1ubuntu0.12                  deb                         
+python3.12-minimal                  3.12.3-1ubuntu0.12                  deb                         
+python3.12-venv                     3.12.3-1ubuntu0.12                  deb                         
 pytz                                2026.1.post1                        python                      
 pyyaml                              6.0.3                               python                      
 pyzstd                              0.19.1                              python                      
@@ -354,7 +354,7 @@ sed                                 4.9-2build1                         deb
 selenium                            4.41.0                              python                      
 selenium-manager                    UNKNOWN                             binary                      
 sensible-utils                      0.0.22                              deb                         
-setuptools                          82.0.0                              python                      
+setuptools                          82.0.1                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
 snowballstemmer                     3.0.1                               python                      
@@ -379,7 +379,7 @@ tar                                 1.35+dfsg-3build1                   deb
 text2digits                         0.1.0                               python                      
 texttable                           1.7.0                               python                      
 tomli                               2.4.0                               python                      
-tornado                             6.5.4                               python                      
+tornado                             6.5.5                               python                      
 trio                                0.33.0                              python                      
 trio-websocket                      0.12.2                              python                      
 typing-extensions                   4.15.0                              python                      
