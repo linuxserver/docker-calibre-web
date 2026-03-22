@@ -7,7 +7,7 @@ apscheduler                         3.11.2                              python
 apt                                 2.8.3                               deb                         
 apt-utils                           2.8.3                               deb                         
 arrow                               1.4.0                               python                      
-attrs                               25.4.0                              python                      
+attrs                               26.1.0                              python                      
 autocommand                         2.2.2                               python                      
 babel                               2.18.0                              python                      
 backports-tarfile                   1.2.0                               python                      
@@ -17,17 +17,17 @@ base-passwd                         3.6.3build1                         deb
 bash                                5.2.21-2ubuntu4                     deb                         
 beautifulsoup4                      4.13.5                              python                      
 bibtexparser                        1.4.4                               python                      
-binutils-common                     2.42-4ubuntu2.8                     deb                         
+binutils-common                     2.42-4ubuntu2.10                    deb                         
 bleach                              6.2.0                               python                      
 blinker                             1.9.0                               python                      
 brotli                              1.2.0                               python                      
-bsdutils                            1:2.39.3-9ubuntu6.4                 deb                         
+bsdutils                            1:2.39.3-9ubuntu6.5                 deb                         
 ca-certificates                     20240203                            deb                         
 catatonit                           0.1.7-1                             deb                         
 certifi                             2025.8.3                            python                      
 cffi                                2.0.0                               python                      
 chardet                             5.2.0                               python                      
-charset-normalizer                  3.4.5                               python                      
+charset-normalizer                  3.4.6                               python                      
 cli                                 UNKNOWN                             binary                      
 cli-32                              UNKNOWN                             binary                      
 cli-64                              UNKNOWN                             binary                      
@@ -39,7 +39,7 @@ cpp                                 4:13.2.0-7ubuntu1                   deb
 cron                                3.0pl1-184ubuntu2                   deb                         
 cron-daemon-common                  3.0pl1-184ubuntu2                   deb                         
 cryptography                        43.0.3                              python                      
-curl                                8.5.0-2ubuntu10.7                   deb                         
+curl                                8.5.0-2ubuntu10.8                   deb                         
 dash                                0.5.12-6ubuntu5                     deb                         
 debconf                             1.5.86ubuntu1                       deb                         
 debianutils                         5.17build1                          deb                         
@@ -81,7 +81,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.30.0                              python                      
-google-api-python-client            2.192.0                             python                      
+google-api-python-client            2.193.0                             python                      
 google-auth                         2.49.1                              python                      
 google-auth-httplib2                0.3.0                               python                      
 google-auth-oauthlib                1.2.4                               python                      
@@ -112,7 +112,8 @@ imagemagick                         8:6.9.12.98+dfsg1-5.2build2         deb
 imagemagick-6-common                8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagesize                           2.0.0                               python                      
-importlib-metadata                  8.7.1                               python     (+1 duplicate)   
+importlib-metadata                  8.7.1                               python                      
+importlib-metadata                  9.0.0                               python                      
 inflate64                           1.0.4                               python                      
 init-system-helpers                 1.66ubuntu1                         deb                         
 itsdangerous                        2.2.0                               python                      
@@ -138,7 +139,7 @@ libaudit1                           1:3.1.2-2.1build1.1                 deb
 libavahi-client3                    0.8-13ubuntu6.1                     deb                         
 libavahi-common-data                0.8-13ubuntu6.1                     deb                         
 libavahi-common3                    0.8-13ubuntu6.1                     deb                         
-libblkid1                           2.39.3-9ubuntu6.4                   deb                         
+libblkid1                           2.39.3-9ubuntu6.5                   deb                         
 libbrotli1                          1.1.0-2build2                       deb                         
 libbsd0                             0.12.1-1build1.1                    deb                         
 libbz2-1.0                          1.0.8-5.1build0.1                   deb                         
@@ -150,7 +151,7 @@ libcom-err2                         1.47.0-2.4~exp1ubuntu4.1            deb
 libcrypt-dev                        1:4.4.36-4build1                    deb                         
 libcrypt1                           1:4.4.36-4build1                    deb                         
 libcups2t64                         2.4.7-1.2ubuntu7.9                  deb                         
-libcurl4t64                         8.5.0-2ubuntu10.7                   deb                         
+libcurl4t64                         8.5.0-2ubuntu10.8                   deb                         
 libdb5.3t64                         5.3.28+dfsg2-7                      deb                         
 libdbus-1-3                         1.14.10-4ubuntu4.1                  deb                         
 libde265-0                          1.0.15-1build3                      deb                         
@@ -207,7 +208,7 @@ libmagic1t64                        1:5.45-3build1                      deb
 libmagickcore-6.q16-7t64            8:6.9.12.98+dfsg1-5.2build2         deb                         
 libmagickwand-6.q16-7t64            8:6.9.12.98+dfsg1-5.2build2         deb                         
 libmd0                              1.1.0-2build1.1                     deb                         
-libmount1                           2.39.3-9ubuntu6.4                   deb                         
+libmount1                           2.39.3-9ubuntu6.5                   deb                         
 libncursesw6                        6.4+20240113-1ubuntu2               deb                         
 libnettle8t64                       3.9.1-2.2build1.1                   deb                         
 libnghttp2-14                       1.59.0-1ubuntu0.2                   deb                         
@@ -240,10 +241,10 @@ libsemanage2                        3.5-1build5                         deb
 libsepol2                           3.5-2build1                         deb                         
 libsharpyuv0                        1.3.2-0.4build3                     deb                         
 libsm6                              2:1.2.3-1build3                     deb                         
-libsmartcols1                       2.39.3-9ubuntu6.4                   deb                         
+libsmartcols1                       2.39.3-9ubuntu6.5                   deb                         
 libsqlite3-0                        3.45.1-1ubuntu2.5                   deb                         
 libss2                              1.47.0-2.4~exp1ubuntu4.1            deb                         
-libssh-4                            0.10.6-2ubuntu0.3                   deb                         
+libssh-4                            0.10.6-2ubuntu0.4                   deb                         
 libssl3t64                          3.0.13-0ubuntu3.7                   deb                         
 libstdc++6                          14.2.0-4ubuntu2~24.04.1             deb                         
 libsystemd0                         255.4-1ubuntu8.12                   deb                         
@@ -252,7 +253,7 @@ libtiff6                            4.5.1+git230720-4ubuntu2.4          deb
 libtinfo6                           6.4+20240113-1ubuntu2               deb                         
 libudev1                            255.4-1ubuntu8.12                   deb                         
 libunistring5                       1.1-2build1.1                       deb                         
-libuuid1                            2.39.3-9ubuntu6.4                   deb                         
+libuuid1                            2.39.3-9ubuntu6.5                   deb                         
 libwebp7                            1.3.2-0.4build3                     deb                         
 libwebpdemux2                       1.3.2-0.4build3                     deb                         
 libwebpmux3                         1.3.2-0.4build3                     deb                         
@@ -281,7 +282,7 @@ mawk                                1.3.4.20240123-1build1              deb
 mdurl                               0.1.2                               python                      
 media-types                         10.1.0                              deb                         
 more-itertools                      10.8.0                              python                      
-mount                               2.39.3-9ubuntu6.4                   deb                         
+mount                               2.39.3-9ubuntu6.5                   deb                         
 multivolumefile                     0.2.3                               python                      
 mutagen                             1.47.0                              python                      
 natsort                             8.4.0                               python                      
@@ -307,11 +308,11 @@ platformdirs                        4.4.0                               python
 poppler-data                        0.4.12-1                            deb                         
 procps                              2:4.0.4-4ubuntu3.2                  deb                         
 proto-plus                          1.27.1                              python                      
-protobuf                            6.33.5                              python                      
+protobuf                            6.33.6                              python                      
 psutil                              7.2.2                               python                      
 publicsuffix                        20231001.0357-0.1                   deb                         
 py7zr                               0.20.8                              python                      
-pyasn1                              0.6.2                               python                      
+pyasn1                              0.6.3                               python                      
 pyasn1-modules                      0.4.2                               python                      
 pybcj                               1.0.7                               python                      
 pycountry                           22.3.5                              python                      
@@ -396,7 +397,7 @@ unminimize                          0.2.1                               deb
 uritemplate                         4.2.0                               python                      
 urllib3                             2.6.3                               python                      
 urlobject                           3.0.0                               python                      
-util-linux                          2.39.3-9ubuntu6.4                   deb                         
+util-linux                          2.39.3-9ubuntu6.5                   deb                         
 wand                                0.6.13                              python                      
 webencodings                        0.5.1                               python                      
 websocket-client                    1.9.0                               python                      
