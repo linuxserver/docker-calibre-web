@@ -81,7 +81,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.30.3                              python                      
-google-api-python-client            2.196.0                             python                      
+google-api-python-client            2.197.0                             python                      
 google-auth                         2.53.0                              python                      
 google-auth-httplib2                0.4.0                               python                      
 google-auth-oauthlib                1.2.4                               python                      
@@ -107,7 +107,7 @@ html5lib                            1.1                                 python
 httpcore                            1.0.9                               python                      
 httplib2                            0.31.2                              python                      
 httpx                               0.28.1                              python                      
-idna                                3.16                                python                      
+idna                                3.17                                python                      
 imagemagick                         8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagemagick-6-common                8:6.9.12.98+dfsg1-5.2build2         deb                         
 imagemagick-6.q16                   8:6.9.12.98+dfsg1-5.2build2         deb                         
@@ -347,7 +347,7 @@ regex                               2026.1.15                           python
 requests                            2.32.5                              python                      
 requests-oauthlib                   2.0.0                               python                      
 roman-numerals                      4.1.0                               python                      
-rpds-py                             0.30.0                              python                      
+rpds-py                             2026.5.1                            python                      
 rsa                                 4.9.1                               python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2ubuntu0.24.04.1                deb                         
@@ -357,9 +357,9 @@ sensible-utils                      0.0.22                              deb
 setuptools                          82.0.1                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
-snowballstemmer                     3.0.1                               python                      
+snowballstemmer                     3.1.0                               python                      
 sortedcontainers                    2.4.0                               python                      
-soupsieve                           2.8.3                               python                      
+soupsieve                           2.8.4                               python                      
 sphinx                              9.1.0                               python                      
 sphinx-rtd-theme                    3.1.0                               python                      
 sphinxcontrib-applehelp             2.0.0                               python                      
@@ -369,7 +369,7 @@ sphinxcontrib-jquery                4.1                                 python
 sphinxcontrib-jsmath                1.0.1                               python                      
 sphinxcontrib-qthelp                2.0.0                               python                      
 sphinxcontrib-serializinghtml       2.0.0                               python                      
-sqlalchemy                          2.0.49                              python                      
+sqlalchemy                          2.0.50                              python                      
 sqlalchemy-utils                    0.42.1                              python                      
 sqlite3                             3.45.1-1ubuntu2.5                   deb                         
 stdlib                              go1.17.8                            go-module                   
@@ -379,7 +379,7 @@ tar                                 1.35+dfsg-3build1                   deb
 text2digits                         0.1.2                               python                      
 texttable                           1.7.0                               python                      
 tomli                               2.4.0                               python                      
-tornado                             6.5.5                               python                      
+tornado                             6.5.6                               python                      
 trio                                0.33.0                              python                      
 trio-websocket                      0.12.2                              python                      
 typing-extensions                   4.15.0                              python                      
@@ -413,4 +413,4 @@ zipp                                3.23.0                              python
 zipp                                4.1.0                               python                      
 zlib1g                              1:1.3.dfsg-3.1ubuntu2.1             deb                         
 zope-event                          6.2                                 python                      
-zope-interface                      8.4                                 python                      
+zope-interface                      8.5                                 python                      
