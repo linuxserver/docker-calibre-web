@@ -2,7 +2,7 @@ NAME                                VERSION                             TYPE
 Simple Launcher                     1.1.0.14                            binary     (+5 duplicates)  
 adduser                             3.137ubuntu1                        deb                         
 alabaster                           1.0.0                               python                      
-anyio                               4.14.0                              python                      
+anyio                               4.14.1                              python                      
 apscheduler                         3.11.2                              python                      
 apt                                 2.8.3                               deb                         
 apt-utils                           2.8.3                               deb                         
@@ -32,7 +32,7 @@ cli                                 UNKNOWN                             binary
 cli-32                              UNKNOWN                             binary                      
 cli-64                              UNKNOWN                             binary                      
 cli-arm64                           UNKNOWN                             binary                      
-click                               8.4.1                               python                      
+click                               8.4.2                               python                      
 comicapi                            3.2.0                               python                      
 coreutils                           9.4-3ubuntu6.2                      deb                         
 cpp                                 4:13.2.0-7ubuntu1                   deb                         
@@ -65,7 +65,7 @@ fontconfig-config                   2.15.0-1.1ubuntu2                   deb
 fonts-dejavu-core                   2.37-8                              deb                         
 fonts-dejavu-mono                   2.37-8                              deb                         
 fonts-urw-base35                    20200910-8                          deb                         
-free-proxy                          1.2.0                               python                      
+free-proxy                          1.2.1                               python                      
 gcc-14-base                         14.2.0-4ubuntu2~24.04.1             deb                         
 gevent                              25.9.1                              python                      
 ghostscript                         10.02.1~dfsg1-0ubuntu7.8            deb                         
@@ -81,8 +81,8 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.30.3                              python                      
-google-api-python-client            2.197.0                             python                      
-google-auth                         2.55.0                              python                      
+google-api-python-client            2.198.0                             python                      
+google-auth                         2.55.1                              python                      
 google-auth-httplib2                0.4.0                               python                      
 google-auth-oauthlib                1.2.4                               python                      
 googleapis-common-protos            1.75.0                              python                      
@@ -263,7 +263,7 @@ libxdmcp6                           1:1.1.3-0ubuntu6                    deb
 libxext6                            2:1.3.4-1build2                     deb                         
 libxfixes3                          1:6.0.0-2build1                     deb                         
 libxi6                              2:1.8.1-1build1                     deb                         
-libxml2                             2.9.14+dfsg-1.3ubuntu3.7            deb                         
+libxml2                             2.9.14+dfsg-1.3ubuntu3.8            deb                         
 libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.3         deb                         
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
@@ -280,7 +280,7 @@ media-types                         10.1.0                              deb
 more-itertools                      10.8.0                              python                      
 mount                               2.39.3-9ubuntu6.5                   deb                         
 multivolumefile                     0.2.3                               python                      
-mutagen                             1.47.0                              python                      
+mutagen                             1.48.1                              python                      
 natsort                             8.4.0                               python                      
 ncurses-base                        6.4+20240113-1ubuntu2               deb                         
 ncurses-bin                         6.4+20240113-1ubuntu2               deb                         
@@ -296,8 +296,8 @@ outcome                             1.3.0.post0                         python
 packaging                           26.0                                python                      
 packaging                           26.2                                python                      
 passwd                              1:4.13+dfsg1-4ubuntu3.2             deb                         
-perl                                5.38.2-3.2ubuntu0.2                 deb                         
-perl-base                           5.38.2-3.2ubuntu0.2                 deb                         
+perl                                5.38.2-3.2ubuntu0.3                 deb                         
+perl-base                           5.38.2-3.2ubuntu0.3                 deb                         
 pillow                              12.2.0                              python                      
 pinentry-curses                     1.2.1-3ubuntu5                      deb                         
 pip                                 26.1.2                              python                      
@@ -375,7 +375,7 @@ sqlite3                             3.45.1-1ubuntu2.5                   deb
 stdlib                              go1.17.8                            go-module                   
 systemd-standalone-sysusers         255.4-1ubuntu8.16                   deb                         
 sysvinit-utils                      3.08-6ubuntu3                       deb                         
-tar                                 1.35+dfsg-3build1                   deb                         
+tar                                 1.35+dfsg-3ubuntu0.1                deb                         
 text2digits                         0.1.2                               python                      
 texttable                           1.7.0                               python                      
 tomli                               2.4.0                               python                      
@@ -394,7 +394,7 @@ uritemplate                         4.2.0                               python
 urllib3                             2.7.0                               python                      
 urlobject                           3.0.0                               python                      
 util-linux                          2.39.3-9ubuntu6.5                   deb                         
-wand                                0.7.1                               python                      
+wand                                0.7.2                               python                      
 webencodings                        0.5.1                               python                      
 websocket-client                    1.9.0                               python                      
 werkzeug                            3.1.8                               python                      
