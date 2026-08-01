@@ -24,7 +24,7 @@ brotli                              1.2.0                               python
 bsdutils                            1:2.39.3-9ubuntu6.5                 deb                         
 ca-certificates                     20260601~24.04.1                    deb                         
 catatonit                           0.1.7-1                             deb                         
-certifi                             2026.1.4                            python                      
+certifi                             2026.5.20                           python                      
 cffi                                2.1.0                               python                      
 chardet                             5.2.0                               python                      
 charset-normalizer                  3.4.9                               python                      
@@ -92,7 +92,7 @@ gpg-wks-client                      2.4.4-2ubuntu17.4                   deb
 gpgconf                             2.4.4-2ubuntu17.4                   deb                         
 gpgsm                               2.4.4-2ubuntu17.4                   deb                         
 gpgv                                2.4.4-2ubuntu17.4                   deb                         
-greenlet                            3.3.2                               python                      
+greenlet                            3.5.4                               python                      
 grep                                3.11-4build1                        deb                         
 gui                                 UNKNOWN                             binary                      
 gui-32                              UNKNOWN                             binary                      
@@ -351,7 +351,7 @@ rpds-py                             2026.6.3                            python
 rsa                                 4.9.1                               python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2ubuntu0.24.04.1                deb                         
-selenium                            4.43.0                              python                      
+selenium                            4.46.0                              python                      
 selenium-manager                    UNKNOWN                             binary                      
 sensible-utils                      0.0.22                              deb                         
 setuptools                          83.0.0                              python                      
