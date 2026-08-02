@@ -15,7 +15,7 @@ backports-zstd                      1.6.0                               python
 base-files                          13ubuntu10.4                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
-beautifulsoup4                      4.14.3                              python                      
+beautifulsoup4                      4.15.0                              python                      
 bibtexparser                        1.4.4                               python                      
 binutils-common                     2.42-4ubuntu2.10                    deb                         
 bleach                              6.3.0                               python                      
@@ -80,7 +80,7 @@ gnupg-utils                         2.4.4-2ubuntu17.4                   deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-module                   
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
-google-api-core                     2.30.3                              python                      
+google-api-core                     2.33.0                              python                      
 google-api-python-client            2.198.0                             python                      
 google-auth                         2.56.2                              python                      
 google-auth-httplib2                0.4.0                               python                      
@@ -105,7 +105,7 @@ hostname                            3.23+nmu2ubuntu2                    deb
 html2text                           2025.4.15                           python                      
 html5lib                            1.1                                 python                      
 httpcore                            1.0.9                               python                      
-httplib2                            0.31.2                              python                      
+httplib2                            0.32.0                              python                      
 httpx                               0.28.1                              python                      
 idna                                3.18                                python                      
 imagemagick                         8:6.9.12.98+dfsg1-5.2build2         deb                         
@@ -339,12 +339,12 @@ pytz                                2026.3.post1                        python
 pyyaml                              6.0.3                               python                      
 pyzstd                              0.19.1                              python                      
 rapidfuzz                           3.14.5                              python                      
-rarfile                             4.4                                 python                      
+rarfile                             4.5                                 python                      
 rauth                               0.7.3                               python                      
 readline-common                     8.2-4build1                         deb                         
 referencing                         0.37.0                              python                      
 regex                               2026.1.15                           python                      
-requests                            2.32.5                              python                      
+requests                            2.34.2                              python                      
 requests-oauthlib                   2.0.0                               python                      
 roman-numerals                      4.1.0                               python                      
 rpds-py                             2026.6.3                            python                      
