@@ -124,7 +124,7 @@ jsonschema                          4.26.0                              python
 jsonschema-specifications           2025.9.1                            python                      
 keyboxd                             2.4.4-2ubuntu17.4                   deb                         
 krb5-locales                        1.20.1-6ubuntu2.7                   deb                         
-levenshtein                         0.27.3                              python                      
+levenshtein                         0.27.4                              python                      
 libacl1                             2.3.2-1build1.1                     deb                         
 libaom3                             3.8.2-2ubuntu0.1                    deb                         
 libapt-pkg6.0t64                    2.8.3                               deb                         
@@ -324,7 +324,7 @@ pysocks                             1.7.1                               python
 python-dateutil                     2.9.0.post0                         python                      
 python-dotenv                       1.2.2                               python                      
 python-ldap                         3.4.7                               python                      
-python-levenshtein                  0.27.3                              python                      
+python-levenshtein                  0.27.4                              python                      
 python-magic                        0.4.27                              python                      
 python3                             3.12.3-0ubuntu2.1                   deb                         
 python3-minimal                     3.12.3-0ubuntu2.1                   deb                         
@@ -353,7 +353,7 @@ sed                                 4.9-2ubuntu0.24.04.1                deb
 selenium                            4.46.0                              python                      
 selenium-manager                    UNKNOWN                             binary                      
 sensible-utils                      0.0.22                              deb                         
-setuptools                          83.0.0                              python                      
+setuptools                          84.0.0                              python                      
 six                                 1.17.0                              python                      
 sniffio                             1.3.1                               python                      
 snowballstemmer                     3.1.1                               python                      
