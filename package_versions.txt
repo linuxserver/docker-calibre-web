@@ -11,7 +11,7 @@ attrs                               26.1.0                              python
 autocommand                         2.2.2                               python                      
 babel                               2.18.0                              python                      
 backports-tarfile                   1.2.0                               python                      
-backports-zstd                      1.6.0                               python                      
+backports-zstd                      1.7.0                               python                      
 base-files                          13ubuntu10.4                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
@@ -26,7 +26,7 @@ catatonit                           0.1.7-1                             deb
 certifi                             2026.5.20                           python                      
 cffi                                2.1.1                               python                      
 chardet                             5.2.0                               python                      
-charset-normalizer                  3.5.0                               python                      
+charset-normalizer                  3.5.1                               python                      
 cli                                 UNKNOWN                             binary                      
 cli-32                              UNKNOWN                             binary                      
 cli-64                              UNKNOWN                             binary                      
