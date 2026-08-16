@@ -59,6 +59,7 @@ flask-httpauth                      4.8.1                               python
 flask-limiter                       4.1.1                               python                      
 flask-principal                     0.4.0                               python                      
 flask-simpleldap                    2.1.0                               python                      
+flask-themes2                       1.0.1                               python                      
 flask-wtf                           1.3.0                               python                      
 fontconfig-config                   2.15.0-1.1ubuntu2                   deb                         
 fonts-dejavu-core                   2.37-8                              deb                         
