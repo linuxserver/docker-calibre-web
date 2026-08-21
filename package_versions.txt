@@ -81,7 +81,7 @@ golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-modul
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
 google-api-core                     2.34.0                              python                      
-google-api-python-client            2.198.0                             python                      
+google-api-python-client            2.199.0                             python                      
 google-auth                         2.56.3                              python                      
 google-auth-httplib2                0.4.1                               python                      
 google-auth-oauthlib                1.2.4                               python                      
