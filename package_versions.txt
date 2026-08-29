@@ -395,7 +395,7 @@ urllib3                             2.7.0                               python
 urlobject                           3.0.0                               python                      
 util-linux                          2.39.3-9ubuntu6.5                   deb                         
 wand                                0.7.2                               python                      
-websocket-client                    1.9.0                               python                      
+websocket-client                    1.9.1                               python                      
 werkzeug                            3.1.8                               python                      
 wheel                               0.46.3                              python                      
 wheel                               0.48.0                              python                      
