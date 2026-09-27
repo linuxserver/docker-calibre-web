@@ -42,7 +42,7 @@ curl                                8.5.0-2ubuntu10.13                  deb
 dash                                0.5.12-6ubuntu5                     deb                         
 debconf                             1.5.86ubuntu1                       deb                         
 debianutils                         5.17build1                          deb                         
-deprecated                          1.3.1                               python                      
+deprecated                          3.0.0                               python                      
 diffutils                           1:3.10-1ubuntu0.1                   deb                         
 dirmngr                             2.4.4-2ubuntu17.6                   deb                         
 docutils                            0.22.4                              python                      
@@ -68,7 +68,7 @@ fonts-urw-base35                    20200910-8                          deb
 free-proxy                          1.3.0                               python                      
 gcc-14-base                         14.2.0-4ubuntu2~24.04.1             deb                         
 gevent                              25.9.1                              python                      
-ghostscript                         10.02.1~dfsg1-0ubuntu7.8            deb                         
+ghostscript                         10.02.1~dfsg1-0ubuntu7.9            deb                         
 github.com/beevik/etree             v1.1.0                              go-module                   
 github.com/kr/smartypants           v0.1.0                              go-module                   
 github.com/pgaskin/kepubify/_/html  v0.0.0-20211223234002-6ee2cc632cdc  go-module                   
@@ -80,12 +80,12 @@ gnupg-utils                         2.4.4-2ubuntu17.6                   deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-module                   
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
-google-api-core                     2.38.0                              python                      
+google-api-core                     2.39.0                              python                      
 google-api-python-client            2.199.0                             python                      
-google-auth                         2.58.0                              python                      
+google-auth                         2.58.1                              python                      
 google-auth-httplib2                0.4.2                               python                      
 google-auth-oauthlib                1.2.4                               python                      
-googleapis-common-protos            1.75.3                              python                      
+googleapis-common-protos            1.75.4                              python                      
 gpg                                 2.4.4-2ubuntu17.6                   deb                         
 gpg-agent                           2.4.4-2ubuntu17.6                   deb                         
 gpg-wks-client                      2.4.4-2ubuntu17.6                   deb                         
@@ -155,7 +155,7 @@ libdb5.3t64                         5.3.28+dfsg2-7                      deb
 libdbus-1-3                         1.14.10-4ubuntu4.1                  deb                         
 libdebconfclient0                   0.271ubuntu3                        deb                         
 libdeflate0                         1.19-1build1.1                      deb                         
-libexpat1                           2.6.1-2ubuntu0.4                    deb                         
+libexpat1                           2.6.1-2ubuntu0.6                    deb                         
 libext2fs2t64                       1.47.0-2.4~exp1ubuntu4.1            deb                         
 libffi8                             3.4.6-1build1                       deb                         
 libfftw3-double3                    3.3.10-1ubuntu3                     deb                         
@@ -164,14 +164,14 @@ libfontenc1                         1:1.1.8-1build1                     deb
 libfreetype6                        2.13.2+dfsg-1ubuntu0.1              deb                         
 libgcc-s1                           14.2.0-4ubuntu2~24.04.1             deb                         
 libgcrypt20                         1.10.3-2ubuntu0.2                   deb                         
-libglib2.0-0t64                     2.80.0-6ubuntu3.8                   deb                         
+libglib2.0-0t64                     2.80.0-6ubuntu3.9                   deb                         
 libgmp10                            2:6.3.0+dfsg-2ubuntu6.1             deb                         
 libgnutls30t64                      3.8.3-1.1ubuntu3.6                  deb                         
 libgomp1                            14.2.0-4ubuntu2~24.04.1             deb                         
 libgpg-error0                       1.47-3build2.1                      deb                         
-libgs-common                        10.02.1~dfsg1-0ubuntu7.8            deb                         
-libgs10                             10.02.1~dfsg1-0ubuntu7.8            deb                         
-libgs10-common                      10.02.1~dfsg1-0ubuntu7.8            deb                         
+libgs-common                        10.02.1~dfsg1-0ubuntu7.9            deb                         
+libgs10                             10.02.1~dfsg1-0ubuntu7.9            deb                         
+libgs10-common                      10.02.1~dfsg1-0ubuntu7.9            deb                         
 libgssapi-krb5-2                    1.20.1-6ubuntu2.10                  deb                         
 libheif-plugin-aomdec               1.17.6-1ubuntu4.8                   deb                         
 libheif1                            1.17.6-1ubuntu4.8                   deb                         
@@ -262,7 +262,7 @@ libxdmcp6                           1:1.1.3-0ubuntu6                    deb
 libxext6                            2:1.3.4-1build2                     deb                         
 libxfixes3                          1:6.0.0-2build1                     deb                         
 libxi6                              2:1.8.1-1build1                     deb                         
-libxml2                             2.9.14+dfsg-1.3ubuntu3.8            deb                         
+libxml2                             2.9.14+dfsg-1.3ubuntu3.9            deb                         
 libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.3         deb                         
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
@@ -291,7 +291,7 @@ nose                                1.3.7                               python
 oauth2client                        4.1.3                               python                      
 oauthlib                            3.3.1                               python                      
 openssl                             3.0.13-0ubuntu3.15                  deb                         
-opentelemetry-api                   1.44.0                              python                      
+opentelemetry-api                   1.45.0                              python                      
 ordered-set                         4.1.0                               python                      
 outcome                             1.3.0.post0                         python                      
 packaging                           26.0                                python                      
@@ -320,7 +320,7 @@ pydrive2                            1.21.3                              python
 pygments                            2.21.0                              python                      
 pylatexenc                          2.11                                python                      
 pyopenssl                           24.2.1                              python                      
-pyparsing                           3.3.2                               python                      
+pyparsing                           3.3.3                               python                      
 pypdf                               6.10.2                              python                      
 pyppmd                              1.1.1                               python                      
 pysocks                             1.7.1                               python                      
@@ -337,7 +337,7 @@ python3-venv                        3.12.3-0ubuntu2.1                   deb
 python3.12                          3.12.3-1ubuntu0.17                  deb                         
 python3.12-minimal                  3.12.3-1ubuntu0.17                  deb                         
 python3.12-venv                     3.12.3-1ubuntu0.17                  deb                         
-pytz                                2026.3.post1                        python                      
+pytz                                2026.4                              python                      
 pyyaml                              6.0.3                               python                      
 pyzstd                              0.19.1                              python                      
 rapidfuzz                           3.14.6                              python                      
@@ -361,7 +361,7 @@ six                                 1.17.0                              python
 sniffio                             1.3.1                               python                      
 snowballstemmer                     3.1.1                               python                      
 sortedcontainers                    2.4.0                               python                      
-soupsieve                           2.9.2                               python                      
+soupsieve                           2.10                                python                      
 sphinx                              9.1.0                               python                      
 sphinx-rtd-theme                    3.1.0                               python                      
 sphinxcontrib-applehelp             2.0.0                               python                      
@@ -402,7 +402,7 @@ werkzeug                            3.1.8                               python
 wheel                               0.46.3                              python                      
 wheel                               0.48.0                              python                      
 wordninja                           2.0.0                               python                      
-wrapt                               2.4.1                               python                      
+wrapt                               2.5.0                               python                      
 wsproto                             1.3.2                               python                      
 wtforms                             3.2.2                               python                      
 x11-common                          1:7.7+23ubuntu3                     deb                         
