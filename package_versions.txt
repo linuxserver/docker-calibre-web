@@ -11,7 +11,7 @@ attrs                               26.1.0                              python
 autocommand                         2.2.2                               python                      
 babel                               2.18.0                              python                      
 backports-tarfile                   1.2.0                               python                      
-backports-zstd                      1.7.0                               python                      
+backports-zstd                      1.8.0                               python                      
 base-files                          13ubuntu10.5                        deb                         
 base-passwd                         3.6.3build1                         deb                         
 bash                                5.2.21-2ubuntu4                     deb                         
@@ -80,9 +80,9 @@ gnupg-utils                         2.4.4-2ubuntu17.6                   deb
 golang.org/x/sync                   v0.0.0-20210220032951-036812b2e83c  go-module                   
 golang.org/x/text                   v0.3.6                              go-module                   
 goodreads                           0.3.2                               python                      
-google-api-core                     2.40.0                              python                      
+google-api-core                     2.42.0                              python                      
 google-api-python-client            2.199.0                             python                      
-google-auth                         2.59.1                              python                      
+google-auth                         2.61.0                              python                      
 google-auth-httplib2                0.4.4                               python                      
 google-auth-oauthlib                1.2.4                               python                      
 googleapis-common-protos            1.75.5                              python                      
@@ -161,7 +161,7 @@ libffi8                             3.4.6-1build1                       deb
 libfftw3-double3                    3.3.10-1ubuntu3                     deb                         
 libfontconfig1                      2.15.0-1.1ubuntu2                   deb                         
 libfontenc1                         1:1.1.8-1build1                     deb                         
-libfreetype6                        2.13.2+dfsg-1ubuntu0.1              deb                         
+libfreetype6                        2.13.2+dfsg-1ubuntu0.2              deb                         
 libgcc-s1                           14.2.0-4ubuntu2~24.04.1             deb                         
 libgcrypt20                         1.10.3-2ubuntu0.2                   deb                         
 libglib2.0-0t64                     2.80.0-6ubuntu3.9                   deb                         
@@ -219,7 +219,7 @@ libpam-runtime                      1.5.3-5ubuntu5.7                    deb
 libpam0g                            1.5.3-5ubuntu5.7                    deb                         
 libpaper1                           1.1.29build1                        deb                         
 libpcre2-8-0                        10.42-4ubuntu2.1                    deb                         
-libpng16-16t64                      1.6.43-5ubuntu0.6                   deb                         
+libpng16-16t64                      1.6.43-5ubuntu0.7                   deb                         
 libproc2-0                          2:4.0.4-4ubuntu3.3                  deb                         
 libpsl5t64                          0.21.2-1.1build1                    deb                         
 libpython3-stdlib                   3.12.3-0ubuntu2.1                   deb                         
@@ -262,7 +262,7 @@ libxdmcp6                           1:1.1.3-0ubuntu6                    deb
 libxext6                            2:1.3.4-1build2                     deb                         
 libxfixes3                          1:6.0.0-2build1                     deb                         
 libxi6                              2:1.8.1-1build1                     deb                         
-libxml2                             2.9.14+dfsg-1.3ubuntu3.9            deb                         
+libxml2                             2.9.14+dfsg-1.3ubuntu3.10           deb                         
 libxslt1.1                          1.1.39-0exp1ubuntu0.24.04.3         deb                         
 libxt6t64                           1:1.2.1-1.2build1                   deb                         
 libxxhash0                          0.8.2-2build1                       deb                         
@@ -291,7 +291,7 @@ nose                                1.3.7                               python
 oauth2client                        4.1.3                               python                      
 oauthlib                            4.0.0                               python                      
 openssl                             3.0.13-0ubuntu3.16                  deb                         
-opentelemetry-api                   1.45.0                              python                      
+opentelemetry-api                   1.45.1                              python                      
 ordered-set                         4.1.0                               python                      
 outcome                             1.3.0.post0                         python                      
 packaging                           26.0                                python                      
@@ -314,8 +314,8 @@ pyasn1                              0.6.4                               python
 pyasn1-modules                      0.4.2                               python                      
 pybcj                               1.0.8                               python                      
 pycountry                           22.3.5                              python                      
-pycparser                           3.0                                 python                      
-pycryptodomex                       3.23.0                              python                      
+pycparser                           3.11                                python                      
+pycryptodomex                       3.24.0                              python                      
 pydrive2                            1.21.3                              python                      
 pygments                            2.21.0                              python                      
 pylatexenc                          2.11                                python                      
@@ -349,11 +349,11 @@ regex                               2026.1.15                           python
 requests                            2.34.2                              python                      
 requests-oauthlib                   2.0.0                               python                      
 roman-numerals                      4.1.0                               python                      
-rpds-py                             2026.6.3                            python                      
+rpds-py                             2026.9.1                            python                      
 rsa                                 4.9.1                               python                      
 scholarly                           1.7.11                              python                      
 sed                                 4.9-2ubuntu0.24.04.1                deb                         
-selenium                            4.50.0                              python                      
+selenium                            4.51.0                              python                      
 selenium-manager                    UNKNOWN                             binary                      
 sensible-utils                      0.0.22                              deb                         
 setuptools                          84.0.0                              python                      
@@ -361,7 +361,7 @@ six                                 1.17.0                              python
 sniffio                             1.3.1                               python                      
 snowballstemmer                     3.1.1                               python                      
 sortedcontainers                    2.4.0                               python                      
-soupsieve                           2.10                                python                      
+soupsieve                           3.0.1                               python                      
 sphinx                              9.1.0                               python                      
 sphinx-rtd-theme                    3.1.0                               python                      
 sphinxcontrib-applehelp             2.0.0                               python                      
