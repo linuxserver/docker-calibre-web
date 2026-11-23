@@ -348,7 +348,7 @@ rpds-py                         2026.9.1                           python
 rsa                             4.9.1                              python                      
 scholarly                       1.7.11                             python                      
 sed                             4.9-2ubuntu0.24.04.1               deb                         
-selenium                        4.53.0                             python                      
+selenium                        4.54.0                             python                      
 selenium-manager                UNKNOWN                            binary                      
 sensible-utils                  0.0.22                             deb                         
 setuptools                      84.2.1                             python                      
