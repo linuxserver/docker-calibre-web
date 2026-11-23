@@ -26,7 +26,7 @@ catatonit                       0.1.7-1                            deb
 certifi                         2026.10.23                         python                      
 cffi                            2.1.1                              python                      
 chardet                         7.7.0                              python                      
-charset-normalizer              3.5.2                              python                      
+charset-normalizer              3.5.3                              python                      
 cli                             UNKNOWN                            binary                      
 cli-32                          UNKNOWN                            binary                      
 cli-64                          UNKNOWN                            binary                      
