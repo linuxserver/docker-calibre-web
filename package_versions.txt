@@ -291,7 +291,8 @@ openssl                         3.0.13-0ubuntu3.16                 deb
 opentelemetry-api               1.45.2                             python                      
 ordered-set                     4.1.0                              python                      
 outcome                         1.3.0.post0                        python                      
-packaging                       26.3                               python     (+1 duplicate)   
+packaging                       26.3                               python                      
+packaging                       26.4                               python                      
 passwd                          1:4.13+dfsg1-4ubuntu3.2            deb                         
 perl                            5.38.2-3.2ubuntu0.7                deb                         
 perl-base                       5.38.2-3.2ubuntu0.7                deb                         
