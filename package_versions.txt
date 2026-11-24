@@ -236,7 +236,7 @@ libsepol2                       3.5-2build1                        deb
 libsharpyuv0                    1.3.2-0.4build3                    deb                         
 libsm6                          2:1.2.3-1build3                    deb                         
 libsmartcols1                   2.39.3-9ubuntu6.6                  deb                         
-libsqlite3-0                    3.45.1-1ubuntu2.9                  deb                         
+libsqlite3-0                    3.45.1-1ubuntu2.11                 deb                         
 libss2                          1.47.0-2.4~exp1ubuntu4.1           deb                         
 libssh-4                        0.10.6-2ubuntu0.5                  deb                         
 libssl3t64                      3.0.13-0ubuntu3.16                 deb                         
@@ -369,7 +369,7 @@ sphinxcontrib-qthelp            2.0.0                              python
 sphinxcontrib-serializinghtml   2.0.0                              python                      
 sqlalchemy                      2.1.9                              python                      
 sqlalchemy-utils                0.43.0                             python                      
-sqlite3                         3.45.1-1ubuntu2.9                  deb                         
+sqlite3                         3.45.1-1ubuntu2.11                 deb                         
 stdlib                          go1.26.10                          go-module                   
 systemd-standalone-sysusers     255.4-1ubuntu8.18                  deb                         
 sysvinit-utils                  3.08-6ubuntu3                      deb                         
@@ -392,7 +392,7 @@ uritemplate                     4.2.0                              python
 urllib3                         2.8.0                              python                      
 urlobject                       3.0.0                              python                      
 util-linux                      2.39.3-9ubuntu6.6                  deb                         
-wand                            0.7.2                              python                      
+wand                            0.7.3                              python                      
 websocket-client                1.9.2                              python                      
 werkzeug                        3.1.9                              python                      
 wheel                           0.46.3                             python                      
