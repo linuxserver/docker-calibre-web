@@ -9,7 +9,7 @@ apt-utils                       2.8.4ubuntu0.1                     deb
 arrow                           1.4.0                              python                      
 attrs                           26.1.0                             python                      
 autocommand                     2.2.2                              python                      
-babel                           2.18.0                             python                      
+babel                           2.19.0                             python                      
 backports-tarfile               1.2.0                              python                      
 backports-zstd                  1.8.0                              python                      
 base-files                      13ubuntu10.5                       deb                         
@@ -170,8 +170,8 @@ libgs-common                    10.02.1~dfsg1-0ubuntu7.10          deb
 libgs10                         10.02.1~dfsg1-0ubuntu7.10          deb                         
 libgs10-common                  10.02.1~dfsg1-0ubuntu7.10          deb                         
 libgssapi-krb5-2                1.20.1-6ubuntu2.10                 deb                         
-libheif-plugin-aomdec           1.17.6-1ubuntu4.9                  deb                         
-libheif1                        1.17.6-1ubuntu4.9                  deb                         
+libheif-plugin-aomdec           1.17.6-1ubuntu4.10                 deb                         
+libheif1                        1.17.6-1ubuntu4.10                 deb                         
 libhogweed6t64                  3.9.1-2.2build1.1                  deb                         
 libice6                         2:1.0.10-1build3                   deb                         
 libicu74                        74.2-1ubuntu3.1                    deb                         
