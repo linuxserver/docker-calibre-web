@@ -11,7 +11,7 @@ attrs                           26.1.0                             python
 autocommand                     2.2.2                              python                      
 babel                           2.19.0                             python                      
 backports-tarfile               1.2.0                              python                      
-backports-zstd                  1.8.0                              python                      
+backports-zstd                  1.8.1                              python                      
 base-files                      13ubuntu10.5                       deb                         
 base-passwd                     3.6.3build1                        deb                         
 bash                            5.2.21-2ubuntu4                    deb                         
@@ -126,8 +126,8 @@ levenshtein                     0.27.5                             python
 libacl1                         2.3.2-1build1.1                    deb                         
 libaom3                         3.8.2-2ubuntu0.2                   deb                         
 libapt-pkg6.0t64                2.8.4ubuntu0.1                     deb                         
-libasound2-data                 1.2.11-1ubuntu0.3                  deb                         
-libasound2t64                   1.2.11-1ubuntu0.3                  deb                         
+libasound2-data                 1.2.11-1ubuntu0.5                  deb                         
+libasound2t64                   1.2.11-1ubuntu0.5                  deb                         
 libassuan0                      2.5.6-1build1                      deb                         
 libattr1                        1:2.5.2-1ubuntu0.1                 deb                         
 libaudit-common                 1:3.1.2-2.1ubuntu0.1               deb                         
@@ -243,7 +243,7 @@ libssl3t64                      3.0.13-0ubuntu3.16                 deb
 libstdc++6                      14.2.0-4ubuntu2~24.04.1            deb                         
 libsystemd0                     255.4-1ubuntu8.19                  deb                         
 libtasn1-6                      4.19.0-3ubuntu0.24.04.2            deb                         
-libtiff6                        4.5.1+git230720-4ubuntu2.5         deb                         
+libtiff6                        4.5.1+git230720-4ubuntu2.6         deb                         
 libtinfo6                       6.4+20240113-1ubuntu2.2            deb                         
 libudev1                        255.4-1ubuntu8.19                  deb                         
 libunistring5                   1.1-2build1.1                      deb                         
