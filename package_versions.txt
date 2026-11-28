@@ -375,7 +375,7 @@ systemd-standalone-sysusers     255.4-1ubuntu8.19                  deb
 sysvinit-utils                  3.08-6ubuntu3                      deb                         
 tar                             1.35+dfsg-3ubuntu0.4               deb                         
 text2digits                     0.1.2                              python                      
-texttable                       1.7.3                              python                      
+texttable                       1.7.4                              python                      
 tomli                           2.4.0                              python                      
 tornado                         6.6.1                              python                      
 trio                            0.35.0                             python                      
