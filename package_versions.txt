@@ -16,7 +16,7 @@ base-files                      13ubuntu10.5                       deb
 base-passwd                     3.6.3build1                        deb                         
 bash                            5.2.21-2ubuntu4                    deb                         
 beautifulsoup4                  4.15.0                             python                      
-bibtexparser                    2.1.0                              python                      
+bibtexparser                    1.4.4                              python                      
 binutils-common                 2.42-4ubuntu2.11                   deb                         
 blinker                         1.9.0                              python                      
 brotli                          1.2.1                              python                      
@@ -315,7 +315,6 @@ pycparser                       3.12                               python
 pycryptodomex                   3.24.2                             python                      
 pydrive2                        1.21.2                             python                      
 pygments                        2.21.0                             python                      
-pylatexenc                      2.11                               python                      
 pyopenssl                       22.0.0                             python                      
 pyparsing                       3.3.3                              python                      
 pypdf                           7.1.1                              python                      
